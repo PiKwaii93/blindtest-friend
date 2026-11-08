@@ -1,0 +1,14 @@
+{
+  "measuredAt": "2026-11-08T19:18:00.576Z",
+  "environment": "Local Supabase; 12 authenticated SDK clients; one host; no injected latency",
+  "participants": 12,
+  "trials": 5,
+  "deliveries": 60,
+  "acceptanceToBroadcastMs": {
+    "min": 5,
+    "median": 5,
+    "p95": 6,
+    "max": 49
+  },
+  "limitations": "Transport delivery only. Does not measure acoustic synchronization or Internet latency."
+}

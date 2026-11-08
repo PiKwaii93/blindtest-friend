@@ -1,0 +1,306 @@
+import { validateAnswer } from "./answers";
+import { settingsSchema, type Settings } from "./settings";
+export type Player = {
+  id: string;
+  name: string;
+  team: string | null;
+  ready: boolean;
+  score: number;
+  correct: number;
+  winningMs: number;
+};
+export type Clip = {
+  id: string;
+  workId: string;
+  title: string;
+  aliases: string[];
+  important: string[];
+  categories: string[];
+  image: string | null;
+  path: string;
+  difficulty: "easy" | "normal" | "hard";
+  startMs: number;
+  durationMs: number;
+};
+export type Phase =
+  | "LOBBY"
+  | "PREPARING"
+  | "COUNTDOWN"
+  | "PLAYING"
+  | "ANSWERING"
+  | "REVEAL"
+  | "NEXT_ROUND"
+  | "FINISHED";
+export type Attempt = {
+  playerId: string;
+  acceptedAt: number;
+  remainingMs: number;
+  answer?: string;
+  correct?: boolean;
+  points?: number;
+};
+export type Game = {
+  phase: Phase;
+  settings: Settings;
+  players: Player[];
+  playlist: Clip[];
+  round: number;
+  consumedMs: number;
+  startedAt: number;
+  deadline: number | null;
+  excluded: string[];
+  loaded: string[];
+  attempts: Attempt[];
+  winner: string | null;
+  departed?: string[];
+  completedRounds?: {
+    number: number;
+    workId: string;
+    clipId: string;
+    consumedMs: number;
+    attempts: Attempt[];
+    winner: string | null;
+  }[];
+  selectionMetadata?: { workId: string; reason: string; lastPlayed: number }[];
+  preparationError?: string;
+};
+export type Action =
+  | { type: "tick" }
+  | { type: "loaded"; playerId: string }
+  | { type: "buzz"; playerId: string }
+  | { type: "answer"; playerId: string; answer: string };
+export function points(remaining: number, total: number) {
+  return Math.max(
+    100,
+    Math.min(200, 100 + Math.floor((100 * remaining) / total)),
+  );
+}
+export function ranking(players: Player[]) {
+  return [...players].sort(
+    (a, b) =>
+      b.score - a.score || b.correct - a.correct || a.winningMs - b.winningMs,
+  );
+}
+export function rankPosition(sorted: Player[], index: number): number {
+  const player = sorted[index];
+  let first = index;
+  while (first > 0) {
+    const previous = sorted[first - 1];
+    if (
+      previous.score !== player.score ||
+      previous.correct !== player.correct ||
+      previous.winningMs !== player.winningMs
+    )
+      break;
+    first--;
+  }
+  return first + 1;
+}
+export function teams(players: Player[]) {
+  const groups = new Map<string, Player>();
+  for (const p of players) {
+    const id = p.team ?? "Sans équipe";
+    const t = groups.get(id) ?? {
+      ...p,
+      id,
+      name: id,
+      score: 0,
+      correct: 0,
+      winningMs: 0,
+    };
+    t.score += p.score;
+    t.correct += p.correct;
+    t.winningMs += p.winningMs;
+    groups.set(id, t);
+  }
+  return ranking([...groups.values()]);
+}
+export function start(
+  settings: Settings,
+  players: Player[],
+  playlist: Clip[],
+  now: number,
+): Game {
+  settingsSchema.parse(settings);
+  if (!players.length || players.some((p) => !p.ready))
+    throw new Error("Tous les joueurs doivent être prêts.");
+  if (
+    settings.mode === "teams" &&
+    (players.some((p) => !p.team) ||
+      new Set(players.map((p) => p.team)).size < 2)
+  )
+    throw new Error("Deux équipes non vides sont nécessaires.");
+  if (
+    playlist.length !== settings.rounds ||
+    new Set(playlist.map((c) => c.workId)).size !== settings.rounds
+  )
+    throw new Error("Catalogue insuffisant.");
+  return {
+    phase: "PREPARING",
+    settings,
+    players: players.map((p) => ({ ...p, score: 0, correct: 0, winningMs: 0 })),
+    playlist,
+    round: 0,
+    consumedMs: 0,
+    startedAt: now,
+    deadline: now + 20000,
+    excluded: [],
+    loaded: [],
+    attempts: [],
+    winner: null,
+  };
+}
+function reveal(g: Game, now: number) {
+  g.phase = "REVEAL";
+  g.deadline = now + 5000;
+  g.startedAt = now;
+}
+function fail(g: Game, now: number) {
+  const a = g.attempts.at(-1)!;
+  a.correct = false;
+  a.points = 0;
+  if (!g.excluded.includes(a.playerId)) g.excluded.push(a.playerId);
+  if (
+    g.excluded.length === g.players.length ||
+    g.consumedMs >= g.settings.listenSeconds * 1000
+  )
+    reveal(g, now);
+  else {
+    g.phase = "PLAYING";
+    g.startedAt = now + 500;
+    g.deadline = g.startedAt + g.settings.listenSeconds * 1000 - g.consumedMs;
+  }
+}
+export function transition(state: Game, action: Action, now: number): Game {
+  const g = structuredClone(state);
+  // Expiration wins over any late command. An accepted buzz keeps its own answer deadline.
+  if (g.deadline !== null && now >= g.deadline) {
+    if (g.phase === "PREPARING") {
+      g.phase = "FINISHED";
+      g.preparationError =
+        "Préchargement audio impossible : partie interrompue.";
+      g.deadline = null;
+    } else if (g.phase === "COUNTDOWN") {
+      g.phase = "PLAYING";
+      g.startedAt = g.deadline;
+      g.deadline = g.startedAt + g.settings.listenSeconds * 1000;
+    } else if (g.phase === "PLAYING") {
+      g.consumedMs = g.settings.listenSeconds * 1000;
+      reveal(g, now);
+    } else if (g.phase === "ANSWERING") fail(g, now);
+    else if (g.phase === "REVEAL") {
+      g.completedRounds ??= [];
+      g.completedRounds.push({
+        number: g.round + 1,
+        workId: g.playlist[g.round].workId,
+        clipId: g.playlist[g.round].id,
+        consumedMs: g.consumedMs,
+        attempts: structuredClone(g.attempts),
+        winner: g.winner,
+      });
+      g.phase = "NEXT_ROUND";
+      g.deadline = now + 500;
+    } else if (g.phase === "NEXT_ROUND") {
+      if (g.round + 1 >= g.settings.rounds) {
+        g.phase = "FINISHED";
+        g.deadline = null;
+      } else {
+        g.round++;
+        g.phase = "PREPARING";
+        g.startedAt = now;
+        g.deadline = now + 20000;
+        g.consumedMs = 0;
+        g.excluded = [...(g.departed ?? [])];
+        g.loaded = [...(g.departed ?? [])];
+        g.attempts = [];
+        g.winner = null;
+      }
+    }
+    return g;
+  }
+  if (action.type === "tick") return g;
+  if (!g.players.some((p) => p.id === action.playerId))
+    throw new Error("Participant inconnu.");
+  if (g.departed?.includes(action.playerId))
+    throw new Error("Vous avez quitté cette partie.");
+  if (action.type === "loaded" && g.phase === "PREPARING") {
+    if (!g.loaded.includes(action.playerId)) g.loaded.push(action.playerId);
+    if (g.loaded.length === g.players.length) {
+      g.phase = "COUNTDOWN";
+      g.startedAt = now;
+      g.deadline = now + 3000;
+    }
+  }
+  if (action.type === "buzz") {
+    if (
+      g.phase !== "PLAYING" ||
+      now < g.startedAt ||
+      g.excluded.includes(action.playerId)
+    )
+      throw new Error("Buzz indisponible.");
+    g.consumedMs += now - g.startedAt;
+    g.phase = "ANSWERING";
+    g.deadline = now + g.settings.answerSeconds * 1000;
+    g.attempts.push({
+      playerId: action.playerId,
+      acceptedAt: now,
+      remainingMs: g.settings.listenSeconds * 1000 - g.consumedMs,
+    });
+  }
+  if (action.type === "answer") {
+    const a = g.attempts.at(-1);
+    if (
+      g.phase !== "ANSWERING" ||
+      !a ||
+      a.playerId !== action.playerId ||
+      a.answer !== undefined
+    )
+      throw new Error("Tentative déjà terminée.");
+    a.answer = action.answer;
+    const clip = g.playlist[g.round];
+    a.correct = validateAnswer(
+      action.answer,
+      [clip.title, ...clip.aliases],
+      clip.difficulty,
+      clip.important,
+    );
+    if (a.correct) {
+      a.points = points(a.remainingMs, g.settings.listenSeconds * 1000);
+      const p = g.players.find((p) => p.id === a.playerId)!;
+      p.score += a.points;
+      p.correct++;
+      p.winningMs += g.consumedMs;
+      g.winner = p.id;
+      reveal(g, now);
+    } else fail(g, now);
+  }
+  return g;
+}
+export function publicGame(g: Game) {
+  const {
+    playlist,
+    completedRounds: _completedRounds,
+    selectionMetadata: _selectionMetadata,
+    ...safe
+  } = g;
+  void _completedRounds;
+  void _selectionMetadata;
+  const clip = playlist[g.round];
+  return {
+    ...safe,
+    attempts: g.attempts.map(({ answer: _answer, ...a }) => {
+      void _answer;
+      return a;
+    }),
+    reveal:
+      g.phase === "REVEAL" || g.phase === "FINISHED"
+        ? {
+            title: clip.title,
+            aliases: clip.aliases,
+            categories: clip.categories,
+            image: clip.image,
+          }
+        : null,
+  };
+}
+export type PublicGame = ReturnType<typeof publicGame>;

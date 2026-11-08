@@ -1,0 +1,46 @@
+{
+  "name": "blindtest-friend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "format": "prettier --write .",
+    "db:start": "supabase start",
+    "db:reset": "supabase db reset"
+  },
+  "dependencies": {
+    "next": "16.4.5",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "@supabase/supabase-js": "2.114.0",
+    "@supabase/ssr": "0.12.7",
+    "zod": "4.6.7",
+    "lucide-react": "1.70.0",
+    "motion": "14.10.1",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "tailwind-merge": "3.7.0",
+    "radix-ui": "1.8.1",
+    "server-only": "0.0.1"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "tailwindcss": "4.3.5",
+    "@tailwindcss/postcss": "4.3.5",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.4.5",
+    "prettier": "3.9.10",
+    "vitest": "5.1.0",
+    "@playwright/test": "1.65.0",
+    "supabase": "3.0.0"
+  }
+}

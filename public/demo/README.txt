@@ -1,0 +1,61 @@
+DEMONSTRATION TECHNIQUE — 56 motifs originaux CC0.
+Ces motifs ne sont pas des chansons connues. Les catégories servent uniquement à tester les filtres.
+Ils permettent de tester 10 à 50 manches sans utiliser de musique tierce.
+Pour une vraie soirée, importer un catalogue dont les droits sont obtenus.
+
+Signal Lilas 1
+Signal Azur 1
+Signal Corail 1
+Signal Jade 1
+Signal Ambre 1
+Signal Indigo 1
+Signal Opale 1
+Signal Lilas 2
+Signal Azur 2
+Signal Corail 2
+Signal Jade 2
+Signal Ambre 2
+Signal Indigo 2
+Signal Opale 2
+Signal Lilas 3
+Signal Azur 3
+Signal Corail 3
+Signal Jade 3
+Signal Ambre 3
+Signal Indigo 3
+Signal Opale 3
+Signal Lilas 4
+Signal Azur 4
+Signal Corail 4
+Signal Jade 4
+Signal Ambre 4
+Signal Indigo 4
+Signal Opale 4
+Signal Lilas 5
+Signal Azur 5
+Signal Corail 5
+Signal Jade 5
+Signal Ambre 5
+Signal Indigo 5
+Signal Opale 5
+Signal Lilas 6
+Signal Azur 6
+Signal Corail 6
+Signal Jade 6
+Signal Ambre 6
+Signal Indigo 6
+Signal Opale 6
+Signal Lilas 7
+Signal Azur 7
+Signal Corail 7
+Signal Jade 7
+Signal Ambre 7
+Signal Indigo 7
+Signal Opale 7
+Signal Lilas 8
+Signal Azur 8
+Signal Corail 8
+Signal Jade 8
+Signal Ambre 8
+Signal Indigo 8
+Signal Opale 8
