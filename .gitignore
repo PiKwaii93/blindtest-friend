@@ -8,3 +8,6 @@ test-results/
 *.tsbuildinfo
 supabase/.temp/
 supabase/.branches/
+
+.vercel
+.deployment-config/

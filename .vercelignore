@@ -1,0 +1,6 @@
+.env*
+.deployment-config/
+test-results/
+playwright-report/
+node_modules/
+.next/
