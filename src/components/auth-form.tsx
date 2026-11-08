@@ -13,6 +13,8 @@ export function AuthForm({
   const [message, setMessage] = useState("");
   const [busy, setBusy] = useState(false);
   const router = useRouter();
+  const recoveryEnabled =
+    process.env.NEXT_PUBLIC_PASSWORD_RECOVERY_ENABLED?.trim() !== "false";
   const title = {
     login: "Bon retour dans le jeu.",
     register: "La prochaine manche est à vous.",
@@ -28,7 +30,7 @@ export function AuthForm({
       const email = String(form.get("email"));
       const password = String(form.get("password"));
       if (mode === "register") {
-        const { error } = await db.auth.signUp({
+        const { data, error } = await db.auth.signUp({
           email,
           password,
           options: {
@@ -37,6 +39,11 @@ export function AuthForm({
           },
         });
         if (error) throw error;
+        if (data.session) {
+          router.push("/profile");
+          router.refresh();
+          return;
+        }
         setMessage(
           "Compte créé. Si la vérification est activée, consultez votre e-mail puis connectez-vous.",
         );
@@ -48,6 +55,10 @@ export function AuthForm({
         router.refresh();
       }
       if (mode === "reset") {
+        if (!recoveryEnabled)
+          throw new Error(
+            "La récupération automatique par e-mail est indisponible.",
+          );
         const { error } = await db.auth.resetPasswordForEmail(email, {
           redirectTo: location.origin + "/auth/callback?next=/password",
         });
@@ -67,11 +78,34 @@ export function AuthForm({
       setBusy(false);
     }
   }
+  if (mode === "reset" && !recoveryEnabled)
+    return (
+      <main>
+        <div className="panel narrow stack">
+          <h2>Récupération du compte</h2>
+          <p>
+            La réinitialisation automatique par e-mail est indisponible. En cas
+            de mot de passe oublié, contactez l’administrateur du jeu ; une
+            récupération ne pourra être proposée qu’après vérification de votre
+            identité.
+          </p>
+          <Link href="/login" className="link">
+            Retour à la connexion
+          </Link>
+        </div>
+      </main>
+    );
   return (
     <main>
       <div className="panel narrow stack">
         <span className="eyebrow">Votre compte Encore</span>
         <h2>{title}</h2>
+        {mode === "register" && !recoveryEnabled && (
+          <p className="notice">
+            Aucun e-mail de confirmation n’est envoyé. Conservez votre mot de
+            passe : la récupération automatique par e-mail est indisponible.
+          </p>
+        )}
         {!configured && (
           <div className="notice">
             Le jeu en ligne sera disponible après configuration de Supabase.
