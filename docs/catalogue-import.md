@@ -1,5 +1,15 @@
 # Alimenter le catalogue
 
+## Enrichir les brouillons dessins animés
+
+Dans `/admin/works`, recherchez un titre ou un identifiant `da-001` à `da-100`. La fiche montre ses pistes documentaires et les champs nécessaires aux médias. Les liens de recherche et les notices officielles servent à identifier la bonne version française. L’autorisation de diffusion du fichier doit être documentée séparément.
+
+Pour traiter un lot, chargez les brouillons dans l’éditeur et téléversez les fichiers autorisés. Nommez par exemple les audios `da-012.easy.wav`, `da-012.normal.mp3` et `da-012.hard.ogg`, et l’illustration `da-012.webp`. Le bouton « Associer les fichiers par leur nom » indique les associations, les identifiants inconnus et les doublons. Les fichiers de 4 Mo ou plus passent directement vers Storage via un ticket signé. Enregistrez le lot pour conserver les associations.
+
+Sur chaque fiche, renseignez la licence de l’illustration et son crédit, la preuve d’autorisation de chaque audio, le début et la durée de l’extrait. Écoutez le segment puis validez l’aperçu. Activez ensuite les extraits autorisés et la fiche. Le serveur vérifie que les fichiers sont présents dans Storage et que chaque difficulté active dispose d’au moins dix secondes jouables. Le crédit d’illustration est affiché lors de la révélation.
+
+Pour le premier essai, activez deux œuvres avec leurs véritables médias autorisés et testez chacune dans un salon privé. Le catalogue de recherche contient actuellement zéro audio et zéro illustration validés.
+
 L’import JSON existant prend en charge titres, plusieurs catégories, alias, images et plusieurs extraits de difficultés distinctes. Il est transactionnel : une erreur annule le lot entier. Aucun média commercial n’est téléchargé automatiquement.
 
 1. Se connecter avec un compte présent dans `public.administrators`, puis ouvrir `/admin/import`.

@@ -17,6 +17,7 @@ export type Clip = {
   important: string[];
   categories: string[];
   image: string | null;
+  imageAttribution?: string | null;
   path: string;
   difficulty: "easy" | "normal" | "hard";
   startMs: number;
@@ -299,6 +300,7 @@ export function publicGame(g: Game) {
             aliases: clip.aliases,
             categories: clip.categories,
             image: clip.image,
+            imageAttribution: clip.imageAttribution ?? null,
           }
         : null,
   };

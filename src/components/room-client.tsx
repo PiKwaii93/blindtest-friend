@@ -702,6 +702,9 @@ export function RoomClient({ code }: { code: string }) {
                     src={g.reveal?.image}
                     title={g.reveal?.title ?? "l’œuvre"}
                   />
+                  {g.reveal?.imageAttribution && (
+                    <small className="muted">{g.reveal.imageAttribution}</small>
+                  )}
                   <h2 className="reveal-title">{g.reveal?.title}</h2>
                   <p className="muted">{g.reveal?.categories.join(" · ")}</p>
                   {g.winner ? (

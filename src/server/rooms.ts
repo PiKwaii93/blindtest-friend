@@ -55,6 +55,7 @@ export async function catalogue(): Promise<Clip[]> {
       )
       .map((x: { categories: { name: string } }) => x.categories.name),
     image: c.works.image_path,
+    imageAttribution: c.works.image_attribution,
     path: c.audio_path,
     difficulty: c.difficulty,
     startMs: c.start_ms,
