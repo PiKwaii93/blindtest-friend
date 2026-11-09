@@ -1,6 +1,6 @@
 type UploadedMedia = { name: string; path: string };
 type Draft = {
-  editorial_id?: string;
+  editorial_id?: string | null;
   is_active?: boolean;
   image_path?: string | null;
   image_license?: string | null;

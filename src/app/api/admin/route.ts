@@ -9,19 +9,25 @@ export async function GET(req: Request) {
     await authenticated(req);
     await requireAdmin();
     const db = database();
-    const [works, categories] = await Promise.all([
-      db
+    const categories = await db.from("categories").select("*").order("name");
+    if (categories.error) throw categories.error;
+    const works = [];
+    const batchSize = 500;
+    for (let offset = 0; ; offset += batchSize) {
+      const { data, error } = await db
         .from("works")
         .select(
           "*,work_aliases(alias),audio_clips(*),work_categories(category_id)",
         )
-        .order("title"),
-      db.from("categories").select("*").order("name"),
-    ]);
-    if (works.error) throw works.error;
-    if (categories.error) throw categories.error;
+        .order("title")
+        .order("id")
+        .range(offset, offset + batchSize - 1);
+      if (error) throw error;
+      works.push(...data);
+      if (data.length < batchSize) break;
+    }
     return NextResponse.json({
-      works: works.data,
+      works,
       categories: categories.data,
     });
   } catch (e) {

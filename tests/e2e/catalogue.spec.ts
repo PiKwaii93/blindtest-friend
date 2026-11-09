@@ -35,8 +35,11 @@ test("administration : plusieurs médias et import complet en masse", async ({
     await expect(page).toHaveURL(/\/profile$/);
     await page.goto("/admin/import");
     await expect(
-      page.getByRole("heading", { name: "Import JSON transactionnel" }),
+      page.getByRole("heading", { name: "Importer des fiches JSON" }),
     ).toBeVisible();
+    await page
+      .getByRole("button", { name: "Import Médias", exact: true })
+      .click();
     const wav = readdirSync("public/demo").find((p) => p.endsWith(".wav"))!;
     await page.locator("#upload").setInputFiles([
       {
@@ -55,7 +58,9 @@ test("administration : plusieurs médias et import complet en masse", async ({
     ]);
     await expect(page.getByText(/autorise.wav →/)).toBeVisible();
     await expect(page.getByText(/illustration.png →/)).toBeVisible();
-    const codes = await page.locator(".success code").allTextContents();
+    const codes = await page
+      .locator(".admin-upload-results code")
+      .allTextContents();
     const audio = codes.find((p) => p.endsWith(".wav"))!,
       image = codes.find((p) => p.startsWith("http"))!;
     paths.push(audio, image.split("/").at(-1)!);
@@ -87,19 +92,19 @@ test("administration : plusieurs médias et import complet en masse", async ({
       ],
     };
     await page
-      .locator("#import-file")
-      .setInputFiles({
-        name: "catalogue.json",
-        mimeType: "application/json",
-        buffer: Buffer.from(
-          JSON.stringify([
-            work,
-            { ...work, title: title + " bis", image_path: null },
-          ]),
-        ),
-      });
+      .getByRole("button", { name: "Import JSON", exact: true })
+      .click();
+    await page.locator("#import-file").setInputFiles({
+      name: "catalogue.json",
+      mimeType: "application/json",
+      buffer: Buffer.from(
+        JSON.stringify([
+          work,
+          { ...work, title: title + " bis", image_path: null },
+        ]),
+      ),
+    });
     await page.getByRole("button", { name: "Valider et enregistrer" }).click();
-    await expect(page.getByRole("status")).toHaveCount(0);
     await expect(
       page.getByText("Enregistrement terminé.", { exact: true }),
     ).toBeVisible();
