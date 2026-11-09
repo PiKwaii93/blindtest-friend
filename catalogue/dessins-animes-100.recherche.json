@@ -1,0 +1,1628 @@
+{
+  "project": "encore. / blindtest-friend",
+  "category": "Dessins animés",
+  "version": "2026-11-09-1",
+  "purpose": "100 fiches de préparation; PAS un import jouable",
+  "note": "Les liens construits sont des liens de RECHERCHE et non des enregistrements sélectionnés ou autorisés. Aucun fichier commercial, aucune image et aucune licence de diffusion validée.",
+  "works": [
+    {
+      "editorial_id": "da-001",
+      "title": "Scooby-Doo",
+      "aliases": [
+        "Scooby Doo",
+        "Scooby-Doo, où es-tu ?"
+      ],
+      "category": "Dessins animés",
+      "theme_search": "Scooby-Doo générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Scooby-Doo%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Scooby-Doo%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-002",
+      "title": "Tom et Jerry",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Tom et Jerry générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Tom%20et%20Jerry%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Tom%20et%20Jerry%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-003",
+      "title": "Looney Tunes",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Looney Tunes générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Looney%20Tunes%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Looney%20Tunes%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-004",
+      "title": "Les Pierrafeu",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Les Pierrafeu générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Pierrafeu%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Pierrafeu%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-005",
+      "title": "Les Jetsons",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Les Jetsons générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Jetsons%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Jetsons%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-006",
+      "title": "La Panthère rose",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "La Panthère rose générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La%20Panth%C3%A8re%20rose%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=La%20Panth%C3%A8re%20rose%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-007",
+      "title": "Le Manège enchanté",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Le Manège enchanté générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Le%20Man%C3%A8ge%20enchant%C3%A9%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Le%20Man%C3%A8ge%20enchant%C3%A9%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-008",
+      "title": "Barbapapa",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Barbapapa générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Barbapapa%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Barbapapa%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-009",
+      "title": "Les Schtroumpfs",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Les Schtroumpfs générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Schtroumpfs%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Schtroumpfs%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-010",
+      "title": "Inspecteur Gadget",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Inspecteur Gadget générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Inspecteur%20Gadget%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Inspecteur%20Gadget%20animation",
+        "documented_theme_url": "https://musee.sacem.fr/index.php/ExhibitionCMS/ExhibitionCMS/View?id=5877"
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-011",
+      "title": "Les Mystérieuses Cités d'or",
+      "aliases": [
+        "Les Cités d'or"
+      ],
+      "category": "Dessins animés",
+      "theme_search": "Les Mystérieuses Cités d'or générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Myst%C3%A9rieuses%20Cit%C3%A9s%20d'or%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Myst%C3%A9rieuses%20Cit%C3%A9s%20d'or%20animation",
+        "documented_theme_url": "https://musee.sacem.fr/index.php/ExhibitionCMS/ExhibitionCMS/View?id=5877"
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-012",
+      "title": "Ulysse 31",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Ulysse 31 générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Ulysse%2031%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Ulysse%2031%20animation",
+        "documented_theme_url": "https://musee.sacem.fr/index.php/ExhibitionCMS/ExhibitionCMS/View?id=5877"
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-013",
+      "title": "Les Minipouss",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Les Minipouss générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Minipouss%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Minipouss%20animation",
+        "documented_theme_url": "https://musee.sacem.fr/index.php/ExhibitionCMS/ExhibitionCMS/View?id=5877"
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-014",
+      "title": "Les Entrechats",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Les Entrechats générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Entrechats%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Entrechats%20animation",
+        "documented_theme_url": "https://musee.sacem.fr/index.php/ExhibitionCMS/ExhibitionCMS/View?id=5877"
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-015",
+      "title": "Les Bisounours",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Les Bisounours générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Bisounours%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Bisounours%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-016",
+      "title": "Les Gummi",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Les Gummi générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Gummi%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Gummi%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-017",
+      "title": "La Bande à Picsou",
+      "aliases": [
+        "DuckTales"
+      ],
+      "category": "Dessins animés",
+      "theme_search": "La Bande à Picsou générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La%20Bande%20%C3%A0%20Picsou%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=La%20Bande%20%C3%A0%20Picsou%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-018",
+      "title": "Il était une fois… la Vie",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Il était une fois… la Vie générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Il%20%C3%A9tait%20une%20fois%E2%80%A6%20la%20Vie%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Il%20%C3%A9tait%20une%20fois%E2%80%A6%20la%20Vie%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-019",
+      "title": "Les Tortues Ninja",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Les Tortues Ninja générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Tortues%20Ninja%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Tortues%20Ninja%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-020",
+      "title": "Denver, le dernier dinosaure",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Denver, le dernier dinosaure générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Denver%2C%20le%20dernier%20dinosaure%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Denver%2C%20le%20dernier%20dinosaure%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-021",
+      "title": "Tic et Tac, les rangers du risque",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Tic et Tac, les rangers du risque générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Tic%20et%20Tac%2C%20les%20rangers%20du%20risque%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Tic%20et%20Tac%2C%20les%20rangers%20du%20risque%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-022",
+      "title": "Les Nouvelles Aventures de Winnie l'ourson",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Les Nouvelles Aventures de Winnie l'ourson générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Nouvelles%20Aventures%20de%20Winnie%20l'ourson%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Nouvelles%20Aventures%20de%20Winnie%20l'ourson%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-023",
+      "title": "Super Baloo",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Super Baloo générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Super%20Baloo%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Super%20Baloo%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-024",
+      "title": "Myster Mask",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Myster Mask générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Myster%20Mask%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Myster%20Mask%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-025",
+      "title": "La Bande à Dingo",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "La Bande à Dingo générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La%20Bande%20%C3%A0%20Dingo%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=La%20Bande%20%C3%A0%20Dingo%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-026",
+      "title": "La Petite Sirène, la série",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "La Petite Sirène, la série générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La%20Petite%20Sir%C3%A8ne%2C%20la%20s%C3%A9rie%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=La%20Petite%20Sir%C3%A8ne%2C%20la%20s%C3%A9rie%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-027",
+      "title": "Aladdin, la série",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Aladdin, la série générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Aladdin%2C%20la%20s%C3%A9rie%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Aladdin%2C%20la%20s%C3%A9rie%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-028",
+      "title": "Gargoyles, les anges de la nuit",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Gargoyles, les anges de la nuit générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Gargoyles%2C%20les%20anges%20de%20la%20nuit%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Gargoyles%2C%20les%20anges%20de%20la%20nuit%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-029",
+      "title": "Le Laboratoire de Dexter",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Le Laboratoire de Dexter générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Le%20Laboratoire%20de%20Dexter%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Le%20Laboratoire%20de%20Dexter%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-030",
+      "title": "Johnny Bravo",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Johnny Bravo générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Johnny%20Bravo%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Johnny%20Bravo%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-031",
+      "title": "Les Supers Nanas",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Les Supers Nanas générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Supers%20Nanas%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Supers%20Nanas%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-032",
+      "title": "Courage, le chien froussard",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Courage, le chien froussard générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Courage%2C%20le%20chien%20froussard%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Courage%2C%20le%20chien%20froussard%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-033",
+      "title": "Ed, Edd et Eddy",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Ed, Edd et Eddy générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Ed%2C%20Edd%20et%20Eddy%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Ed%2C%20Edd%20et%20Eddy%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-034",
+      "title": "Les Razmoket",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Les Razmoket générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Razmoket%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Razmoket%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-035",
+      "title": "Hé Arnold !",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Hé Arnold ! générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=H%C3%A9%20Arnold%20!%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=H%C3%A9%20Arnold%20!%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-036",
+      "title": "Doug",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Doug générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Doug%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Doug%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-037",
+      "title": "Les Animaniacs",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Les Animaniacs générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Animaniacs%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Animaniacs%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-038",
+      "title": "Minus et Cortex",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Minus et Cortex générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Minus%20et%20Cortex%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Minus%20et%20Cortex%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-039",
+      "title": "La Cour de récré",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "La Cour de récré générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La%20Cour%20de%20r%C3%A9cr%C3%A9%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=La%20Cour%20de%20r%C3%A9cr%C3%A9%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-040",
+      "title": "Timon et Pumbaa",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Timon et Pumbaa générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Timon%20et%20Pumbaa%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Timon%20et%20Pumbaa%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-041",
+      "title": "La Famille Pirate",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "La Famille Pirate générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La%20Famille%20Pirate%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=La%20Famille%20Pirate%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-042",
+      "title": "Les Zinzins de l'espace",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Les Zinzins de l'espace générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Zinzins%20de%20l'espace%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Zinzins%20de%20l'espace%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-043",
+      "title": "Oggy et les Cafards",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Oggy et les Cafards générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Oggy%20et%20les%20Cafards%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Oggy%20et%20les%20Cafards%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-044",
+      "title": "Les Simpson",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Les Simpson générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Simpson%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Simpson%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-045",
+      "title": "Futurama",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Futurama générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Futurama%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Futurama%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-046",
+      "title": "Bob l'éponge",
+      "aliases": [
+        "SpongeBob SquarePants",
+        "SpongeBob"
+      ],
+      "category": "Dessins animés",
+      "theme_search": "Bob l'éponge générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Bob%20l'%C3%A9ponge%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Bob%20l'%C3%A9ponge%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-047",
+      "title": "Totally Spies !",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Totally Spies ! générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Totally%20Spies%20!%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Totally%20Spies%20!%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-048",
+      "title": "Code Lyoko",
+      "aliases": [
+        "Lyoko"
+      ],
+      "category": "Dessins animés",
+      "theme_search": "Code Lyoko générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Code%20Lyoko%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Code%20Lyoko%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-049",
+      "title": "Titeuf",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Titeuf générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Titeuf%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Titeuf%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-050",
+      "title": "Martin Mystère",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Martin Mystère générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Martin%20Myst%C3%A8re%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Martin%20Myst%C3%A8re%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-051",
+      "title": "Ratz",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Ratz générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Ratz%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Ratz%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-052",
+      "title": "Corneil et Bernie",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Corneil et Bernie générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Corneil%20et%20Bernie%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Corneil%20et%20Bernie%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-053",
+      "title": "Foot 2 rue",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Foot 2 rue générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Foot%202%20rue%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Foot%202%20rue%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-054",
+      "title": "Galactik Football",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Galactik Football générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Galactik%20Football%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Galactik%20Football%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-055",
+      "title": "Wakfu",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Wakfu générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Wakfu%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Wakfu%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-056",
+      "title": "Winx Club",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Winx Club générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Winx%20Club%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Winx%20Club%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-057",
+      "title": "W.I.T.C.H.",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "W.I.T.C.H. générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=W.I.T.C.H.%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=W.I.T.C.H.%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-058",
+      "title": "Kim Possible",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Kim Possible générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Kim%20Possible%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Kim%20Possible%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-059",
+      "title": "Phinéas et Ferb",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Phinéas et Ferb générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Phin%C3%A9as%20et%20Ferb%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Phin%C3%A9as%20et%20Ferb%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-060",
+      "title": "La Famille Delajungle",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "La Famille Delajungle générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La%20Famille%20Delajungle%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=La%20Famille%20Delajungle%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-061",
+      "title": "Jimmy Neutron",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Jimmy Neutron générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Jimmy%20Neutron%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Jimmy%20Neutron%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-062",
+      "title": "Mes parrains sont magiques",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Mes parrains sont magiques générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Mes%20parrains%20sont%20magiques%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Mes%20parrains%20sont%20magiques%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-063",
+      "title": "Danny Fantôme",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Danny Fantôme générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Danny%20Fant%C3%B4me%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Danny%20Fant%C3%B4me%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-064",
+      "title": "Avatar, le dernier maître de l'air",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Avatar, le dernier maître de l'air générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Avatar%2C%20le%20dernier%20ma%C3%AEtre%20de%20l'air%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Avatar%2C%20le%20dernier%20ma%C3%AEtre%20de%20l'air%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-065",
+      "title": "Ben 10",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Ben 10 générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Ben%2010%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Ben%2010%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-066",
+      "title": "American Dragon : Jake Long",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "American Dragon : Jake Long générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=American%20Dragon%20%3A%20Jake%20Long%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=American%20Dragon%20%3A%20Jake%20Long%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-067",
+      "title": "Les Aventures de Jackie Chan",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Les Aventures de Jackie Chan générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Aventures%20de%20Jackie%20Chan%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Aventures%20de%20Jackie%20Chan%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-068",
+      "title": "Dora l'exploratrice",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Dora l'exploratrice générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Dora%20l'exploratrice%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Dora%20l'exploratrice%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-069",
+      "title": "Clifford, le gros chien rouge",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Clifford, le gros chien rouge générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Clifford%2C%20le%20gros%20chien%20rouge%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Clifford%2C%20le%20gros%20chien%20rouge%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-070",
+      "title": "Charlotte aux fraises",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Charlotte aux fraises générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Charlotte%20aux%20fraises%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Charlotte%20aux%20fraises%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-071",
+      "title": "Petit Ours Brun",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Petit Ours Brun générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Petit%20Ours%20Brun%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Petit%20Ours%20Brun%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-072",
+      "title": "Les Lascars",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Les Lascars générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Lascars%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Lascars%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-073",
+      "title": "Funky Cops",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Funky Cops générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Funky%20Cops%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Funky%20Cops%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-074",
+      "title": "Les Minijusticiers",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Les Minijusticiers générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Minijusticiers%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Minijusticiers%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-075",
+      "title": "Garfield & Cie",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Garfield & Cie générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Garfield%20%26%20Cie%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Garfield%20%26%20Cie%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-076",
+      "title": "Adventure Time",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Adventure Time générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Adventure%20Time%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Adventure%20Time%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-077",
+      "title": "Le Monde incroyable de Gumball",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Le Monde incroyable de Gumball générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Le%20Monde%20incroyable%20de%20Gumball%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Le%20Monde%20incroyable%20de%20Gumball%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-078",
+      "title": "Regular Show",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Regular Show générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Regular%20Show%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Regular%20Show%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-079",
+      "title": "Steven Universe",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Steven Universe générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Steven%20Universe%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Steven%20Universe%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-080",
+      "title": "Souvenirs de Gravity Falls",
+      "aliases": [
+        "Gravity Falls"
+      ],
+      "category": "Dessins animés",
+      "theme_search": "Souvenirs de Gravity Falls générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Souvenirs%20de%20Gravity%20Falls%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Souvenirs%20de%20Gravity%20Falls%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-081",
+      "title": "Teen Titans Go!",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Teen Titans Go! générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Teen%20Titans%20Go!%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Teen%20Titans%20Go!%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-082",
+      "title": "Miraculous : Les Aventures de Ladybug et Chat Noir",
+      "aliases": [
+        "Miraculous",
+        "Ladybug et Chat Noir"
+      ],
+      "category": "Dessins animés",
+      "theme_search": "Miraculous : Les Aventures de Ladybug et Chat Noir générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Miraculous%20%3A%20Les%20Aventures%20de%20Ladybug%20et%20Chat%20Noir%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Miraculous%20%3A%20Les%20Aventures%20de%20Ladybug%20et%20Chat%20Noir%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-083",
+      "title": "Les Sisters",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Les Sisters générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Sisters%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Sisters%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-084",
+      "title": "Grizzy et les Lemmings",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Grizzy et les Lemmings générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Grizzy%20et%20les%20Lemmings%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Grizzy%20et%20les%20Lemmings%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-085",
+      "title": "Peppa Pig",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Peppa Pig générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Peppa%20Pig%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Peppa%20Pig%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-086",
+      "title": "La Pat' Patrouille",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "La Pat' Patrouille générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=La%20Pat'%20Patrouille%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=La%20Pat'%20Patrouille%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-087",
+      "title": "Masha et Michka",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Masha et Michka générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Masha%20et%20Michka%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Masha%20et%20Michka%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-088",
+      "title": "Bienvenue chez les Loud",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Bienvenue chez les Loud générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Bienvenue%20chez%20les%20Loud%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Bienvenue%20chez%20les%20Loud%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-089",
+      "title": "Ninjago : Les Maîtres du Spinjitzu",
+      "aliases": [
+        "Ninjago"
+      ],
+      "category": "Dessins animés",
+      "theme_search": "Ninjago : Les Maîtres du Spinjitzu générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Ninjago%20%3A%20Les%20Ma%C3%AEtres%20du%20Spinjitzu%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Ninjago%20%3A%20Les%20Ma%C3%AEtres%20du%20Spinjitzu%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-090",
+      "title": "My Little Pony : Les amies, c'est magique",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "My Little Pony : Les amies, c'est magique générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=My%20Little%20Pony%20%3A%20Les%20amies%2C%20c'est%20magique%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=My%20Little%20Pony%20%3A%20Les%20amies%2C%20c'est%20magique%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-091",
+      "title": "Dragons : Cavaliers de Beurk",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Dragons : Cavaliers de Beurk générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Dragons%20%3A%20Cavaliers%20de%20Beurk%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Dragons%20%3A%20Cavaliers%20de%20Beurk%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-092",
+      "title": "Sanjay et Craig",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Sanjay et Craig générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Sanjay%20et%20Craig%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Sanjay%20et%20Craig%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-093",
+      "title": "LoliRock",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "LoliRock générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=LoliRock%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=LoliRock%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-094",
+      "title": "Zig et Sharko",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Zig et Sharko générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Zig%20et%20Sharko%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Zig%20et%20Sharko%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-095",
+      "title": "Oscar et Malika, toujours en retard",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Oscar et Malika, toujours en retard générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Oscar%20et%20Malika%2C%20toujours%20en%20retard%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Oscar%20et%20Malika%2C%20toujours%20en%20retard%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-096",
+      "title": "Bluey",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Bluey générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Bluey%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Bluey%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-097",
+      "title": "Sonic Prime",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Sonic Prime générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Sonic%20Prime%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Sonic%20Prime%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-098",
+      "title": "Les Aventures de Paddington",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Les Aventures de Paddington générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Aventures%20de%20Paddington%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Aventures%20de%20Paddington%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-099",
+      "title": "Le Cuphead Show !",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Le Cuphead Show ! générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Le%20Cuphead%20Show%20!%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Le%20Cuphead%20Show%20!%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    },
+    {
+      "editorial_id": "da-100",
+      "title": "Les Lapins Crétins : Invasion",
+      "aliases": [],
+      "category": "Dessins animés",
+      "theme_search": "Les Lapins Crétins : Invasion générique français dessin animé",
+      "research": {
+        "youtube_search": "https://www.youtube.com/results?search_query=Les%20Lapins%20Cr%C3%A9tins%20%3A%20Invasion%20g%C3%A9n%C3%A9rique%20fran%C3%A7ais%20dessin%20anim%C3%A9",
+        "wikimedia_image_search": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Les%20Lapins%20Cr%C3%A9tins%20%3A%20Invasion%20animation",
+        "documented_theme_url": null
+      },
+      "audio_path": null,
+      "image_path": null,
+      "media_license_status": "unverified",
+      "import_status": "draft_do_not_publish"
+    }
+  ]
+}
