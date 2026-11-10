@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { RevealImage } from "./reveal-image";
 import { Copy, Headphones, LogOut, Trophy, Volume2, Zap } from "lucide-react";
 import { motion, useReducedMotion } from "motion/react";
+import { z } from "zod";
 import { browserClient, configured } from "@/lib/supabase/browser";
 import { Button } from "./ui/button";
 import type { Player, PublicGame } from "@/domain/game";
@@ -38,6 +39,20 @@ type Snapshot = {
   preload?: { url: string; round: number; startMs: number };
   startMs: number;
 };
+const buzzEvent = z.object({
+  version: z.number().int(),
+  buzzPause: z.object({
+    gameId: z.uuid(),
+    round: z.number().int(),
+    consumedMs: z.number().nonnegative(),
+    deadline: z.number(),
+    attempt: z.object({
+      playerId: z.uuid(),
+      acceptedAt: z.number(),
+      remainingMs: z.number().nonnegative(),
+    }),
+  }),
+});
 type Availability = {
   workId: string;
   categories: string[];
@@ -90,12 +105,14 @@ export function RoomClient({ code }: { code: string }) {
   const [enabled, setEnabled] = useState(false);
   const [volume, setVolume] = useState(0.7);
   const [copied, setCopied] = useState(false);
+  const [buzzRemaining, setBuzzRemaining] = useState<number | null>(null);
+  const buzzPending = useRef(false);
   const audio = useRef<HTMLMediaElement | null>(null);
   const standby = useRef<{ key: string; media: HTMLMediaElement } | null>(null);
   const revealVideo = useRef<HTMLDivElement>(null);
   const offset = useRef(0);
   const minRtt = useRef(Infinity);
-  const version = useRef(-1);
+  const latest = useRef<Snapshot | null>(null);
   const loaded = useRef("");
   const serverSettings = useRef("");
   const polling = useRef(false);
@@ -113,8 +130,8 @@ export function RoomClient({ code }: { code: string }) {
         minRtt.current = after - before;
         offset.current = data.serverNow - (before + after) / 2;
       }
-      if (data.version >= version.current) {
-        version.current = data.version;
+      if (data.version >= (latest.current?.version ?? -1)) {
+        latest.current = data;
         setState(data);
         const serialized = JSON.stringify(data.settings);
         if (serverSettings.current !== serialized) {
@@ -192,7 +209,40 @@ export function RoomClient({ code }: { code: string }) {
     const db = browserClient();
     const channel = db
       .channel("room:" + roomId, { config: { private: true } })
-      .on("broadcast", { event: "STATE_CHANGED" }, () => void refresh())
+      .on("broadcast", { event: "STATE_CHANGED" }, ({ payload }) => {
+        const event = buzzEvent.safeParse(payload);
+        const current = latest.current;
+        if (!event.success || !current) {
+          void refresh();
+          return;
+        }
+        const { version, buzzPause: pause } = event.data;
+        if (version <= current.version) return;
+        const game = current.game;
+        if (
+          current.gameId !== pause.gameId ||
+          game?.round !== pause.round ||
+          game.phase !== "PLAYING"
+        ) {
+          void refresh();
+          return;
+        }
+        audio.current?.pause();
+        const next: Snapshot = {
+          ...current,
+          version,
+          game: {
+            ...game,
+            phase: "ANSWERING",
+            deadline: pause.deadline,
+            consumedMs: pause.consumedMs,
+            attempts: [...game.attempts, pause.attempt],
+          },
+        };
+        latest.current = next;
+        setState(next);
+        if (version !== current.version + 1) void refresh();
+      })
       .subscribe((status) => {
         if (status === "SUBSCRIBED") void refresh();
       });
@@ -304,13 +354,18 @@ export function RoomClient({ code }: { code: string }) {
   useEffect(() => {
     const a = audio.current;
     if (!a) return;
-    if (phase !== "PLAYING" || !enabled) {
+    if (phase !== "PLAYING" || !enabled || buzzRemaining !== null) {
       a.pause();
       return;
     }
     let stopped = false;
     const synchronize = () => {
-      if (stopped) return;
+      if (
+        stopped ||
+        buzzPending.current ||
+        latest.current?.game?.phase !== "PLAYING"
+      )
+        return;
       const time = Date.now() + offset.current;
       const desired =
         (startMs + consumedMs + Math.max(0, time - playbackStartedAt)) / 1000;
@@ -341,6 +396,7 @@ export function RoomClient({ code }: { code: string }) {
     playbackStartedAt,
     hasVideo,
     freezeOnReveal,
+    buzzRemaining,
   ]);
   useEffect(() => {
     const video = audio.current;
@@ -404,8 +460,24 @@ export function RoomClient({ code }: { code: string }) {
     g?.phase === "PLAYING" &&
     !g.excluded.includes(userId) &&
     now >= g.startedAt &&
-    !busy,
+    !busy &&
+    buzzRemaining === null,
   );
+  const buzz = useCallback(async () => {
+    const game = latest.current?.game;
+    if (!canBuzz || buzzPending.current || game?.phase !== "PLAYING") return;
+    buzzPending.current = true;
+    audio.current?.pause();
+    setBuzzRemaining(
+      Math.max(0, (game.deadline ?? 0) - (Date.now() + offset.current)),
+    );
+    try {
+      await act({ type: "buzz", round: game.round });
+    } finally {
+      buzzPending.current = false;
+      setBuzzRemaining(null);
+    }
+  }, [act, canBuzz]);
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       if (
@@ -419,12 +491,12 @@ export function RoomClient({ code }: { code: string }) {
         )
       ) {
         e.preventDefault();
-        if (canBuzz) void act({ type: "buzz", round });
+        void buzz();
       }
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [canBuzz, act, round]);
+  }, [buzz]);
   async function enableAudio() {
     try {
       const a = audio.current!;
@@ -486,7 +558,8 @@ export function RoomClient({ code }: { code: string }) {
   const answering = phase === "ANSWERING" && attempt?.playerId === userId;
   const remaining = g
     ? phase === "PLAYING"
-      ? Math.max(0, (g.deadline ?? now) - Math.max(now, g.startedAt))
+      ? (buzzRemaining ??
+        Math.max(0, (g.deadline ?? now) - Math.max(now, g.startedAt)))
       : phase === "ANSWERING" || phase === "COUNTDOWN"
         ? Math.max(0, (g.deadline ?? now) - now)
         : 0
@@ -828,11 +901,7 @@ export function RoomClient({ code }: { code: string }) {
                     {(remaining / 1000).toFixed(1)}
                     <span className="small muted"> s</span>
                   </div>
-                  <button
-                    className="buzzer"
-                    disabled={!canBuzz}
-                    onClick={() => act({ type: "buzz", round })}
-                  >
+                  <button className="buzzer" disabled={!canBuzz} onClick={buzz}>
                     BUZZ
                   </button>
                   <p className="small muted">
@@ -849,7 +918,13 @@ export function RoomClient({ code }: { code: string }) {
                       ? "Vous avez la main !"
                       : `${g.players.find((p) => p.id === attempt?.playerId)?.name} répond…`}
                   </h2>
-                  {answering ? (
+                  {attempt && (
+                    <p className="small muted">
+                      Écoute en pause ·{" "}
+                      {(attempt.remainingMs / 1000).toFixed(1)} s restantes
+                    </p>
+                  )}
+                  {answering && (
                     <form
                       className="stack full"
                       onSubmit={async (e) => {
@@ -877,8 +952,6 @@ export function RoomClient({ code }: { code: string }) {
                         Une seule proposition. À vous de jouer.
                       </span>
                     </form>
-                  ) : (
-                    <p className="muted">L’écoute est en pause.</p>
                   )}
                 </>
               ) : phase === "REVEAL" ? (
