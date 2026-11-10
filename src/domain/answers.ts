@@ -1,13 +1,18 @@
 import type { Settings } from "./settings";
 export function normalize(value: string): string {
-  return value
-    .normalize("NFKD")
-    .replace(/\p{M}/gu, "")
-    .toLowerCase()
-    .replace(/[’']/g, " ")
-    .replace(/[^\p{L}\p{N}]+/gu, " ")
-    .trim()
-    .replace(/\s+/g, " ");
+  return (
+    value
+      .normalize("NFKD")
+      .replace(/\p{M}/gu, "")
+      .toLowerCase()
+      // Preserve the conjunction before punctuation is removed (including full-width ＆).
+      .replace(/&/g, " et ")
+      .replace(/[’']/g, " ")
+      .replace(/[^\p{L}\p{N}]+/gu, " ")
+      .trim()
+      .replace(/\s+/g, " ")
+      .replace(/(^| )and(?= |$)/g, "$1et")
+  );
 }
 export function distance(a: string, b: string): number {
   let row = Array.from({ length: b.length + 1 }, (_, i) => i);
