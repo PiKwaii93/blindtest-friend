@@ -147,11 +147,15 @@ export function RoomClient({ code }: { code: string }) {
   }, [code]);
   const send = useCallback(
     async (action: Record<string, unknown>) => {
-      const response = await fetch("/api/rooms/" + code, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(action),
-      });
+      const endpoint = "/api/rooms/" + code;
+      const response = await fetch(
+        action.type === "buzz" ? endpoint + "/buzz" : endpoint,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(action),
+        },
+      );
       const data = await response.json();
       if (!response.ok) throw new Error(data.error);
       await refresh();

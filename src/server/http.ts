@@ -1,12 +1,15 @@
 import { NextResponse } from "next/server";
 import { database, requireUser } from "./supabase";
-export async function authenticated(request: Request) {
+export async function verifiedRequestUser(request: Request) {
   if (
     request.method !== "GET" &&
     request.headers.get("origin") !== new URL(request.url).origin
   )
     throw new Error("Origine refusée.");
-  const user = await requireUser();
+  return requireUser();
+}
+export async function authenticated(request: Request) {
+  const user = await verifiedRequestUser(request);
   const { data, error } = await database().rpc("take_rate_limit", {
     p_user: user.id,
     p_limit: 180,
