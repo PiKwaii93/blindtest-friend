@@ -72,10 +72,8 @@ export async function catalogue(): Promise<Clip[]> {
       clip.works.research?.sandbox_video_excluded?.path !== clip.audio_path,
   );
   return [...(data ?? []), ...sandboxClips].map((c) => {
-    const review =
-      sandbox && isSandboxVideo(c.audio_path)
-        ? c.works.research?.sandbox_review
-        : undefined;
+    const video = isSandboxVideo(c.audio_path);
+    const review = video ? c.works.research?.sandbox_review : undefined;
     const timing = sandboxTiming(
       c.audio_path,
       c.start_ms,
@@ -83,9 +81,7 @@ export async function catalogue(): Promise<Clip[]> {
       review,
     );
     const freezeOnReveal =
-      sandbox &&
-      isSandboxVideo(c.audio_path) &&
-      c.works.research?.sandbox_freeze_reveal?.path === c.audio_path;
+      video && c.works.research?.sandbox_freeze_reveal?.path === c.audio_path;
     return {
       id: c.id,
       workId: c.work_id,
@@ -103,13 +99,12 @@ export async function catalogue(): Promise<Clip[]> {
       difficulty: c.difficulty,
       startMs: timing.startMs,
       french: hasConfirmedFrench(c.audio_path, review),
-      firstFrenchBroadcastYear:
-        sandbox && isSandboxVideo(c.audio_path)
-          ? (firstFrenchBroadcasts[c.works.editorial_id ?? ""]?.year ?? null)
-          : undefined,
+      firstFrenchBroadcastYear: video
+        ? (firstFrenchBroadcasts[c.works.editorial_id ?? ""]?.year ?? null)
+        : undefined,
       freezeOnReveal,
       durationMs:
-        isSandboxVideo(c.audio_path) && !freezeOnReveal
+        video && !freezeOnReveal
           ? Math.max(0, timing.usableMs - (sandboxVideoRevealMs - 5000))
           : timing.usableMs,
     };
@@ -191,7 +186,6 @@ export async function snapshot(code: string, userId: string) {
   const following = g?.playlist[g.round + 1];
   if (
     g?.phase === "REVEAL" &&
-    videoSandboxEnabled() &&
     following &&
     isSandboxVideo(g.playlist[g.round].path) &&
     isSandboxVideo(following.path)
@@ -213,7 +207,7 @@ export async function snapshot(code: string, userId: string) {
     ownerId: r.ownerId,
     settings: r.settings,
     players: r.players,
-    game: g ? publicGame(g, videoSandboxEnabled() ? userId : undefined) : null,
+    game: g ? publicGame(g, userId) : null,
     gameId: r.gameId,
     version: row.version,
     serverNow: row.now,
@@ -250,7 +244,6 @@ export async function command(
       const game = r.game;
       const clip = game?.playlist[game.round];
       if (
-        !videoSandboxEnabled() ||
         system ||
         !player ||
         !game ||
@@ -340,10 +333,6 @@ export async function command(
     ) {
       if (active) throw new Error("La partie est en cours.");
       if (action.type === "settings") {
-        if (action.settings.broadcastEra && !videoSandboxEnabled())
-          throw new Error(
-            "Le filtre par époque est disponible dans le bac à sable.",
-          );
         if (r.ownerId !== userId)
           throw new Error("Action réservée au propriétaire.");
         if (action.settings.vfOnly && !videoSandboxEnabled())

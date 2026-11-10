@@ -6,6 +6,7 @@ import {
   teams,
   rankPosition,
   roundRecap,
+  isSandboxVideo,
   type Game,
 } from "@/domain/game";
 import { videoSandboxEnabled } from "@/server/video-sandbox";
@@ -26,7 +27,9 @@ export default async function Page({
   if (!g.players.some((p) => p.id === user.id)) notFound();
   const scores =
     g.settings.mode === "teams" ? teams(g.players) : ranking(g.players);
-  const sandbox = videoSandboxEnabled();
+  const sandbox =
+    videoSandboxEnabled() ||
+    g.playlist.some((clip) => isSandboxVideo(clip.path));
   const reportCounts = new Map<number, number>();
   if (sandbox && g.completedRounds?.length) {
     const pageSize = 500;

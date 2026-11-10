@@ -59,5 +59,9 @@ describe("Catalogue dessins animés", () => {
     work.clips[0].license_reference = "Autorisation écrite de diffusion";
     work.clips[0].previewed = true;
     expect(cartoonActivationError(work)).toBeNull();
+    work.clips[0].audio_path = "sandbox-video/da-012/short.mp4";
+    work.clips[0].usable_duration_ms = 9900;
+    expect(cartoonActivationError(work)).toContain("dix secondes");
+    expect(cartoonActivationError(work, work.clips[0].audio_path)).toBeNull();
   });
 });

@@ -47,7 +47,10 @@ export const workSchema = z
     },
   );
 
-export function cartoonActivationError(work: z.infer<typeof workSchema>) {
+export function cartoonActivationError(
+  work: z.infer<typeof workSchema>,
+  freezeOnRevealPath?: string,
+) {
   if (!work.is_active) return null;
   if (!work.image_path || !work.image_license)
     return "Ajoutez une illustration et documentez sa licence et son attribution.";
@@ -63,7 +66,13 @@ export function cartoonActivationError(work: z.infer<typeof workSchema>) {
         clip.rights_status !== "authorized" ||
         !clip.license_reference ||
         !clip.previewed ||
-        clip.usable_duration_ms < 10000,
+        (clip.usable_duration_ms < 10000 &&
+          !(
+            clip.audio_path === freezeOnRevealPath &&
+            clip.audio_path.startsWith("sandbox-video/") &&
+            clip.audio_path.endsWith(".mp4") &&
+            clip.usable_duration_ms > 9000
+          )),
     )
   )
     return "Chaque extrait actif exige dix secondes jouables, une autorisation documentée et un aperçu validé.";

@@ -2,13 +2,11 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { authenticated, failure } from "@/server/http";
 import { database, requireAdmin } from "@/server/supabase";
-import { videoSandboxEnabled } from "@/server/video-sandbox";
 
 export async function GET(req: Request) {
   try {
     await authenticated(req);
     await requireAdmin();
-    if (!videoSandboxEnabled()) return new Response(null, { status: 404 });
     const workId = z
       .string()
       .uuid()

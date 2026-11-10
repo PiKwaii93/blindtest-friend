@@ -215,6 +215,9 @@ export function RoomClient({ code }: { code: string }) {
     return () => clearTimeout(timer);
   }, [deadline, phase, act]);
   const hasVideo = state?.video === true;
+  const hasVideoCatalogue =
+    state?.videoSandbox ||
+    availability.some((clip) => clip.firstFrenchBroadcastYear !== undefined);
   const freezeOnReveal = state?.freezeOnReveal === true;
   const gameId = state?.gameId;
   useEffect(() => {
@@ -632,7 +635,7 @@ export function RoomClient({ code }: { code: string }) {
                   </div>
                 </div>
                 <div className="settings-grid">
-                  {state.videoSandbox && (
+                  {hasVideoCatalogue && (
                     <div>
                       <label htmlFor="broadcast-era">
                         Première diffusion en France
@@ -896,8 +899,7 @@ export function RoomClient({ code }: { code: string }) {
                     <small className="muted">{g.reveal.imageAttribution}</small>
                   )}
                   <h2 className="reveal-title">{g.reveal?.title}</h2>
-                  {state.videoSandbox &&
-                    hasVideo &&
+                  {hasVideo &&
                     gameId &&
                     (reported === `${gameId}:${g.round}` ? (
                       <p role="status">Signalement envoyé.</p>
@@ -996,7 +998,7 @@ export function RoomClient({ code }: { code: string }) {
                   </div>
                   <Button asChild variant="outline">
                     <Link href={`/games/${state.gameId}/results`}>
-                      {state.videoSandbox
+                      {hasVideoCatalogue
                         ? "Voir le bilan par générique"
                         : "Voir les résultats"}
                     </Link>

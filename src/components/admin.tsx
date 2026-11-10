@@ -877,7 +877,11 @@ function WorkEditor({
           </div>
         ) : tab === "Audio" ? (
           <div className="admin-flow">
-            {videoSandbox && work && <ClipReports work={work} />}
+            {work &&
+              (videoSandbox ||
+                work.audio_clips.some((clip) =>
+                  isSandboxVideo(clip.audio_path),
+                )) && <ClipReports work={work} />}
             {!draft.clips.length && <p>Aucun extrait associé.</p>}
             {draft.clips.map((clip, index) =>
               videoSandbox &&

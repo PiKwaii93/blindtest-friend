@@ -60,15 +60,21 @@ export async function POST(req: Request) {
       if (ids.length) {
         const { data, error } = await db
           .from("works")
-          .select("id,editorial_id")
+          .select("id,editorial_id,research")
           .in("id", ids);
         if (error) throw error;
-        const drafts = new Set(
-          data.filter((work) => work.editorial_id).map((work) => work.id),
+        const drafts = new Map(
+          data
+            .filter((work) => work.editorial_id)
+            .map((work) => [work.id, work]),
         );
         for (const work of works) {
-          if (!work.id || !drafts.has(work.id) || !work.is_active) continue;
-          const reason = cartoonActivationError(work);
+          const stored = work.id ? drafts.get(work.id) : undefined;
+          if (!stored || !work.is_active) continue;
+          const reason = cartoonActivationError(
+            work,
+            stored.research?.sandbox_freeze_reveal?.path,
+          );
           if (reason) throw new Error(`${work.title} — ${reason}`);
           const imageBase = db.storage.from("images").getPublicUrl("")
             .data.publicUrl;
