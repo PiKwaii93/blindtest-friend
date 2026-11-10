@@ -19,6 +19,8 @@ export async function GET(req: Request) {
         freezeOnReveal: c.freezeOnReveal,
         french: c.french,
         firstFrenchBroadcastYear: c.firstFrenchBroadcastYear,
+        generationYear: c.generationYear,
+        popularity: c.popularity,
       })),
     });
   } catch (e) {

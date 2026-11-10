@@ -1,5 +1,6 @@
 import { assessAnswer, validateAnswer } from "./answers";
 import { settingsSchema, type Settings } from "./settings";
+import type { Popularity } from "./catalogue-filters";
 export type Player = {
   id: string;
   name: string;
@@ -25,6 +26,8 @@ export type Clip = {
   freezeOnReveal?: boolean;
   french?: boolean;
   firstFrenchBroadcastYear?: number | null;
+  generationYear?: number | null;
+  popularity?: Popularity | null;
 };
 export type Phase =
   | "LOBBY"

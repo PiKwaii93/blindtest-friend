@@ -1,4 +1,9 @@
 import { z } from "zod";
+import {
+  generationForYear,
+  popularityLevels,
+  type Popularity,
+} from "./catalogue-filters";
 export const difficulties = ["easy", "normal", "hard"] as const;
 export const broadcastEras = [
   "before1960",
@@ -38,6 +43,13 @@ export const settingsSchema = z.object({
   mode: z.enum(["individual", "teams"]),
   vfOnly: z.boolean().optional(),
   broadcastEra: z.enum(broadcastEras).optional(),
+  generation: z
+    .union([
+      z.number().int().min(1500).max(2195).multipleOf(5),
+      z.literal("unknown"),
+    ])
+    .optional(),
+  popularity: z.enum(popularityLevels).optional(),
 });
 export type Settings = z.infer<typeof settingsSchema>;
 export function matchesRoomSettings(
@@ -48,11 +60,16 @@ export function matchesRoomSettings(
     freezeOnReveal?: boolean;
     french?: boolean;
     firstFrenchBroadcastYear?: number | null;
+    generationYear?: number | null;
+    popularity?: Popularity | null;
   },
   settings: Settings,
 ) {
   return (
     (!settings.vfOnly || clip.french === true) &&
+    (settings.generation === undefined ||
+      generationForYear(clip.generationYear) === settings.generation) &&
+    (!settings.popularity || clip.popularity === settings.popularity) &&
     (!settings.broadcastEra ||
       (clip.firstFrenchBroadcastYear !== undefined &&
         broadcastEra(clip.firstFrenchBroadcastYear) ===

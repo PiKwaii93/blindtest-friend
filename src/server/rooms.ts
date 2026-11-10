@@ -20,9 +20,12 @@ import { videoSandboxEnabled } from "./video-sandbox";
 import { hasConfirmedFrench, sandboxTiming } from "@/domain/sandbox-review";
 import { clipReportLabels, type ClipReportReason } from "@/domain/clip-reports";
 import frenchBroadcasts from "../../catalogue/dessins-animes-diffusions-france.json";
+import popularity from "../../catalogue/popularite.json";
+import { popularityLevels, type Popularity } from "@/domain/catalogue-filters";
 
 const firstFrenchBroadcasts: Record<string, { year: number; source: string }> =
   frenchBroadcasts;
+const popularityRatings: Record<string, string> = popularity.ratings;
 
 const commandSchema = z.discriminatedUnion("type", [
   z.object({ type: z.literal("join") }),
@@ -82,6 +85,12 @@ export async function catalogue(): Promise<Clip[]> {
     );
     const freezeOnReveal =
       video && c.works.research?.sandbox_freeze_reveal?.path === c.audio_path;
+    const editorialId = c.works.editorial_id ?? "";
+    const cartoon = editorialId.startsWith("da-");
+    const firstFrenchBroadcastYear = cartoon
+      ? (firstFrenchBroadcasts[editorialId]?.year ?? null)
+      : undefined;
+    const rating = popularityRatings[editorialId] as Popularity | undefined;
     return {
       id: c.id,
       workId: c.work_id,
@@ -99,9 +108,9 @@ export async function catalogue(): Promise<Clip[]> {
       difficulty: c.difficulty,
       startMs: timing.startMs,
       french: hasConfirmedFrench(c.audio_path, review),
-      firstFrenchBroadcastYear: video
-        ? (firstFrenchBroadcasts[c.works.editorial_id ?? ""]?.year ?? null)
-        : undefined,
+      firstFrenchBroadcastYear,
+      generationYear: cartoon ? firstFrenchBroadcastYear : c.works.release_year,
+      popularity: rating && popularityLevels.includes(rating) ? rating : null,
       freezeOnReveal,
       durationMs:
         video && !freezeOnReveal

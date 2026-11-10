@@ -21,6 +21,14 @@ import {
   type BroadcastEra,
 } from "@/domain/settings";
 import { clipReportLabels } from "@/domain/clip-reports";
+import {
+  generationForYear,
+  generationLabel,
+  popularityLevels,
+  popularityLabels,
+  type Generation,
+  type Popularity,
+} from "@/domain/catalogue-filters";
 type Snapshot = {
   id: string;
   code: string;
@@ -61,6 +69,8 @@ type Availability = {
   freezeOnReveal?: boolean;
   french?: boolean;
   firstFrenchBroadcastYear?: number | null;
+  generationYear?: number | null;
+  popularity?: Popularity | null;
 };
 const labels = { easy: "Facile", normal: "Normal", hard: "Difficile" };
 const refusalLabels = {
@@ -556,6 +566,27 @@ export function RoomClient({ code }: { code: string }) {
     matchesRoomSettings(clip, settings),
   );
   const eligible = new Set(matches.map((c) => c.workId)).size;
+  const countFor = (filters: Partial<Settings>) =>
+    new Set(
+      availability
+        .filter((clip) =>
+          matchesRoomSettings(clip, { ...settings, ...filters }),
+        )
+        .map((clip) => clip.workId),
+    ).size;
+  const generations = new Set<Generation>(
+    availability
+      .filter((clip) =>
+        clip.categories.some((category) =>
+          settings.categories.includes(category),
+        ),
+      )
+      .map((clip) => generationForYear(clip.generationYear)),
+  );
+  if (settings.generation !== undefined) generations.add(settings.generation);
+  const generationOptions = [...generations].sort((a, b) =>
+    a === "unknown" ? 1 : b === "unknown" ? -1 : a - b,
+  );
   const unsaved = JSON.stringify(settings) !== JSON.stringify(state.settings);
   const blockers = launchBlockers(settings, eligible, unsaved, state.players);
   const attempt = g?.attempts.at(-1);
@@ -710,10 +741,80 @@ export function RoomClient({ code }: { code: string }) {
                   </div>
                 </div>
                 <div className="settings-grid">
-                  {hasVideoCatalogue && (
+                  <div>
+                    <label htmlFor="generation">Génération (5 ans)</label>
+                    <select
+                      id="generation"
+                      aria-describedby="generation-help"
+                      value={settings.generation ?? ""}
+                      onChange={(event) => {
+                        const value = event.target.value;
+                        setSettings({
+                          ...settings,
+                          broadcastEra: undefined,
+                          generation:
+                            value === ""
+                              ? undefined
+                              : value === "unknown"
+                                ? "unknown"
+                                : Number(value),
+                        });
+                      }}
+                    >
+                      <option value="">
+                        Toutes les générations ·{" "}
+                        {countFor({
+                          generation: undefined,
+                          broadcastEra: undefined,
+                        })}{" "}
+                        titres
+                      </option>
+                      {generationOptions.map((generation) => (
+                        <option key={generation} value={generation}>
+                          {generationLabel(generation)} ·{" "}
+                          {countFor({ generation, broadcastEra: undefined })}{" "}
+                          titres
+                        </option>
+                      ))}
+                    </select>
+                    <p id="generation-help" className="small muted">
+                      Sortie du jeu ou première diffusion en France du dessin
+                      animé.
+                    </p>
+                  </div>
+                  <div>
+                    <label htmlFor="popularity">Popularité</label>
+                    <select
+                      id="popularity"
+                      aria-describedby="popularity-help"
+                      value={settings.popularity ?? ""}
+                      onChange={(event) =>
+                        setSettings({
+                          ...settings,
+                          popularity: (event.target.value || undefined) as
+                            Popularity | undefined,
+                        })
+                      }
+                    >
+                      <option value="">
+                        Toutes les popularités ·{" "}
+                        {countFor({ popularity: undefined })} titres
+                      </option>
+                      {popularityLevels.map((popularity) => (
+                        <option key={popularity} value={popularity}>
+                          {popularityLabels[popularity]} ·{" "}
+                          {countFor({ popularity })} titres
+                        </option>
+                      ))}
+                    </select>
+                    <p id="popularity-help" className="small muted">
+                      Appréciation éditoriale de la notoriété du thème.
+                    </p>
+                  </div>
+                  {settings.broadcastEra && (
                     <div>
                       <label htmlFor="broadcast-era">
-                        Première diffusion en France
+                        Première diffusion en France · ancien filtre
                       </label>
                       <select
                         id="broadcast-era"

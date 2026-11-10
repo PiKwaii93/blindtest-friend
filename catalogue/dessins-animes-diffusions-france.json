@@ -1,7 +1,20 @@
 {
+  "da-001": {
+    "year": 1975,
+    "source": "https://www.planete-jeunesse.com/fiche-290-scoubidou.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Scoubidouou Scoubidou, où es-tu ?"
+  },
   "da-004": {
     "year": 1963,
     "source": "https://www.planete-jeunesse.com/fiche-1596-les-pierrafeu.html"
+  },
+  "da-005": {
+    "year": 1992,
+    "source": "https://fr.wikipedia.org/wiki/Les_Jetson",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
   },
   "da-006": {
     "year": 1974,
@@ -87,6 +100,13 @@
     "year": 1994,
     "source": "https://www.planete-jeunesse.com/fiche-2685-la-petite-sirene-serie.html"
   },
+  "da-027": {
+    "year": 1995,
+    "source": "https://www.planete-jeunesse.com/fiche-720-aladdin-serie.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Aladdin (Série)"
+  },
   "da-028": {
     "year": 1995,
     "source": "https://www.planete-jeunesse.com/fiche-44-gargoyles-les-anges-de-la-nuit.html"
@@ -95,9 +115,21 @@
     "year": 1999,
     "source": "https://www.planete-jeunesse.com/fiche-697-le-laboratoire-de-dexter.html"
   },
+  "da-030": {
+    "year": 1999,
+    "source": "https://fr.wikipedia.org/wiki/Johnny_Bravo",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
   "da-031": {
     "year": 2000,
     "source": "https://www.planete-jeunesse.com/fiche-926-les-supers-nanas.html"
+  },
+  "da-032": {
+    "year": 2000,
+    "source": "https://fr.wikipedia.org/wiki/Courage%2C_le_chien_froussard",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
   },
   "da-033": {
     "year": 2000,
@@ -115,6 +147,13 @@
     "year": 1994,
     "source": "https://www.planete-jeunesse.com/fiche-1080-doug.html"
   },
+  "da-037": {
+    "year": 1994,
+    "source": "https://www.planete-jeunesse.com/fiche-200-animaniacs.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Animaniacs"
+  },
   "da-038": {
     "year": 1996,
     "source": "https://www.planete-jeunesse.com/fiche-669-minus-et-cortex.html"
@@ -122,6 +161,20 @@
   "da-039": {
     "year": 1999,
     "source": "https://www.planete-jeunesse.com/fiche-2157-la-cour-de-recre.html"
+  },
+  "da-040": {
+    "year": 1998,
+    "source": "https://www.planete-jeunesse.com/fiche-551-timon-pumbaa.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Timon & Pumbaa"
+  },
+  "da-041": {
+    "year": 1999,
+    "source": "https://www.planete-jeunesse.com/fiche-740-famille-pirate.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Famille Pirate"
   },
   "da-042": {
     "year": 1997,
@@ -163,6 +216,13 @@
     "year": 2003,
     "source": "https://www.planete-jeunesse.com/fiche-618-ratz.html"
   },
+  "da-052": {
+    "year": 2003,
+    "source": "https://www.planete-jeunesse.com/fiche-642-corneil-bernie.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Corneil & Bernie"
+  },
   "da-053": {
     "year": 2005,
     "source": "https://www.planete-jeunesse.com/fiche-2124-foot-2-rue.html"
@@ -179,6 +239,12 @@
     "year": 2004,
     "source": "https://www.planete-jeunesse.com/fiche-732-winx-club.html"
   },
+  "da-057": {
+    "year": 2005,
+    "source": "https://www.telesatellite.com/actu/12563-france-diffuse-depuis-hier.html",
+    "note": "Annonce contemporaine du lancement sur France 3 en fevrier 2005.",
+    "checked_on": "2026-11-11"
+  },
   "da-058": {
     "year": 2002,
     "source": "https://www.planete-jeunesse.com/fiche-1949-kim-possible.html"
@@ -194,6 +260,12 @@
   "da-061": {
     "year": 2003,
     "source": "https://www.planete-jeunesse.com/fiche-575-jimmy-neutron.html"
+  },
+  "da-062": {
+    "year": 2002,
+    "source": "https://fr.wikipedia.org/wiki/Mes_parrains_sont_magiques",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
   },
   "da-063": {
     "year": 2005,
@@ -219,9 +291,28 @@
     "year": 2003,
     "source": "https://www.planete-jeunesse.com/fiche-1032-dora-l-exploratrice.html"
   },
+  "da-069": {
+    "year": 2000,
+    "source": "https://fr.wikipedia.org/wiki/Clifford_le_gros_chien_rouge",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-070": {
+    "year": 2006,
+    "source": "https://www.planete-jeunesse.com/fiche-1204-charlotte-aux-fraises-2003.html",
+    "note": "Edition animee de 2003, lancement televise francais documente sur M6 en juillet 2006. La sortie DVD de 2004 est distincte.",
+    "checked_on": "2026-11-11"
+  },
   "da-071": {
     "year": 1988,
     "source": "https://www.planete-jeunesse.com/fiche-859-petit-ours-brun.html"
+  },
+  "da-072": {
+    "year": 1998,
+    "source": "https://www.planete-jeunesse.com/fiche-535-lascars-le-dessin-anime.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "LascarsLe dessin-animé"
   },
   "da-073": {
     "year": 2002,
@@ -255,21 +346,82 @@
     "year": 2012,
     "source": "https://www.planete-jeunesse.com/fiche-2382-souvenirs-de-gravity-falls.html"
   },
+  "da-081": {
+    "year": 2014,
+    "source": "https://fr.wikipedia.org/wiki/Teen_Titans_Go%21_%28s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e_d%27animation%29",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
   "da-082": {
     "year": 2015,
     "source": "https://www.planete-jeunesse.com/fiche-2661-miraculous-les-aventures-de-ladybug-et-chat-noir.html"
+  },
+  "da-083": {
+    "year": 2017,
+    "source": "https://fr.wikipedia.org/wiki/Les_Sisters_%28s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e_d%27animation%29",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-084": {
+    "year": 2016,
+    "source": "https://fr.wikipedia.org/wiki/Grizzy_et_les_Lemmings",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
   },
   "da-085": {
     "year": 2006,
     "source": "https://www.planete-jeunesse.com/fiche-2061-peppa-pig.html"
   },
+  "da-086": {
+    "year": 2014,
+    "source": "https://fr.wikipedia.org/wiki/PAW_Patrol_%3A_La_Pat%27_Patrouille",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-088": {
+    "year": 2016,
+    "source": "https://fr.wikipedia.org/wiki/Bienvenue_chez_les_Loud",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-089": {
+    "year": 2011,
+    "source": "https://fr.wikipedia.org/wiki/Ninjago_%3A_Les_Ma%C3%AEtres_du_Spinjitzu",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
   "da-090": {
     "year": 2011,
     "source": "https://www.planete-jeunesse.com/fiche-1773-my-little-pony-les-amies-c-est-magique.html"
   },
+  "da-091": {
+    "year": 2013,
+    "source": "https://fr.wikipedia.org/wiki/Dragons_%28s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e_d%27animation%29",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-092": {
+    "year": 2014,
+    "source": "https://fr.wikipedia.org/wiki/Sanjay_et_Craig",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
   "da-093": {
     "year": 2014,
     "source": "https://www.planete-jeunesse.com/fiche-3129-lolirock.html"
+  },
+  "da-094": {
+    "year": 2010,
+    "source": "https://fr.wikipedia.org/wiki/Zig_et_Sharko",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-095": {
+    "year": 2017,
+    "source": "https://www.planete-jeunesse.com/fiche-3198-oscar-malika-toujours-en-retard.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Oscar & Malika, toujours en retard"
   },
   "da-096": {
     "year": 2019,
@@ -278,6 +430,12 @@
   "da-097": {
     "year": 2022,
     "source": "https://www.planete-jeunesse.com/fiche-3537-sonic-prime.html"
+  },
+  "da-098": {
+    "year": 2020,
+    "source": "https://www.telerama.fr/enfants/chien-pourri-paddington-moi-elvis-...-les-heros-des-livres-saniment-pour-la-rentree-des-series-6685746.php",
+    "note": "Lancement francais annonce sur Gulli le 29 aout 2020.",
+    "checked_on": "2026-11-11"
   },
   "da-099": {
     "year": 2022,
@@ -327,6 +485,13 @@
     "year": 1983,
     "source": "https://www.planete-jeunesse.com/fiche-444-le-tour-du-monde-en-80-jours.html"
   },
+  "da-111": {
+    "year": 1984,
+    "source": "https://www.planete-jeunesse.com/fiche-267-les-3-mousquetaires.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Les 3 Mousquetaires"
+  },
   "da-113": {
     "year": 1978,
     "source": "https://www.planete-jeunesse.com/fiche-107-maya-l-abeille.html"
@@ -347,6 +512,13 @@
     "year": 1992,
     "source": "https://www.planete-jeunesse.com/fiche-364-les-aventures-de-tintin.html"
   },
+  "da-118": {
+    "year": 1984,
+    "source": "https://www.planete-jeunesse.com/fiche-303-lucky-luke-serie-1.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Lucky Luke (série 1)"
+  },
   "da-119": {
     "year": 2010,
     "source": "https://www.planete-jeunesse.com/fiche-1703-les-dalton.html"
@@ -354,6 +526,20 @@
   "da-120": {
     "year": 2003,
     "source": "https://www.planete-jeunesse.com/fiche-2052-mon-ami-marsupilami.html"
+  },
+  "da-121": {
+    "year": 2005,
+    "source": "https://www.planete-jeunesse.com/fiche-1224-yakari-2005.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Yakari (2005)"
+  },
+  "da-122": {
+    "year": 2005,
+    "source": "https://www.planete-jeunesse.com/fiche-1068-boule-et-bill-2004.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Boule et Bill (2004)"
   },
   "da-123": {
     "year": 2001,
@@ -366,6 +552,13 @@
   "da-125": {
     "year": 1995,
     "source": "https://www.planete-jeunesse.com/fiche-1121-les-babalous-les-babalous-en-vacances.html"
+  },
+  "da-126": {
+    "year": 1995,
+    "source": "https://www.planete-jeunesse.com/fiche-2091-les-contes-de-la-rue-broca-serie-2.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Les Contes de la Rue Broca (série 2)"
   },
   "da-127": {
     "year": 1998,
@@ -415,6 +608,13 @@
     "year": 1984,
     "source": "https://www.planete-jeunesse.com/fiche-7-les-maitres-de-l-univers.html"
   },
+  "da-139": {
+    "year": 1986,
+    "source": "https://www.planete-jeunesse.com/fiche-70-she-ra-princesse-du-pouvoir.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "She-Ra, Princesse du Pouvoir"
+  },
   "da-140": {
     "year": 1986,
     "source": "https://www.planete-jeunesse.com/fiche-6-cosmocats.html"
@@ -430,6 +630,13 @@
   "da-143": {
     "year": 1985,
     "source": "https://www.planete-jeunesse.com/fiche-300-transformers.html"
+  },
+  "da-144": {
+    "year": 1987,
+    "source": "https://www.planete-jeunesse.com/fiche-90-gi-joe.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "G.I. Joe Héros sans frontières"
   },
   "da-145": {
     "year": 1986,
@@ -523,6 +730,13 @@
     "year": 1999,
     "source": "https://www.planete-jeunesse.com/fiche-347-pokemon-serie-1.html"
   },
+  "da-168": {
+    "year": 2000,
+    "source": "https://www.planete-jeunesse.com/fiche-358-digimon-serie-1-digital-monsters.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Digimon (série 1)Digital Monsters"
+  },
   "da-169": {
     "year": 2002,
     "source": "https://www.planete-jeunesse.com/fiche-365-beyblade.html"
@@ -550,6 +764,13 @@
   "da-175": {
     "year": 1999,
     "source": "https://www.planete-jeunesse.com/fiche-370-sakura-chasseuse-de-cartes.html"
+  },
+  "da-176": {
+    "year": 2008,
+    "source": "https://www.planete-jeunesse.com/fiche-1429-tsubasa-chronicle-ou-tsubasa.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Tsubasa Chronicle(ou Tsubasa)"
   },
   "da-177": {
     "year": 1988,
@@ -595,6 +816,13 @@
     "year": 1990,
     "source": "https://www.planete-jeunesse.com/fiche-199-les-samourais-de-l-eternel.html"
   },
+  "da-190": {
+    "year": 1990,
+    "source": "https://www.planete-jeunesse.com/fiche-241-super-mario-bros.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Super Mario Bros"
+  },
   "da-191": {
     "year": 1995,
     "source": "https://www.planete-jeunesse.com/fiche-1808-les-aventures-de-sonic-serie-1.html"
@@ -614,6 +842,12 @@
   "da-195": {
     "year": 1984,
     "source": "https://www.planete-jeunesse.com/fiche-41-pac-man.html"
+  },
+  "da-196": {
+    "year": 2013,
+    "source": "https://fr.wikipedia.org/wiki/Pac-Man_et_les_Aventures_de_fant%C3%B4mes",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
   },
   "da-197": {
     "year": 2009,
@@ -651,13 +885,47 @@
     "year": 2001,
     "source": "https://www.planete-jeunesse.com/fiche-298-x-men-evolution.html"
   },
+  "da-206": {
+    "year": 1996,
+    "source": "https://www.planete-jeunesse.com/fiche-96-spider-man-l-homme-araignee.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Spider-Manl'homme araignée"
+  },
   "da-207": {
     "year": 2008,
     "source": "https://www.planete-jeunesse.com/fiche-1459-spectacular-spider-man.html"
   },
+  "da-208": {
+    "year": 1995,
+    "source": "https://www.planete-jeunesse.com/fiche-1280-les-4-fantastiques-1994.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Les 4 Fantastiques (1994)"
+  },
+  "da-209": {
+    "year": 1995,
+    "source": "https://www.planete-jeunesse.com/fiche-179-iron-man.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Iron Man"
+  },
   "da-210": {
     "year": 1996,
     "source": "https://www.planete-jeunesse.com/fiche-1794-le-bus-magique.html"
+  },
+  "da-211": {
+    "year": 2017,
+    "source": "https://www.radiostarsud.fr/news/le-dessin-anime-le-bus-magique-reprend-la-route-chez-netflix-2784",
+    "note": "Annonce francaise contemporaine de la diffusion sur Netflix en septembre 2017.",
+    "checked_on": "2026-11-11"
+  },
+  "da-212": {
+    "year": 2010,
+    "source": "https://www.planete-jeunesse.com/fiche-1853-babar-les-aventures-de-badou.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Babar - Les Aventures de Badou"
   },
   "da-213": {
     "year": 1999,
@@ -675,9 +943,33 @@
     "year": 1994,
     "source": "https://www.planete-jeunesse.com/fiche-2533-pingu.html"
   },
+  "da-219": {
+    "year": 2006,
+    "source": "https://fr.wikipedia.org/wiki/Didou%2C_dessine-moi_%28s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e_d%27animation%29",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
   "da-220": {
     "year": 2006,
     "source": "https://www.planete-jeunesse.com/fiche-1458-pocoyo.html"
+  },
+  "da-221": {
+    "year": 2010,
+    "source": "https://fr.wikipedia.org/wiki/Le_Dino_Train",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-223": {
+    "year": 1992,
+    "source": "https://fr.wikipedia.org/wiki/Thomas_et_ses_amis",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-224": {
+    "year": 2009,
+    "source": "https://fr.wikipedia.org/wiki/Sam_le_pompier",
+    "note": "Version en images de synthese (2008), diffusee en France en 2009. La version originale en stop-motion a une autre date.",
+    "checked_on": "2026-11-11"
   },
   "da-225": {
     "year": 2001,
@@ -690,6 +982,12 @@
   "da-227": {
     "year": 1999,
     "source": "https://www.planete-jeunesse.com/fiche-1640-t-choupi-et-doudou.html"
+  },
+  "da-228": {
+    "year": 2011,
+    "source": "https://fr.wikipedia.org/wiki/Les_Contes_de_Tinga_Tinga",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
   },
   "da-229": {
     "year": 2000,
@@ -719,6 +1017,24 @@
     "year": 2000,
     "source": "https://www.planete-jeunesse.com/fiche-476-les-nouvelles-aventures-de-lucky-luke.html"
   },
+  "da-236": {
+    "year": 2012,
+    "source": "https://fr.wikipedia.org/wiki/La_Vie_de_Rosie",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-237": {
+    "year": 2005,
+    "source": "https://fr.wikipedia.org/wiki/Les_Fr%C3%A8res_Koalas",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-238": {
+    "year": 2011,
+    "source": "https://animusique.forumsrpg.com/t433-interview-olivier-dutto-auteur-de-la-bd-les-p-tits-diables",
+    "note": "Entretien avec le createur annoncant le lancement sur Canal+ Family le 9 avril 2011.",
+    "checked_on": "2026-11-11"
+  },
   "da-239": {
     "year": 2013,
     "source": "https://www.planete-jeunesse.com/fiche-3195-les-as-de-la-jungle-a-la-rescousse.html"
@@ -726,6 +1042,72 @@
   "da-240": {
     "year": 2015,
     "source": "https://www.netflix.com/fr/title/80049870"
+  },
+  "da-241": {
+    "year": 2009,
+    "source": "https://fr.wikipedia.org/wiki/Les_Pingouins_de_Madagascar",
+    "note": "La rubrique France indique le lancement francais en 2009.",
+    "checked_on": "2026-11-11"
+  },
+  "da-242": {
+    "year": 2014,
+    "source": "https://www.a-suivre.org/annuseries/encyclopedie/series.php?series=11648",
+    "note": "La fiche distingue explicitement premiere diffusion francaise et originale, toutes deux en decembre 2014.",
+    "checked_on": "2026-11-11"
+  },
+  "da-243": {
+    "year": 2011,
+    "source": "https://fr.wikipedia.org/wiki/Kung_Fu_Panda_%3A_L%27Incroyable_L%C3%A9gende",
+    "note": "Deux episodes en avant-premiere sur TF1 en decembre 2011 ; diffusion reguliere en 2012.",
+    "checked_on": "2026-11-11"
+  },
+  "da-244": {
+    "year": 2018,
+    "source": "https://www.a-suivre.org/annuseries/encyclopedie/series.php?series=11636",
+    "note": "Premiere diffusion francaise sur Prime Video en novembre 2018.",
+    "checked_on": "2026-11-11"
+  },
+  "da-245": {
+    "year": 2015,
+    "source": "https://www.allocine.fr/series/ficheserie-18687/news/",
+    "note": "Annonce francaise de janvier 2015 precisant les debuts en France sur Netflix.",
+    "checked_on": "2026-11-11"
+  },
+  "da-246": {
+    "year": 2014,
+    "source": "https://www.parentgalactique.fr/2014/09/netflix-debarque-enfin-en-france-y-les-enfants/",
+    "note": "Presence au catalogue jeunesse au lancement de Netflix France en septembre 2014.",
+    "checked_on": "2026-11-11"
+  },
+  "da-247": {
+    "year": 2015,
+    "source": "https://fr.flixboss.com/serie/dinotrux-80049903",
+    "note": "Le suivi du catalogue France indique une disponibilite sur Netflix France en aout 2015.",
+    "checked_on": "2026-11-11"
+  },
+  "da-248": {
+    "year": 2018,
+    "source": "https://about.netflix.com/fr/news/netflix-and-dreamworks-animation-television-to-premiere-six-original-series-in-2018",
+    "note": "Communique Netflix annoncant janvier 2018 et incluant explicitement la France parmi les territoires.",
+    "checked_on": "2026-11-11"
+  },
+  "da-249": {
+    "year": 2015,
+    "source": "https://www.a-suivre.org/annuseries/encyclopedie/series.php?series=9394",
+    "note": "La fiche indique explicitement une premiere diffusion francaise en juin 2015.",
+    "checked_on": "2026-11-11"
+  },
+  "da-250": {
+    "year": 2017,
+    "source": "https://fr.flixboss.com/serie/spirit-au-galop-en-toute-liberte-80115432",
+    "note": "Disponibilite initiale de mai 2017 documentee pour le catalogue Netflix France.",
+    "checked_on": "2026-11-11"
+  },
+  "da-251": {
+    "year": 2015,
+    "source": "https://www.allocine.fr/diaporamas/cinema/diaporama-18646222/",
+    "note": "Annonce francaise contemporaine des nouveautes Netflix France en octobre 2015.",
+    "checked_on": "2026-11-11"
   },
   "da-252": {
     "year": 1999,
@@ -739,13 +1121,141 @@
     "year": 2007,
     "source": "https://www.planete-jeunesse.com/fiche-1274-samsam.html"
   },
+  "da-255": {
+    "year": 2006,
+    "source": "https://fr.wikipedia.org/wiki/Dave_le_barbare",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-257": {
+    "year": 2002,
+    "source": "https://fr.wikipedia.org/wiki/La_L%C3%A9gende_de_Tarzan",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-258": {
+    "year": 1998,
+    "source": "https://www.planete-jeunesse.com/fiche-3164-hercule-serie.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Hercule (série)"
+  },
+  "da-259": {
+    "year": 2001,
+    "source": "https://fr.wikipedia.org/wiki/Les_Aventures_de_Buzz_l%27%C3%89clair",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-260": {
+    "year": 2003,
+    "source": "https://www.planete-jeunesse.com/fiche-2752-lilo-stitch-la-serie.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Lilo & Stitch, la Série"
+  },
   "da-261": {
     "year": 2006,
     "source": "https://www.planete-jeunesse.com/fiche-3038-kuzco-un-empereur-a-l-ecole.html"
   },
+  "da-262": {
+    "year": 2006,
+    "source": "https://fr.wikipedia.org/wiki/Les_Rempla%C3%A7ants_%28s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e_d%27animation%29",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-263": {
+    "year": 2011,
+    "source": "https://fr.wikipedia.org/wiki/Jake_et_les_Pirates_du_Pays_imaginaire",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-264": {
+    "year": 2012,
+    "source": "https://www.chroniquedisney.fr/serie-03-TD/2013-princesse-sofia-S1.htm",
+    "note": "Pilote francais diffuse en decembre 2012 ; episodes reguliers en 2013.",
+    "checked_on": "2026-11-11"
+  },
+  "da-265": {
+    "year": 2016,
+    "source": "https://fr.wikipedia.org/wiki/Elena_d%27Avalor",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-266": {
+    "year": 2012,
+    "source": "https://fr.wikipedia.org/wiki/Docteur_La_Peluche",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
   "da-267": {
     "year": 2006,
     "source": "https://www.planete-jeunesse.com/fiche-1723-la-maison-de-mickey.html"
+  },
+  "da-268": {
+    "year": 2017,
+    "source": "https://fr.wikipedia.org/wiki/Mickey_et_ses_amis_%3A_Top_D%C3%A9part_%21",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-269": {
+    "year": 2018,
+    "source": "https://fr.wikipedia.org/wiki/Le_Monde_de_Bingo_et_Rolly",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-270": {
+    "year": 2017,
+    "source": "https://www.imdb.com/title/tt7010622/releaseinfo/",
+    "note": "Sortie France indiquee au 18 decembre 2017.",
+    "checked_on": "2026-11-11"
+  },
+  "da-271": {
+    "year": 2016,
+    "source": "https://fr.wikipedia.org/wiki/La_Garde_du_Roi_lion",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-272": {
+    "year": 2017,
+    "source": "https://fr.wikipedia.org/wiki/Raiponce%2C_la_s%C3%A9rie",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-273": {
+    "year": 2017,
+    "source": "https://fr.wikipedia.org/wiki/La_Bande_%C3%A0_Picsou_%28s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e_d%27animation%2C_2017%29",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-274": {
+    "year": 2019,
+    "source": "https://fr.wikipedia.org/wiki/Amphibia_%28s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e_d%27animation%29",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-275": {
+    "year": 2020,
+    "source": "https://fr.wikipedia.org/wiki/Luz_%C3%A0_Osville",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-276": {
+    "year": 2018,
+    "source": "https://fr.wikipedia.org/wiki/Les_Green_%C3%A0_Big_City",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-277": {
+    "year": 2018,
+    "source": "https://fr.wikipedia.org/wiki/Baymax_et_les_Nouveaux_H%C3%A9ros",
+    "note": "La notice situe la premiere diffusion francaise de cette serie en 2018.",
+    "checked_on": "2026-11-11"
+  },
+  "da-278": {
+    "year": 2015,
+    "source": "https://fr.wikipedia.org/wiki/Star_Butterfly",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
   },
   "da-279": {
     "year": 2013,
@@ -755,25 +1265,86 @@
     "year": 2023,
     "source": "https://newsroom.disney.fr/actualites/avez-vous-deja-vu-un-hamster-super-heros-les-aventures-dejantees-des-super-heros-hamster-et-gretel-sont-a-decouvrir-des-le-11-mars-sur-disney-channel-8927-dc71f.html"
   },
+  "da-281": {
+    "year": 2017,
+    "source": "https://fr.wikipedia.org/wiki/La_Loi_de_Milo_Murphy",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
   "da-282": {
     "year": 2021,
     "source": "https://www.nickalive.net/2021/09/nickelodeon-france-to-premiere-kamp.html"
+  },
+  "da-283": {
+    "year": 2022,
+    "source": "https://fr.wikipedia.org/wiki/Patrick_Super_Star",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
   },
   "da-284": {
     "year": 2001,
     "source": "https://www.planete-jeunesse.com/fiche-623-rocket-power.html"
   },
+  "da-285": {
+    "year": 1999,
+    "source": "https://fr.wikipedia.org/wiki/Les_Castors_allum%C3%A9s",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
   "da-286": {
     "year": 1999,
     "source": "https://www.planete-jeunesse.com/fiche-741-michat-michien.html"
+  },
+  "da-288": {
+    "year": 2004,
+    "source": "https://www.planete-jeunesse.com/fiche-1174-razbitume.html",
+    "note": "Premiere diffusion en France identifiee dans les rubriques de diffusion de cette edition.",
+    "checked_on": "2026-11-11",
+    "edition": "Razbitume"
   },
   "da-289": {
     "year": 2007,
     "source": "https://www.planete-jeunesse.com/fiche-1948-manny-et-ses-outils.html"
   },
+  "da-292": {
+    "year": 2011,
+    "source": "https://fr.wikipedia.org/wiki/TUFF_Puppy",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-293": {
+    "year": 2014,
+    "source": "https://fr.wikipedia.org/wiki/Breadwinners",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-294": {
+    "year": 2015,
+    "source": "https://fr.wikipedia.org/wiki/Harvey_Beaks",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
+  "da-295": {
+    "year": 2020,
+    "source": "https://fr.wikipedia.org/wiki/Bienvenue_chez_les_Casagrandes",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
+  },
   "da-296": {
     "year": 2003,
     "source": "https://www.planete-jeunesse.com/fiche-847-tortues-ninja-tmnt.html"
+  },
+  "da-297": {
+    "year": 2012,
+    "source": "https://fr.wikipedia.org/wiki/Les_Tortues_Ninja_%28s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e_d%27animation%2C_2012%29",
+    "note": "Adaptation de 2012, diffusion francaise documentee en 2012, notamment sur France 3 en novembre.",
+    "checked_on": "2026-11-11"
+  },
+  "da-298": {
+    "year": 2018,
+    "source": "https://fr.wikipedia.org/wiki/Le_Destin_des_Tortues_Ninja",
+    "note": "Annee de diffusion en France indiquee explicitement dans la notice de la serie.",
+    "checked_on": "2026-11-11"
   },
   "da-299": {
     "year": 2011,
