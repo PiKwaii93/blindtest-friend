@@ -1,0 +1,786 @@
+{
+  "da-004": {
+    "year": 1963,
+    "source": "https://www.planete-jeunesse.com/fiche-1596-les-pierrafeu.html"
+  },
+  "da-006": {
+    "year": 1974,
+    "source": "https://www.planete-jeunesse.com/fiche-312-la-panthere-rose.html"
+  },
+  "da-007": {
+    "year": 1964,
+    "source": "https://www.planete-jeunesse.com/fiche-448-le-manege-enchante.html"
+  },
+  "da-008": {
+    "year": 1974,
+    "source": "https://www.planete-jeunesse.com/fiche-229-barbapapa.html"
+  },
+  "da-009": {
+    "year": 1983,
+    "source": "https://www.planete-jeunesse.com/fiche-156-les-schtroumpfs.html"
+  },
+  "da-010": {
+    "year": 1983,
+    "source": "https://www.planete-jeunesse.com/fiche-31-inspecteur-gadget.html"
+  },
+  "da-011": {
+    "year": 1983,
+    "source": "https://www.planete-jeunesse.com/fiche-3055-les-mysterieuses-cites-d-or.html"
+  },
+  "da-012": {
+    "year": 1981,
+    "source": "https://www.planete-jeunesse.com/fiche-30-ulysse-31.html"
+  },
+  "da-013": {
+    "year": 1984,
+    "source": "https://www.planete-jeunesse.com/fiche-198-les-minipouss.html"
+  },
+  "da-014": {
+    "year": 1985,
+    "source": "https://www.planete-jeunesse.com/fiche-184-les-entrechats.html"
+  },
+  "da-015": {
+    "year": 1984,
+    "source": "https://www.planete-jeunesse.com/fiche-205-les-bisounours.html"
+  },
+  "da-016": {
+    "year": 1986,
+    "source": "https://www.planete-jeunesse.com/fiche-302-les-gummi.html"
+  },
+  "da-017": {
+    "year": 1988,
+    "source": "https://www.planete-jeunesse.com/fiche-235-la-bande-a-picsou.html"
+  },
+  "da-018": {
+    "year": 1986,
+    "source": "https://www.planete-jeunesse.com/fiche-60-il-etait-une-fois-la-vie.html"
+  },
+  "da-019": {
+    "year": 1989,
+    "source": "https://www.planete-jeunesse.com/fiche-174-tortues-ninja-les-chevaliers-d-ecaille.html"
+  },
+  "da-020": {
+    "year": 1989,
+    "source": "https://www.planete-jeunesse.com/fiche-218-denver-le-dernier-dinosaure.html"
+  },
+  "da-021": {
+    "year": 1990,
+    "source": "https://www.planete-jeunesse.com/fiche-220-tic-et-tac-les-rangers-du-risque.html"
+  },
+  "da-022": {
+    "year": 1989,
+    "source": "https://www.planete-jeunesse.com/fiche-420-les-nouvelles-aventures-de-winnie-l-ourson.html"
+  },
+  "da-023": {
+    "year": 1991,
+    "source": "https://www.planete-jeunesse.com/fiche-239-super-baloo.html"
+  },
+  "da-024": {
+    "year": 1992,
+    "source": "https://www.planete-jeunesse.com/fiche-238-myster-mask.html"
+  },
+  "da-025": {
+    "year": 1993,
+    "source": "https://www.planete-jeunesse.com/fiche-233-la-bande-a-dingo.html"
+  },
+  "da-026": {
+    "year": 1994,
+    "source": "https://www.planete-jeunesse.com/fiche-2685-la-petite-sirene-serie.html"
+  },
+  "da-028": {
+    "year": 1995,
+    "source": "https://www.planete-jeunesse.com/fiche-44-gargoyles-les-anges-de-la-nuit.html"
+  },
+  "da-029": {
+    "year": 1999,
+    "source": "https://www.planete-jeunesse.com/fiche-697-le-laboratoire-de-dexter.html"
+  },
+  "da-031": {
+    "year": 2000,
+    "source": "https://www.planete-jeunesse.com/fiche-926-les-supers-nanas.html"
+  },
+  "da-033": {
+    "year": 2000,
+    "source": "https://www.planete-jeunesse.com/fiche-1207-ed-edd-et-eddy.html"
+  },
+  "da-034": {
+    "year": 1992,
+    "source": "https://www.planete-jeunesse.com/fiche-332-les-razmoket.html"
+  },
+  "da-035": {
+    "year": 1998,
+    "source": "https://www.planete-jeunesse.com/fiche-65-he-arnold.html"
+  },
+  "da-036": {
+    "year": 1994,
+    "source": "https://www.planete-jeunesse.com/fiche-1080-doug.html"
+  },
+  "da-038": {
+    "year": 1996,
+    "source": "https://www.planete-jeunesse.com/fiche-669-minus-et-cortex.html"
+  },
+  "da-039": {
+    "year": 1999,
+    "source": "https://www.planete-jeunesse.com/fiche-2157-la-cour-de-recre.html"
+  },
+  "da-042": {
+    "year": 1997,
+    "source": "https://www.planete-jeunesse.com/fiche-475-les-zinzins-de-l-espace.html"
+  },
+  "da-043": {
+    "year": 1998,
+    "source": "https://www.planete-jeunesse.com/fiche-519-oggy-et-les-cafards.html"
+  },
+  "da-044": {
+    "year": 1990,
+    "source": "https://www.planete-jeunesse.com/fiche-487-les-simpson.html"
+  },
+  "da-045": {
+    "year": 2000,
+    "source": "https://www.planete-jeunesse.com/fiche-322-futurama.html"
+  },
+  "da-046": {
+    "year": 2002,
+    "source": "https://www.planete-jeunesse.com/fiche-545-bob-l-eponge.html"
+  },
+  "da-047": {
+    "year": 2002,
+    "source": "https://www.planete-jeunesse.com/fiche-558-totally-spies-espionnes-de-choc.html"
+  },
+  "da-048": {
+    "year": 2003,
+    "source": "https://www.planete-jeunesse.com/fiche-616-code-lyoko.html"
+  },
+  "da-049": {
+    "year": 2001,
+    "source": "https://www.planete-jeunesse.com/fiche-565-titeuf.html"
+  },
+  "da-050": {
+    "year": 2003,
+    "source": "https://www.planete-jeunesse.com/fiche-909-martin-mystere.html"
+  },
+  "da-051": {
+    "year": 2003,
+    "source": "https://www.planete-jeunesse.com/fiche-618-ratz.html"
+  },
+  "da-053": {
+    "year": 2005,
+    "source": "https://www.planete-jeunesse.com/fiche-2124-foot-2-rue.html"
+  },
+  "da-054": {
+    "year": 2006,
+    "source": "https://www.planete-jeunesse.com/fiche-1139-galactik-football.html"
+  },
+  "da-055": {
+    "year": 2008,
+    "source": "https://www.planete-jeunesse.com/fiche-1667-wakfu.html"
+  },
+  "da-056": {
+    "year": 2004,
+    "source": "https://www.planete-jeunesse.com/fiche-732-winx-club.html"
+  },
+  "da-058": {
+    "year": 2002,
+    "source": "https://www.planete-jeunesse.com/fiche-1949-kim-possible.html"
+  },
+  "da-059": {
+    "year": 2008,
+    "source": "https://www.planete-jeunesse.com/fiche-2535-phineas-et-ferb.html"
+  },
+  "da-060": {
+    "year": 1998,
+    "source": "https://www.planete-jeunesse.com/fiche-427-la-famille-delajungle.html"
+  },
+  "da-061": {
+    "year": 2003,
+    "source": "https://www.planete-jeunesse.com/fiche-575-jimmy-neutron.html"
+  },
+  "da-063": {
+    "year": 2005,
+    "source": "https://www.planete-jeunesse.com/fiche-1122-danny-fantome.html"
+  },
+  "da-064": {
+    "year": 2005,
+    "source": "https://www.planete-jeunesse.com/fiche-963-avatar-le-dernier-maitre-de-l-air.html"
+  },
+  "da-065": {
+    "year": 2007,
+    "source": "https://www.planete-jeunesse.com/fiche-1634-ben-10.html"
+  },
+  "da-066": {
+    "year": 2005,
+    "source": "https://www.planete-jeunesse.com/fiche-1114-american-dragon-jake-long.html"
+  },
+  "da-067": {
+    "year": 2001,
+    "source": "https://www.planete-jeunesse.com/fiche-521-jackie-chan.html"
+  },
+  "da-068": {
+    "year": 2003,
+    "source": "https://www.planete-jeunesse.com/fiche-1032-dora-l-exploratrice.html"
+  },
+  "da-071": {
+    "year": 1988,
+    "source": "https://www.planete-jeunesse.com/fiche-859-petit-ours-brun.html"
+  },
+  "da-073": {
+    "year": 2002,
+    "source": "https://www.planete-jeunesse.com/fiche-273-funky-cops.html"
+  },
+  "da-074": {
+    "year": 2008,
+    "source": "https://www.planete-jeunesse.com/fiche-2274-les-minijusticiers.html"
+  },
+  "da-075": {
+    "year": 2008,
+    "source": "https://www.planete-jeunesse.com/fiche-1636-garfield-cie.html"
+  },
+  "da-076": {
+    "year": 2011,
+    "source": "https://www.planete-jeunesse.com/fiche-1745-adventure-time.html"
+  },
+  "da-077": {
+    "year": 2011,
+    "source": "https://www.planete-jeunesse.com/fiche-1714-le-monde-incroyable-de-gumball.html"
+  },
+  "da-078": {
+    "year": 2011,
+    "source": "https://www.planete-jeunesse.com/fiche-1716-regular-show.html"
+  },
+  "da-079": {
+    "year": 2014,
+    "source": "https://www.planete-jeunesse.com/fiche-2375-steven-universe.html"
+  },
+  "da-080": {
+    "year": 2012,
+    "source": "https://www.planete-jeunesse.com/fiche-2382-souvenirs-de-gravity-falls.html"
+  },
+  "da-082": {
+    "year": 2015,
+    "source": "https://www.planete-jeunesse.com/fiche-2661-miraculous-les-aventures-de-ladybug-et-chat-noir.html"
+  },
+  "da-085": {
+    "year": 2006,
+    "source": "https://www.planete-jeunesse.com/fiche-2061-peppa-pig.html"
+  },
+  "da-090": {
+    "year": 2011,
+    "source": "https://www.planete-jeunesse.com/fiche-1773-my-little-pony-les-amies-c-est-magique.html"
+  },
+  "da-093": {
+    "year": 2014,
+    "source": "https://www.planete-jeunesse.com/fiche-3129-lolirock.html"
+  },
+  "da-096": {
+    "year": 2019,
+    "source": "https://newsroom.disney.fr/actualites/detendez-vous-devant-bluey-la-nouvelle-serie-danimation-de-disney-junior-0e84-dc71f.html"
+  },
+  "da-097": {
+    "year": 2022,
+    "source": "https://www.planete-jeunesse.com/fiche-3537-sonic-prime.html"
+  },
+  "da-099": {
+    "year": 2022,
+    "source": "https://www.netflix.com/fr/title/80242531"
+  },
+  "da-100": {
+    "year": 2013,
+    "source": "https://www.planete-jeunesse.com/fiche-3294-les-lapins-cretins-invasion.html"
+  },
+  "da-101": {
+    "year": 1978,
+    "source": "https://www.planete-jeunesse.com/fiche-9-goldorak.html"
+  },
+  "da-102": {
+    "year": 1980,
+    "source": "https://www.planete-jeunesse.com/fiche-11-albator-le-corsaire-de-l-espace.html"
+  },
+  "da-103": {
+    "year": 1984,
+    "source": "https://www.planete-jeunesse.com/fiche-12-albator-84.html"
+  },
+  "da-104": {
+    "year": 1978,
+    "source": "https://www.planete-jeunesse.com/fiche-35-candy.html"
+  },
+  "da-105": {
+    "year": 1982,
+    "source": "https://www.planete-jeunesse.com/fiche-2-remi-sans-famille.html"
+  },
+  "da-106": {
+    "year": 1979,
+    "source": "https://www.planete-jeunesse.com/fiche-28-heidi.html"
+  },
+  "da-107": {
+    "year": 1987,
+    "source": "https://www.planete-jeunesse.com/fiche-232-princesse-sarah.html"
+  },
+  "da-108": {
+    "year": 1983,
+    "source": "https://www.planete-jeunesse.com/fiche-80-belle-et-sebastien.html"
+  },
+  "da-109": {
+    "year": 1982,
+    "source": "https://www.planete-jeunesse.com/fiche-26-tom-sawyer.html"
+  },
+  "da-110": {
+    "year": 1983,
+    "source": "https://www.planete-jeunesse.com/fiche-444-le-tour-du-monde-en-80-jours.html"
+  },
+  "da-113": {
+    "year": 1978,
+    "source": "https://www.planete-jeunesse.com/fiche-107-maya-l-abeille.html"
+  },
+  "da-114": {
+    "year": 1979,
+    "source": "https://www.planete-jeunesse.com/fiche-118-wickie-vic-le-viking.html"
+  },
+  "da-115": {
+    "year": 1984,
+    "source": "https://www.planete-jeunesse.com/fiche-175-le-merveilleux-voyage-de-nils-holgersson-au-pays-des-oies-sauvages.html"
+  },
+  "da-116": {
+    "year": 1989,
+    "source": "https://www.planete-jeunesse.com/fiche-201-babar.html"
+  },
+  "da-117": {
+    "year": 1992,
+    "source": "https://www.planete-jeunesse.com/fiche-364-les-aventures-de-tintin.html"
+  },
+  "da-119": {
+    "year": 2010,
+    "source": "https://www.planete-jeunesse.com/fiche-1703-les-dalton.html"
+  },
+  "da-120": {
+    "year": 2003,
+    "source": "https://www.planete-jeunesse.com/fiche-2052-mon-ami-marsupilami.html"
+  },
+  "da-123": {
+    "year": 2001,
+    "source": "https://www.planete-jeunesse.com/fiche-445-cedric.html"
+  },
+  "da-124": {
+    "year": 2004,
+    "source": "https://www.planete-jeunesse.com/fiche-1391-trotro.html"
+  },
+  "da-125": {
+    "year": 1995,
+    "source": "https://www.planete-jeunesse.com/fiche-1121-les-babalous-les-babalous-en-vacances.html"
+  },
+  "da-127": {
+    "year": 1998,
+    "source": "https://www.planete-jeunesse.com/fiche-340-les-malheurs-de-sophie.html"
+  },
+  "da-128": {
+    "year": 1968,
+    "source": "https://www.planete-jeunesse.com/fiche-804-les-shadoks.html"
+  },
+  "da-129": {
+    "year": 1970,
+    "source": "https://www.planete-jeunesse.com/fiche-207-les-aventures-de-colargol.html"
+  },
+  "da-130": {
+    "year": 1974,
+    "source": "https://www.planete-jeunesse.com/fiche-187-chapi-chapo.html"
+  },
+  "da-131": {
+    "year": 1969,
+    "source": "https://www.planete-jeunesse.com/fiche-186-aglae-et-sidonie.html"
+  },
+  "da-132": {
+    "year": 1978,
+    "source": "https://www.planete-jeunesse.com/fiche-93-il-etait-une-fois-l-homme.html"
+  },
+  "da-133": {
+    "year": 1982,
+    "source": "https://www.planete-jeunesse.com/fiche-92-il-etait-une-fois-l-espace.html"
+  },
+  "da-134": {
+    "year": 1994,
+    "source": "https://www.planete-jeunesse.com/fiche-97-il-etait-une-fois-les-decouvreurs.html"
+  },
+  "da-135": {
+    "year": 1996,
+    "source": "https://www.planete-jeunesse.com/fiche-98-il-etait-une-fois-les-explorateurs.html"
+  },
+  "da-136": {
+    "year": 1991,
+    "source": "https://www.planete-jeunesse.com/fiche-95-il-etait-une-fois-les-ameriques.html"
+  },
+  "da-137": {
+    "year": 1985,
+    "source": "https://www.planete-jeunesse.com/fiche-61-les-mondes-engloutis.html"
+  },
+  "da-138": {
+    "year": 1984,
+    "source": "https://www.planete-jeunesse.com/fiche-7-les-maitres-de-l-univers.html"
+  },
+  "da-140": {
+    "year": 1986,
+    "source": "https://www.planete-jeunesse.com/fiche-6-cosmocats.html"
+  },
+  "da-141": {
+    "year": 1988,
+    "source": "https://www.planete-jeunesse.com/fiche-81-silverhawks.html"
+  },
+  "da-142": {
+    "year": 1986,
+    "source": "https://www.planete-jeunesse.com/fiche-115-mask.html"
+  },
+  "da-143": {
+    "year": 1985,
+    "source": "https://www.planete-jeunesse.com/fiche-300-transformers.html"
+  },
+  "da-145": {
+    "year": 1986,
+    "source": "https://www.planete-jeunesse.com/fiche-48-jem-et-les-hologrammes.html"
+  },
+  "da-146": {
+    "year": 1990,
+    "source": "https://www.planete-jeunesse.com/fiche-139-max-et-compagnie.html"
+  },
+  "da-147": {
+    "year": 1987,
+    "source": "https://www.planete-jeunesse.com/fiche-225-emi-magique.html"
+  },
+  "da-148": {
+    "year": 1988,
+    "source": "https://www.planete-jeunesse.com/fiche-243-creamy-merveilleuse-creamy-ou-creamy-adorable-creamy.html"
+  },
+  "da-149": {
+    "year": 1988,
+    "source": "https://www.planete-jeunesse.com/fiche-280-susy-aux-fleurs-magiques.html"
+  },
+  "da-150": {
+    "year": 1984,
+    "source": "https://www.planete-jeunesse.com/fiche-164-gigi.html"
+  },
+  "da-151": {
+    "year": 2000,
+    "source": "https://www.planete-jeunesse.com/fiche-925-magical-doremi.html"
+  },
+  "da-152": {
+    "year": 1993,
+    "source": "https://www.planete-jeunesse.com/fiche-161-sailor-moon.html"
+  },
+  "da-153": {
+    "year": 1986,
+    "source": "https://www.planete-jeunesse.com/fiche-111-lady-oscar.html"
+  },
+  "da-154": {
+    "year": 1988,
+    "source": "https://www.planete-jeunesse.com/fiche-162-georgie.html"
+  },
+  "da-155": {
+    "year": 1988,
+    "source": "https://www.planete-jeunesse.com/fiche-130-embrasse-moi-lucile-ou-lucile-amour-et-rock-n-roll.html"
+  },
+  "da-156": {
+    "year": 1988,
+    "source": "https://www.planete-jeunesse.com/fiche-262-juliette-je-t-aime.html"
+  },
+  "da-157": {
+    "year": 1992,
+    "source": "https://www.planete-jeunesse.com/fiche-234-ranma-1-2.html"
+  },
+  "da-158": {
+    "year": 1988,
+    "source": "https://www.planete-jeunesse.com/fiche-158-lamu.html"
+  },
+  "da-159": {
+    "year": 1990,
+    "source": "https://www.planete-jeunesse.com/fiche-160-nicky-larson.html"
+  },
+  "da-160": {
+    "year": 1986,
+    "source": "https://www.planete-jeunesse.com/fiche-154-signe-cat-s-eyes.html"
+  },
+  "da-161": {
+    "year": 1988,
+    "source": "https://www.planete-jeunesse.com/fiche-24-ken-le-survivant.html"
+  },
+  "da-162": {
+    "year": 1988,
+    "source": "https://www.planete-jeunesse.com/fiche-8-les-chevaliers-du-zodiaque.html"
+  },
+  "da-163": {
+    "year": 1988,
+    "source": "https://www.planete-jeunesse.com/fiche-18-dragon-ball.html"
+  },
+  "da-164": {
+    "year": 1990,
+    "source": "https://www.planete-jeunesse.com/fiche-19-dragon-ball-z.html"
+  },
+  "da-165": {
+    "year": 1999,
+    "source": "https://www.planete-jeunesse.com/fiche-1509-dragon-ball-gt.html"
+  },
+  "da-166": {
+    "year": 2017,
+    "source": "https://www.planete-jeunesse.com/fiche-2829-dragon-ball-super.html"
+  },
+  "da-167": {
+    "year": 1999,
+    "source": "https://www.planete-jeunesse.com/fiche-347-pokemon-serie-1.html"
+  },
+  "da-169": {
+    "year": 2002,
+    "source": "https://www.planete-jeunesse.com/fiche-365-beyblade.html"
+  },
+  "da-170": {
+    "year": 2006,
+    "source": "https://www.planete-jeunesse.com/fiche-1719-yu-gi-oh-gx.html"
+  },
+  "da-171": {
+    "year": 2009,
+    "source": "https://www.planete-jeunesse.com/fiche-2870-yu-gi-oh-5d-s.html"
+  },
+  "da-172": {
+    "year": 2003,
+    "source": "https://www.planete-jeunesse.com/fiche-1051-shaman-king.html"
+  },
+  "da-173": {
+    "year": 2001,
+    "source": "https://www.planete-jeunesse.com/fiche-660-medabots.html"
+  },
+  "da-174": {
+    "year": 2001,
+    "source": "https://www.planete-jeunesse.com/fiche-1523-monster-rancher.html"
+  },
+  "da-175": {
+    "year": 1999,
+    "source": "https://www.planete-jeunesse.com/fiche-370-sakura-chasseuse-de-cartes.html"
+  },
+  "da-177": {
+    "year": 1988,
+    "source": "https://www.planete-jeunesse.com/fiche-105-olive-et-tom-champions-de-foot.html"
+  },
+  "da-178": {
+    "year": 1992,
+    "source": "https://www.planete-jeunesse.com/fiche-212-l-ecole-des-champions.html"
+  },
+  "da-179": {
+    "year": 1989,
+    "source": "https://www.planete-jeunesse.com/fiche-57-but-pour-rudy.html"
+  },
+  "da-180": {
+    "year": 1987,
+    "source": "https://www.planete-jeunesse.com/fiche-39-jeanne-et-serge.html"
+  },
+  "da-181": {
+    "year": 1989,
+    "source": "https://www.planete-jeunesse.com/fiche-131-gwendoline.html"
+  },
+  "da-182": {
+    "year": 1981,
+    "source": "https://www.planete-jeunesse.com/fiche-10-capitaine-flam.html"
+  },
+  "da-183": {
+    "year": 1985,
+    "source": "https://www.planete-jeunesse.com/fiche-1-cobra-space-adventure.html"
+  },
+  "da-184": {
+    "year": 1986,
+    "source": "https://www.planete-jeunesse.com/fiche-21-astro-le-petit-robot.html"
+  },
+  "da-185": {
+    "year": 1987,
+    "source": "https://www.planete-jeunesse.com/fiche-236-robotech-serie-1.html"
+  },
+  "da-186": {
+    "year": 1985,
+    "source": "https://www.planete-jeunesse.com/fiche-68-jayce-et-les-conquerants-de-la-lumiere.html"
+  },
+  "da-187": {
+    "year": 1990,
+    "source": "https://www.planete-jeunesse.com/fiche-199-les-samourais-de-l-eternel.html"
+  },
+  "da-191": {
+    "year": 1995,
+    "source": "https://www.planete-jeunesse.com/fiche-1808-les-aventures-de-sonic-serie-1.html"
+  },
+  "da-192": {
+    "year": 2003,
+    "source": "https://www.planete-jeunesse.com/fiche-807-sonic-x.html"
+  },
+  "da-193": {
+    "year": 2014,
+    "source": "https://www.planete-jeunesse.com/fiche-3353-sonic-boom.html"
+  },
+  "da-194": {
+    "year": 1998,
+    "source": "https://www.planete-jeunesse.com/fiche-1679-donkey-kong.html"
+  },
+  "da-195": {
+    "year": 1984,
+    "source": "https://www.planete-jeunesse.com/fiche-41-pac-man.html"
+  },
+  "da-197": {
+    "year": 2009,
+    "source": "https://www.planete-jeunesse.com/fiche-1818-les-nouvelles-aventures-de-batman.html"
+  },
+  "da-198": {
+    "year": 1992,
+    "source": "https://www.planete-jeunesse.com/fiche-153-batman-1992.html"
+  },
+  "da-199": {
+    "year": 1999,
+    "source": "https://www.planete-jeunesse.com/fiche-245-batman-la-releve-ou-batman-2000.html"
+  },
+  "da-200": {
+    "year": 1997,
+    "source": "https://www.planete-jeunesse.com/fiche-311-superman-1996-l-ange-de-metropolis.html"
+  },
+  "da-201": {
+    "year": 2002,
+    "source": "https://www.planete-jeunesse.com/fiche-227-la-ligue-des-justiciers.html"
+  },
+  "da-202": {
+    "year": 2004,
+    "source": "https://www.planete-jeunesse.com/fiche-841-teen-titans-les-jeunes-titans.html"
+  },
+  "da-203": {
+    "year": 2012,
+    "source": "https://www.planete-jeunesse.com/fiche-2001-la-legende-de-korra.html"
+  },
+  "da-204": {
+    "year": 1993,
+    "source": "https://www.planete-jeunesse.com/fiche-335-x-men.html"
+  },
+  "da-205": {
+    "year": 2001,
+    "source": "https://www.planete-jeunesse.com/fiche-298-x-men-evolution.html"
+  },
+  "da-207": {
+    "year": 2008,
+    "source": "https://www.planete-jeunesse.com/fiche-1459-spectacular-spider-man.html"
+  },
+  "da-210": {
+    "year": 1996,
+    "source": "https://www.planete-jeunesse.com/fiche-1794-le-bus-magique.html"
+  },
+  "da-213": {
+    "year": 1999,
+    "source": "https://www.planete-jeunesse.com/fiche-412-franklin.html"
+  },
+  "da-215": {
+    "year": 1997,
+    "source": "https://www.planete-jeunesse.com/fiche-2036-arthur.html"
+  },
+  "da-216": {
+    "year": 1997,
+    "source": "https://www.planete-jeunesse.com/fiche-2614-caillou.html"
+  },
+  "da-217": {
+    "year": 1994,
+    "source": "https://www.planete-jeunesse.com/fiche-2533-pingu.html"
+  },
+  "da-220": {
+    "year": 2006,
+    "source": "https://www.planete-jeunesse.com/fiche-1458-pocoyo.html"
+  },
+  "da-225": {
+    "year": 2001,
+    "source": "https://www.planete-jeunesse.com/fiche-1282-bob-le-bricoleur.html"
+  },
+  "da-226": {
+    "year": 1993,
+    "source": "https://www.planete-jeunesse.com/fiche-2271-pierre-martin-le-facteur.html"
+  },
+  "da-227": {
+    "year": 1999,
+    "source": "https://www.planete-jeunesse.com/fiche-1640-t-choupi-et-doudou.html"
+  },
+  "da-229": {
+    "year": 2000,
+    "source": "https://www.planete-jeunesse.com/fiche-1982-kipper.html"
+  },
+  "da-230": {
+    "year": 1994,
+    "source": "https://www.planete-jeunesse.com/fiche-967-les-aventures-de-spot.html"
+  },
+  "da-231": {
+    "year": 2001,
+    "source": "https://www.planete-jeunesse.com/fiche-1257-les-enquetes-de-prudence-petitpas.html"
+  },
+  "da-232": {
+    "year": 1993,
+    "source": "https://www.planete-jeunesse.com/fiche-566-corentin.html"
+  },
+  "da-233": {
+    "year": 1998,
+    "source": "https://www.planete-jeunesse.com/fiche-473-papyrus.html"
+  },
+  "da-234": {
+    "year": 1997,
+    "source": "https://www.planete-jeunesse.com/fiche-891-blake-et-mortimer.html"
+  },
+  "da-235": {
+    "year": 2000,
+    "source": "https://www.planete-jeunesse.com/fiche-476-les-nouvelles-aventures-de-lucky-luke.html"
+  },
+  "da-239": {
+    "year": 2013,
+    "source": "https://www.planete-jeunesse.com/fiche-3195-les-as-de-la-jungle-a-la-rescousse.html"
+  },
+  "da-240": {
+    "year": 2015,
+    "source": "https://www.netflix.com/fr/title/80049870"
+  },
+  "da-252": {
+    "year": 1999,
+    "source": "https://www.planete-jeunesse.com/fiche-2158-pepper-ann.html"
+  },
+  "da-253": {
+    "year": 2001,
+    "source": "https://www.planete-jeunesse.com/fiche-3649-cool-attitude.html"
+  },
+  "da-254": {
+    "year": 2007,
+    "source": "https://www.planete-jeunesse.com/fiche-1274-samsam.html"
+  },
+  "da-261": {
+    "year": 2006,
+    "source": "https://www.planete-jeunesse.com/fiche-3038-kuzco-un-empereur-a-l-ecole.html"
+  },
+  "da-267": {
+    "year": 2006,
+    "source": "https://www.planete-jeunesse.com/fiche-1723-la-maison-de-mickey.html"
+  },
+  "da-279": {
+    "year": 2013,
+    "source": "https://www.planete-jeunesse.com/fiche-2376-wander.html"
+  },
+  "da-280": {
+    "year": 2023,
+    "source": "https://newsroom.disney.fr/actualites/avez-vous-deja-vu-un-hamster-super-heros-les-aventures-dejantees-des-super-heros-hamster-et-gretel-sont-a-decouvrir-des-le-11-mars-sur-disney-channel-8927-dc71f.html"
+  },
+  "da-282": {
+    "year": 2021,
+    "source": "https://www.nickalive.net/2021/09/nickelodeon-france-to-premiere-kamp.html"
+  },
+  "da-284": {
+    "year": 2001,
+    "source": "https://www.planete-jeunesse.com/fiche-623-rocket-power.html"
+  },
+  "da-286": {
+    "year": 1999,
+    "source": "https://www.planete-jeunesse.com/fiche-741-michat-michien.html"
+  },
+  "da-289": {
+    "year": 2007,
+    "source": "https://www.planete-jeunesse.com/fiche-1948-manny-et-ses-outils.html"
+  },
+  "da-296": {
+    "year": 2003,
+    "source": "https://www.planete-jeunesse.com/fiche-847-tortues-ninja-tmnt.html"
+  },
+  "da-299": {
+    "year": 2011,
+    "source": "https://www.planete-jeunesse.com/fiche-2555-scooby-doo-mysteres-associes.html"
+  },
+  "da-300": {
+    "year": 2004,
+    "source": "https://www.planete-jeunesse.com/fiche-1258-quoi-d-neuf-scooby-doo.html"
+  }
+}

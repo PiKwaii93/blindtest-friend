@@ -1,5 +1,5 @@
 import type { Clip } from "./game";
-import type { Settings } from "./settings";
+import { matchesRoomSettings, type Settings } from "./settings";
 export type Seen = { workId: string; lastPlayed: number; count: number };
 export function selectClips(
   clips: Clip[],
@@ -7,12 +7,7 @@ export function selectClips(
   history: Seen[],
   random: () => number = Math.random,
 ) {
-  const eligible = clips.filter(
-    (c) =>
-      settings.difficulties.includes(c.difficulty) &&
-      c.categories.some((x) => settings.categories.includes(x)) &&
-      c.durationMs >= settings.listenSeconds * 1000,
-  );
+  const eligible = clips.filter((clip) => matchesRoomSettings(clip, settings));
   const works = new Map<string, Clip[]>();
   for (const c of eligible)
     works.set(c.workId, [...(works.get(c.workId) ?? []), c]);

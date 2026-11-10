@@ -1,5 +1,34 @@
 import { z } from "zod";
 export const difficulties = ["easy", "normal", "hard"] as const;
+export const broadcastEras = [
+  "before1960",
+  "1960",
+  "1970",
+  "1980",
+  "1990",
+  "2000",
+  "2010",
+  "2020",
+  "unknown",
+] as const;
+export type BroadcastEra = (typeof broadcastEras)[number];
+export const broadcastEraLabels: Record<BroadcastEra, string> = {
+  before1960: "Avant 1960",
+  "1960": "Années 60",
+  "1970": "Années 70",
+  "1980": "Années 80",
+  "1990": "Années 90",
+  "2000": "Années 2000",
+  "2010": "Années 2010",
+  "2020": "Depuis 2020",
+  unknown: "Époque inconnue",
+};
+export function broadcastEra(year?: number | null): BroadcastEra {
+  if (year == null) return "unknown";
+  if (year < 1960) return "before1960";
+  if (year >= 2020) return "2020";
+  return String(Math.floor(year / 10) * 10) as BroadcastEra;
+}
 export const settingsSchema = z.object({
   categories: z.array(z.string().min(1)).min(1).max(100),
   difficulties: z.array(z.enum(difficulties)).min(1).max(3),
@@ -7,8 +36,34 @@ export const settingsSchema = z.object({
   listenSeconds: z.number().int().min(5).max(30),
   answerSeconds: z.number().int().min(5).max(30),
   mode: z.enum(["individual", "teams"]),
+  vfOnly: z.boolean().optional(),
+  broadcastEra: z.enum(broadcastEras).optional(),
 });
 export type Settings = z.infer<typeof settingsSchema>;
+export function matchesRoomSettings(
+  clip: {
+    categories: string[];
+    difficulty: Settings["difficulties"][number];
+    durationMs: number;
+    freezeOnReveal?: boolean;
+    french?: boolean;
+    firstFrenchBroadcastYear?: number | null;
+  },
+  settings: Settings,
+) {
+  return (
+    (!settings.vfOnly || clip.french === true) &&
+    (!settings.broadcastEra ||
+      (clip.firstFrenchBroadcastYear !== undefined &&
+        broadcastEra(clip.firstFrenchBroadcastYear) ===
+          settings.broadcastEra)) &&
+    settings.difficulties.includes(clip.difficulty) &&
+    clip.categories.some((name) => settings.categories.includes(name)) &&
+    (clip.freezeOnReveal
+      ? Math.ceil(clip.durationMs / 1000) >= settings.listenSeconds
+      : clip.durationMs >= settings.listenSeconds * 1000)
+  );
+}
 export function launchBlockers(
   settings: Settings,
   eligible: number,
@@ -42,7 +97,9 @@ export function launchBlockers(
     );
   if (!eligible)
     reasons.push(
-      "Aucune œuvre éligible avec ces filtres et cette durée d’écoute.",
+      settings.vfOnly
+        ? "Aucune œuvre avec VF confirmée ne correspond à ces règles."
+        : "Aucune œuvre éligible avec ces filtres et cette durée d’écoute.",
     );
   else if (eligible < settings.rounds)
     reasons.push(

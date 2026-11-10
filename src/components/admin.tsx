@@ -4,6 +4,13 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import { browserClient } from "@/lib/supabase/browser";
 import { associateDraftMedia } from "@/domain/catalogue-batch";
+import { isSandboxVideo } from "@/domain/game";
+import {
+  hasConfirmedFrench,
+  type SandboxReview,
+} from "@/domain/sandbox-review";
+import { SandboxPreview } from "./sandbox-preview";
+import { clipReportLabels, type ClipReportReason } from "@/domain/clip-reports";
 type Category = { id: string; name: string; slug: string; is_active: boolean };
 type Work = {
   id: string;
@@ -18,6 +25,7 @@ type Work = {
     wikimedia_image_search?: string;
     documented_theme_url?: string;
     verified_reference?: { url: string; note: string };
+    sandbox_review?: SandboxReview;
   } | null;
   release_year: number | null;
   is_active: boolean;
@@ -239,17 +247,31 @@ const defaultFilters = {
   kind: "",
   audio: "",
   image: "",
+  vf: "",
 };
+function needsFrenchReview(work: Work) {
+  return (
+    !work.is_active &&
+    work.audio_clips.some(
+      (clip) =>
+        clip.rights_status === "pending" &&
+        isSandboxVideo(clip.audio_path) &&
+        !hasConfirmedFrench(clip.audio_path, work.research?.sandbox_review),
+    )
+  );
+}
 type Filters = typeof defaultFilters;
 const pageSize = 25;
 function Works({
   works,
   categories,
   onOpen,
+  videoSandbox,
 }: {
   works: Work[];
   categories: Category[];
-  onOpen: (work: Work | null) => void;
+  onOpen: (work: Work | null, queue?: string[]) => void;
+  videoSandbox: boolean;
 }) {
   const [filters, setFilters] = useState(defaultFilters);
   const [page, setPage] = useState(1);
@@ -289,7 +311,8 @@ function Works({
         (!filters.audio ||
           Boolean(work.audio_clips.length) === (filters.audio === "yes")) &&
         (!filters.image ||
-          Boolean(work.image_path) === (filters.image === "yes")),
+          Boolean(work.image_path) === (filters.image === "yes")) &&
+        (!filters.vf || needsFrenchReview(work)),
     )
     .map(({ work }) => work);
   const pages = Math.max(1, Math.ceil(filtered.length / pageSize));
@@ -356,6 +379,8 @@ function Works({
           ["yes", "Avec illustration"],
           ["no", "Sans illustration"],
         ])}
+        {videoSandbox &&
+          options("vf", "Contrôle VF", [["pending", "VF à confirmer"]])}
       </div>
       <div className="row between">
         <p role="status">
@@ -383,7 +408,12 @@ function Works({
                 <button
                   type="button"
                   className="admin-work-row"
-                  onClick={() => onOpen(work)}
+                  onClick={() =>
+                    onOpen(
+                      work,
+                      filters.vf ? filtered.map((item) => item.id) : undefined,
+                    )
+                  }
                 >
                   <span className="admin-work-title">
                     <strong>{work.title}</strong>
@@ -464,13 +494,80 @@ type Preview = {
   start: number;
   end: number;
 };
+function ClipReports({ work }: { work: Work }) {
+  const [reports, setReports] = useState<
+    {
+      game_id: string;
+      round: number;
+      clip_id: string;
+      media_path: string;
+      reason: ClipReportReason;
+      created_at: string;
+    }[]
+  >();
+  const [error, setError] = useState("");
+  const workId = work.id;
+  useEffect(() => {
+    let active = true;
+    void api("/api/admin/reports?workId=" + encodeURIComponent(workId)).then(
+      ({ reports }) => {
+        if (active) setReports(reports);
+      },
+      (e: Error) => {
+        if (active) setError(e.message);
+      },
+    );
+    return () => {
+      active = false;
+    };
+  }, [workId]);
+  return (
+    <section className="admin-flow" aria-label="Signalements des extraits">
+      <h3>Signalements des extraits</h3>
+      {error ? (
+        <p role="alert" className="error">
+          {error}
+        </p>
+      ) : !reports ? (
+        <p role="status">Chargement des signalements…</p>
+      ) : reports.length === 0 ? (
+        <p className="muted">Aucun signalement.</p>
+      ) : (
+        <ul className="admin-work-list">
+          {reports.map((report, index) => (
+            <li key={`${report.game_id}:${report.round}:${index}`}>
+              <strong>{clipReportLabels[report.reason]}</strong>
+              <p className="muted small">
+                Manche {report.round + 1} ·{" "}
+                {new Date(report.created_at).toLocaleString("fr-FR")}
+                {!work.audio_clips.some(
+                  (clip) => clip.audio_path === report.media_path,
+                ) && " · Ancien média"}
+              </p>
+              <details>
+                <summary>Référence de l’extrait</summary>
+                <code>{report.media_path}</code>
+              </details>
+            </li>
+          ))}
+        </ul>
+      )}
+    </section>
+  );
+}
 function WorkEditor({
   work,
+  videoSandbox,
+  queueMode,
+  onNext,
   categories,
   onClose,
   onSave,
 }: {
   work: Work | null;
+  videoSandbox: boolean;
+  queueMode: boolean;
+  onNext?: () => void;
   categories: Category[];
   onClose: () => void;
   onSave: () => Promise<void>;
@@ -479,7 +576,8 @@ function WorkEditor({
     work ? editable(work) : emptyDraft,
   );
   const [original, setOriginal] = useState(() => JSON.stringify(draft));
-  const [tab, setTab] = useState("Informations");
+  const [tab, setTab] = useState(queueMode ? "Audio" : "Informations");
+  const [sandboxDirty, setSandboxDirty] = useState(false);
   const [advanced, setAdvanced] = useState(false);
   const [raw, setRaw] = useState("");
   const [preview, setPreview] = useState<Preview | null>(null);
@@ -489,6 +587,7 @@ function WorkEditor({
   const [saved, setSaved] = useState(false);
   const dialog = useRef<HTMLDialogElement>(null);
   const dirty =
+    sandboxDirty ||
     JSON.stringify(draft) !== original ||
     (advanced && raw !== JSON.stringify(draft, null, 2));
   useEffect(() => {
@@ -502,7 +601,7 @@ function WorkEditor({
     window.addEventListener("beforeunload", warn);
     return () => window.removeEventListener("beforeunload", warn);
   }, [dirty]);
-  function close() {
+  function leave(next: () => void) {
     if (
       !busy &&
       (!dirty ||
@@ -510,7 +609,10 @@ function WorkEditor({
           "Quitter cette fiche et perdre les modifications non enregistrées ?",
         ))
     )
-      onClose();
+      next();
+  }
+  function close() {
+    leave(onClose);
   }
   function update(changes: Partial<Draft>) {
     setSaved(false);
@@ -584,6 +686,18 @@ function WorkEditor({
         <Button variant="ghost" onClick={close} aria-label="Fermer la fiche">
           Fermer ×
         </Button>
+        {queueMode && (
+          <Button
+            type="button"
+            variant="outline"
+            disabled={!onNext || busy}
+            onClick={() => {
+              if (onNext) leave(onNext);
+            }}
+          >
+            Fiche suivante
+          </Button>
+        )}
       </div>
       <div className="admin-drawer-body admin-flow">
         <nav className="admin-tabs" aria-label="Sections de la fiche">
@@ -594,6 +708,14 @@ function WorkEditor({
               variant={!advanced && tab === name ? "default" : "outline"}
               aria-pressed={!advanced && tab === name}
               onClick={() => {
+                if (
+                  name !== tab &&
+                  sandboxDirty &&
+                  !window.confirm(
+                    "Quitter l’aperçu sans enregistrer le contrôle vidéo ?",
+                  )
+                )
+                  return;
                 if (advanced && raw !== JSON.stringify(draft, null, 2)) {
                   try {
                     const value = JSON.parse(raw);
@@ -755,127 +877,155 @@ function WorkEditor({
           </div>
         ) : tab === "Audio" ? (
           <div className="admin-flow">
+            {videoSandbox && work && <ClipReports work={work} />}
             {!draft.clips.length && <p>Aucun extrait associé.</p>}
-            {draft.clips.map((clip, index) => (
-              <fieldset className="admin-flow admin-fieldset" key={index}>
-                <legend>Extrait {index + 1}</legend>
-                <label>
-                  Fichier audio
-                  <input
-                    value={clip.audio_path}
-                    onChange={(event) =>
-                      updateClip(index, {
-                        audio_path: event.target.value,
-                        previewed: false,
-                        rights_status: "pending",
-                        license_reference: null,
-                        is_active: false,
-                      })
-                    }
-                  />
-                </label>
-                <div className="admin-fields">
+            {draft.clips.map((clip, index) =>
+              videoSandbox &&
+              work &&
+              !work.is_active &&
+              clip.rights_status === "pending" &&
+              isSandboxVideo(clip.audio_path) &&
+              work.audio_clips.some(
+                (stored) => stored.audio_path === clip.audio_path,
+              ) ? (
+                <SandboxPreview
+                  key={clip.audio_path}
+                  workId={work.id}
+                  path={clip.audio_path}
+                  initialMs={clip.start_ms}
+                  maximumMs={clip.start_ms + clip.usable_duration_ms - 10000}
+                  review={
+                    work.research?.sandbox_review?.path === clip.audio_path
+                      ? work.research.sandbox_review
+                      : undefined
+                  }
+                  refresh={onSave}
+                  onDirtyChange={setSandboxDirty}
+                />
+              ) : (
+                <fieldset className="admin-flow admin-fieldset" key={index}>
+                  <legend>Extrait {index + 1}</legend>
                   <label>
-                    Difficulté
-                    <select
-                      value={clip.difficulty}
-                      onChange={(event) =>
-                        updateClip(index, { difficulty: event.target.value })
-                      }
-                    >
-                      <option value="easy">Facile</option>
-                      <option value="normal">Normal</option>
-                      <option value="hard">Difficile</option>
-                    </select>
-                  </label>
-                  <label>
-                    Début (ms)
+                    Fichier audio
                     <input
-                      type="number"
-                      min={0}
-                      value={clip.start_ms}
+                      value={clip.audio_path}
                       onChange={(event) =>
                         updateClip(index, {
-                          start_ms: Number(event.target.value),
+                          audio_path: event.target.value,
                           previewed: false,
+                          rights_status: "pending",
+                          license_reference: null,
+                          is_active: false,
                         })
                       }
                     />
                   </label>
-                  <label>
-                    Durée (ms)
-                    <input
-                      type="number"
-                      min={5000}
-                      value={clip.usable_duration_ms}
-                      onChange={(event) =>
-                        updateClip(index, {
-                          usable_duration_ms: Number(event.target.value),
-                          previewed: false,
-                        })
-                      }
-                    />
-                  </label>
-                </div>
-                <div className="row">
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    disabled={!clip.audio_path}
-                    onClick={() => void listen(index)}
-                  >
-                    Écouter l’extrait {index + 1}
-                  </Button>
-                  <span className="small muted">
-                    {clip.previewed ? "Aperçu validé" : "Aperçu à valider"}
-                  </span>
-                </div>
-                {preview?.index === index && (
-                  <div className="admin-flow">
-                    <audio
-                      key={preview.url}
-                      controls
-                      src={preview.url}
-                      onLoadedMetadata={(event) => {
-                        const audio = event.currentTarget;
-                        if (audio.duration + 0.05 < preview.end)
-                          setError(
-                            "Le fichier est plus court que l’extrait demandé.",
-                          );
-                        else audio.currentTime = preview.start;
-                      }}
-                      onTimeUpdate={(event) => {
-                        const audio = event.currentTarget;
-                        if (
-                          audio.currentTime >= preview.end &&
-                          audio.duration + 0.05 >= preview.end
-                        ) {
-                          audio.pause();
-                          setPlayed(true);
+                  <div className="admin-fields">
+                    <label>
+                      Difficulté
+                      <select
+                        value={clip.difficulty}
+                        onChange={(event) =>
+                          updateClip(index, { difficulty: event.target.value })
                         }
-                      }}
-                      onEnded={(event) => {
-                        if (event.currentTarget.duration + 0.05 >= preview.end)
-                          setPlayed(true);
-                      }}
-                    />
-                    <Button
-                      size="sm"
-                      disabled={
-                        !played ||
-                        clip.audio_path !== preview.path ||
-                        clip.start_ms / 1000 !== preview.start ||
-                        (clip.start_ms + clip.usable_duration_ms) / 1000 !==
-                          preview.end
-                      }
-                      onClick={() => updateClip(index, { previewed: true })}
-                    >
-                      Valider l’aperçu
-                    </Button>
+                      >
+                        <option value="easy">Facile</option>
+                        <option value="normal">Normal</option>
+                        <option value="hard">Difficile</option>
+                      </select>
+                    </label>
+                    <label>
+                      Début (ms)
+                      <input
+                        type="number"
+                        min={0}
+                        value={clip.start_ms}
+                        onChange={(event) =>
+                          updateClip(index, {
+                            start_ms: Number(event.target.value),
+                            previewed: false,
+                          })
+                        }
+                      />
+                    </label>
+                    <label>
+                      Durée (ms)
+                      <input
+                        type="number"
+                        min={5000}
+                        value={clip.usable_duration_ms}
+                        onChange={(event) =>
+                          updateClip(index, {
+                            usable_duration_ms: Number(event.target.value),
+                            previewed: false,
+                          })
+                        }
+                      />
+                    </label>
                   </div>
-                )}
-              </fieldset>
-            ))}
+                  <div className="row">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      disabled={!clip.audio_path}
+                      onClick={() => void listen(index)}
+                    >
+                      Écouter l’extrait {index + 1}
+                    </Button>
+                    <span className="small muted">
+                      {clip.previewed ? "Aperçu validé" : "Aperçu à valider"}
+                    </span>
+                  </div>
+                  {preview?.index === index && (
+                    <div className="admin-flow">
+                      <audio
+                        key={preview.url}
+                        controls
+                        src={preview.url}
+                        onLoadedMetadata={(event) => {
+                          const audio = event.currentTarget;
+                          if (audio.duration + 0.05 < preview.end)
+                            setError(
+                              "Le fichier est plus court que l’extrait demandé.",
+                            );
+                          else audio.currentTime = preview.start;
+                        }}
+                        onTimeUpdate={(event) => {
+                          const audio = event.currentTarget;
+                          if (
+                            audio.currentTime >= preview.end &&
+                            audio.duration + 0.05 >= preview.end
+                          ) {
+                            audio.pause();
+                            setPlayed(true);
+                          }
+                        }}
+                        onEnded={(event) => {
+                          if (
+                            event.currentTarget.duration + 0.05 >=
+                            preview.end
+                          )
+                            setPlayed(true);
+                        }}
+                      />
+                      <Button
+                        size="sm"
+                        disabled={
+                          !played ||
+                          clip.audio_path !== preview.path ||
+                          clip.start_ms / 1000 !== preview.start ||
+                          (clip.start_ms + clip.usable_duration_ms) / 1000 !==
+                            preview.end
+                        }
+                        onClick={() => updateClip(index, { previewed: true })}
+                      >
+                        Valider l’aperçu
+                      </Button>
+                    </div>
+                  )}
+                </fieldset>
+              ),
+            )}
             <Button
               variant="outline"
               disabled={draft.clips.length >= 30}
@@ -1218,14 +1368,17 @@ function Imports({
 
 export function Admin({
   section = "works",
+  videoSandbox = false,
 }: {
   section?: "works" | "categories" | "import";
+  videoSandbox?: boolean;
 }) {
   const [catalogue, setCatalogue] = useState<{
     works: Work[];
     categories: Category[];
   } | null>(null);
   const [selected, setSelected] = useState<Work | null | undefined>(undefined);
+  const [queue, setQueue] = useState<string[]>();
   const [error, setError] = useState("");
   const [message, setMessage] = useState("");
   const refresh = useCallback(async () => {
@@ -1260,6 +1413,13 @@ export function Admin({
       return false;
     }
   }
+  const nextReview =
+    selected && queue && catalogue
+      ? queue
+          .slice(queue.indexOf(selected.id) + 1)
+          .map((id) => catalogue.works.find((work) => work.id === id))
+          .find((work) => work && needsFrenchReview(work))
+      : undefined;
   return (
     <main className="admin-shell admin-flow">
       <header>
@@ -1295,7 +1455,14 @@ export function Admin({
       )}
       {!catalogue && !error && <p role="status">Chargement du catalogue…</p>}
       {catalogue && section === "works" && (
-        <Works {...catalogue} onOpen={setSelected} />
+        <Works
+          {...catalogue}
+          videoSandbox={videoSandbox}
+          onOpen={(work, ids) => {
+            setQueue(ids);
+            setSelected(work);
+          }}
+        />
       )}
       {catalogue && section === "import" && (
         <Imports {...catalogue} save={save} />
@@ -1351,7 +1518,16 @@ export function Admin({
       )}
       {catalogue && selected !== undefined && (
         <WorkEditor
-          work={selected}
+          key={selected?.id ?? "new"}
+          work={
+            selected
+              ? (catalogue.works.find((item) => item.id === selected.id) ??
+                selected)
+              : selected
+          }
+          videoSandbox={videoSandbox}
+          queueMode={Boolean(queue)}
+          onNext={nextReview ? () => setSelected(nextReview) : undefined}
           categories={catalogue.categories}
           onClose={() => setSelected(undefined)}
           onSave={refresh}

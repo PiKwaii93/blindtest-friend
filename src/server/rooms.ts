@@ -6,6 +6,8 @@ import { database } from "./supabase";
 import { defaultSettings, settingsSchema } from "@/domain/settings";
 import {
   publicGame,
+  isSandboxVideo,
+  sandboxVideoRevealMs,
   start,
   transition,
   type Action,
@@ -14,6 +16,13 @@ import {
 import { selectClips } from "@/domain/selection";
 import type { Room } from "@/domain/room";
 import { z } from "zod";
+import { videoSandboxEnabled } from "./video-sandbox";
+import { hasConfirmedFrench, sandboxTiming } from "@/domain/sandbox-review";
+import { clipReportLabels, type ClipReportReason } from "@/domain/clip-reports";
+import frenchBroadcasts from "../../catalogue/dessins-animes-diffusions-france.json";
+
+const firstFrenchBroadcasts: Record<string, { year: number; source: string }> =
+  frenchBroadcasts;
 
 const commandSchema = z.discriminatedUnion("type", [
   z.object({ type: z.literal("join") }),
@@ -28,39 +37,83 @@ const commandSchema = z.discriminatedUnion("type", [
   z.object({ type: z.literal("loaded"), round: z.number().int().min(0) }),
   z.object({ type: z.literal("buzz"), round: z.number().int().min(0) }),
   z.object({
+    type: z.literal("reportClip"),
+    gameId: z.string().uuid(),
+    round: z.number().int().min(0),
+    reason: z.enum(Object.keys(clipReportLabels) as ClipReportReason[]),
+  }),
+  z.object({
     type: z.literal("answer"),
     round: z.number().int().min(0),
     answer: z.string().trim().min(1).max(200),
   }),
 ]);
 export async function catalogue(): Promise<Clip[]> {
-  const { data, error } = await database()
-    .from("audio_clips")
-    .select(
-      "*,works!inner(*,work_aliases(alias),work_categories(categories(name,is_active)))",
-    )
+  const query = () =>
+    database()
+      .from("audio_clips")
+      .select(
+        "*,works!inner(*,work_aliases(alias),work_categories(categories(name,is_active)))",
+      );
+  const { data, error } = await query()
     .eq("is_active", true)
     .eq("rights_status", "authorized")
     .eq("works.is_active", true);
   if (error) throw error;
-  return (data ?? []).map((c) => ({
-    id: c.id,
-    workId: c.work_id,
-    title: c.works.title,
-    aliases: c.works.work_aliases.map((a: { alias: string }) => a.alias),
-    important: c.works.important_words,
-    categories: c.works.work_categories
-      .filter(
-        (x: { categories: { is_active: boolean } }) => x.categories.is_active,
-      )
-      .map((x: { categories: { name: string } }) => x.categories.name),
-    image: c.works.image_path,
-    imageAttribution: c.works.image_attribution,
-    path: c.audio_path,
-    difficulty: c.difficulty,
-    startMs: c.start_ms,
-    durationMs: c.usable_duration_ms,
-  }));
+  const sandbox = videoSandboxEnabled();
+  const drafts = sandbox
+    ? await query()
+        .like("audio_path", "sandbox-video/%")
+        .eq("rights_status", "pending")
+    : null;
+  if (drafts?.error) throw drafts.error;
+  const sandboxClips = (drafts?.data ?? []).filter(
+    (clip) =>
+      clip.works.research?.sandbox_video_excluded?.path !== clip.audio_path,
+  );
+  return [...(data ?? []), ...sandboxClips].map((c) => {
+    const review =
+      sandbox && isSandboxVideo(c.audio_path)
+        ? c.works.research?.sandbox_review
+        : undefined;
+    const timing = sandboxTiming(
+      c.audio_path,
+      c.start_ms,
+      c.usable_duration_ms,
+      review,
+    );
+    const freezeOnReveal =
+      sandbox &&
+      isSandboxVideo(c.audio_path) &&
+      c.works.research?.sandbox_freeze_reveal?.path === c.audio_path;
+    return {
+      id: c.id,
+      workId: c.work_id,
+      title: c.works.title,
+      aliases: c.works.work_aliases.map((a: { alias: string }) => a.alias),
+      important: c.works.important_words,
+      categories: c.works.work_categories
+        .filter(
+          (x: { categories: { is_active: boolean } }) => x.categories.is_active,
+        )
+        .map((x: { categories: { name: string } }) => x.categories.name),
+      image: c.works.image_path,
+      imageAttribution: c.works.image_attribution,
+      path: c.audio_path,
+      difficulty: c.difficulty,
+      startMs: timing.startMs,
+      french: hasConfirmedFrench(c.audio_path, review),
+      firstFrenchBroadcastYear:
+        sandbox && isSandboxVideo(c.audio_path)
+          ? (firstFrenchBroadcasts[c.works.editorial_id ?? ""]?.year ?? null)
+          : undefined,
+      freezeOnReveal,
+      durationMs:
+        isSandboxVideo(c.audio_path) && !freezeOnReveal
+          ? Math.max(0, timing.usableMs - (sandboxVideoRevealMs - 5000))
+          : timing.usableMs,
+    };
+  });
 }
 export async function createRoom(userId: string, name: string) {
   const db = database();
@@ -134,6 +187,25 @@ export async function snapshot(code: string, userId: string) {
       audio = data.signedUrl;
     }
   }
+  let preload: { url: string; round: number; startMs: number } | undefined;
+  const following = g?.playlist[g.round + 1];
+  if (
+    g?.phase === "REVEAL" &&
+    videoSandboxEnabled() &&
+    following &&
+    isSandboxVideo(g.playlist[g.round].path) &&
+    isSandboxVideo(following.path)
+  ) {
+    const { data } = await database()
+      .storage.from("audio")
+      .createSignedUrl(following.path, 120);
+    if (data)
+      preload = {
+        url: data.signedUrl,
+        round: g.round + 1,
+        startMs: following.startMs,
+      };
+  }
   return {
     id: r.id,
     code: r.code,
@@ -141,11 +213,15 @@ export async function snapshot(code: string, userId: string) {
     ownerId: r.ownerId,
     settings: r.settings,
     players: r.players,
-    game: g ? publicGame(g) : null,
+    game: g ? publicGame(g, videoSandboxEnabled() ? userId : undefined) : null,
     gameId: r.gameId,
     version: row.version,
     serverNow: row.now,
     audio,
+    videoSandbox: videoSandboxEnabled(),
+    preload,
+    video: Boolean(g?.playlist[g.round]?.path.endsWith(".mp4")),
+    freezeOnReveal: g?.playlist[g.round]?.freezeOnReveal,
     startMs: g?.playlist[g.round]?.startMs ?? 0,
   };
 }
@@ -170,7 +246,41 @@ export async function command(
     )
       throw new Error("Accès refusé.");
     const active = r.game && r.game.phase !== "FINISHED";
-    if (action.type === "join") {
+    if (action.type === "reportClip") {
+      const game = r.game;
+      const clip = game?.playlist[game.round];
+      if (
+        !videoSandboxEnabled() ||
+        system ||
+        !player ||
+        !game ||
+        !game.players.some((participant) => participant.id === userId) ||
+        r.gameId !== action.gameId ||
+        game.round !== action.round ||
+        game.phase !== "REVEAL" ||
+        game.deadline === null ||
+        now >= game.deadline ||
+        !clip ||
+        !isSandboxVideo(clip.path)
+      )
+        throw new Error(
+          "Le signalement est disponible pendant la révélation de cet extrait.",
+        );
+      const { error } = await db.from("sandbox_clip_reports").upsert(
+        {
+          game_id: action.gameId,
+          round: game.round,
+          reporter_id: userId,
+          work_id: clip.workId,
+          clip_id: clip.id,
+          media_path: clip.path,
+          reason: action.reason,
+        },
+        { onConflict: "game_id,round,reporter_id", ignoreDuplicates: true },
+      );
+      if (error) throw error;
+      return;
+    } else if (action.type === "join") {
       if (r.banned.includes(userId))
         throw new Error("Vous avez été exclu de ce salon.");
       if (!player) {
@@ -230,8 +340,14 @@ export async function command(
     ) {
       if (active) throw new Error("La partie est en cours.");
       if (action.type === "settings") {
+        if (action.settings.broadcastEra && !videoSandboxEnabled())
+          throw new Error(
+            "Le filtre par époque est disponible dans le bac à sable.",
+          );
         if (r.ownerId !== userId)
           throw new Error("Action réservée au propriétaire.");
+        if (action.settings.vfOnly && !videoSandboxEnabled())
+          throw new Error("Le filtre VF est réservé au bac à sable local.");
         const { data: activeCategories, error } = await db
           .from("categories")
           .select("name")

@@ -11,10 +11,15 @@ import type { Player, PublicGame } from "@/domain/game";
 import { ranking, teams, rankPosition } from "@/domain/game";
 import {
   difficulties,
+  broadcastEras,
+  broadcastEraLabels,
   settingsSchema,
+  matchesRoomSettings,
   launchBlockers,
   type Settings,
+  type BroadcastEra,
 } from "@/domain/settings";
+import { clipReportLabels } from "@/domain/clip-reports";
 type Snapshot = {
   id: string;
   code: string;
@@ -27,6 +32,10 @@ type Snapshot = {
   version: number;
   serverNow: number;
   audio: string | null;
+  video?: boolean;
+  freezeOnReveal?: boolean;
+  videoSandbox?: boolean;
+  preload?: { url: string; round: number; startMs: number };
   startMs: number;
 };
 type Availability = {
@@ -34,8 +43,39 @@ type Availability = {
   categories: string[];
   difficulty: Settings["difficulties"][number];
   durationMs: number;
+  freezeOnReveal?: boolean;
+  french?: boolean;
+  firstFrenchBroadcastYear?: number | null;
 };
 const labels = { easy: "Facile", normal: "Normal", hard: "Difficile" };
+const refusalLabels = {
+  invalid: "La réponse ne contient pas de titre utilisable.",
+  short:
+    "Une réponse courte doit correspondre exactement à un titre ou à un alias.",
+  number: "Le numéro du titre manque ou ne correspond pas.",
+  important: "Un mot essentiel du titre manque.",
+  incomplete: "Un mot du titre manque ou est trop différent.",
+  similarity: "La réponse est trop éloignée du titre et des alias acceptés.",
+};
+function hiddenMedia(video: boolean) {
+  const media = video ? document.createElement("video") : new Audio();
+  if (media instanceof HTMLVideoElement) {
+    media.playsInline = true;
+    media.style.width = "100%";
+    media.style.maxHeight = "320px";
+  }
+  media.hidden = true;
+  media.setAttribute("aria-hidden", "true");
+  document.body.append(media);
+  return media;
+}
+function releaseMedia(media: HTMLMediaElement | null) {
+  if (!media) return;
+  media.pause();
+  media.removeAttribute("src");
+  media.load();
+  media.remove();
+}
 export function RoomClient({ code }: { code: string }) {
   const router = useRouter();
   const [state, setState] = useState<Snapshot | null>(null);
@@ -46,11 +86,15 @@ export function RoomClient({ code }: { code: string }) {
   const [availability, setAvailability] = useState<Availability[]>([]);
   const [settings, setSettings] = useState<Settings | null>(null);
   const [answer, setAnswer] = useState("");
+  const [reported, setReported] = useState("");
+  const [reportPending, setReportPending] = useState(false);
   const [now, setNow] = useState(0);
   const [enabled, setEnabled] = useState(false);
   const [volume, setVolume] = useState(0.7);
   const [copied, setCopied] = useState(false);
-  const audio = useRef<HTMLAudioElement | null>(null);
+  const audio = useRef<HTMLMediaElement | null>(null);
+  const standby = useRef<{ key: string; media: HTMLMediaElement } | null>(null);
+  const revealVideo = useRef<HTMLDivElement>(null);
   const offset = useRef(0);
   const minRtt = useRef(Infinity);
   const version = useRef(-1);
@@ -170,34 +214,71 @@ export function RoomClient({ code }: { code: string }) {
     );
     return () => clearTimeout(timer);
   }, [deadline, phase, act]);
+  const hasVideo = state?.video === true;
+  const freezeOnReveal = state?.freezeOnReveal === true;
+  const gameId = state?.gameId;
   useEffect(() => {
-    const a = new Audio();
-    a.hidden = true;
-    a.setAttribute("aria-hidden", "true");
-    document.body.appendChild(a);
-    audio.current = a;
+    audio.current = hiddenMedia(hasVideo);
     return () => {
-      a.pause();
-      a.src = "";
-      a.remove();
+      releaseMedia(audio.current);
       audio.current = null;
+      loaded.current = "";
     };
-  }, []);
+  }, [hasVideo]);
+  useEffect(
+    () => () => {
+      releaseMedia(standby.current?.media ?? null);
+      standby.current = null;
+    },
+    [gameId],
+  );
   useEffect(() => {
     if (audio.current) audio.current.volume = volume;
-  }, [volume]);
+  }, [volume, hasVideo]);
   const audioUrl = state?.audio;
   const startMs = state?.startMs ?? 0;
+  const nextMedia = state?.preload;
+  useEffect(() => {
+    if (!nextMedia || !gameId || !enabled) return;
+    const key = `${gameId}:${nextMedia.round}:true`;
+    if (standby.current?.key === key) return;
+    releaseMedia(standby.current?.media ?? null);
+    const media = hiddenMedia(true);
+    standby.current = { key, media };
+    media.addEventListener(
+      "loadedmetadata",
+      () => {
+        if (nextMedia.startMs > 0 && nextMedia.startMs / 1000 < media.duration)
+          media.currentTime = nextMedia.startMs / 1000;
+      },
+      { once: true },
+    );
+    media.preload = "auto";
+    media.src = nextMedia.url;
+    media.load();
+  }, [nextMedia, gameId, enabled]);
   // Signed URLs may rotate during polling; retain the loaded audio for this round.
   useEffect(() => {
     const a = audio.current;
     if (!a || !audioUrl || round === undefined) return;
-    if (loaded.current === `${state?.gameId}:${round}`) return;
-    loaded.current = `${state?.gameId}:${round}`;
+    const key = `${gameId}:${round}:${hasVideo}`;
+    if (loaded.current === key) return;
+    loaded.current = key;
+    if (standby.current?.key === key) {
+      const prepared = standby.current.media;
+      standby.current = null;
+      if (!prepared.error && prepared.readyState >= 2) {
+        prepared.volume = a.volume;
+        releaseMedia(a);
+        audio.current = prepared;
+        return;
+      }
+      releaseMedia(prepared);
+    }
     a.src = audioUrl;
     a.preload = "auto";
     a.load();
-  }, [audioUrl, round, state?.gameId]);
+  }, [audioUrl, round, gameId, hasVideo]);
   useEffect(() => {
     const a = audio.current;
     if (!a || phase !== "PREPARING" || !enabled || g?.loaded.includes(userId))
@@ -209,14 +290,14 @@ export function RoomClient({ code }: { code: string }) {
       setError(
         "Le média ne peut pas être chargé. Vérifiez votre connexion et les droits de lecture.",
       );
-    a.addEventListener("canplaythrough", ready);
+    a.addEventListener("canplay", ready);
     a.addEventListener("error", failed);
     ready();
     return () => {
-      a.removeEventListener("canplaythrough", ready);
+      a.removeEventListener("canplay", ready);
       a.removeEventListener("error", failed);
     };
-  }, [phase, enabled, round, g?.loaded, userId, act, audioUrl]);
+  }, [phase, enabled, round, g?.loaded, userId, act, audioUrl, hasVideo]);
   const playbackStartedAt = g?.startedAt ?? 0;
   const consumedMs = g?.consumedMs ?? 0;
   useEffect(() => {
@@ -233,6 +314,7 @@ export function RoomClient({ code }: { code: string }) {
       const desired =
         (startMs + consumedMs + Math.max(0, time - playbackStartedAt)) / 1000;
       if (time < playbackStartedAt) return;
+      if (freezeOnReveal && (a.ended || desired >= a.duration)) return;
       if (Math.abs(a.currentTime - desired) > 0.18) a.currentTime = desired;
       if (a.paused)
         void a
@@ -250,7 +332,73 @@ export function RoomClient({ code }: { code: string }) {
       clearInterval(timer);
       a.pause();
     };
-  }, [phase, enabled, startMs, consumedMs, playbackStartedAt]);
+  }, [
+    phase,
+    enabled,
+    startMs,
+    consumedMs,
+    playbackStartedAt,
+    hasVideo,
+    freezeOnReveal,
+  ]);
+  useEffect(() => {
+    const video = audio.current;
+    const container = revealVideo.current;
+    if (
+      phase !== "REVEAL" ||
+      !(video instanceof HTMLVideoElement) ||
+      !container
+    )
+      return;
+    container.append(video);
+    video.hidden = false;
+    video.removeAttribute("aria-hidden");
+    let active = true;
+    const resume = () => {
+      if (freezeOnReveal) {
+        video.pause();
+        if (!video.ended) video.currentTime = video.duration;
+        return;
+      }
+      const position = (startMs + consumedMs) / 1000;
+      if (Math.abs(video.currentTime - position) > 0.18)
+        video.currentTime = position;
+      void video.play().catch(() => {
+        if (active) video.controls = true;
+      });
+    };
+    if (enabled || freezeOnReveal) {
+      if (video.readyState > 0) resume();
+      else video.addEventListener("loadedmetadata", resume, { once: true });
+    }
+    return () => {
+      active = false;
+      video.removeEventListener("loadedmetadata", resume);
+      video.pause();
+      video.hidden = true;
+      video.controls = false;
+      video.setAttribute("aria-hidden", "true");
+      if (audio.current === video) document.body.append(video);
+    };
+  }, [phase, enabled, startMs, consumedMs, hasVideo, freezeOnReveal]);
+  useEffect(() => {
+    const video = audio.current;
+    if (phase !== "REVEAL" || !(video instanceof HTMLVideoElement) || !deadline)
+      return;
+    const fade = () => {
+      const left = deadline - Date.now() - offset.current;
+      const gain = Math.max(0, Math.min(1, left / 750));
+      video.volume = volume * gain;
+      if (!reduced) video.style.opacity = String(gain);
+    };
+    fade();
+    const timer = setInterval(fade, 40);
+    return () => {
+      clearInterval(timer);
+      video.volume = volume;
+      video.style.opacity = "";
+    };
+  }, [phase, deadline, volume, reduced, hasVideo]);
   const canBuzz = Boolean(
     g?.phase === "PLAYING" &&
     !g.excluded.includes(userId) &&
@@ -288,7 +436,7 @@ export function RoomClient({ code }: { code: string }) {
       oscillator.start();
       oscillator.stop(context.currentTime + 0.01);
       await context.close();
-      if (a.src) {
+      if (a.src && !(freezeOnReveal && phase === "REVEAL")) {
         a.muted = true;
         await a.play();
         a.pause();
@@ -327,11 +475,8 @@ export function RoomClient({ code }: { code: string }) {
     );
   const me = state.players.find((p) => p.id === userId);
   const owner = state.ownerId === userId;
-  const matches = availability.filter(
-    (c) =>
-      settings.difficulties.includes(c.difficulty) &&
-      c.categories.some((x) => settings.categories.includes(x)) &&
-      c.durationMs >= settings.listenSeconds * 1000,
+  const matches = availability.filter((clip) =>
+    matchesRoomSettings(clip, settings),
   );
   const eligible = new Set(matches.map((c) => c.workId)).size;
   const unsaved = JSON.stringify(settings) !== JSON.stringify(state.settings);
@@ -452,14 +597,11 @@ export function RoomClient({ code }: { code: string }) {
                           {
                             new Set(
                               availability
-                                .filter(
-                                  (a) =>
-                                    a.categories.includes(c) &&
-                                    settings.difficulties.includes(
-                                      a.difficulty,
-                                    ) &&
-                                    a.durationMs >=
-                                      settings.listenSeconds * 1000,
+                                .filter((a) =>
+                                  matchesRoomSettings(a, {
+                                    ...settings,
+                                    categories: [c],
+                                  }),
                                 )
                                 .map((a) => a.workId),
                             ).size
@@ -490,6 +632,50 @@ export function RoomClient({ code }: { code: string }) {
                   </div>
                 </div>
                 <div className="settings-grid">
+                  {state.videoSandbox && (
+                    <div>
+                      <label htmlFor="broadcast-era">
+                        Première diffusion en France
+                      </label>
+                      <select
+                        id="broadcast-era"
+                        value={settings.broadcastEra ?? ""}
+                        onChange={(event) => {
+                          const { broadcastEra: _previous, ...rest } = settings;
+                          void _previous;
+                          const era = event.target.value as BroadcastEra | "";
+                          setSettings(
+                            era ? { ...rest, broadcastEra: era } : rest,
+                          );
+                        }}
+                      >
+                        <option value="">Toutes les générations</option>
+                        {broadcastEras.map((era) => (
+                          <option key={era} value={era}>
+                            {broadcastEraLabels[era]}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                  )}
+                  {state.videoSandbox && (
+                    <label className="check-chip">
+                      <input
+                        type="checkbox"
+                        checked={settings.vfOnly === true}
+                        onChange={(event) => {
+                          const { vfOnly: _previous, ...rest } = settings;
+                          void _previous;
+                          setSettings(
+                            event.target.checked
+                              ? { ...rest, vfOnly: true }
+                              : rest,
+                          );
+                        }}
+                      />
+                      VF confirmées uniquement
+                    </label>
+                  )}
                   <div>
                     <label htmlFor="rounds">Manches · {settings.rounds}</label>
                     <input
@@ -697,15 +883,87 @@ export function RoomClient({ code }: { code: string }) {
               ) : phase === "REVEAL" ? (
                 <>
                   <span className="pill">La réponse</span>
-                  <RevealImage
-                    key={`${g.round}:${g.reveal?.image}`}
-                    src={g.reveal?.image}
-                    title={g.reveal?.title ?? "l’œuvre"}
-                  />
+                  {hasVideo ? (
+                    <div ref={revealVideo} />
+                  ) : (
+                    <RevealImage
+                      key={`${g.round}:${g.reveal?.image}`}
+                      src={g.reveal?.image}
+                      title={g.reveal?.title ?? "l’œuvre"}
+                    />
+                  )}
                   {g.reveal?.imageAttribution && (
                     <small className="muted">{g.reveal.imageAttribution}</small>
                   )}
                   <h2 className="reveal-title">{g.reveal?.title}</h2>
+                  {state.videoSandbox &&
+                    hasVideo &&
+                    gameId &&
+                    (reported === `${gameId}:${g.round}` ? (
+                      <p role="status">Signalement envoyé.</p>
+                    ) : (
+                      <details>
+                        <summary>Signaler cet extrait</summary>
+                        <form
+                          className="row"
+                          onSubmit={async (event) => {
+                            event.preventDefault();
+                            if (reportPending) return;
+                            const reason = new FormData(
+                              event.currentTarget,
+                            ).get("reason");
+                            setReportPending(true);
+                            setError("");
+                            try {
+                              await send({
+                                type: "reportClip",
+                                gameId,
+                                round: g.round,
+                                reason,
+                              });
+                              setReported(`${gameId}:${g.round}`);
+                            } catch (error) {
+                              setError(
+                                error instanceof Error
+                                  ? error.message
+                                  : "Signalement impossible.",
+                              );
+                            } finally {
+                              setReportPending(false);
+                            }
+                          }}
+                        >
+                          <label>
+                            Motif du signalement
+                            <select name="reason" defaultValue="" required>
+                              <option value="" disabled>
+                                Choisir un motif
+                              </option>
+                              {Object.entries(clipReportLabels).map(
+                                ([key, label]) => (
+                                  <option key={key} value={key}>
+                                    {label}
+                                  </option>
+                                ),
+                              )}
+                            </select>
+                          </label>
+                          <Button disabled={reportPending}>
+                            Envoyer le signalement
+                          </Button>
+                        </form>
+                      </details>
+                    ))}
+                  {g.refusal && (
+                    <div className="notice" aria-label="Votre réponse refusée">
+                      <p>Votre réponse « {g.refusal.answer} »</p>
+                      <p>
+                        {g.refusal.reason
+                          ? refusalLabels[g.refusal.reason]
+                          : "Cette réponse a été refusée."}
+                      </p>
+                    </div>
+                  )}
                   <p className="muted">{g.reveal?.categories.join(" · ")}</p>
                   {g.winner ? (
                     <p className="success">
@@ -738,7 +996,9 @@ export function RoomClient({ code }: { code: string }) {
                   </div>
                   <Button asChild variant="outline">
                     <Link href={`/games/${state.gameId}/results`}>
-                      Voir les résultats
+                      {state.videoSandbox
+                        ? "Voir le bilan par générique"
+                        : "Voir les résultats"}
                     </Link>
                   </Button>
                   {owner && (
@@ -747,6 +1007,25 @@ export function RoomClient({ code }: { code: string }) {
                     </Button>
                   )}
                 </>
+              ) : hasVideo &&
+                phase === "NEXT_ROUND" &&
+                g.round + 1 < g.settings.rounds ? (
+                <div role="status" className="stack">
+                  <span className="pill">Manche suivante</span>
+                  <h2>
+                    Manche {g.round + 2} / {g.settings.rounds}
+                  </h2>
+                  <motion.div
+                    aria-hidden="true"
+                    className="sandbox-transition-bar"
+                    initial={reduced ? false : { scaleX: 0 }}
+                    animate={{ scaleX: 1 }}
+                    transition={{
+                      duration: reduced ? 0 : 0.8,
+                      ease: "easeOut",
+                    }}
+                  />
+                </div>
               ) : (
                 <h2>La prochaine manche arrive…</h2>
               )}

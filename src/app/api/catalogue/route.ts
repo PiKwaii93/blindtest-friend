@@ -16,6 +16,9 @@ export async function GET(req: Request) {
         categories: c.categories,
         difficulty: c.difficulty,
         durationMs: c.durationMs,
+        freezeOnReveal: c.freezeOnReveal,
+        french: c.french,
+        firstFrenchBroadcastYear: c.firstFrenchBroadcastYear,
       })),
     });
   } catch (e) {

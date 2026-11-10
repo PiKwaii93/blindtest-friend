@@ -45,22 +45,54 @@ export function validateAnswer(
   difficulty: Settings["difficulties"][number],
   important: string[] = [],
 ): boolean {
+  return assessAnswer(answer, accepted, difficulty, important) === null;
+}
+
+export type Rejection =
+  "invalid" | "short" | "number" | "important" | "incomplete" | "similarity";
+
+export function assessAnswer(
+  answer: string,
+  accepted: string[],
+  difficulty: Settings["difficulties"][number],
+  important: string[] = [],
+): Rejection | null {
   const input = tokens(answer);
   const normalized = input.join(" ");
-  if (!normalized || answer.length > 200) return false;
+  if (!normalized || answer.length > 200) return "invalid";
   const threshold = { easy: 0.75, normal: 0.82, hard: 0.9 }[difficulty];
-  return accepted.some((alias) => {
+  const priority: Rejection[] = [
+    "invalid",
+    "short",
+    "number",
+    "important",
+    "incomplete",
+    "similarity",
+  ];
+  let reason: Rejection = "invalid";
+  function reject(candidate: Rejection) {
+    if (priority.indexOf(candidate) > priority.indexOf(reason))
+      reason = candidate;
+  }
+  for (const alias of accepted) {
     const target = tokens(alias);
     const title = target.join(" ");
-    if (normalized === title) return true;
-    if (Math.min(normalized.length, title.length) < 5) return false;
+    if (normalized === title) return null;
+    if (Math.min(normalized.length, title.length) < 5) {
+      reject("short");
+      continue;
+    }
     if (
       input.filter((t) => /^\d+$/.test(t)).join() !==
       target.filter((t) => /^\d+$/.test(t)).join()
-    )
-      return false;
-    if (important.some((word) => !input.includes(normalize(word))))
-      return false;
+    ) {
+      reject("number");
+      continue;
+    }
+    if (important.some((word) => !input.includes(normalize(word)))) {
+      reject("important");
+      continue;
+    }
     // Require every significant title token: a missing sequel subtitle is never a typo.
     if (
       target.some(
@@ -70,8 +102,10 @@ export function validateAnswer(
               1 - distance(t, word) / Math.max(t.length, word.length) >= 0.6,
           ),
       )
-    )
-      return false;
+    ) {
+      reject("incomplete");
+      continue;
+    }
     const edit =
       1 -
       distance(normalized, title) / Math.max(normalized.length, title.length);
@@ -81,6 +115,8 @@ export function validateAnswer(
           (t) => 1 - distance(t, word) / Math.max(t.length, word.length) >= 0.6,
         ),
       ).length / Math.max(input.length, target.length);
-    return 0.8 * edit + 0.2 * tokenScore >= threshold;
-  });
+    if (0.8 * edit + 0.2 * tokenScore >= threshold) return null;
+    reject("similarity");
+  }
+  return reason;
 }

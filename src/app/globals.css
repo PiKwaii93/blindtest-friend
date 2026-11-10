@@ -933,3 +933,12 @@ footer .brand {
     display: none;
   }
 }
+
+.sandbox-transition-bar {
+  width: min(14rem, 70vw);
+  height: 3px;
+  margin: 0 auto;
+  border-radius: 999px;
+  background: #b997ff;
+  transform-origin: left;
+}

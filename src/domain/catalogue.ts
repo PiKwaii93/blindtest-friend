@@ -1,4 +1,6 @@
 import { z } from "zod";
+export const clipPathPattern =
+  /^(?:[a-zA-Z0-9_/-]+\.(?:wav|mp3|ogg)|sandbox-video\/[a-zA-Z0-9_/-]+\.mp4)$/;
 export const workSchema = z
   .object({
     id: z.string().uuid().optional(),
@@ -15,7 +17,7 @@ export const workSchema = z
     clips: z
       .array(
         z.object({
-          audio_path: z.string().regex(/^[a-zA-Z0-9_/-]+\.(wav|mp3|ogg)$/),
+          audio_path: z.string().regex(clipPathPattern),
           difficulty: z.enum(["easy", "normal", "hard"]),
           start_ms: z.number().int().min(0),
           usable_duration_ms: z.number().int().min(5000).max(600000),

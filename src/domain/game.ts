@@ -1,4 +1,4 @@
-import { validateAnswer } from "./answers";
+import { assessAnswer, validateAnswer } from "./answers";
 import { settingsSchema, type Settings } from "./settings";
 export type Player = {
   id: string;
@@ -22,6 +22,9 @@ export type Clip = {
   difficulty: "easy" | "normal" | "hard";
   startMs: number;
   durationMs: number;
+  freezeOnReveal?: boolean;
+  french?: boolean;
+  firstFrenchBroadcastYear?: number | null;
 };
 export type Phase =
   | "LOBBY"
@@ -151,9 +154,50 @@ export function start(
     winner: null,
   };
 }
+export const sandboxVideoRevealMs = 10000;
+export function isSandboxVideo(path: string) {
+  return path.startsWith("sandbox-video/") && path.endsWith(".mp4");
+}
+function clipListenBudget(settings: Settings, clip?: Clip) {
+  const requested = settings.listenSeconds * 1000;
+  return clip?.freezeOnReveal
+    ? Math.min(requested, clip.durationMs)
+    : requested;
+}
+function listenBudget(g: Game) {
+  return clipListenBudget(g.settings, g.playlist[g.round]);
+}
+
+export function roundRecap(
+  game: Game,
+  reportCounts: ReadonlyMap<number, number>,
+) {
+  return (game.completedRounds ?? []).flatMap((round) => {
+    const index = round.number - 1;
+    const clip = game.playlist[index];
+    if (!clip || clip.id !== round.clipId) return [];
+    const first = round.attempts[0];
+    return [
+      {
+        number: round.number,
+        title: clip.title,
+        firstBuzzMs: first
+          ? Math.max(
+              0,
+              clipListenBudget(game.settings, clip) - first.remainingMs,
+            )
+          : null,
+        found: round.winner !== null,
+        reports: reportCounts.get(index) ?? 0,
+      },
+    ];
+  });
+}
 function reveal(g: Game, now: number) {
   g.phase = "REVEAL";
-  g.deadline = now + 5000;
+  g.deadline =
+    now +
+    (isSandboxVideo(g.playlist[g.round].path) ? sandboxVideoRevealMs : 5000);
   g.startedAt = now;
 }
 function fail(g: Game, now: number) {
@@ -161,15 +205,12 @@ function fail(g: Game, now: number) {
   a.correct = false;
   a.points = 0;
   if (!g.excluded.includes(a.playerId)) g.excluded.push(a.playerId);
-  if (
-    g.excluded.length === g.players.length ||
-    g.consumedMs >= g.settings.listenSeconds * 1000
-  )
+  if (g.excluded.length === g.players.length || g.consumedMs >= listenBudget(g))
     reveal(g, now);
   else {
     g.phase = "PLAYING";
     g.startedAt = now + 500;
-    g.deadline = g.startedAt + g.settings.listenSeconds * 1000 - g.consumedMs;
+    g.deadline = g.startedAt + listenBudget(g) - g.consumedMs;
   }
 }
 export function transition(state: Game, action: Action, now: number): Game {
@@ -184,9 +225,9 @@ export function transition(state: Game, action: Action, now: number): Game {
     } else if (g.phase === "COUNTDOWN") {
       g.phase = "PLAYING";
       g.startedAt = g.deadline;
-      g.deadline = g.startedAt + g.settings.listenSeconds * 1000;
+      g.deadline = g.startedAt + listenBudget(g);
     } else if (g.phase === "PLAYING") {
-      g.consumedMs = g.settings.listenSeconds * 1000;
+      g.consumedMs = listenBudget(g);
       reveal(g, now);
     } else if (g.phase === "ANSWERING") fail(g, now);
     else if (g.phase === "REVEAL") {
@@ -200,7 +241,12 @@ export function transition(state: Game, action: Action, now: number): Game {
         winner: g.winner,
       });
       g.phase = "NEXT_ROUND";
-      g.deadline = now + 500;
+      g.deadline =
+        now +
+        (isSandboxVideo(g.playlist[g.round].path) &&
+        g.round + 1 < g.settings.rounds
+          ? 900
+          : 500);
     } else if (g.phase === "NEXT_ROUND") {
       if (g.round + 1 >= g.settings.rounds) {
         g.phase = "FINISHED";
@@ -245,7 +291,7 @@ export function transition(state: Game, action: Action, now: number): Game {
     g.attempts.push({
       playerId: action.playerId,
       acceptedAt: now,
-      remainingMs: g.settings.listenSeconds * 1000 - g.consumedMs,
+      remainingMs: listenBudget(g) - g.consumedMs,
     });
   }
   if (action.type === "answer") {
@@ -266,7 +312,7 @@ export function transition(state: Game, action: Action, now: number): Game {
       clip.important,
     );
     if (a.correct) {
-      a.points = points(a.remainingMs, g.settings.listenSeconds * 1000);
+      a.points = points(a.remainingMs, listenBudget(g));
       const p = g.players.find((p) => p.id === a.playerId)!;
       p.score += a.points;
       p.correct++;
@@ -277,7 +323,7 @@ export function transition(state: Game, action: Action, now: number): Game {
   }
   return g;
 }
-export function publicGame(g: Game) {
+export function publicGame(g: Game, viewerId?: string) {
   const {
     playlist,
     completedRounds: _completedRounds,
@@ -287,8 +333,30 @@ export function publicGame(g: Game) {
   void _completedRounds;
   void _selectionMetadata;
   const clip = playlist[g.round];
+  const refused =
+    viewerId && g.phase === "REVEAL" && isSandboxVideo(clip.path)
+      ? g.attempts.find(
+          (attempt) =>
+            attempt.playerId === viewerId &&
+            attempt.correct === false &&
+            attempt.answer !== undefined,
+        )
+      : undefined;
   return {
     ...safe,
+    ...(refused?.answer !== undefined
+      ? {
+          refusal: {
+            answer: refused.answer,
+            reason: assessAnswer(
+              refused.answer,
+              [clip.title, ...clip.aliases],
+              clip.difficulty,
+              clip.important,
+            ),
+          },
+        }
+      : {}),
     attempts: g.attempts.map(({ answer: _answer, ...a }) => {
       void _answer;
       return a;
