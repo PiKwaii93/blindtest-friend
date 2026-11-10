@@ -19,7 +19,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             encore<span className="brand-dot">.</span>
           </Link>
           <nav aria-label="Navigation principale">
-            <Link href="/">Jouer</Link>
+            <Link href="/rooms/create">Créer un salon</Link>
             <Link href="/profile/history">
               <History size={16} /> Historique
             </Link>
