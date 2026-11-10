@@ -61,8 +61,6 @@ function hiddenMedia(video: boolean) {
   const media = video ? document.createElement("video") : new Audio();
   if (media instanceof HTMLVideoElement) {
     media.playsInline = true;
-    media.style.width = "100%";
-    media.style.maxHeight = "320px";
   }
   media.hidden = true;
   media.setAttribute("aria-hidden", "true");
@@ -887,7 +885,7 @@ export function RoomClient({ code }: { code: string }) {
                 <>
                   <span className="pill">La réponse</span>
                   {hasVideo ? (
-                    <div ref={revealVideo} />
+                    <div className="reveal-video" ref={revealVideo} />
                   ) : (
                     <RevealImage
                       key={`${g.round}:${g.reveal?.image}`}

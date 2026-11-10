@@ -605,6 +605,15 @@ footer .brand {
   max-width: 100%;
   border-radius: 12px;
 }
+.reveal-video {
+  width: min(100%, 960px);
+}
+.reveal-video video {
+  display: block;
+  width: 100%;
+  max-height: min(65svh, 560px);
+  object-fit: contain;
+}
 .full {
   width: 100%;
 }
