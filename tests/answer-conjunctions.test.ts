@@ -1,13 +1,30 @@
 import { describe, expect, it } from "vitest";
-import { assessAnswer, normalize, validateAnswer } from "../src/domain/answers";
+import {
+  assessAnswer,
+  normalize,
+  normalizeAnswer,
+  validateAnswer,
+} from "../src/domain/answers";
 import { createPilotRound, youtubePilots } from "../src/domain/youtube-pilot";
 import { transition } from "../src/domain/game";
 
 describe("conjonctions dans les réponses", () => {
+  it("préserve les clés distinctes des alias lors d'une sauvegarde admin", () => {
+    const aliases = ["Tom and Jerry", "Tom & Jerry", "Tom et Jerry"];
+    expect(aliases.map(normalize)).toEqual([
+      "tom and jerry",
+      "tom jerry",
+      "tom et jerry",
+    ]);
+    expect(new Set(aliases.map(normalize)).size).toBe(3);
+    expect(new Set(aliases.map(normalizeAnswer)).size).toBe(1);
+  });
   it.each(["&", "＆", "et", "and", "AND"])(
     "normalise %s sans perdre la conjonction",
     (conjunction) => {
-      expect(normalize(`Zig ${conjunction} Sharko`)).toBe("zig et sharko");
+      expect(normalizeAnswer(`Zig ${conjunction} Sharko`)).toBe(
+        "zig et sharko",
+      );
     },
   );
 
@@ -46,13 +63,15 @@ describe("conjonctions dans les réponses", () => {
         validateAnswer("Zig & Sharko", ["Zig et Sharko le film"], difficulty),
       ).toBe(false);
       expect(
-        validateAnswer("Zigg & Sharko", ["Zig et Sharko"], difficulty, ["film"]),
+        validateAnswer("Zigg & Sharko", ["Zig et Sharko"], difficulty, [
+          "film",
+        ]),
       ).toBe(false);
     },
   );
 
   it("ne modifie pas and à l'intérieur des mots", () => {
-    expect(normalize("Candyland Brandy Anderson")).toBe(
+    expect(normalizeAnswer("Candyland Brandy Anderson")).toBe(
       "candyland brandy anderson",
     );
   });

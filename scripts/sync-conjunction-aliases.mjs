@@ -2,7 +2,11 @@
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import { createClient } from "@supabase/supabase-js";
-import { normalize, validateAnswer } from "../src/domain/answers.ts";
+import {
+  normalize,
+  normalizeAnswer,
+  validateAnswer,
+} from "../src/domain/answers.ts";
 
 const target = process.argv[process.argv.indexOf("--target") + 1];
 assert.ok(process.argv.includes("--target"), "Specify --target explicitly");
@@ -55,12 +59,17 @@ for (const [id, aliases] of Object.entries(manifest)) {
       (w) =>
         w.id !== work.id &&
         [w.title, ...w.work_aliases.map((a) => a.alias)].some(
-          (name) => normalize(name) === normalized,
+          (name) => normalizeAnswer(name) === normalizeAnswer(alias),
         ),
     );
     assert.equal(collisions.length, 0, `Ambiguous alias ${id}: ${alias}`);
-    checks.push({ work_id: work.id, normalized_alias: normalized });
-    if (!keys.has(normalized)) {
+    checks.push({ work_id: work.id, alias });
+    if (
+      !keys.has(normalized) &&
+      !work.work_aliases.some(
+        (a) => a.alias.toLowerCase() === alias.toLowerCase(),
+      )
+    ) {
       rows.push({ work_id: work.id, alias, normalized_alias: normalized });
       keys.add(normalized);
     }
@@ -76,12 +85,10 @@ console.log(
 );
 if (process.argv.includes("--apply")) {
   if (rows.length) {
-    const { error } = await db
-      .from("work_aliases")
-      .upsert(rows, {
-        onConflict: "work_id,normalized_alias",
-        ignoreDuplicates: true,
-      });
+    const { error } = await db.from("work_aliases").upsert(rows, {
+      onConflict: "work_id,normalized_alias",
+      ignoreDuplicates: true,
+    });
     if (error) throw error;
   }
   const ids = [...new Set(checks.map((c) => c.work_id))];
@@ -95,7 +102,7 @@ if (process.argv.includes("--apply")) {
       data.some(
         (a) =>
           a.work_id === check.work_id &&
-          a.normalized_alias === check.normalized_alias,
+          normalizeAnswer(a.alias) === normalizeAnswer(check.alias),
       ),
     );
   for (const work of works.filter((w) => ids.includes(w.id)))

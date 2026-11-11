@@ -1,17 +1,20 @@
 import type { Settings } from "./settings";
 export function normalize(value: string): string {
-  return (
-    value
-      .normalize("NFKD")
-      .replace(/\p{M}/gu, "")
-      .toLowerCase()
-      // Preserve the conjunction before punctuation is removed (including full-width ＆).
-      .replace(/&/g, " et ")
-      .replace(/[’']/g, " ")
-      .replace(/[^\p{L}\p{N}]+/gu, " ")
-      .trim()
-      .replace(/\s+/g, " ")
-      .replace(/(^| )and(?= |$)/g, "$1et")
+  return value
+    .normalize("NFKD")
+    .replace(/\p{M}/gu, "")
+    .toLowerCase()
+    .replace(/[’']/g, " ")
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .trim()
+    .replace(/\s+/g, " ");
+}
+export function normalizeAnswer(value: string): string {
+  // Answer equivalence must not change the existing database alias keys.
+  // NFKD also handles the full-width ampersand ＆ before punctuation is removed.
+  return normalize(value.normalize("NFKD").replace(/&/g, " et ")).replace(
+    /(^| )and(?= |$)/g,
+    "$1et",
   );
 }
 export function distance(a: string, b: string): number {
@@ -39,7 +42,7 @@ const roman: Record<string, string> = {
   x: "10",
 };
 function tokens(s: string) {
-  return normalize(s)
+  return normalizeAnswer(s)
     .split(" ")
     .filter((t) => !articles.has(t))
     .map((t) => roman[t] ?? t);
