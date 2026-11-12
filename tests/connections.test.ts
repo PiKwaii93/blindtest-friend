@@ -113,4 +113,39 @@ describe("connexions en réponses libres", () => {
     synchronizeConnections(g, { a: 4000, b: 4000 }, 15000);
     expect(g).toEqual(before);
   });
+  it("conserve les points et statistiques précédents quand un joueur revient avant d'avoir trouvé", () => {
+    const g = playing();
+    g.players[1] = { ...g.players[1], score: 175, correct: 1, winningMs: 7500 };
+    const initialClock = [g.startedAt, g.deadline];
+    synchronizeConnections(g, { a: 15000, b: 4000 }, 15000);
+    synchronizeConnections(g, { a: 17000, b: 17000 }, 17000);
+    expect(g.players[1]).toMatchObject({
+      score: 175,
+      correct: 1,
+      winningMs: 7500,
+    });
+    expect([g.startedAt, g.deadline]).toEqual(initialClock);
+    const solved = answer(g, "b", 18000);
+    expect(solved.phase).toBe("PLAYING");
+    expect(solved.players[1]).toMatchObject({
+      score: 325,
+      correct: 2,
+      winningMs: 22500,
+    });
+    expect(
+      solved.attempts.filter((a) => a.playerId === "b" && a.correct),
+    ).toHaveLength(1);
+  });
+  it("ne permet pas un second gain après la reconnexion d'un joueur qui avait déjà trouvé", () => {
+    const g = answer(playing(), "b", 5000);
+    const before = structuredClone(g);
+    synchronizeConnections(g, { a: 15000, b: 4000 }, 15000);
+    expect(g.phase).toBe("PLAYING");
+    synchronizeConnections(g, { a: 17000, b: 17000 }, 17000);
+    expect(g.disconnected).toEqual([]);
+    expect(g.players).toEqual(before.players);
+    expect(g.attempts).toEqual(before.attempts);
+    expect(() => answer(g, "b", 18000)).toThrow("déjà trouvé");
+    expect(g.players).toEqual(before.players);
+  });
 });
