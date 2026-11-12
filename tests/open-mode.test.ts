@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import {
   publicGame,
   roundRecap,
+  revealIfEveryoneFound,
   start,
   transition,
   type Clip,
@@ -77,10 +78,9 @@ describe("réponses libres", () => {
     expect(g.players.map((p) => p.correct)).toEqual([1, 1]);
     expect(g.players.map((p) => p.winningMs)).toEqual([1000, 9999]);
     expect(g.winner).toBe("a");
-    expect(g.phase).toBe("PLAYING");
-    g = transition(g, { type: "tick" }, 13000);
     expect(g.phase).toBe("REVEAL");
-    expect(g.deadline).toBe(23000);
+    expect(g.consumedMs).toBe(9999);
+    expect(g.deadline).toBe(22999);
   });
   it("accepte deux bonnes réponses au même instant et sans double attribution", () => {
     const g = answer(
@@ -90,7 +90,9 @@ describe("réponses libres", () => {
       5000,
     );
     expect(g.players.map((p) => p.score)).toEqual([180, 180]);
-    expect(() => answer(g, "a", clip.title, 5001)).toThrow("déjà trouvé");
+    expect(g.phase).toBe("REVEAL");
+    expect(g.deadline).toBe(15000);
+    expect(() => answer(g, "a", clip.title, 5001)).toThrow("fermées");
     expect(g.players[0].correct).toBe(1);
   });
   it("ferme les réponses à l'échéance serveur et après la révélation", () => {
@@ -152,9 +154,8 @@ describe("réponses libres", () => {
       clip.title,
       8000,
     );
-    g = transition(g, { type: "tick" }, 13000);
-    g = transition(g, { type: "tick" }, 23000);
-    g = transition(g, { type: "tick" }, 23500);
+    g = transition(g, { type: "tick" }, g.deadline!);
+    g = transition(g, { type: "tick" }, g.deadline!);
     expect(g.phase).toBe("FINISHED");
     expect(g.completedRounds?.[0].attempts).toHaveLength(3);
     expect(roundRecap(g, new Map())[0]).toMatchObject({
@@ -162,5 +163,43 @@ describe("réponses libres", () => {
       firstBuzzMs: 3000,
     });
     expect(g.players.map((p) => p.score)).toEqual([170, 150]);
+  });
+  it("révèle dès que le dernier joueur trouve et garde dix secondes sans sauter la vidéo", () => {
+    const g = answer(
+      answer(playing(), "a", clip.title, 4000),
+      "b",
+      clip.title,
+      5500,
+    );
+    expect(g.phase).toBe("REVEAL");
+    expect(g.startedAt).toBe(5500);
+    expect(g.consumedMs).toBe(2500);
+    expect(g.deadline).toBe(15500);
+    expect(transition(g, { type: "tick" }, 15499).phase).toBe("REVEAL");
+    expect(transition(g, { type: "tick" }, 15500).phase).toBe("NEXT_ROUND");
+  });
+  it("ne double pas les points tant qu'un autre joueur cherche", () => {
+    const g = answer(playing(), "a", clip.title, 4000);
+    expect(() => answer(g, "a", clip.title, 4500)).toThrow("déjà trouvé");
+    expect(g.phase).toBe("PLAYING");
+  });
+  it("ne bloque pas la révélation sur un joueur ayant quitté la partie", () => {
+    const g = answer(playing(), "a", clip.title, 4000);
+    g.departed = ["b"];
+    revealIfEveryoneFound(g, 5500);
+    expect(g.phase).toBe("REVEAL");
+    expect(g.deadline).toBe(15500);
+    expect(g.consumedMs).toBe(2500);
+  });
+  it("garde aussi dix secondes de révélation avec un extrait audio", () => {
+    const g = playing();
+    g.playlist[0].path = "test.mp3";
+    const solved = answer(
+      answer(g, "a", clip.title, 4000),
+      "b",
+      clip.title,
+      5000,
+    );
+    expect(solved.deadline).toBe(15000);
   });
 });

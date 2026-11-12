@@ -203,8 +203,27 @@ function reveal(g: Game, now: number) {
   g.phase = "REVEAL";
   g.deadline =
     now +
-    (isSandboxVideo(g.playlist[g.round].path) ? sandboxVideoRevealMs : 5000);
+    (g.settings.mode === "open" || isSandboxVideo(g.playlist[g.round].path)
+      ? sandboxVideoRevealMs
+      : 5000);
   g.startedAt = now;
+}
+export function revealIfEveryoneFound(g: Game, now: number) {
+  if (g.settings.mode !== "open" || g.phase !== "PLAYING") return;
+  const active = g.players.filter((p) => !g.departed?.includes(p.id));
+  if (
+    !active.length ||
+    !active.every((p) =>
+      g.attempts.some((a) => a.playerId === p.id && a.correct),
+    )
+  )
+    return;
+  // Continue the reveal from the current media position, not from the full round budget.
+  g.consumedMs = Math.min(
+    listenBudget(g),
+    g.consumedMs + Math.max(0, now - g.startedAt),
+  );
+  reveal(g, now);
 }
 function fail(g: Game, now: number) {
   const a = g.attempts.at(-1)!;
@@ -331,8 +350,9 @@ export function transition(state: Game, action: Action, now: number): Game {
         player.correct++;
         player.winningMs += elapsed;
         g.winner ??= player.id;
+        revealIfEveryoneFound(g, now);
       }
-      // Keep the same listening clock and media position, even after a correct answer.
+      // Other players keep their listening clock until everyone has found the answer.
       return g;
     }
     const a = g.attempts.at(-1);

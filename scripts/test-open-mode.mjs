@@ -102,7 +102,7 @@ try {
   await a.page.locator("#rounds").fill("2");
   await a.page
     .getByLabel("Durée de la manche (secondes)", { exact: true })
-    .fill("20");
+    .fill("30");
   await a.page
     .getByRole("button", { name: "Enregistrer les règles", exact: true })
     .click();
@@ -169,13 +169,21 @@ try {
   });
   await b.page.locator("#answer").fill(title);
   await b.page.locator("#answer").press("Enter");
-  await expect(b.page.getByText(/Bonne réponse ! \+/)).toBeVisible();
+  await expect(
+    b.page.getByRole("heading", { name: title, exact: true }),
+  ).toBeVisible();
   await b.page.unroute(endpoint);
   const both = await snapshot();
   const scoreA = both.game.players.find((p) => p.id === a.id).score;
   const scoreB = both.game.players.find((p) => p.id === b.id).score;
   assert.ok(scoreA > scoreB && scoreB >= 100);
-  assert.equal(both.game.phase, "PLAYING");
+  assert.equal(both.game.phase, "REVEAL");
+  assert.ok(
+    both.game.startedAt < initial.deadline,
+    "Reveal must start before the 30-second deadline",
+  );
+  assert.equal(both.game.deadline - both.game.startedAt, 10000);
+  assert.equal(both.game.consumedMs, both.game.startedAt - initial.startedAt);
   assert.equal(
     both.game.attempts.filter((attempt) => attempt.correct).length,
     2,
@@ -200,6 +208,8 @@ try {
       scoreB,
       secondPlayerSendDelayMs: 1200,
       continuousPlayback: true,
+      earlyReveal: true,
+      revealDurationMs: both.game.deadline - both.game.startedAt,
       duplicateRejected: true,
     }),
   );
@@ -230,6 +240,8 @@ try {
   );
   assert.equal(simultaneous.length, 2);
   const secondAfter = await snapshot();
+  assert.equal(secondAfter.game.phase, "REVEAL");
+  assert.equal(secondAfter.game.deadline - secondAfter.game.startedAt, 10000);
   assert.equal(
     secondAfter.game.attempts.filter((attempt) => attempt.correct).length,
     2,

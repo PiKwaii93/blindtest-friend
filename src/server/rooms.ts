@@ -6,6 +6,7 @@ import { database } from "./supabase";
 import { defaultSettings, settingsSchema } from "@/domain/settings";
 import {
   publicGame,
+  revealIfEveryoneFound,
   isSandboxVideo,
   sandboxVideoRevealMs,
   start,
@@ -332,6 +333,7 @@ export async function command(
           r.game.preparationError =
             "Tous les participants ont quitté la partie.";
         }
+        revealIfEveryoneFound(r.game, now);
       }
       if (action.type === "kick") r.banned.push(target);
       if (r.ownerId === target) r.ownerId = r.players[0]?.id ?? r.ownerId;

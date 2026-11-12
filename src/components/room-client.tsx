@@ -960,7 +960,7 @@ export function RoomClient({ code }: { code: string }) {
               </fieldset>
               <p className="small muted">
                 {settings.mode === "open"
-                  ? "Sans buzz : tout le monde répond pendant l’écoute, avec autant d’essais que nécessaire. Chaque joueur qui trouve gagne de 100 à 200 points selon sa rapidité. La manche continue jusqu’à la fin du chrono."
+                  ? "Sans buzz : tout le monde répond pendant l’écoute, avec autant d’essais que nécessaire. Chaque joueur qui trouve gagne de 100 à 200 points selon sa rapidité. La révélation commence quand tout le monde a trouvé ou à la fin du chrono."
                   : "Une mauvaise réponse vous exclut de la manche."}
                 {settings.mode === "teams"
                   ? " Vos coéquipiers restent en jeu."
@@ -1043,7 +1043,8 @@ export function RoomClient({ code }: { code: string }) {
                       {solved ? (
                         <p role="status" className="success">
                           Bonne réponse ! +{ownLastAttempt?.points} points.
-                          Laissez les autres chercher jusqu’à la fin du chrono.
+                          Laissez les autres chercher : révélation dès que tout
+                          le monde a trouvé, ou à la fin du chrono.
                         </p>
                       ) : (
                         <form
