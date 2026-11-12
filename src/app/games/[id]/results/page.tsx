@@ -103,8 +103,10 @@ export default async function Page({
           <h2>Bilan par générique</h2>
           <p className="muted">
             {recap.filter((round) => !round.found).length} manche(s) sans bonne
-            réponse sur {recap.length}. Le temps de buzz correspond au temps
-            d’écoute écoulé.
+            réponse sur {recap.length}.{" "}
+            {g.settings.mode === "open"
+              ? "Le temps indiqué correspond à la première bonne réponse reçue par le serveur."
+              : "Le temps de buzz correspond au temps d’écoute écoulé."}
           </p>
           <div style={{ overflowX: "auto" }}>
             <table className="table">
@@ -112,7 +114,11 @@ export default async function Page({
                 <tr>
                   <th scope="col">Manche</th>
                   <th scope="col">Générique</th>
-                  <th scope="col">Premier buzz</th>
+                  <th scope="col">
+                    {g.settings.mode === "open"
+                      ? "Première bonne réponse"
+                      : "Premier buzz"}
+                  </th>
                   <th scope="col">Résultat</th>
                   <th scope="col">Signalements</th>
                 </tr>
@@ -124,7 +130,9 @@ export default async function Page({
                     <th scope="row">{round.title}</th>
                     <td>
                       {round.firstBuzzMs === null
-                        ? "Aucun buzz"
+                        ? g.settings.mode === "open"
+                          ? "Aucune bonne réponse"
+                          : "Aucun buzz"
                         : `${(round.firstBuzzMs / 1000).toFixed(2).replace(".", ",")} s`}
                     </td>
                     <td>{round.found ? "Trouvé" : "Sans bonne réponse"}</td>

@@ -40,7 +40,7 @@ export const settingsSchema = z.object({
   rounds: z.number().int().min(1).max(50),
   listenSeconds: z.number().int().min(5).max(30),
   answerSeconds: z.number().int().min(5).max(30),
-  mode: z.enum(["individual", "teams"]),
+  mode: z.enum(["individual", "teams", "open"]),
   vfOnly: z.boolean().optional(),
   broadcastEra: z.enum(broadcastEras).optional(),
   generation: z

@@ -179,7 +179,10 @@ export function roundRecap(
     const index = round.number - 1;
     const clip = game.playlist[index];
     if (!clip || clip.id !== round.clipId) return [];
-    const first = round.attempts[0];
+    const first =
+      game.settings.mode === "open"
+        ? round.attempts.find((attempt) => attempt.correct)
+        : round.attempts[0];
     return [
       {
         number: round.number,
@@ -283,6 +286,7 @@ export function transition(state: Game, action: Action, now: number): Game {
   }
   if (action.type === "buzz") {
     if (
+      g.settings.mode === "open" ||
       g.phase !== "PLAYING" ||
       now < g.startedAt ||
       g.excluded.includes(action.playerId)
@@ -298,6 +302,39 @@ export function transition(state: Game, action: Action, now: number): Game {
     });
   }
   if (action.type === "answer") {
+    if (g.settings.mode === "open") {
+      if (g.phase !== "PLAYING" || now < g.startedAt)
+        throw new Error("Les réponses sont fermées.");
+      if (g.attempts.some((a) => a.playerId === action.playerId && a.correct))
+        throw new Error("Vous avez déjà trouvé cette œuvre.");
+      const clip = g.playlist[g.round];
+      const elapsed = Math.max(0, now - g.startedAt);
+      const remainingMs = Math.max(0, listenBudget(g) - elapsed);
+      const correct = validateAnswer(
+        action.answer,
+        [clip.title, ...clip.aliases],
+        clip.difficulty,
+        clip.important,
+      );
+      const score = correct ? points(remainingMs, listenBudget(g)) : 0;
+      g.attempts.push({
+        playerId: action.playerId,
+        acceptedAt: now,
+        remainingMs,
+        answer: action.answer,
+        correct,
+        points: score,
+      });
+      if (correct) {
+        const player = g.players.find((p) => p.id === action.playerId)!;
+        player.score += score;
+        player.correct++;
+        player.winningMs += elapsed;
+        g.winner ??= player.id;
+      }
+      // Keep the same listening clock and media position, even after a correct answer.
+      return g;
+    }
     const a = g.attempts.at(-1);
     if (
       g.phase !== "ANSWERING" ||
@@ -337,8 +374,13 @@ export function publicGame(g: Game, viewerId?: string) {
   void _selectionMetadata;
   const clip = playlist[g.round];
   const refused =
-    viewerId && g.phase === "REVEAL" && isSandboxVideo(clip.path)
-      ? g.attempts.find(
+    viewerId &&
+    g.phase === "REVEAL" &&
+    isSandboxVideo(clip.path) &&
+    !g.attempts.some(
+      (attempt) => attempt.playerId === viewerId && attempt.correct,
+    )
+      ? g.attempts.findLast(
           (attempt) =>
             attempt.playerId === viewerId &&
             attempt.correct === false &&

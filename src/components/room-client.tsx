@@ -141,6 +141,11 @@ export function RoomClient({ code }: { code: string }) {
         offset.current = data.serverNow - (before + after) / 2;
       }
       if (data.version >= (latest.current?.version ?? -1)) {
+        if (
+          data.gameId !== latest.current?.gameId ||
+          data.game?.round !== latest.current?.game?.round
+        )
+          setAnswer("");
         latest.current = data;
         setState(data);
         const serialized = JSON.stringify(data.settings);
@@ -178,8 +183,10 @@ export function RoomClient({ code }: { code: string }) {
       setError("");
       try {
         await send(action);
+        return true;
       } catch (e) {
         setError(e instanceof Error ? e.message : "Action impossible.");
+        return false;
       } finally {
         setBusy(false);
       }
@@ -472,6 +479,7 @@ export function RoomClient({ code }: { code: string }) {
   }, [phase, deadline, volume, reduced, hasVideo]);
   const canBuzz = Boolean(
     g?.phase === "PLAYING" &&
+    g.settings.mode !== "open" &&
     !g.excluded.includes(userId) &&
     now >= g.startedAt &&
     !busy &&
@@ -495,6 +503,7 @@ export function RoomClient({ code }: { code: string }) {
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       if (
+        canBuzz &&
         e.code === "Space" &&
         !e.repeat &&
         !(
@@ -510,7 +519,7 @@ export function RoomClient({ code }: { code: string }) {
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [buzz]);
+  }, [buzz, canBuzz]);
   async function enableAudio() {
     try {
       const a = audio.current!;
@@ -590,6 +599,11 @@ export function RoomClient({ code }: { code: string }) {
   const unsaved = JSON.stringify(settings) !== JSON.stringify(state.settings);
   const blockers = launchBlockers(settings, eligible, unsaved, state.players);
   const attempt = g?.attempts.at(-1);
+  const openMode = g?.settings.mode === "open";
+  const ownAttempts = g?.attempts.filter((a) => a.playerId === userId) ?? [];
+  const ownLastAttempt = ownAttempts.at(-1);
+  const solved = ownAttempts.some((a) => a.correct);
+  const correctAttempts = g?.attempts.filter((a) => a.correct) ?? [];
   const answering = phase === "ANSWERING" && attempt?.playerId === userId;
   const remaining = g
     ? phase === "PLAYING"
@@ -883,10 +897,15 @@ export function RoomClient({ code }: { code: string }) {
                     >
                       <option value="individual">Individuel</option>
                       <option value="teams">Équipes</option>
+                      <option value="open">Réponses libres · sans buzz</option>
                     </select>
                   </div>
                   <div>
-                    <label htmlFor="listen">Écoute cumulée (secondes)</label>
+                    <label htmlFor="listen">
+                      {settings.mode === "open"
+                        ? "Durée de la manche (secondes)"
+                        : "Écoute cumulée (secondes)"}
+                    </label>
                     <input
                       id="listen"
                       type="number"
@@ -901,24 +920,26 @@ export function RoomClient({ code }: { code: string }) {
                       }
                     />
                   </div>
-                  <div>
-                    <label htmlFor="response">
-                      Temps de réponse (secondes)
-                    </label>
-                    <input
-                      id="response"
-                      type="number"
-                      min={5}
-                      max={30}
-                      value={settings.answerSeconds}
-                      onChange={(e) =>
-                        setSettings({
-                          ...settings,
-                          answerSeconds: +e.target.value,
-                        })
-                      }
-                    />
-                  </div>
+                  {settings.mode !== "open" && (
+                    <div>
+                      <label htmlFor="response">
+                        Temps de réponse (secondes)
+                      </label>
+                      <input
+                        id="response"
+                        type="number"
+                        min={5}
+                        max={30}
+                        value={settings.answerSeconds}
+                        onChange={(e) =>
+                          setSettings({
+                            ...settings,
+                            answerSeconds: +e.target.value,
+                          })
+                        }
+                      />
+                    </div>
+                  )}
                 </div>
                 {owner && (
                   <Button
@@ -933,7 +954,9 @@ export function RoomClient({ code }: { code: string }) {
                 )}
               </fieldset>
               <p className="small muted">
-                Une mauvaise réponse vous exclut de la manche.
+                {settings.mode === "open"
+                  ? "Sans buzz : tout le monde répond pendant l’écoute, avec autant d’essais que nécessaire. Chaque joueur qui trouve gagne de 100 à 200 points selon sa rapidité. La manche continue jusqu’à la fin du chrono."
+                  : "Une mauvaise réponse vous exclut de la manche."}
                 {settings.mode === "teams"
                   ? " Vos coéquipiers restent en jeu."
                   : ""}
@@ -1006,14 +1029,82 @@ export function RoomClient({ code }: { code: string }) {
                     {(remaining / 1000).toFixed(1)}
                     <span className="small muted"> s</span>
                   </div>
-                  <button className="buzzer" disabled={!canBuzz} onClick={buzz}>
-                    BUZZ
-                  </button>
-                  <p className="small muted">
-                    {g.excluded.includes(userId)
-                      ? "Vous êtes exclu de cette manche."
-                      : "Appuyez sur Espace ou sur le buzzer"}
-                  </p>
+                  {openMode ? (
+                    <div className="stack full">
+                      <p className="small muted">
+                        Réponses libres · {correctAttempts.length}/
+                        {g.players.length} ont trouvé
+                      </p>
+                      {solved ? (
+                        <p role="status" className="success">
+                          Bonne réponse ! +{ownLastAttempt?.points} points.
+                          Laissez les autres chercher jusqu’à la fin du chrono.
+                        </p>
+                      ) : (
+                        <form
+                          className="stack full"
+                          onSubmit={async (event) => {
+                            event.preventDefault();
+                            if (busy || remaining <= 0 || !answer.trim())
+                              return;
+                            const submitted = answer;
+                            if (
+                              await act({
+                                type: "answer",
+                                round,
+                                answer: submitted,
+                              })
+                            )
+                              setAnswer((value) =>
+                                value === submitted ? "" : value,
+                              );
+                          }}
+                        >
+                          <label htmlFor="answer">
+                            Quel est le titre de l’œuvre ?
+                          </label>
+                          <input
+                            id="answer"
+                            autoFocus
+                            value={answer}
+                            maxLength={200}
+                            onChange={(event) => setAnswer(event.target.value)}
+                            autoComplete="off"
+                            disabled={remaining <= 0}
+                          />
+                          <Button
+                            disabled={busy || remaining <= 0 || !answer.trim()}
+                          >
+                            Valider ma réponse
+                          </Button>
+                          <p className="small muted">
+                            Essais illimités · une seule bonne réponse rapporte
+                            des points par manche.
+                          </p>
+                          {ownLastAttempt?.correct === false && (
+                            <p role="status">
+                              Ce n’est pas la bonne réponse. Réessayez !
+                            </p>
+                          )}
+                        </form>
+                      )}
+                    </div>
+                  ) : (
+                    <>
+                      <button
+                        className="buzzer"
+                        disabled={!canBuzz}
+                        onClick={buzz}
+                      >
+                        BUZZ
+                      </button>
+                      <p className="small muted">
+                        {g.excluded.includes(userId)
+                          ? "Vous êtes exclu de cette manche."
+                          : "Appuyez sur Espace ou sur le buzzer"}
+                      </p>
+                    </>
+                  )}
                 </>
               ) : phase === "ANSWERING" ? (
                 <>
@@ -1143,7 +1234,20 @@ export function RoomClient({ code }: { code: string }) {
                     </div>
                   )}
                   <p className="muted">{g.reveal?.categories.join(" · ")}</p>
-                  {g.winner ? (
+                  {openMode ? (
+                    correctAttempts.length ? (
+                      <div className="stack" aria-label="Réponses trouvées">
+                        {correctAttempts.map((a) => (
+                          <p className="success" key={a.playerId}>
+                            {g.players.find((p) => p.id === a.playerId)?.name} ·
+                            +{a.points} points
+                          </p>
+                        ))}
+                      </div>
+                    ) : (
+                      <p className="muted">Personne n’a trouvé cette fois.</p>
+                    )
+                  ) : g.winner ? (
                     <p className="success">
                       {g.players.find((p) => p.id === g.winner)?.name} · +
                       {attempt?.points} points
