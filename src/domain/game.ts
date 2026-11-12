@@ -60,6 +60,7 @@ export type Game = {
   attempts: Attempt[];
   winner: string | null;
   departed?: string[];
+  disconnected?: string[];
   completedRounds?: {
     number: number;
     workId: string;
@@ -210,7 +211,9 @@ function reveal(g: Game, now: number) {
 }
 export function revealIfEveryoneFound(g: Game, now: number) {
   if (g.settings.mode !== "open" || g.phase !== "PLAYING") return;
-  const active = g.players.filter((p) => !g.departed?.includes(p.id));
+  const active = g.players.filter(
+    (p) => !g.departed?.includes(p.id) && !g.disconnected?.includes(p.id),
+  );
   if (
     !active.length ||
     !active.every((p) =>
@@ -224,6 +227,19 @@ export function revealIfEveryoneFound(g: Game, now: number) {
     g.consumedMs + Math.max(0, now - g.startedAt),
   );
   reveal(g, now);
+}
+export function advancePreparationIfReady(g: Game, now: number) {
+  if (g.phase !== "PREPARING") return;
+  const active = g.players.filter(
+    (p) =>
+      !g.departed?.includes(p.id) &&
+      !(g.settings.mode === "open" && g.disconnected?.includes(p.id)),
+  );
+  if (active.length && active.every((p) => g.loaded.includes(p.id))) {
+    g.phase = "COUNTDOWN";
+    g.startedAt = now;
+    g.deadline = now + 3000;
+  }
 }
 function fail(g: Game, now: number) {
   const a = g.attempts.at(-1)!;
@@ -297,11 +313,7 @@ export function transition(state: Game, action: Action, now: number): Game {
     throw new Error("Vous avez quitté cette partie.");
   if (action.type === "loaded" && g.phase === "PREPARING") {
     if (!g.loaded.includes(action.playerId)) g.loaded.push(action.playerId);
-    if (g.loaded.length === g.players.length) {
-      g.phase = "COUNTDOWN";
-      g.startedAt = now;
-      g.deadline = now + 3000;
-    }
+    advancePreparationIfReady(g, now);
   }
   if (action.type === "buzz") {
     if (

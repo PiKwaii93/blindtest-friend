@@ -7,6 +7,7 @@ import { defaultSettings, settingsSchema } from "@/domain/settings";
 import {
   publicGame,
   revealIfEveryoneFound,
+  advancePreparationIfReady,
   isSandboxVideo,
   sandboxVideoRevealMs,
   start,
@@ -15,6 +16,7 @@ import {
   type Clip,
 } from "@/domain/game";
 import { selectClips } from "@/domain/selection";
+import { synchronizeConnections } from "@/domain/connections";
 import type { Room } from "@/domain/room";
 import { z } from "zod";
 import { videoSandboxEnabled } from "./video-sandbox";
@@ -38,6 +40,7 @@ const commandSchema = z.discriminatedUnion("type", [
   z.object({ type: z.literal("start") }),
   z.object({ type: z.literal("lobby") }),
   z.object({ type: z.literal("tick") }),
+  z.object({ type: z.literal("syncPresence") }),
   z.object({ type: z.literal("loaded"), round: z.number().int().min(0) }),
   z.object({ type: z.literal("buzz"), round: z.number().int().min(0) }),
   z.object({
@@ -163,16 +166,30 @@ export async function createRoom(userId: string, name: string) {
   if (error) throw error;
   return state.code;
 }
-export async function readRoom(code: string) {
-  const { data, error } = await database().rpc("read_room_clock", {
-    p_code: code,
-  });
+export async function readRoom(code: string, userId?: string) {
+  const { data, error } = await database().rpc(
+    userId ? "read_room_for_player" : "read_room_clock",
+    userId ? { p_code: code, p_user: userId } : { p_code: code },
+  );
   if (error) throw error;
   if (!data) throw new Error("Salon introuvable.");
-  return data as { state: Room; version: number; now: number };
+  return data as {
+    state: Room;
+    version: number;
+    now: number;
+    lastSeen?: Record<string, number>;
+  };
 }
 export async function snapshot(code: string, userId: string) {
-  const row = await readRoom(code);
+  let row = await readRoom(code, userId);
+  if (row.state.game?.settings.mode === "open" && row.lastSeen) {
+    const next = structuredClone(row.state.game);
+    synchronizeConnections(next, row.lastSeen, row.now);
+    if (JSON.stringify(next) !== JSON.stringify(row.state.game)) {
+      await command(code, userId, { type: "syncPresence" });
+      row = await readRoom(code);
+    }
+  }
   const r = row.state;
   if (
     !r.players.some((p) => p.id === userId) &&
@@ -238,9 +255,14 @@ export async function command(
   const action = commandSchema.parse(input);
   const db = database();
   for (let retry = 0; retry < 8; retry++) {
-    const row = await readRoom(code);
+    const row = await readRoom(
+      code,
+      action.type === "join" || system ? undefined : userId,
+    );
     const r = structuredClone(row.state);
     const now = row.now;
+    if (r.game && row.lastSeen)
+      synchronizeConnections(r.game, row.lastSeen, now);
     let player = r.players.find((p) => p.id === userId);
     if (
       !system &&
@@ -319,14 +341,7 @@ export async function command(
         r.game.departed = [...new Set([...(r.game.departed ?? []), target])];
         if (!r.game.excluded.includes(target)) r.game.excluded.push(target);
         if (!r.game.loaded.includes(target)) r.game.loaded.push(target);
-        if (
-          r.game.phase === "PREPARING" &&
-          r.game.loaded.length === r.game.players.length
-        ) {
-          r.game.phase = "COUNTDOWN";
-          r.game.startedAt = now;
-          r.game.deadline = now + 3000;
-        }
+        advancePreparationIfReady(r.game, now);
         if (!r.players.length) {
           r.game.phase = "FINISHED";
           r.game.deadline = null;
@@ -420,7 +435,7 @@ export async function command(
       r.game = null;
       r.gameId = null;
       r.players.forEach((p) => (p.ready = false));
-    } else if (r.game) {
+    } else if (r.game && action.type !== "syncPresence") {
       if ("round" in action && action.round !== r.game.round)
         throw new Error("La manche a changé.");
       r.game = transition(

@@ -1324,7 +1324,13 @@ export function RoomClient({ code }: { code: string }) {
           <div className="panel">
             <div className="row between">
               <h3>{g ? "Classement" : "Les joueurs"}</h3>
-              <span className="pill">{state.players.length} en ligne</span>
+              <span className="pill">
+                {
+                  state.players.filter((p) => !g?.disconnected?.includes(p.id))
+                    .length
+                }{" "}
+                en ligne
+              </span>
             </div>
             {(g ? scores : state.players).map((p, i) => (
               <div className="player" key={p.id}>
@@ -1341,6 +1347,7 @@ export function RoomClient({ code }: { code: string }) {
                         ? "Prêt à jouer"
                         : "En préparation"
                       : p.correct + " bonnes réponses"}
+                    {g?.disconnected?.includes(p.id) ? " · Déconnecté" : ""}
                     {p.id === state.ownerId && !g ? " · Créateur" : ""}
                   </div>
                 </div>
