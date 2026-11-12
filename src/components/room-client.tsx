@@ -17,6 +17,7 @@ import {
   settingsSchema,
   matchesRoomSettings,
   launchBlockers,
+  defaultSettings,
   type Settings,
   type BroadcastEra,
 } from "@/domain/settings";
@@ -892,6 +893,10 @@ export function RoomClient({ code }: { code: string }) {
                         setSettings({
                           ...settings,
                           mode: e.target.value as Settings["mode"],
+                          listenSeconds:
+                            e.target.value === "open"
+                              ? 30
+                              : defaultSettings.listenSeconds,
                         })
                       }
                     >

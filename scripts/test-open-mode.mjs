@@ -91,6 +91,9 @@ try {
   await expect.poll(async () => (await snapshot()).players.length).toBe(2);
   await a.page.getByLabel("Mode de jeu", { exact: true }).selectOption("open");
   await expect(
+    a.page.getByLabel("Durée de la manche (secondes)", { exact: true }),
+  ).toHaveValue("30");
+  await expect(
     a.page.getByLabel("Temps de réponse (secondes)", { exact: true }),
   ).toHaveCount(0);
   await expect(
