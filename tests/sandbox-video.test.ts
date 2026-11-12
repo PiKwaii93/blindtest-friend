@@ -27,10 +27,10 @@ describe("révélation du bac à sable vidéo", () => {
     expect(matchesRoomSettings(clip, game.settings)).toBe(true);
     expect(
       matchesRoomSettings({ ...clip, freezeOnReveal: false }, game.settings),
-    ).toBe(false);
+    ).toBe(true);
     expect(
       matchesRoomSettings(clip, { ...game.settings, listenSeconds: 11 }),
-    ).toBe(false);
+    ).toBe(true);
     expect(game.deadline).toBe(12900);
     const reveal = transition(game, { type: "tick" }, 12900);
     expect(reveal.phase).toBe("REVEAL");

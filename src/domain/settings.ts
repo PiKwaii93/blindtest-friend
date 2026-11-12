@@ -76,9 +76,8 @@ export function matchesRoomSettings(
           settings.broadcastEra)) &&
     settings.difficulties.includes(clip.difficulty) &&
     clip.categories.some((name) => settings.categories.includes(name)) &&
-    (clip.freezeOnReveal
-      ? Math.ceil(clip.durationMs / 1000) >= settings.listenSeconds
-      : clip.durationMs >= settings.listenSeconds * 1000)
+    Number.isFinite(clip.durationMs) &&
+    clip.durationMs > 0
   );
 }
 export function launchBlockers(

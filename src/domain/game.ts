@@ -164,9 +164,7 @@ export function isSandboxVideo(path: string) {
 }
 function clipListenBudget(settings: Settings, clip?: Clip) {
   const requested = settings.listenSeconds * 1000;
-  return clip?.freezeOnReveal
-    ? Math.min(requested, clip.durationMs)
-    : requested;
+  return clip ? Math.min(requested, clip.durationMs) : requested;
 }
 function listenBudget(g: Game) {
   return clipListenBudget(g.settings, g.playlist[g.round]);

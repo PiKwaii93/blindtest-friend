@@ -9,7 +9,6 @@ import {
   revealIfEveryoneFound,
   advancePreparationIfReady,
   isSandboxVideo,
-  sandboxVideoRevealMs,
   start,
   transition,
   type Action,
@@ -116,10 +115,7 @@ export async function catalogue(): Promise<Clip[]> {
       generationYear: cartoon ? firstFrenchBroadcastYear : c.works.release_year,
       popularity: rating && popularityLevels.includes(rating) ? rating : null,
       freezeOnReveal,
-      durationMs:
-        video && !freezeOnReveal
-          ? Math.max(0, timing.usableMs - (sandboxVideoRevealMs - 5000))
-          : timing.usableMs,
+      durationMs: Math.max(0, timing.usableMs),
     };
   });
 }

@@ -392,7 +392,7 @@ export function RoomClient({ code }: { code: string }) {
       const desired =
         (startMs + consumedMs + Math.max(0, time - playbackStartedAt)) / 1000;
       if (time < playbackStartedAt) return;
-      if (freezeOnReveal && (a.ended || desired >= a.duration)) return;
+      if (a.ended || desired >= a.duration) return;
       if (Math.abs(a.currentTime - desired) > 0.18) a.currentTime = desired;
       if (a.paused)
         void a
@@ -434,12 +434,12 @@ export function RoomClient({ code }: { code: string }) {
     video.removeAttribute("aria-hidden");
     let active = true;
     const resume = () => {
-      if (freezeOnReveal) {
+      const position = (startMs + consumedMs) / 1000;
+      if (freezeOnReveal || video.ended || position >= video.duration) {
         video.pause();
         if (!video.ended) video.currentTime = video.duration;
         return;
       }
-      const position = (startMs + consumedMs) / 1000;
       if (Math.abs(video.currentTime - position) > 0.18)
         video.currentTime = position;
       void video.play().catch(() => {
@@ -913,6 +913,7 @@ export function RoomClient({ code }: { code: string }) {
                     </label>
                     <input
                       id="listen"
+                      aria-describedby="listen-help"
                       type="number"
                       min={5}
                       max={30}
@@ -924,6 +925,10 @@ export function RoomClient({ code }: { code: string }) {
                         })
                       }
                     />
+                    <p id="listen-help" className="small muted">
+                      Durée maximale : les extraits plus courts restent inclus
+                      et la manche s’arrête à leur durée réelle.
+                    </p>
                   </div>
                   {settings.mode !== "open" && (
                     <div>
