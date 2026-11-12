@@ -9,6 +9,66 @@ import { createPilotRound, youtubePilots } from "../src/domain/youtube-pilot";
 import { transition } from "../src/domain/game";
 
 describe("conjonctions dans les réponses", () => {
+  it.each(["easy", "normal", "hard"] as const)(
+    "tolère une faute dans un petit mot de liaison en %s, sans réparer les noms",
+    (difficulty) => {
+      for (const [answer, title] of [
+        ["Olive e Tom", "Olive et Tom"],
+        ["Zigg e Sharko", "Zig et Sharko"],
+        ["Tom t Jerry", "Tom et Jerry"],
+        ["La Maison d Mickey", "La Maison de Mickey"],
+        ["Le Tour d monde", "Le Tour du monde"],
+        ["Princesse ds étoiles", "Princesse des étoiles"],
+        ["Retour u pays", "Retour au pays"],
+        ["Voyage ax étoiles", "Voyage aux étoiles"],
+        ["Voyage n ballon", "Voyage en ballon"],
+      ])
+        expect(validateAnswer(answer, [title], difficulty), answer).toBe(true);
+      for (const [answer, title] of [
+        ["Olive Tom", "Olive et Tom"],
+        ["Olive e Bob", "Olive et Tom"],
+        ["Olive e Tom 2", "Olive et Tom"],
+        ["Olive e Tom", "Olive et Tom le retour"],
+        ["E Gray Man", "D Gray Man"],
+        ["Naruto", "Naruto Shippuden"],
+        ["Ed", "Et"],
+      ])
+        expect(validateAnswer(answer, [title], difficulty), answer).toBe(false);
+      expect(
+        validateAnswer("Olive e Tom", ["Olive et Tom"], difficulty, ["et"]),
+      ).toBe(false);
+      expect(normalize("Olive e Tom")).toBe("olive e tom");
+    },
+  );
+
+  it.each(["individual", "open"] as const)(
+    "attribue les points pour Olive e Tom en mode %s",
+    (mode) => {
+      let game = createPilotRound(youtubePilots[0]);
+      game.settings = { ...game.settings, mode };
+      game.playlist[0] = {
+        ...game.playlist[0],
+        title: "Olive et Tom",
+        aliases: [],
+        important: [],
+        difficulty: "hard",
+      };
+      game.phase = "PLAYING";
+      game.deadline = 10000;
+      if (mode === "individual")
+        game = transition(game, { type: "buzz", playerId: "1" }, 1000);
+      const answered = transition(
+        game,
+        { type: "answer", playerId: "1", answer: "Olive e Tom" },
+        1100,
+      );
+      expect(answered.attempts.at(-1)?.correct).toBe(true);
+      expect(answered.players.find((p) => p.id === "1")?.score).toBeGreaterThan(
+        0,
+      );
+    },
+  );
+
   it("préserve les clés distinctes des alias lors d'une sauvegarde admin", () => {
     const aliases = ["Tom and Jerry", "Tom & Jerry", "Tom et Jerry"];
     expect(aliases.map(normalize)).toEqual([

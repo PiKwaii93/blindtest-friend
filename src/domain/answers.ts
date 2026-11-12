@@ -47,6 +47,32 @@ function tokens(s: string) {
     .filter((t) => !articles.has(t))
     .map((t) => roman[t] ?? t);
 }
+const linkingWords = new Set([
+  "et",
+  "de",
+  "du",
+  "des",
+  "au",
+  "aux",
+  "en",
+  "ou",
+]);
+function repairLinkingWords(input: string[], target: string[]) {
+  // Repair a typed connector in place, never infer an omitted word or repair a name.
+  // Two substantive words must remain, so short titles and initials stay protected.
+  if (
+    input.length !== target.length ||
+    target.filter((word) => !linkingWords.has(word)).length < 2
+  )
+    return input;
+  return input.map((word, index) =>
+    linkingWords.has(target[index]) &&
+    /^[a-z]+$/.test(word) &&
+    distance(word, target[index]) === 1
+      ? target[index]
+      : word,
+  );
+}
 export function validateAnswer(
   answer: string,
   accepted: string[],
@@ -84,6 +110,8 @@ export function assessAnswer(
   }
   for (const alias of accepted) {
     const target = tokens(alias);
+    const repaired = repairLinkingWords(input, target);
+    const candidate = repaired.join(" ");
     const title = target.join(" ");
     if (normalized === title) return null;
     if (Math.min(normalized.length, title.length) < 5) {
@@ -105,7 +133,7 @@ export function assessAnswer(
     if (
       target.some(
         (word) =>
-          !input.some(
+          !repaired.some(
             (t) =>
               1 - distance(t, word) / Math.max(t.length, word.length) >= 0.6,
           ),
@@ -115,11 +143,10 @@ export function assessAnswer(
       continue;
     }
     const edit =
-      1 -
-      distance(normalized, title) / Math.max(normalized.length, title.length);
+      1 - distance(candidate, title) / Math.max(candidate.length, title.length);
     const tokenScore =
       target.filter((word) =>
-        input.some(
+        repaired.some(
           (t) => 1 - distance(t, word) / Math.max(t.length, word.length) >= 0.6,
         ),
       ).length / Math.max(input.length, target.length);
