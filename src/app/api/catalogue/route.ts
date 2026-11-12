@@ -21,6 +21,7 @@ export async function GET(req: Request) {
         firstFrenchBroadcastYear: c.firstFrenchBroadcastYear,
         generationYear: c.generationYear,
         popularity: c.popularity,
+        animationOrigin: c.animationOrigin,
       })),
     });
   } catch (e) {

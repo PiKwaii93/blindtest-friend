@@ -23,11 +23,18 @@ import { hasConfirmedFrench, sandboxTiming } from "@/domain/sandbox-review";
 import { clipReportLabels, type ClipReportReason } from "@/domain/clip-reports";
 import frenchBroadcasts from "../../catalogue/dessins-animes-diffusions-france.json";
 import popularity from "../../catalogue/popularite.json";
-import { popularityLevels, type Popularity } from "@/domain/catalogue-filters";
+import {
+  popularityLevels,
+  animationOrigins,
+  type AnimationOrigin,
+  type Popularity,
+} from "@/domain/catalogue-filters";
+import originData from "../../catalogue/origines-animation.json";
 
 const firstFrenchBroadcasts: Record<string, { year: number; source: string }> =
   frenchBroadcasts;
 const popularityRatings: Record<string, string> = popularity.ratings;
+const originRatings: Record<string, string> = originData.origins;
 
 const commandSchema = z.discriminatedUnion("type", [
   z.object({ type: z.literal("join") }),
@@ -94,17 +101,25 @@ export async function catalogue(): Promise<Clip[]> {
       ? (firstFrenchBroadcasts[editorialId]?.year ?? null)
       : undefined;
     const rating = popularityRatings[editorialId] as Popularity | undefined;
+    const origin = (c.works.research?.animation_origin ??
+      originRatings[editorialId]) as AnimationOrigin | undefined;
+    const categories = c.works.work_categories
+      .filter(
+        (x: { categories: { is_active: boolean } }) => x.categories.is_active,
+      )
+      .map((x: { categories: { name: string } }) => x.categories.name);
+    const animated =
+      cartoon ||
+      categories.some((name: string) =>
+        ["Dessins animés", "Animés japonais"].includes(name),
+      );
     return {
       id: c.id,
       workId: c.work_id,
       title: c.works.title,
       aliases: c.works.work_aliases.map((a: { alias: string }) => a.alias),
       important: c.works.important_words,
-      categories: c.works.work_categories
-        .filter(
-          (x: { categories: { is_active: boolean } }) => x.categories.is_active,
-        )
-        .map((x: { categories: { name: string } }) => x.categories.name),
+      categories,
       image: c.works.image_path,
       imageAttribution: c.works.image_attribution,
       path: c.audio_path,
@@ -114,6 +129,11 @@ export async function catalogue(): Promise<Clip[]> {
       firstFrenchBroadcastYear,
       generationYear: cartoon ? firstFrenchBroadcastYear : c.works.release_year,
       popularity: rating && popularityLevels.includes(rating) ? rating : null,
+      animationOrigin: animated
+        ? origin && animationOrigins.includes(origin)
+          ? origin
+          : null
+        : undefined,
       freezeOnReveal,
       durationMs: Math.max(0, timing.usableMs),
     };

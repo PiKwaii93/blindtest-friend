@@ -2,6 +2,8 @@ import { z } from "zod";
 import {
   generationForYear,
   popularityLevels,
+  animationOrigins,
+  type AnimationOrigin,
   type Popularity,
 } from "./catalogue-filters";
 export const difficulties = ["easy", "normal", "hard"] as const;
@@ -50,6 +52,7 @@ export const settingsSchema = z.object({
     ])
     .optional(),
   popularity: z.enum(popularityLevels).optional(),
+  animationOrigin: z.enum(["all", ...animationOrigins]).optional(),
 });
 export type Settings = z.infer<typeof settingsSchema>;
 export function matchesRoomSettings(
@@ -62,10 +65,15 @@ export function matchesRoomSettings(
     firstFrenchBroadcastYear?: number | null;
     generationYear?: number | null;
     popularity?: Popularity | null;
+    animationOrigin?: AnimationOrigin | null;
   },
   settings: Settings,
 ) {
   return (
+    (!settings.animationOrigin ||
+      settings.animationOrigin === "all" ||
+      clip.animationOrigin === undefined ||
+      clip.animationOrigin === settings.animationOrigin) &&
     (!settings.vfOnly || clip.french === true) &&
     (settings.generation === undefined ||
       generationForYear(clip.generationYear) === settings.generation) &&

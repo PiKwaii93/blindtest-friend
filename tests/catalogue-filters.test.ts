@@ -132,11 +132,11 @@ describe("filtres génération et popularité", () => {
     ).toBe(true);
   });
 
-  it("classe les 300 dessins animés et les 100 jeux sans inventer de statistiques", () => {
-    expect(Object.keys(ratings.ratings)).toHaveLength(400);
+  it("classe les 400 dessins animés et les 100 jeux sans inventer de statistiques", () => {
+    expect(Object.keys(ratings.ratings)).toHaveLength(500);
     const indexed: Record<string, string> = ratings.ratings;
     for (const [prefix, count] of [
-      ["da", 300],
+      ["da", 400],
       ["vg", 100],
     ] as const)
       for (let index = 1; index <= count; index++)

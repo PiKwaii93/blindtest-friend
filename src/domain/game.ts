@@ -1,6 +1,6 @@
 import { assessAnswer, validateAnswer } from "./answers";
 import { settingsSchema, type Settings } from "./settings";
-import type { Popularity } from "./catalogue-filters";
+import type { Popularity, AnimationOrigin } from "./catalogue-filters";
 export type Player = {
   id: string;
   name: string;
@@ -28,6 +28,7 @@ export type Clip = {
   firstFrenchBroadcastYear?: number | null;
   generationYear?: number | null;
   popularity?: Popularity | null;
+  animationOrigin?: AnimationOrigin | null;
 };
 export type Phase =
   | "LOBBY"

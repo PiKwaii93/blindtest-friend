@@ -27,6 +27,9 @@ import {
   generationLabel,
   popularityLevels,
   popularityLabels,
+  animationOrigins,
+  animationOriginLabels,
+  type AnimationOrigin,
   type Generation,
   type Popularity,
 } from "@/domain/catalogue-filters";
@@ -72,6 +75,7 @@ type Availability = {
   firstFrenchBroadcastYear?: number | null;
   generationYear?: number | null;
   popularity?: Popularity | null;
+  animationOrigin?: AnimationOrigin | null;
 };
 const labels = { easy: "Facile", normal: "Normal", hard: "Difficile" };
 const refusalLabels = {
@@ -756,6 +760,37 @@ export function RoomClient({ code }: { code: string }) {
                   </div>
                 </div>
                 <div className="settings-grid">
+                  <div>
+                    <label htmlFor="animation-origin">
+                      Origine de l’animation
+                    </label>
+                    <select
+                      id="animation-origin"
+                      value={settings.animationOrigin ?? "all"}
+                      onChange={(event) =>
+                        setSettings({
+                          ...settings,
+                          animationOrigin: event.target
+                            .value as Settings["animationOrigin"],
+                        })
+                      }
+                      aria-describedby="animation-origin-help"
+                    >
+                      <option value="all">
+                        Les deux · {countFor({ animationOrigin: "all" })} titres
+                      </option>
+                      {animationOrigins.map((origin) => (
+                        <option key={origin} value={origin}>
+                          {animationOriginLabels[origin]} ·{" "}
+                          {countFor({ animationOrigin: origin })} titres
+                        </option>
+                      ))}
+                    </select>
+                    <p id="animation-origin-help" className="small muted">
+                      Origine de la série, quelle que soit la langue du
+                      générique. Les autres univers restent inclus.
+                    </p>
+                  </div>
                   <div>
                     <label htmlFor="generation">Génération (5 ans)</label>
                     <select

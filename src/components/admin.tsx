@@ -24,6 +24,7 @@ type Work = {
     youtube_search?: string;
     wikimedia_image_search?: string;
     documented_theme_url?: string;
+    full_listening_review?: string;
     verified_reference?: { url: string; note: string };
     sandbox_review?: SandboxReview;
   } | null;
@@ -823,6 +824,12 @@ function WorkEditor({
             {work?.research && (
               <details>
                 <summary>Références documentaires</summary>
+                {work.research.full_listening_review === "pending" && (
+                  <p className="small muted">
+                    Lecture technique vérifiée. L’écoute intégrale de ce
+                    générique reste à confirmer.
+                  </p>
+                )}
                 {work.research.verified_reference && (
                   <p>
                     <a
@@ -831,7 +838,7 @@ function WorkEditor({
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Notice officielle
+                      Notice de diffusion
                     </a>{" "}
                     — {work.research.verified_reference.note}
                   </p>
@@ -844,7 +851,7 @@ function WorkEditor({
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Exposition Sacem
+                      Source du générique
                     </a>
                   </p>
                 )}

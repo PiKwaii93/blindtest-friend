@@ -1353,5 +1353,705 @@
   "da-300": {
     "year": 2004,
     "source": "https://www.planete-jeunesse.com/fiche-1258-quoi-d-neuf-scooby-doo.html"
+  },
+  "da-301": {
+    "year": 2005,
+    "source": "https://fr.wikipedia.org/wiki/Foster%2C_la_maison_des_amis_imaginaires",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Foster, la maison des amis imaginaires"
+  },
+  "da-302": {
+    "year": 2001,
+    "source": "https://www.planete-jeunesse.com/fiche-1925-samurai-jack.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Samouraï Jack"
+  },
+  "da-303": {
+    "year": 2006,
+    "source": "https://fr.wikipedia.org/wiki/Camp_Lazlo",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Camp Lazlo"
+  },
+  "da-304": {
+    "year": 2008,
+    "source": "https://www.planete-jeunesse.com/fiche-1497-chowder.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Chowder"
+  },
+  "da-305": {
+    "year": 2009,
+    "source": "https://fr.wikipedia.org/wiki/Les_Merveilleuses_M%C3%A9saventures_de_Flapjack",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Les Merveilleuses Mésaventures de Flapjack"
+  },
+  "da-306": {
+    "year": 1998,
+    "source": "https://www.planete-jeunesse.com/fiche-2451-cleo-et-chico.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Cléo et Chico"
+  },
+  "da-307": {
+    "year": 1998,
+    "source": "https://fr.wikipedia.org/wiki/Monsieur_Belette",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Monsieur Belette"
+  },
+  "da-308": {
+    "year": 2002,
+    "source": "https://fr.wikipedia.org/wiki/Time_Squad%2C_la_patrouille_du_temps",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Time Squad, la patrouille du temps"
+  },
+  "da-309": {
+    "year": 2005,
+    "source": "https://www.planete-jeunesse.com/fiche-3364-robotboy.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Robotboy"
+  },
+  "da-310": {
+    "year": 2014,
+    "source": "https://comic.systems/actualite/310/la-rentree-avec-cartoon-network/",
+    "note": "Première diffusion France, Cartoon Network, septembre 2014.",
+    "checked_on": "2026-11-13",
+    "edition": "Clarence"
+  },
+  "da-311": {
+    "year": 2014,
+    "source": "https://fr.wikipedia.org/wiki/Oncle_Grandpa",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Oncle Grandpa"
+  },
+  "da-312": {
+    "year": 2015,
+    "source": "https://fr.wikipedia.org/wiki/Ours_pour_un_et_un_pour_t'ours",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "We Bare Bears"
+  },
+  "da-313": {
+    "year": 2018,
+    "source": "https://fr.wikipedia.org/wiki/Craig_de_la_crique",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Craig de la crique"
+  },
+  "da-314": {
+    "year": 2020,
+    "source": "https://fr.wikipedia.org/wiki/Mao_Mao_%3A_H%C3%A9ros_au_c%C5%93ur_pur",
+    "note": "Cartoon Network France, 4 janvier 2020.",
+    "checked_on": "2026-11-13",
+    "edition": "Mao Mao : Héros au cœur pur"
+  },
+  "da-315": {
+    "year": 2017,
+    "source": "https://fr.wikipedia.org/wiki/OK_K.O.!",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "OK K.O.! Let's Be Heroes"
+  },
+  "da-316": {
+    "year": 1998,
+    "source": "https://www.planete-jeunesse.com/fiche-344-south-park.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "South Park"
+  },
+  "da-317": {
+    "year": 2006,
+    "source": "https://www.planete-jeunesse.com/fiche-2703-american-dad.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "American Dad!"
+  },
+  "da-318": {
+    "year": 2000,
+    "source": "https://www.planete-jeunesse.com/fiche-666-les-griffin.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Les Griffin"
+  },
+  "da-319": {
+    "year": 2014,
+    "source": "https://www.planete-jeunesse.com/fiche-2389-archer.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Archer"
+  },
+  "da-320": {
+    "year": 2015,
+    "source": "https://www.planete-jeunesse.com/fiche-2589-rick-et-morty.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Rick et Morty"
+  },
+  "da-321": {
+    "year": 2014,
+    "source": "https://www.planete-jeunesse.com/fiche-3351-bojack-horseman.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "BoJack Horseman"
+  },
+  "da-322": {
+    "year": 2018,
+    "source": "https://www.allocine.fr/diaporamas/series/diaporama-18674527/",
+    "note": "Annonce Netflix France / AlloCiné : 17 août 2018.",
+    "checked_on": "2026-11-13",
+    "edition": "Désenchantée"
+  },
+  "da-323": {
+    "year": 2015,
+    "source": "https://www.planete-jeunesse.com/fiche-3330-f-is-for-family.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "F Is for Family"
+  },
+  "da-324": {
+    "year": 2009,
+    "source": "https://www.planete-jeunesse.com/fiche-1660-batman-l-alliance-des-heros.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Batman : L'Alliance des héros"
+  },
+  "da-325": {
+    "year": 2014,
+    "source": "https://www.planete-jeunesse.com/fiche-2509-prenez-garde-a-batman.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Prenez garde à Batman !"
+  },
+  "da-326": {
+    "year": 2005,
+    "source": "https://www.planete-jeunesse.com/fiche-972-krypto-le-superchien.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Krypto le superchien"
+  },
+  "da-327": {
+    "year": 2017,
+    "source": "https://www.planete-jeunesse.com/fiche-3202-la-ligue-des-justiciers-action.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "La Ligue des justiciers : Action"
+  },
+  "da-328": {
+    "year": 2009,
+    "source": "https://fr.wikipedia.org/wiki/Iron_Man_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e_d'animation)",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Iron Man : Armored Adventures"
+  },
+  "da-329": {
+    "year": 2011,
+    "source": "https://www.planete-jeunesse.com/fiche-1780-avengers-l-equipe-des-super-heros.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Avengers : L'Équipe des super-héros"
+  },
+  "da-330": {
+    "year": 2013,
+    "source": "https://fr.wikipedia.org/wiki/Avengers_Rassemblement",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Avengers Rassemblement"
+  },
+  "da-331": {
+    "year": 2012,
+    "source": "https://www.planete-jeunesse.com/fiche-1914-ultimate-spider-man.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Ultimate Spider-Man"
+  },
+  "da-332": {
+    "year": 2009,
+    "source": "https://www.planete-jeunesse.com/fiche-1686-wolverine-et-les-x-men.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Wolverine et les X-Men"
+  },
+  "da-333": {
+    "year": 2010,
+    "source": "https://www.planete-jeunesse.com/fiche-1705-super-hero-squad.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "The Super Hero Squad Show"
+  },
+  "da-334": {
+    "year": 2013,
+    "source": "https://fr.wikipedia.org/wiki/Hulk_et_les_Agents_du_S.M.A.S.H.",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Hulk et les Agents du S.M.A.S.H."
+  },
+  "da-335": {
+    "year": 1999,
+    "source": "https://fr.wikipedia.org/wiki/Silver_Surfer_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e_d'animation)",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Silver Surfer"
+  },
+  "da-336": {
+    "year": 2003,
+    "source": "https://fr.wikipedia.org/wiki/Fillmore_!",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Fillmore !"
+  },
+  "da-337": {
+    "year": 1998,
+    "source": "https://www.planete-jeunesse.com/fiche-1469-les-101-dalmatiens.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Les 101 Dalmatiens, la série"
+  },
+  "da-338": {
+    "year": 1997,
+    "source": "https://www.planete-jeunesse.com/fiche-723-couacs-en-vrac.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Couacs en vrac"
+  },
+  "da-339": {
+    "year": 2001,
+    "source": "https://fr.wikipedia.org/wiki/Les_Weekenders",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Les Weekenders"
+  },
+  "da-340": {
+    "year": 2010,
+    "source": "https://fr.wikipedia.org/wiki/Kick_Kasskoo",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Kick Kasskoo"
+  },
+  "da-341": {
+    "year": 2006,
+    "source": "https://www.planete-jeunesse.com/fiche-1256-pucca.html",
+    "note": "Édition de la série de 2006, et non courts métrages diffusés en 2005.",
+    "checked_on": "2026-11-13",
+    "edition": "Pucca (2006)"
+  },
+  "da-342": {
+    "year": 2009,
+    "source": "https://fr.wikipedia.org/wiki/Kid_vs._Kat",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Kid vs. Kat"
+  },
+  "da-343": {
+    "year": 2013,
+    "source": "https://fr.wikipedia.org/wiki/Randy_Cunningham%2C_le_ninja",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Randy Cunningham, le ninja"
+  },
+  "da-344": {
+    "year": 2010,
+    "source": "https://www.premiere.fr/node/297906",
+    "note": "Annonce contemporaine de lancement lundi 5 avril 2010, France 3. Les notices indiquant 2009 contredisent cette annonce.",
+    "checked_on": "2026-11-13",
+    "edition": "Angelo la Débrouille"
+  },
+  "da-345": {
+    "year": 2009,
+    "source": "https://www.planete-jeunesse.com/fiche-2265-lou.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Lou !"
+  },
+  "da-346": {
+    "year": 2000,
+    "source": "https://www.planete-jeunesse.com/fiche-1937-mona-le-vampire.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Mona le vampire"
+  },
+  "da-347": {
+    "year": 2006,
+    "source": "https://www.planete-jeunesse.com/fiche-1130-bali.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Bali"
+  },
+  "da-348": {
+    "year": 2000,
+    "source": "https://www.planete-jeunesse.com/fiche-1179-64-rue-du-zoo.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "64, rue du Zoo"
+  },
+  "da-349": {
+    "year": 2008,
+    "source": "https://www.planete-jeunesse.com/fiche-2008-blaise-le-blase.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Blaise le blasé"
+  },
+  "da-350": {
+    "year": 2010,
+    "source": "https://www.planete-jeunesse.com/fiche-2180-tara-duncan.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Tara Duncan (2010)"
+  },
+  "da-351": {
+    "year": 2010,
+    "source": "https://fr.wikipedia.org/wiki/Huntik_%3A_%C3%80_la_recherche_des_Titans",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Huntik : À la recherche des Titans"
+  },
+  "da-352": {
+    "year": 2006,
+    "source": "https://www.planete-jeunesse.com/fiche-1133-monster-allergy.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Monster Allergy"
+  },
+  "da-353": {
+    "year": 2004,
+    "source": "https://www.planete-jeunesse.com/fiche-1577-atomic-betty.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Atomic Betty"
+  },
+  "da-354": {
+    "year": 2005,
+    "source": "https://www.planete-jeunesse.com/fiche-892-toupou.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Toupou"
+  },
+  "da-355": {
+    "year": 2004,
+    "source": "https://www.planete-jeunesse.com/fiche-1717-chasseurs-de-dragons.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Chasseurs de dragons"
+  },
+  "da-356": {
+    "year": 2003,
+    "source": "https://www.planete-jeunesse.com/fiche-730-simsala-grimm.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Simsala Grimm"
+  },
+  "da-357": {
+    "year": 1997,
+    "source": "https://www.planete-jeunesse.com/fiche-567-princesse-sissi.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Princesse Sissi"
+  },
+  "da-358": {
+    "year": 1997,
+    "source": "https://www.planete-jeunesse.com/fiche-658-jumanji.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Jumanji"
+  },
+  "da-359": {
+    "year": 1999,
+    "source": "https://fr.wikipedia.org/wiki/Godzilla%2C_la_s%C3%A9rie",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Godzilla, la série"
+  },
+  "da-360": {
+    "year": 1998,
+    "source": "https://www.planete-jeunesse.com/fiche-652-extremes-ghostbusters.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Extrême Ghostbusters"
+  },
+  "da-361": {
+    "year": 2006,
+    "source": "https://www.planete-jeunesse.com/fiche-1585-oban-star-racers.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Ōban, Star-Racers"
+  },
+  "da-362": {
+    "year": 2011,
+    "source": "https://fr.wikipedia.org/wiki/Redakai_%3A_Les_Conqu%C3%A9rants_du_Kairu",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Redakai: Les Conquérants du Kairu"
+  },
+  "da-363": {
+    "year": 1998,
+    "source": "https://www.planete-jeunesse.com/fiche-1249-sos-croco.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "SOS Croco"
+  },
+  "da-364": {
+    "year": 1995,
+    "source": "https://fr.wikipedia.org/wiki/Rocko's_Modern_Life",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "La Vie moderne de Rocko"
+  },
+  "da-365": {
+    "year": 2010,
+    "source": "https://www.planete-jeunesse.com/fiche-2452-le-petit-prince.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Le Petit Prince"
+  },
+  "da-366": {
+    "year": 2006,
+    "source": "https://fr.wikipedia.org/wiki/Naruto",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Naruto"
+  },
+  "da-367": {
+    "year": 2008,
+    "source": "https://www.planete-jeunesse.com/fiche-1617-naruto-shippuden.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Naruto Shippuden"
+  },
+  "da-368": {
+    "year": 2003,
+    "source": "https://www.planete-jeunesse.com/fiche-1029-one-piece.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "One Piece"
+  },
+  "da-369": {
+    "year": 2007,
+    "source": "https://www.planete-jeunesse.com/fiche-1775-bleach.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Bleach"
+  },
+  "da-370": {
+    "year": 2011,
+    "source": "https://www.planete-jeunesse.com/fiche-2267-fairy-tail.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Fairy Tail"
+  },
+  "da-371": {
+    "year": 2005,
+    "source": "https://www.planete-jeunesse.com/fiche-808-fullmetal-alchemist.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Fullmetal Alchemist"
+  },
+  "da-372": {
+    "year": 2009,
+    "source": "https://www.planete-jeunesse.com/fiche-2210-fullmetal-alchemist-brotherhood.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Fullmetal Alchemist: Brotherhood"
+  },
+  "da-373": {
+    "year": 2008,
+    "source": "https://www.planete-jeunesse.com/fiche-1417-death-note.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Death Note"
+  },
+  "da-374": {
+    "year": 2016,
+    "source": "https://animeguides.com/guides/detaille/myheroacademia.html",
+    "note": "ADN, 3 avril 2016 VOSTF ; la diffusion VF sur Toonami est ultérieure.",
+    "checked_on": "2026-11-13",
+    "edition": "My Hero Academia"
+  },
+  "da-375": {
+    "year": 2013,
+    "source": "https://www.planete-jeunesse.com/fiche-2282-l-attaque-des-titans.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "L'Attaque des Titans"
+  },
+  "da-376": {
+    "year": 2012,
+    "source": "https://www.planete-jeunesse.com/fiche-2651-sword-art-online.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Sword Art Online"
+  },
+  "da-377": {
+    "year": 2003,
+    "source": "https://www.planete-jeunesse.com/fiche-1581-inuyasha.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Inu-Yasha"
+  },
+  "da-378": {
+    "year": 2004,
+    "source": "https://www.planete-jeunesse.com/fiche-756-detective-conan.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Détective Conan"
+  },
+  "da-379": {
+    "year": 2009,
+    "source": "https://www.planete-jeunesse.com/fiche-1951-blue-dragon.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Blue Dragon"
+  },
+  "da-380": {
+    "year": 2008,
+    "source": "https://www.scifi-universe.com/actualites/7679/bakugan-le-phenomene-arrive-en-france",
+    "note": "Annonce contemporaine novembre 2008 : Cartoon Network depuis mi-octobre 2008.",
+    "checked_on": "2026-11-13",
+    "edition": "Bakugan : Équipe d’élite"
+  },
+  "da-381": {
+    "year": 2006,
+    "source": "https://www.planete-jeunesse.com/fiche-1323-keroro-mission-titar.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Keroro, mission Titar"
+  },
+  "da-382": {
+    "year": 2003,
+    "source": "https://www.planete-jeunesse.com/fiche-1681-kirby.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Kirby"
+  },
+  "da-383": {
+    "year": 1999,
+    "source": "https://www.planete-jeunesse.com/fiche-363-sonic-le-rebelle.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Sonic le Rebelle"
+  },
+  "da-384": {
+    "year": 2004,
+    "source": "https://www.planete-jeunesse.com/fiche-721-megaman-nt-warrior.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "MegaMan NT Warrior"
+  },
+  "da-385": {
+    "year": 2002,
+    "source": "https://www.planete-jeunesse.com/fiche-1826-shin-chan.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Shin-chan"
+  },
+  "da-386": {
+    "year": 2003,
+    "source": "https://www.planete-jeunesse.com/fiche-883-doraemon.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Doraemon"
+  },
+  "da-387": {
+    "year": 2015,
+    "source": "https://www.planete-jeunesse.com/fiche-2931-assassination-classroom.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Assassination Classroom"
+  },
+  "da-388": {
+    "year": 2014,
+    "source": "https://fr.wikipedia.org/wiki/Tokyo_Ghoul",
+    "note": "Simulcast France sur Wakanim, juillet 2014 ; Netflix 2016 est une reprise.",
+    "checked_on": "2026-11-13",
+    "edition": "Tokyo Ghoul"
+  },
+  "da-389": {
+    "year": 2009,
+    "source": "https://www.planete-jeunesse.com/fiche-2432-soul-eater.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Soul Eater"
+  },
+  "da-390": {
+    "year": 2003,
+    "source": "https://www.planete-jeunesse.com/fiche-2206-martin-matin.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Martin Matin"
+  },
+  "da-391": {
+    "year": 1999,
+    "source": "https://www.planete-jeunesse.com/fiche-611-les-mille-et-une-prouesses-de-pepin-troispommes.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Les Mille et Une Prouesses de Pépin Troispommes"
+  },
+  "da-392": {
+    "year": 2002,
+    "source": "https://www.planete-jeunesse.com/fiche-359-yu-gi-oh.html",
+    "note": "M6, 4 septembre 2002, Duel Monsters.",
+    "checked_on": "2026-11-13",
+    "edition": "Yu-Gi-Oh! Duel Monsters"
+  },
+  "da-393": {
+    "year": 2003,
+    "source": "https://doublage-france.fandom.com/fr/wiki/Nom_de_code_%3A_Kids_Next_Door",
+    "note": "Diffusion France 2003 ; série également attestée dans les filmographies des comédiens.",
+    "checked_on": "2026-11-13",
+    "edition": "Nom de code : Kids Next Door"
+  },
+  "da-394": {
+    "year": 1996,
+    "source": "https://www.planete-jeunesse.com/fiche-705-kangoo.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Kangoo"
+  },
+  "da-395": {
+    "year": 2002,
+    "source": "https://www.planete-jeunesse.com/fiche-1074-kangoo-juniors.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Kangoo Juniors"
+  },
+  "da-396": {
+    "year": 2007,
+    "source": "https://www.planete-jeunesse.com/fiche-2096-creepie.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Creepie"
+  },
+  "da-397": {
+    "year": 2005,
+    "source": "https://www.planete-jeunesse.com/fiche-3700-creepschool.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Creepschool"
+  },
+  "da-398": {
+    "year": 2015,
+    "source": "https://fr.wikipedia.org/wiki/Pyjamasques",
+    "note": "France 5, 12 décembre 2015.",
+    "checked_on": "2026-11-13",
+    "edition": "Les Pyjamasques"
+  },
+  "da-399": {
+    "year": 2010,
+    "source": "https://fr.wikipedia.org/wiki/Les_Octonauts",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Les Octonauts"
+  },
+  "da-400": {
+    "year": 2006,
+    "source": "https://www.planete-jeunesse.com/fiche-1035-go-diego.html",
+    "note": "Première diffusion en France relevée dans la notice de cette série.",
+    "checked_on": "2026-11-13",
+    "edition": "Go Diego !"
   }
 }

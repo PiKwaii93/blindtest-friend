@@ -1,0 +1,2532 @@
+[
+  {
+    "editorialId": "da-301",
+    "title": "Foster, la maison des amis imaginaires",
+    "origin": "western",
+    "aliases": ["Foster", "La Maison des amis imaginaires"],
+    "firstFrance": {
+      "year": 2005,
+      "source": "https://fr.wikipedia.org/wiki/Foster%2C_la_maison_des_amis_imaginaires",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "23_jnHPTB1g",
+    "source": "https://www.youtube.com/watch?v=23_jnHPTB1g",
+    "sourceTitle": "Foster, la maison des amis imaginaires - Générique",
+    "sourceChannel": "Toadeu",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 1,
+    "playbackStartMs": 1127
+  },
+  {
+    "editorialId": "da-302",
+    "title": "Samouraï Jack",
+    "origin": "western",
+    "aliases": ["Samurai Jack"],
+    "firstFrance": {
+      "year": 2001,
+      "source": "https://www.planete-jeunesse.com/fiche-1925-samurai-jack.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "gO7OQl-e2oY",
+    "source": "https://www.youtube.com/watch?v=gO7OQl-e2oY",
+    "sourceTitle": "Samurai Jack (Saison 5) - Générique [VF] [HD]",
+    "sourceChannel": "Hoodclover",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 3
+  },
+  {
+    "editorialId": "da-303",
+    "title": "Camp Lazlo",
+    "origin": "western",
+    "aliases": ["Camp Lazlo!"],
+    "firstFrance": {
+      "year": 2006,
+      "source": "https://fr.wikipedia.org/wiki/Camp_Lazlo",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "OUdHtR8sPNo",
+    "source": "https://www.youtube.com/watch?v=OUdHtR8sPNo",
+    "sourceTitle": "Camp Lazlo | Générique | Cartoon Network®",
+    "sourceChannel": "Ed, Edd et Eddy en Français",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 4
+  },
+  {
+    "editorialId": "da-304",
+    "title": "Chowder",
+    "origin": "western",
+    "aliases": [],
+    "firstFrance": {
+      "year": 2008,
+      "source": "https://www.planete-jeunesse.com/fiche-1497-chowder.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "3LNs8GihaA0",
+    "source": "https://www.youtube.com/watch?v=3LNs8GihaA0",
+    "sourceTitle": "Chowder - Intro (French)",
+    "sourceChannel": "Kola",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 5
+  },
+  {
+    "editorialId": "da-305",
+    "title": "Les Merveilleuses Mésaventures de Flapjack",
+    "origin": "western",
+    "aliases": ["Flapjack"],
+    "firstFrance": {
+      "year": 2009,
+      "source": "https://fr.wikipedia.org/wiki/Les_Merveilleuses_M%C3%A9saventures_de_Flapjack",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "jTbHRFg1Paw",
+    "source": "https://www.youtube.com/watch?v=jTbHRFg1Paw",
+    "sourceTitle": "Les Merveilleuses Mésaventures de Flapjack - Generique (HD)",
+    "sourceChannel": "DemoArchive",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 6
+  },
+  {
+    "editorialId": "da-306",
+    "title": "Cléo et Chico",
+    "origin": "western",
+    "aliases": ["Cleo et Chico", "Cow and Chicken"],
+    "firstFrance": {
+      "year": 1998,
+      "source": "https://www.planete-jeunesse.com/fiche-2451-cleo-et-chico.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "7tj0M-qkHsc",
+    "source": "https://www.youtube.com/watch?v=7tj0M-qkHsc",
+    "sourceTitle": "Cléo et Chico - Générique - (VF) [HD-TV]",
+    "sourceChannel": "Sonau",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 7
+  },
+  {
+    "editorialId": "da-307",
+    "title": "Monsieur Belette",
+    "origin": "western",
+    "aliases": ["I Am Weasel"],
+    "firstFrance": {
+      "year": 1998,
+      "source": "https://fr.wikipedia.org/wiki/Monsieur_Belette",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "HdMXIdxCu8k",
+    "source": "https://www.youtube.com/watch?v=HdMXIdxCu8k",
+    "sourceTitle": "Monsieur Belette - Générique - (VF) [HD-TV]",
+    "sourceChannel": "Sonau",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 8
+  },
+  {
+    "editorialId": "da-308",
+    "title": "Time Squad, la patrouille du temps",
+    "origin": "western",
+    "aliases": ["Time Squad"],
+    "firstFrance": {
+      "year": 2002,
+      "source": "https://fr.wikipedia.org/wiki/Time_Squad%2C_la_patrouille_du_temps",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "dLuALREeeh4",
+    "source": "https://www.youtube.com/watch?v=dLuALREeeh4",
+    "sourceTitle": "Time squad intro and outro season 3",
+    "sourceChannel": "Pitipatt Suchoknand",
+    "startSeconds": 0,
+    "maximumSeconds": 23,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 9
+  },
+  {
+    "editorialId": "da-309",
+    "title": "Robotboy",
+    "origin": "western",
+    "aliases": ["Robot Boy"],
+    "firstFrance": {
+      "year": 2005,
+      "source": "https://www.planete-jeunesse.com/fiche-3364-robotboy.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "QwlzE35vQ4M",
+    "source": "https://www.youtube.com/watch?v=QwlzE35vQ4M",
+    "sourceTitle": "Robotboy | Opening Theme (French) (HD)",
+    "sourceChannel": "Ben10Petya",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 12
+  },
+  {
+    "editorialId": "da-310",
+    "title": "Clarence",
+    "origin": "western",
+    "aliases": [],
+    "firstFrance": {
+      "year": 2014,
+      "source": "https://comic.systems/actualite/310/la-rentree-avec-cartoon-network/",
+      "note": "Première diffusion France, Cartoon Network, septembre 2014.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "3S_88t2nmEI",
+    "source": "https://www.youtube.com/watch?v=3S_88t2nmEI",
+    "sourceTitle": "🎵 Générique en français 🎵 | Clarence | Cartoon Network",
+    "sourceChannel": "Cartoon Network France",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 13
+  },
+  {
+    "editorialId": "da-311",
+    "title": "Oncle Grandpa",
+    "origin": "western",
+    "aliases": ["Uncle Grandpa"],
+    "firstFrance": {
+      "year": 2014,
+      "source": "https://fr.wikipedia.org/wiki/Oncle_Grandpa",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "pWpvfXXo0L4",
+    "source": "https://www.youtube.com/watch?v=pWpvfXXo0L4",
+    "sourceTitle": "Uncle Grandpa - Intro (French)",
+    "sourceChannel": "katzlang",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 14
+  },
+  {
+    "editorialId": "da-312",
+    "title": "We Bare Bears",
+    "origin": "western",
+    "aliases": [
+      "Ours pour un et un pour t'ours",
+      "We Bare Bears, Ours pour un et un pour t'ours"
+    ],
+    "firstFrance": {
+      "year": 2015,
+      "source": "https://fr.wikipedia.org/wiki/Ours_pour_un_et_un_pour_t'ours",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "VV2Xoq5sZzA",
+    "source": "https://www.youtube.com/watch?v=VV2Xoq5sZzA",
+    "sourceTitle": "Générique du début - We Bare Bears",
+    "sourceChannel": "Toadeu",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 15,
+    "playbackStartMs": 997
+  },
+  {
+    "editorialId": "da-313",
+    "title": "Craig de la crique",
+    "origin": "western",
+    "aliases": ["Craig of the Creek"],
+    "firstFrance": {
+      "year": 2018,
+      "source": "https://fr.wikipedia.org/wiki/Craig_de_la_crique",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "mXjVTyd_A1E",
+    "source": "https://www.youtube.com/watch?v=mXjVTyd_A1E",
+    "sourceTitle": "Craig de la Crique - Générique [VF] [HD]",
+    "sourceChannel": "Hoodclover",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 16
+  },
+  {
+    "editorialId": "da-314",
+    "title": "Mao Mao : Héros au cœur pur",
+    "origin": "western",
+    "aliases": ["Mao Mao"],
+    "firstFrance": {
+      "year": 2020,
+      "source": "https://fr.wikipedia.org/wiki/Mao_Mao_%3A_H%C3%A9ros_au_c%C5%93ur_pur",
+      "note": "Cartoon Network France, 4 janvier 2020.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "c7QpBQUzqZE",
+    "source": "https://www.youtube.com/watch?v=c7QpBQUzqZE",
+    "sourceTitle": "Mao Mao: Héros au Coeur Pur - Générique [HD] [VF]",
+    "sourceChannel": "Hoodclover",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 18
+  },
+  {
+    "editorialId": "da-315",
+    "title": "OK K.O.! Let's Be Heroes",
+    "origin": "western",
+    "aliases": ["OK KO", "OK K.O."],
+    "firstFrance": {
+      "year": 2017,
+      "source": "https://fr.wikipedia.org/wiki/OK_K.O.!",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "GO9-fItMQLE",
+    "source": "https://www.youtube.com/watch?v=GO9-fItMQLE",
+    "sourceTitle": "OK K.O.! Let's Be Heroes | Intro (French)",
+    "sourceChannel": "Kevin Jones",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 19
+  },
+  {
+    "editorialId": "da-316",
+    "title": "South Park",
+    "origin": "western",
+    "aliases": [],
+    "firstFrance": {
+      "year": 1998,
+      "source": "https://www.planete-jeunesse.com/fiche-344-south-park.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "XHcvZZ65ZwA",
+    "source": "https://www.youtube.com/watch?v=XHcvZZ65ZwA",
+    "sourceTitle": "Générique de South Park en Français",
+    "sourceChannel": "vince2lille",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 20
+  },
+  {
+    "editorialId": "da-317",
+    "title": "American Dad!",
+    "origin": "western",
+    "aliases": ["American Dad"],
+    "firstFrance": {
+      "year": 2006,
+      "source": "https://www.planete-jeunesse.com/fiche-2703-american-dad.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "8EOZBpMZ3TA",
+    "source": "https://www.youtube.com/watch?v=8EOZBpMZ3TA",
+    "sourceTitle": "Générique Série TV American Dad! Saisons 1 à 4",
+    "sourceChannel": "Génériques Séries TV",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 21,
+    "playbackStartMs": 1942
+  },
+  {
+    "editorialId": "da-318",
+    "title": "Les Griffin",
+    "origin": "western",
+    "aliases": ["Family Guy"],
+    "firstFrance": {
+      "year": 2000,
+      "source": "https://www.planete-jeunesse.com/fiche-666-les-griffin.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "zy1UGW529zc",
+    "source": "https://www.youtube.com/watch?v=zy1UGW529zc",
+    "sourceTitle": "Les Griffins Générique En Francais HD ( MCM)",
+    "sourceChannel": "Mahmoud Abderrezzaq Helal",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 22
+  },
+  {
+    "editorialId": "da-319",
+    "title": "Archer",
+    "origin": "western",
+    "aliases": [],
+    "firstFrance": {
+      "year": 2014,
+      "source": "https://www.planete-jeunesse.com/fiche-2389-archer.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "Y4ry6dWXyxA",
+    "source": "https://www.youtube.com/watch?v=Y4ry6dWXyxA",
+    "sourceTitle": "Archer Intro Season 1 (HD) (2009)",
+    "sourceChannel": "Joe",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 23
+  },
+  {
+    "editorialId": "da-320",
+    "title": "Rick et Morty",
+    "origin": "western",
+    "aliases": ["Rick & Morty", "Rick and Morty"],
+    "firstFrance": {
+      "year": 2015,
+      "source": "https://www.planete-jeunesse.com/fiche-2589-rick-et-morty.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "W5CEa1gG82c",
+    "source": "https://www.youtube.com/watch?v=W5CEa1gG82c",
+    "sourceTitle": "Rick and Morty S1 Theme song / Intro ( French Localized ) | Générique Rick et Morty Saison 1",
+    "sourceChannel": "SuperCelio456",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 24
+  },
+  {
+    "editorialId": "da-321",
+    "title": "BoJack Horseman",
+    "origin": "western",
+    "aliases": ["Bojack"],
+    "firstFrance": {
+      "year": 2014,
+      "source": "https://www.planete-jeunesse.com/fiche-3351-bojack-horseman.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "rQvIR1oL1vE",
+    "source": "https://www.youtube.com/watch?v=rQvIR1oL1vE",
+    "sourceTitle": "BoJack Horseman | Opening Credits Theme Song [HD] | Netflix",
+    "sourceChannel": "Netflix",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 25
+  },
+  {
+    "editorialId": "da-322",
+    "title": "Désenchantée",
+    "origin": "western",
+    "aliases": ["Disenchantment"],
+    "firstFrance": {
+      "year": 2018,
+      "source": "https://www.allocine.fr/diaporamas/series/diaporama-18674527/",
+      "note": "Annonce Netflix France / AlloCiné : 17 août 2018.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "vTbHCyrqDgE",
+    "source": "https://www.youtube.com/watch?v=vTbHCyrqDgE",
+    "sourceTitle": "Disenchantment | Episode 1 | Opening - Intro HD ( Full )",
+    "sourceChannel": "Intro Master",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 26,
+    "playbackStartMs": 1098
+  },
+  {
+    "editorialId": "da-323",
+    "title": "F Is for Family",
+    "origin": "western",
+    "aliases": ["F is for Family"],
+    "firstFrance": {
+      "year": 2015,
+      "source": "https://www.planete-jeunesse.com/fiche-3330-f-is-for-family.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "_Cqm7sXwEZs",
+    "source": "https://www.youtube.com/watch?v=_Cqm7sXwEZs",
+    "sourceTitle": "F is for Family Opening Credits",
+    "sourceChannel": "Chris Rowe",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 27
+  },
+  {
+    "editorialId": "da-324",
+    "title": "Batman : L'Alliance des héros",
+    "origin": "western",
+    "aliases": ["Batman l'alliance des heros", "Batman The Brave and the Bold"],
+    "firstFrance": {
+      "year": 2009,
+      "source": "https://www.planete-jeunesse.com/fiche-1660-batman-l-alliance-des-heros.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "Oz60ipDHXM4",
+    "source": "https://www.youtube.com/watch?v=Oz60ipDHXM4",
+    "sourceTitle": "Batman : L'Alliance des héros - Générique",
+    "sourceChannel": "CG1 Kids",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 29
+  },
+  {
+    "editorialId": "da-325",
+    "title": "Prenez garde à Batman !",
+    "origin": "western",
+    "aliases": ["Beware the Batman"],
+    "firstFrance": {
+      "year": 2014,
+      "source": "https://www.planete-jeunesse.com/fiche-2509-prenez-garde-a-batman.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "kf07ZcEoLB0",
+    "source": "https://www.youtube.com/watch?v=kf07ZcEoLB0",
+    "sourceTitle": "Prenez garde à Batman ! - Générique",
+    "sourceChannel": "CG1 Kids",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 30
+  },
+  {
+    "editorialId": "da-326",
+    "title": "Krypto le superchien",
+    "origin": "western",
+    "aliases": ["Krypto"],
+    "firstFrance": {
+      "year": 2005,
+      "source": "https://www.planete-jeunesse.com/fiche-972-krypto-le-superchien.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "Dumex3kgmW8",
+    "source": "https://www.youtube.com/watch?v=Dumex3kgmW8",
+    "sourceTitle": "Krypto le superchien - Générique",
+    "sourceChannel": "CG1 Kids",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 31,
+    "playbackStartMs": 1286
+  },
+  {
+    "editorialId": "da-327",
+    "title": "La Ligue des justiciers : Action",
+    "origin": "western",
+    "aliases": ["Justice League Action"],
+    "firstFrance": {
+      "year": 2017,
+      "source": "https://www.planete-jeunesse.com/fiche-3202-la-ligue-des-justiciers-action.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "nS6-H63zpN8",
+    "source": "https://www.youtube.com/watch?v=nS6-H63zpN8",
+    "sourceTitle": "La Ligue des justiciers : Action - Générique",
+    "sourceChannel": "CG1 Kids",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 33
+  },
+  {
+    "editorialId": "da-328",
+    "title": "Iron Man : Armored Adventures",
+    "origin": "western",
+    "aliases": ["Iron Man Armored Adventures"],
+    "firstFrance": {
+      "year": 2009,
+      "source": "https://fr.wikipedia.org/wiki/Iron_Man_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e_d'animation)",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "azjVuZqHXic",
+    "source": "https://www.youtube.com/watch?v=azjVuZqHXic",
+    "sourceTitle": "Iron Man: Armored Adventures - Générique",
+    "sourceChannel": "CG1 Kids",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 34
+  },
+  {
+    "editorialId": "da-329",
+    "title": "Avengers : L'Équipe des super-héros",
+    "origin": "western",
+    "aliases": [
+      "Avengers les super heros",
+      "Avengers Earth's Mightiest Heroes"
+    ],
+    "firstFrance": {
+      "year": 2011,
+      "source": "https://www.planete-jeunesse.com/fiche-1780-avengers-l-equipe-des-super-heros.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "omp8jQB8MpE",
+    "source": "https://www.youtube.com/watch?v=omp8jQB8MpE",
+    "sourceTitle": "Avengers - L'équipe des super héros générique (Saison 01)",
+    "sourceChannel": "Jayden Lutano",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 35
+  },
+  {
+    "editorialId": "da-330",
+    "title": "Avengers Rassemblement",
+    "origin": "western",
+    "aliases": ["Avengers Assemble"],
+    "firstFrance": {
+      "year": 2013,
+      "source": "https://fr.wikipedia.org/wiki/Avengers_Rassemblement",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "tl464EZXOF0",
+    "source": "https://www.youtube.com/watch?v=tl464EZXOF0",
+    "sourceTitle": "Avengers Rassemblement - Générique",
+    "sourceChannel": "CG1 Kids",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 36
+  },
+  {
+    "editorialId": "da-331",
+    "title": "Ultimate Spider-Man",
+    "origin": "western",
+    "aliases": ["Ultimate Spiderman"],
+    "firstFrance": {
+      "year": 2012,
+      "source": "https://www.planete-jeunesse.com/fiche-1914-ultimate-spider-man.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "3rtMmdeci_s",
+    "source": "https://www.youtube.com/watch?v=3rtMmdeci_s",
+    "sourceTitle": "Ultimate Spider-Man Générique French Français",
+    "sourceChannel": "Exis Generation",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 37
+  },
+  {
+    "editorialId": "da-332",
+    "title": "Wolverine et les X-Men",
+    "origin": "western",
+    "aliases": ["Wolverine and the X Men"],
+    "firstFrance": {
+      "year": 2009,
+      "source": "https://www.planete-jeunesse.com/fiche-1686-wolverine-et-les-x-men.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "R1Y2u8dPkVg",
+    "source": "https://www.youtube.com/watch?v=R1Y2u8dPkVg",
+    "sourceTitle": "Wolverine et les X-Men - Générique",
+    "sourceChannel": "CG1 Kids",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 38
+  },
+  {
+    "editorialId": "da-333",
+    "title": "The Super Hero Squad Show",
+    "origin": "western",
+    "aliases": ["Super Hero Squad"],
+    "firstFrance": {
+      "year": 2010,
+      "source": "https://www.planete-jeunesse.com/fiche-1705-super-hero-squad.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "ef3KLZprc5c",
+    "source": "https://www.youtube.com/watch?v=ef3KLZprc5c",
+    "sourceTitle": "super hero squad show generique saison 1 français",
+    "sourceChannel": "bloodbadboys",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 39
+  },
+  {
+    "editorialId": "da-334",
+    "title": "Hulk et les Agents du S.M.A.S.H.",
+    "origin": "western",
+    "aliases": ["Hulk Agents of Smash"],
+    "firstFrance": {
+      "year": 2013,
+      "source": "https://fr.wikipedia.org/wiki/Hulk_et_les_Agents_du_S.M.A.S.H.",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "PhEtE04gxgE",
+    "source": "https://www.youtube.com/watch?v=PhEtE04gxgE",
+    "sourceTitle": "Hulk et les Agents du S.M.A.S.H. - Générique",
+    "sourceChannel": "CG1 Kids",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 41,
+    "mediaFormat": "18"
+  },
+  {
+    "editorialId": "da-335",
+    "title": "Silver Surfer",
+    "origin": "western",
+    "aliases": ["Le Surfer d'argent"],
+    "firstFrance": {
+      "year": 1999,
+      "source": "https://fr.wikipedia.org/wiki/Silver_Surfer_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e_d'animation)",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "VVaiUfjEoz0",
+    "source": "https://www.youtube.com/watch?v=VVaiUfjEoz0",
+    "sourceTitle": "Le Surfer d'Argent - Générique",
+    "sourceChannel": "CG1 Kids",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 42
+  },
+  {
+    "editorialId": "da-336",
+    "title": "Fillmore !",
+    "origin": "western",
+    "aliases": ["Fillmore"],
+    "firstFrance": {
+      "year": 2003,
+      "source": "https://fr.wikipedia.org/wiki/Fillmore_!",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "4TdwtcO06RU",
+    "source": "https://www.youtube.com/watch?v=4TdwtcO06RU",
+    "sourceTitle": "Fillmore - Générique (FR)",
+    "sourceChannel": "Littlemonkey Bighorn",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 46
+  },
+  {
+    "editorialId": "da-337",
+    "title": "Les 101 Dalmatiens, la série",
+    "origin": "western",
+    "aliases": ["Les 101 Dalmatiens", "101 Dalmatians The Series"],
+    "firstFrance": {
+      "year": 1998,
+      "source": "https://www.planete-jeunesse.com/fiche-1469-les-101-dalmatiens.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "dIMDRdmEsME",
+    "source": "https://www.youtube.com/watch?v=dIMDRdmEsME",
+    "sourceTitle": "Les 101 Dalmatiens : La Série - Générique",
+    "sourceChannel": "Imagination Institute",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 47
+  },
+  {
+    "editorialId": "da-338",
+    "title": "Couacs en vrac",
+    "origin": "western",
+    "aliases": ["Quack Pack"],
+    "firstFrance": {
+      "year": 1997,
+      "source": "https://www.planete-jeunesse.com/fiche-723-couacs-en-vrac.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "mTHSt2p7NMg",
+    "source": "https://www.youtube.com/watch?v=mTHSt2p7NMg",
+    "sourceTitle": "Générique de Couacs en vrac (Quack Pack) - 1996 - HD",
+    "sourceChannel": "RécréHD",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 48
+  },
+  {
+    "editorialId": "da-339",
+    "title": "Les Weekenders",
+    "origin": "western",
+    "aliases": ["The Weekenders"],
+    "firstFrance": {
+      "year": 2001,
+      "source": "https://fr.wikipedia.org/wiki/Les_Weekenders",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "AtLEGEld_jk",
+    "source": "https://www.youtube.com/watch?v=AtLEGEld_jk",
+    "sourceTitle": "The Weekenders - Intro (French)",
+    "sourceChannel": "GalaxyUnicorn",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 49
+  },
+  {
+    "editorialId": "da-340",
+    "title": "Kick Kasskoo",
+    "origin": "western",
+    "aliases": ["Kick Buttowski", "Kick Kasskou"],
+    "firstFrance": {
+      "year": 2010,
+      "source": "https://fr.wikipedia.org/wiki/Kick_Kasskoo",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "lDof4LZGNdA",
+    "source": "https://www.youtube.com/watch?v=lDof4LZGNdA",
+    "sourceTitle": "Kick Kasskoo - Générique [VF] [HD]",
+    "sourceChannel": "Hoodclover",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 50
+  },
+  {
+    "editorialId": "da-341",
+    "title": "Pucca (2006)",
+    "origin": "western",
+    "aliases": ["Pucca"],
+    "firstFrance": {
+      "year": 2006,
+      "source": "https://www.planete-jeunesse.com/fiche-1256-pucca.html",
+      "note": "Édition de la série de 2006, et non courts métrages diffusés en 2005.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "Yrm1t7i86LE",
+    "source": "https://www.youtube.com/watch?v=Yrm1t7i86LE",
+    "sourceTitle": "Pucca (2006) - Générique (Français, HQ)",
+    "sourceChannel": "The Continuator",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 51
+  },
+  {
+    "editorialId": "da-342",
+    "title": "Kid vs. Kat",
+    "origin": "western",
+    "aliases": ["Kid vs Kat", "Kid contre Kat"],
+    "firstFrance": {
+      "year": 2009,
+      "source": "https://fr.wikipedia.org/wiki/Kid_vs._Kat",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "2UFTPxPKhD8",
+    "source": "https://www.youtube.com/watch?v=2UFTPxPKhD8",
+    "sourceTitle": "Kid Vs. Kat - Intro (French, VRAK.TV airing, Season 1)",
+    "sourceChannel": "TeletoonFan494",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 53
+  },
+  {
+    "editorialId": "da-343",
+    "title": "Randy Cunningham, le ninja",
+    "origin": "western",
+    "aliases": ["Randy Cunningham", "Randy le Ninja"],
+    "firstFrance": {
+      "year": 2013,
+      "source": "https://fr.wikipedia.org/wiki/Randy_Cunningham%2C_le_ninja",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "wKH9za_eqtk",
+    "source": "https://www.youtube.com/watch?v=wKH9za_eqtk",
+    "sourceTitle": "Randy Cunningham: 9th Grade Ninja - Intro (Français/French)",
+    "sourceChannel": "ABTube27",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 56
+  },
+  {
+    "editorialId": "da-344",
+    "title": "Angelo la Débrouille",
+    "origin": "western",
+    "aliases": ["Angelo", "Angelo Rules"],
+    "firstFrance": {
+      "year": 2010,
+      "source": "https://www.premiere.fr/node/297906",
+      "note": "Annonce contemporaine de lancement lundi 5 avril 2010, France 3. Les notices indiquant 2009 contredisent cette annonce.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "ia-KUijCgXM",
+    "source": "https://www.youtube.com/watch?v=ia-KUijCgXM",
+    "sourceTitle": "ANGELO LA DEBROUILLE - La chanson du générique de ton dessin animé de TéléTOON+",
+    "sourceChannel": "CANAL+kids ",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 58
+  },
+  {
+    "editorialId": "da-345",
+    "title": "Lou !",
+    "origin": "western",
+    "aliases": ["Lou"],
+    "firstFrance": {
+      "year": 2009,
+      "source": "https://www.planete-jeunesse.com/fiche-2265-lou.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "rgUlJvTe6X0",
+    "source": "https://www.youtube.com/watch?v=rgUlJvTe6X0",
+    "sourceTitle": "Générique de Lou! (Julien Di Caro) dessin animé de Julien Neel",
+    "sourceChannel": "Julien Di Caro",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 59
+  },
+  {
+    "editorialId": "da-346",
+    "title": "Mona le vampire",
+    "origin": "western",
+    "aliases": ["Mona the Vampire"],
+    "firstFrance": {
+      "year": 2000,
+      "source": "https://www.planete-jeunesse.com/fiche-1937-mona-le-vampire.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "0Hcaeq5bRqY",
+    "source": "https://www.youtube.com/watch?v=0Hcaeq5bRqY",
+    "sourceTitle": "Mona le vampire - Générique",
+    "sourceChannel": "KoéliaKirAnimation",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 64
+  },
+  {
+    "editorialId": "da-347",
+    "title": "Bali",
+    "origin": "western",
+    "aliases": [],
+    "firstFrance": {
+      "year": 2006,
+      "source": "https://www.planete-jeunesse.com/fiche-1130-bali.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "au5HlFI4U54",
+    "source": "https://www.youtube.com/watch?v=au5HlFI4U54",
+    "sourceTitle": "Générique Bali Saison 1 (French 2)",
+    "sourceChannel": "Bali Cartoon For Kids",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 65
+  },
+  {
+    "editorialId": "da-348",
+    "title": "64, rue du Zoo",
+    "origin": "western",
+    "aliases": ["64 rue du Zoo", "64 Zoo Lane"],
+    "firstFrance": {
+      "year": 2000,
+      "source": "https://www.planete-jeunesse.com/fiche-1179-64-rue-du-zoo.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "Cd_x_EKFl_s",
+    "source": "https://www.youtube.com/watch?v=Cd_x_EKFl_s",
+    "sourceTitle": "64 Rue du Zoo - Générique",
+    "sourceChannel": "KoéliaKirAnimation",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 66,
+    "playbackStartMs": 1915
+  },
+  {
+    "editorialId": "da-349",
+    "title": "Blaise le blasé",
+    "origin": "western",
+    "aliases": ["Blaise", "Fred's Head"],
+    "firstFrance": {
+      "year": 2008,
+      "source": "https://www.planete-jeunesse.com/fiche-2008-blaise-le-blase.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "R_5g8d5gBfs",
+    "source": "https://www.youtube.com/watch?v=R_5g8d5gBfs",
+    "sourceTitle": "Blaise le blasé - Générique TV officiel",
+    "sourceChannel": "TeamKids",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 70
+  },
+  {
+    "editorialId": "da-350",
+    "title": "Tara Duncan (2010)",
+    "origin": "western",
+    "aliases": ["Tara Duncan"],
+    "firstFrance": {
+      "year": 2010,
+      "source": "https://www.planete-jeunesse.com/fiche-2180-tara-duncan.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "ScDxz6g4G9A",
+    "source": "https://www.youtube.com/watch?v=ScDxz6g4G9A",
+    "sourceTitle": "Tara Duncan série animée 2010 générique",
+    "sourceChannel": "Athena Vicenta",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 71
+  },
+  {
+    "editorialId": "da-351",
+    "title": "Huntik : À la recherche des Titans",
+    "origin": "western",
+    "aliases": ["Huntik"],
+    "firstFrance": {
+      "year": 2010,
+      "source": "https://fr.wikipedia.org/wiki/Huntik_%3A_%C3%80_la_recherche_des_Titans",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "sirrTvLTL24",
+    "source": "https://www.youtube.com/watch?v=sirrTvLTL24",
+    "sourceTitle": "Huntik saison 1 générique vf",
+    "sourceChannel": "Huntik ",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 72
+  },
+  {
+    "editorialId": "da-352",
+    "title": "Monster Allergy",
+    "origin": "western",
+    "aliases": [],
+    "firstFrance": {
+      "year": 2006,
+      "source": "https://www.planete-jeunesse.com/fiche-1133-monster-allergy.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "ADAgi29sCaw",
+    "source": "https://www.youtube.com/watch?v=ADAgi29sCaw",
+    "sourceTitle": "Monster Allergy S2 générique FR",
+    "sourceChannel": "River",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 74,
+    "playbackStartMs": 685
+  },
+  {
+    "editorialId": "da-353",
+    "title": "Atomic Betty",
+    "origin": "western",
+    "aliases": [],
+    "firstFrance": {
+      "year": 2004,
+      "source": "https://www.planete-jeunesse.com/fiche-1577-atomic-betty.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "cMLHQHKN8vY",
+    "source": "https://www.youtube.com/watch?v=cMLHQHKN8vY",
+    "sourceTitle": "Atomic Betty - Générique vf",
+    "sourceChannel": "Lala Amaziɣ",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 76
+  },
+  {
+    "editorialId": "da-354",
+    "title": "Toupou",
+    "origin": "western",
+    "aliases": [],
+    "firstFrance": {
+      "year": 2005,
+      "source": "https://www.planete-jeunesse.com/fiche-892-toupou.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "qAknatLfHEI",
+    "source": "https://www.youtube.com/watch?v=qAknatLfHEI",
+    "sourceTitle": "Toupou - Générique",
+    "sourceChannel": "KoéliaKirAnimation",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 78
+  },
+  {
+    "editorialId": "da-355",
+    "title": "Chasseurs de dragons",
+    "origin": "western",
+    "aliases": ["Dragon Hunters"],
+    "firstFrance": {
+      "year": 2004,
+      "source": "https://www.planete-jeunesse.com/fiche-1717-chasseurs-de-dragons.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "5Tt4wbVHDWE",
+    "source": "https://www.youtube.com/watch?v=5Tt4wbVHDWE",
+    "sourceTitle": "Chasseurs de Dragons Générique",
+    "sourceChannel": "gtkami",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 81
+  },
+  {
+    "editorialId": "da-356",
+    "title": "Simsala Grimm",
+    "origin": "western",
+    "aliases": ["SimsalaGrimm"],
+    "firstFrance": {
+      "year": 2003,
+      "source": "https://www.planete-jeunesse.com/fiche-730-simsala-grimm.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "mxyju68cxWA",
+    "source": "https://www.youtube.com/watch?v=mxyju68cxWA",
+    "sourceTitle": "Simsala Grimm - Générique",
+    "sourceChannel": "KoéliaKirAnimation",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 82
+  },
+  {
+    "editorialId": "da-357",
+    "title": "Princesse Sissi",
+    "origin": "western",
+    "aliases": ["Sissi"],
+    "firstFrance": {
+      "year": 1997,
+      "source": "https://www.planete-jeunesse.com/fiche-567-princesse-sissi.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "D9Kbu2_Kw8c",
+    "source": "https://www.youtube.com/watch?v=D9Kbu2_Kw8c",
+    "sourceTitle": "Generique de Princesse Sissi",
+    "sourceChannel": "Dessin animé & Generique Cartoon Generic",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 83
+  },
+  {
+    "editorialId": "da-358",
+    "title": "Jumanji",
+    "origin": "western",
+    "aliases": [],
+    "firstFrance": {
+      "year": 1997,
+      "source": "https://www.planete-jeunesse.com/fiche-658-jumanji.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "m3c8J_gO8bc",
+    "source": "https://www.youtube.com/watch?v=m3c8J_gO8bc",
+    "sourceTitle": "\"Générique\" Jumanji",
+    "sourceChannel": "TvRealiterBuzz",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 86
+  },
+  {
+    "editorialId": "da-359",
+    "title": "Godzilla, la série",
+    "origin": "western",
+    "aliases": ["Godzilla The Series"],
+    "firstFrance": {
+      "year": 1999,
+      "source": "https://fr.wikipedia.org/wiki/Godzilla%2C_la_s%C3%A9rie",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "QMzRce-jHgs",
+    "source": "https://www.youtube.com/watch?v=QMzRce-jHgs",
+    "sourceTitle": "Générique VF - Godzilla Musique Jim Latham - 1998 ",
+    "sourceChannel": "Nostalgia Channel Maroc ☆\nقناة الجيل الذهبي",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 87
+  },
+  {
+    "editorialId": "da-360",
+    "title": "Extrême Ghostbusters",
+    "origin": "western",
+    "aliases": ["Extreme Ghostbusters", "Les nouveaux chasseurs de fantomes"],
+    "firstFrance": {
+      "year": 1998,
+      "source": "https://www.planete-jeunesse.com/fiche-652-extremes-ghostbusters.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "TzRX-XztjPo",
+    "source": "https://www.youtube.com/watch?v=TzRX-XztjPo",
+    "sourceTitle": "Générique d' Extreme Ghostbusters",
+    "sourceChannel": "steve",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 88
+  },
+  {
+    "editorialId": "da-361",
+    "title": "Ōban, Star-Racers",
+    "origin": "japanese",
+    "aliases": ["Oban Star Racers", "Oban"],
+    "firstFrance": {
+      "year": 2006,
+      "source": "https://www.planete-jeunesse.com/fiche-1585-oban-star-racers.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "1hk2O1tBAvc",
+    "source": "https://www.youtube.com/watch?v=1hk2O1tBAvc",
+    "sourceTitle": "Oban star racers opening français",
+    "sourceChannel": "Lockymen4",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 90
+  },
+  {
+    "editorialId": "da-362",
+    "title": "Redakai: Les Conquérants du Kairu",
+    "origin": "western",
+    "aliases": ["Redakai"],
+    "firstFrance": {
+      "year": 2011,
+      "source": "https://fr.wikipedia.org/wiki/Redakai_%3A_Les_Conqu%C3%A9rants_du_Kairu",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "483bNxfBiPI",
+    "source": "https://www.youtube.com/watch?v=483bNxfBiPI",
+    "sourceTitle": "Redakai Season 1 Intro",
+    "sourceChannel": "RebelToonz",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 92
+  },
+  {
+    "editorialId": "da-363",
+    "title": "SOS Croco",
+    "origin": "western",
+    "aliases": ["Sos Croco"],
+    "firstFrance": {
+      "year": 1998,
+      "source": "https://www.planete-jeunesse.com/fiche-1249-sos-croco.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "jr6f7v03LCk",
+    "source": "https://www.youtube.com/watch?v=jr6f7v03LCk",
+    "sourceTitle": "S.O.S Croco - Générique TV officiel",
+    "sourceChannel": "TeamKids",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 98
+  },
+  {
+    "editorialId": "da-364",
+    "title": "La Vie moderne de Rocko",
+    "origin": "western",
+    "aliases": ["Rocko", "Rocko's Modern Life"],
+    "firstFrance": {
+      "year": 1995,
+      "source": "https://fr.wikipedia.org/wiki/Rocko's_Modern_Life",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "_HmEGRVUcR0",
+    "source": "https://www.youtube.com/watch?v=_HmEGRVUcR0",
+    "sourceTitle": "Rocko's Modern Life - Season 1 Opening Credits",
+    "sourceChannel": "Shout! Studios",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending",
+      "startNote": "Logo de l’éditeur / de la chaîne de publication écarté après contrôle des images."
+    },
+    "candidateIndex": 100,
+    "playbackStartMs": 8500
+  },
+  {
+    "editorialId": "da-365",
+    "title": "Le Petit Prince",
+    "origin": "western",
+    "aliases": [],
+    "firstFrance": {
+      "year": 2010,
+      "source": "https://www.planete-jeunesse.com/fiche-2452-le-petit-prince.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "vF80OFwxVE8",
+    "source": "https://www.youtube.com/watch?v=vF80OFwxVE8",
+    "sourceTitle": "LE PETIT PRINCE - Opening",
+    "sourceChannel": "LE PETIT PRINCE",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 103
+  },
+  {
+    "editorialId": "da-366",
+    "title": "Naruto",
+    "origin": "japanese",
+    "aliases": ["Naruto"],
+    "firstFrance": {
+      "year": 2006,
+      "source": "https://fr.wikipedia.org/wiki/Naruto",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "q1aq9GEHR8Q",
+    "source": "https://www.youtube.com/watch?v=q1aq9GEHR8Q",
+    "sourceTitle": "Naruto Opening 1 | R★O★C★K★S",
+    "sourceChannel": "Crunchyroll",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 106,
+    "playbackStartMs": 1499
+  },
+  {
+    "editorialId": "da-367",
+    "title": "Naruto Shippuden",
+    "origin": "japanese",
+    "aliases": ["Naruto Shipuden", "Shippuden", "Naruto Shippuuden"],
+    "firstFrance": {
+      "year": 2008,
+      "source": "https://www.planete-jeunesse.com/fiche-1617-naruto-shippuden.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "EBNl8bwdVcA",
+    "source": "https://www.youtube.com/watch?v=EBNl8bwdVcA",
+    "sourceTitle": "Naruto Shippuden - Opening 1 | Hero's Come Back",
+    "sourceChannel": "Crunchyroll",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 107
+  },
+  {
+    "editorialId": "da-368",
+    "title": "One Piece",
+    "origin": "japanese",
+    "aliases": ["OnePiece"],
+    "firstFrance": {
+      "year": 2003,
+      "source": "https://www.planete-jeunesse.com/fiche-1029-one-piece.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "YoeP9w5UIlg",
+    "source": "https://www.youtube.com/watch?v=YoeP9w5UIlg",
+    "sourceTitle": "Opening Theme | We Are! | Hiroshi Kitadani",
+    "sourceChannel": "ONE PIECE Official - ENG",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 108
+  },
+  {
+    "editorialId": "da-369",
+    "title": "Bleach",
+    "origin": "japanese",
+    "aliases": [],
+    "firstFrance": {
+      "year": 2007,
+      "source": "https://www.planete-jeunesse.com/fiche-1775-bleach.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "wW9TwZdWpjw",
+    "source": "https://www.youtube.com/watch?v=wW9TwZdWpjw",
+    "sourceTitle": "OPENING 1 | BLEACH | Asterisk by ORANGE RANGE | VIZ",
+    "sourceChannel": "vizmedia",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 109,
+    "playbackStartMs": 992
+  },
+  {
+    "editorialId": "da-370",
+    "title": "Fairy Tail",
+    "origin": "japanese",
+    "aliases": ["FairyTail"],
+    "firstFrance": {
+      "year": 2011,
+      "source": "https://www.planete-jeunesse.com/fiche-2267-fairy-tail.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "9jvVBVcZ0-Y",
+    "source": "https://www.youtube.com/watch?v=9jvVBVcZ0-Y",
+    "sourceTitle": "Fairy Tail - Opening 1 (Creditless) (HD - 60 fps)",
+    "sourceChannel": "Anime Guy",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 110,
+    "playbackStartMs": 1217
+  },
+  {
+    "editorialId": "da-371",
+    "title": "Fullmetal Alchemist",
+    "origin": "japanese",
+    "aliases": ["Full Metal Alchemist", "FMA"],
+    "firstFrance": {
+      "year": 2005,
+      "source": "https://www.planete-jeunesse.com/fiche-808-fullmetal-alchemist.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "dE1fqsapSAc",
+    "source": "https://www.youtube.com/watch?v=dE1fqsapSAc",
+    "sourceTitle": "Fullmetal Alchemist (2003) OP1 | Melissa",
+    "sourceChannel": "Kuropiko",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 112
+  },
+  {
+    "editorialId": "da-372",
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "origin": "japanese",
+    "aliases": ["FMA Brotherhood", "Full Metal Alchemist Brotherhood", "FMAB"],
+    "firstFrance": {
+      "year": 2009,
+      "source": "https://www.planete-jeunesse.com/fiche-2210-fullmetal-alchemist-brotherhood.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "a-Jr5JW-EMQ",
+    "source": "https://www.youtube.com/watch?v=a-Jr5JW-EMQ",
+    "sourceTitle": "FULLMETAL ALCHEMIST: BROTHERHOOD | Opening 1 | Again - YUI | aniverse",
+    "sourceChannel": "KSM Anime",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 113
+  },
+  {
+    "editorialId": "da-373",
+    "title": "Death Note",
+    "origin": "japanese",
+    "aliases": ["DeathNote"],
+    "firstFrance": {
+      "year": 2008,
+      "source": "https://www.planete-jeunesse.com/fiche-1417-death-note.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "KdGOV8FX6F4",
+    "source": "https://www.youtube.com/watch?v=KdGOV8FX6F4",
+    "sourceTitle": "Death Note- Opening 1 [480p] (lyrics) {traduction}",
+    "sourceChannel": "parolevideo",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 114,
+    "playbackStartMs": 1089
+  },
+  {
+    "editorialId": "da-374",
+    "title": "My Hero Academia",
+    "origin": "japanese",
+    "aliases": ["Boku no Hero Academia", "MHA"],
+    "firstFrance": {
+      "year": 2016,
+      "source": "https://animeguides.com/guides/detaille/myheroacademia.html",
+      "note": "ADN, 3 avril 2016 VOSTF ; la diffusion VF sur Toonami est ultérieure.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "yu0HjPzFYnY",
+    "source": "https://www.youtube.com/watch?v=yu0HjPzFYnY",
+    "sourceTitle": "My Hero Academia Opening 1 | The Day",
+    "sourceChannel": "Crunchyroll",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 116
+  },
+  {
+    "editorialId": "da-375",
+    "title": "L'Attaque des Titans",
+    "origin": "japanese",
+    "aliases": [
+      "Attaque des Titans",
+      "Attack on Titan",
+      "Shingeki no Kyojin",
+      "SNK"
+    ],
+    "firstFrance": {
+      "year": 2013,
+      "source": "https://www.planete-jeunesse.com/fiche-2282-l-attaque-des-titans.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "AW5_k_Cf4wM",
+    "source": "https://www.youtube.com/watch?v=AW5_k_Cf4wM",
+    "sourceTitle": "「進撃の巨人」Season 1前期ノンクレジットOP｜Linked Horizon「紅蓮の弓矢」",
+    "sourceChannel": "進撃の巨人 - Attack on Titan Official",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 117
+  },
+  {
+    "editorialId": "da-376",
+    "title": "Sword Art Online",
+    "origin": "japanese",
+    "aliases": ["SAO"],
+    "firstFrance": {
+      "year": 2012,
+      "source": "https://www.planete-jeunesse.com/fiche-2651-sword-art-online.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "Y4kfe8R1Iqs",
+    "source": "https://www.youtube.com/watch?v=Y4kfe8R1Iqs",
+    "sourceTitle": "LiSA「crossing field」／「ソードアート・オンライン」第1期1stクール ノンクレジットOP",
+    "sourceChannel": "アニプレックス チャンネル",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 118
+  },
+  {
+    "editorialId": "da-377",
+    "title": "Inu-Yasha",
+    "origin": "japanese",
+    "aliases": ["Inuyasha", "Inu Yasha"],
+    "firstFrance": {
+      "year": 2003,
+      "source": "https://www.planete-jeunesse.com/fiche-1581-inuyasha.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "ohljJr51vNA",
+    "source": "https://www.youtube.com/watch?v=ohljJr51vNA",
+    "sourceTitle": "Inuyasha Opening 1   Change the World HD 720p",
+    "sourceChannel": "AnimeGirl Show",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 119,
+    "playbackStartMs": 1478
+  },
+  {
+    "editorialId": "da-378",
+    "title": "Détective Conan",
+    "origin": "japanese",
+    "aliases": ["Detective Conan", "Conan"],
+    "firstFrance": {
+      "year": 2004,
+      "source": "https://www.planete-jeunesse.com/fiche-756-detective-conan.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "a0m1QIXSUho",
+    "source": "https://www.youtube.com/watch?v=a0m1QIXSUho",
+    "sourceTitle": "Détective Conan générique 1",
+    "sourceChannel": "Vil Gredin",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 120
+  },
+  {
+    "editorialId": "da-379",
+    "title": "Blue Dragon",
+    "origin": "japanese",
+    "aliases": [],
+    "firstFrance": {
+      "year": 2009,
+      "source": "https://www.planete-jeunesse.com/fiche-1951-blue-dragon.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "QrjjJWnOfiI",
+    "source": "https://www.youtube.com/watch?v=QrjjJWnOfiI",
+    "sourceTitle": "Blue Dragon - Opening/Générique [Français-VF/French] (Bad Quality)",
+    "sourceChannel": "Myzuna",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 123
+  },
+  {
+    "editorialId": "da-380",
+    "title": "Bakugan : Équipe d’élite",
+    "origin": "japanese",
+    "aliases": ["Bakugan Battle Brawlers", "Bakugan"],
+    "firstFrance": {
+      "year": 2008,
+      "source": "https://www.scifi-universe.com/actualites/7679/bakugan-le-phenomene-arrive-en-france",
+      "note": "Annonce contemporaine novembre 2008 : Cartoon Network depuis mi-octobre 2008.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "26e93mUYeDM",
+    "source": "https://www.youtube.com/watch?v=26e93mUYeDM",
+    "sourceTitle": "Bakugan L'Équipe D'Élite S1 Générique",
+    "sourceChannel": "BAKUGAN Français - Chaîne Officielle",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 124
+  },
+  {
+    "editorialId": "da-381",
+    "title": "Keroro, mission Titar",
+    "origin": "japanese",
+    "aliases": ["Keroro", "Sergent Keroro"],
+    "firstFrance": {
+      "year": 2006,
+      "source": "https://www.planete-jeunesse.com/fiche-1323-keroro-mission-titar.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "-ErdkhaPupo",
+    "source": "https://www.youtube.com/watch?v=-ErdkhaPupo",
+    "sourceTitle": "Keroro Mission Titar - Générique Opening Français FR COMPLET",
+    "sourceChannel": "Bligivi",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 125
+  },
+  {
+    "editorialId": "da-382",
+    "title": "Kirby",
+    "origin": "japanese",
+    "aliases": ["Kirby: Right Back at Ya!"],
+    "firstFrance": {
+      "year": 2003,
+      "source": "https://www.planete-jeunesse.com/fiche-1681-kirby.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "NZE53ISx3pw",
+    "source": "https://www.youtube.com/watch?v=NZE53ISx3pw",
+    "sourceTitle": "Kirby: Right Back At Ya! Theme Song (V1) (Français/French)",
+    "sourceChannel": "Chris Collins The 14th",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 126
+  },
+  {
+    "editorialId": "da-383",
+    "title": "Sonic le Rebelle",
+    "origin": "western",
+    "aliases": ["Sonic Underground"],
+    "firstFrance": {
+      "year": 1999,
+      "source": "https://www.planete-jeunesse.com/fiche-363-sonic-le-rebelle.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "n4RUrBbvWHA",
+    "source": "https://www.youtube.com/watch?v=n4RUrBbvWHA",
+    "sourceTitle": "Générique de Sonic le Rebelle (Sonic Underground) - 1999 - HD",
+    "sourceChannel": "RécréHD",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending",
+      "startNote": "Logo de l’éditeur / de la chaîne de publication écarté après contrôle des images."
+    },
+    "candidateIndex": 127,
+    "playbackStartMs": 9500
+  },
+  {
+    "editorialId": "da-384",
+    "title": "MegaMan NT Warrior",
+    "origin": "japanese",
+    "aliases": ["Megaman NT Warrior", "Rockman EXE"],
+    "firstFrance": {
+      "year": 2004,
+      "source": "https://www.planete-jeunesse.com/fiche-721-megaman-nt-warrior.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "wYz6QHZCo00",
+    "source": "https://www.youtube.com/watch?v=wYz6QHZCo00",
+    "sourceTitle": "MegaMan NT Warrior - French Opening Narration",
+    "sourceChannel": "DangerousVHS Promos",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 128
+  },
+  {
+    "editorialId": "da-385",
+    "title": "Shin-chan",
+    "origin": "japanese",
+    "aliases": ["Shin Chan", "Crayon Shin Chan"],
+    "firstFrance": {
+      "year": 2002,
+      "source": "https://www.planete-jeunesse.com/fiche-1826-shin-chan.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "x6m3wihfLno",
+    "source": "https://www.youtube.com/watch?v=x6m3wihfLno",
+    "sourceTitle": "Shin Chan Générique",
+    "sourceChannel": "Aimini Chan",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 129
+  },
+  {
+    "editorialId": "da-386",
+    "title": "Doraemon",
+    "origin": "japanese",
+    "aliases": ["Dora Emon"],
+    "firstFrance": {
+      "year": 2003,
+      "source": "https://www.planete-jeunesse.com/fiche-883-doraemon.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "2tn3pf9uGTY",
+    "source": "https://www.youtube.com/watch?v=2tn3pf9uGTY",
+    "sourceTitle": "Doraemon intro french",
+    "sourceChannel": "Alejandro Lopez",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 130
+  },
+  {
+    "editorialId": "da-387",
+    "title": "Assassination Classroom",
+    "origin": "japanese",
+    "aliases": ["Ansatsu Kyoshitsu", "Assassination Class Room"],
+    "firstFrance": {
+      "year": 2015,
+      "source": "https://www.planete-jeunesse.com/fiche-2931-assassination-classroom.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "Qjjc5kqyKO8",
+    "source": "https://www.youtube.com/watch?v=Qjjc5kqyKO8",
+    "sourceTitle": "Assassination Classroom Opening 1 With Ritsu!",
+    "sourceChannel": "silvia wolfblood",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 131,
+    "playbackStartMs": 1113
+  },
+  {
+    "editorialId": "da-388",
+    "title": "Tokyo Ghoul",
+    "origin": "japanese",
+    "aliases": [],
+    "firstFrance": {
+      "year": 2014,
+      "source": "https://fr.wikipedia.org/wiki/Tokyo_Ghoul",
+      "note": "Simulcast France sur Wakanim, juillet 2014 ; Netflix 2016 est une reprise.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "7aMOurgDB-o",
+    "source": "https://www.youtube.com/watch?v=7aMOurgDB-o",
+    "sourceTitle": "Tokyo Ghoul Opening | \"Unravel\" by TK from Ling Toshite Sigure",
+    "sourceChannel": "Crunchyroll",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 132
+  },
+  {
+    "editorialId": "da-389",
+    "title": "Soul Eater",
+    "origin": "japanese",
+    "aliases": ["SoulEater"],
+    "firstFrance": {
+      "year": 2009,
+      "source": "https://www.planete-jeunesse.com/fiche-2432-soul-eater.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "zzJ8U8OtEsE",
+    "source": "https://www.youtube.com/watch?v=zzJ8U8OtEsE",
+    "sourceTitle": "Soul Eater Opening | Resonance by T.M. Revolution",
+    "sourceChannel": "Crunchyroll",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 133
+  },
+  {
+    "editorialId": "da-390",
+    "title": "Martin Matin",
+    "origin": "western",
+    "aliases": [],
+    "firstFrance": {
+      "year": 2003,
+      "source": "https://www.planete-jeunesse.com/fiche-2206-martin-matin.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "CuERzx4JNUs",
+    "source": "https://www.youtube.com/watch?v=CuERzx4JNUs",
+    "sourceTitle": "Martin Matin générique",
+    "sourceChannel": "Mel",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 136
+  },
+  {
+    "editorialId": "da-391",
+    "title": "Les Mille et Une Prouesses de Pépin Troispommes",
+    "origin": "western",
+    "aliases": ["Pepin Troispommes"],
+    "firstFrance": {
+      "year": 1999,
+      "source": "https://www.planete-jeunesse.com/fiche-611-les-mille-et-une-prouesses-de-pepin-troispommes.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "hkH60F6uqX8",
+    "source": "https://www.youtube.com/watch?v=hkH60F6uqX8",
+    "sourceTitle": "Les Mille et Une Prouesses de Pépin Troispommes générique",
+    "sourceChannel": "Mel",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 138
+  },
+  {
+    "editorialId": "da-392",
+    "title": "Yu-Gi-Oh! Duel Monsters",
+    "origin": "japanese",
+    "aliases": ["Yu-Gi-Oh!", "Yu Gi Oh", "Yugioh", "Yu-Gi-Oh"],
+    "firstFrance": {
+      "year": 2002,
+      "source": "https://www.planete-jeunesse.com/fiche-359-yu-gi-oh.html",
+      "note": "M6, 4 septembre 2002, Duel Monsters.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "puObZPagWUU",
+    "source": "https://www.youtube.com/watch?v=puObZPagWUU",
+    "sourceTitle": "Générique Yu-Gi-Oh [FR] Saison 1",
+    "sourceChannel": "Black Shawn",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version distribuée en France ; langue originale conservée lorsque diffusée ainsi.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 146
+  },
+  {
+    "editorialId": "da-393",
+    "title": "Nom de code : Kids Next Door",
+    "origin": "western",
+    "aliases": ["Kids Next Door", "KND"],
+    "firstFrance": {
+      "year": 2003,
+      "source": "https://doublage-france.fandom.com/fr/wiki/Nom_de_code_%3A_Kids_Next_Door",
+      "note": "Diffusion France 2003 ; série également attestée dans les filmographies des comédiens.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "FOITzGBW8m8",
+    "source": "https://www.youtube.com/watch?v=FOITzGBW8m8",
+    "sourceTitle": "Nom de Code: KND Générique",
+    "sourceChannel": "Mamou April",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 147
+  },
+  {
+    "editorialId": "da-394",
+    "title": "Kangoo",
+    "origin": "western",
+    "aliases": ["Les Kangoo"],
+    "firstFrance": {
+      "year": 1996,
+      "source": "https://www.planete-jeunesse.com/fiche-705-kangoo.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "c-7BkdEXgyY",
+    "source": "https://www.youtube.com/watch?v=c-7BkdEXgyY",
+    "sourceTitle": "Kangoo - Générique TV officiel",
+    "sourceChannel": "TeamKids",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 155
+  },
+  {
+    "editorialId": "da-395",
+    "title": "Kangoo Juniors",
+    "origin": "western",
+    "aliases": ["Kangoo Junior"],
+    "firstFrance": {
+      "year": 2002,
+      "source": "https://www.planete-jeunesse.com/fiche-1074-kangoo-juniors.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "E-cGohgrDYg",
+    "source": "https://www.youtube.com/watch?v=E-cGohgrDYg",
+    "sourceTitle": "Générique VF - Kangoo Juniors, Musiques : Fabrice Aboulker - 2002 ",
+    "sourceChannel": "Nostalgia Channel Maroc ☆\nقناة الجيل الذهبي",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 156
+  },
+  {
+    "editorialId": "da-396",
+    "title": "Creepie",
+    "origin": "western",
+    "aliases": ["Growing Up Creepie"],
+    "firstFrance": {
+      "year": 2007,
+      "source": "https://www.planete-jeunesse.com/fiche-2096-creepie.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "iZTXLZwnRko",
+    "source": "https://www.youtube.com/watch?v=iZTXLZwnRko",
+    "sourceTitle": "Creepie : générique français (HD)",
+    "sourceChannel": "TheRenantel",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 157
+  },
+  {
+    "editorialId": "da-397",
+    "title": "Creepschool",
+    "origin": "western",
+    "aliases": ["Creep School"],
+    "firstFrance": {
+      "year": 2005,
+      "source": "https://www.planete-jeunesse.com/fiche-3700-creepschool.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "t8O0bdkQsGg",
+    "source": "https://www.youtube.com/watch?v=t8O0bdkQsGg",
+    "sourceTitle": "Creepschool intro",
+    "sourceChannel": "LeviMayFly",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 159
+  },
+  {
+    "editorialId": "da-398",
+    "title": "Les Pyjamasques",
+    "origin": "western",
+    "aliases": ["Pyjamasques", "PJ Masks"],
+    "firstFrance": {
+      "year": 2015,
+      "source": "https://fr.wikipedia.org/wiki/Pyjamasques",
+      "note": "France 5, 12 décembre 2015.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "iconic",
+    "videoId": "9KcPrn8-hjg",
+    "source": "https://www.youtube.com/watch?v=9KcPrn8-hjg",
+    "sourceTitle": "Générique de Pyjamasques - Disney Junior",
+    "sourceChannel": "Disney Junior FR",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 160,
+    "playbackStartMs": 2126
+  },
+  {
+    "editorialId": "da-399",
+    "title": "Les Octonauts",
+    "origin": "western",
+    "aliases": ["Octonauts"],
+    "firstFrance": {
+      "year": 2010,
+      "source": "https://fr.wikipedia.org/wiki/Les_Octonauts",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "mpePTdJJ1pg",
+    "source": "https://www.youtube.com/watch?v=mpePTdJJ1pg",
+    "sourceTitle": "Générique des Octonauts - Disney Junior",
+    "sourceChannel": "Disney Junior FR",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 161
+  },
+  {
+    "editorialId": "da-400",
+    "title": "Go Diego !",
+    "origin": "western",
+    "aliases": ["Go Diego Go", "Diego"],
+    "firstFrance": {
+      "year": 2006,
+      "source": "https://www.planete-jeunesse.com/fiche-1035-go-diego.html",
+      "note": "Première diffusion en France relevée dans la notice de cette série.",
+      "checked_on": "2026-11-13"
+    },
+    "popularity": "popular",
+    "videoId": "wOZPMjY8z1o",
+    "source": "https://www.youtube.com/watch?v=wOZPMjY8z1o",
+    "sourceTitle": "Go Diego | Générique | NICKELODEON JUNIOR",
+    "sourceChannel": "Nick Jr.",
+    "startSeconds": 0,
+    "maximumSeconds": 45,
+    "versionNote": "Générique de la version diffusée en France, indépendant de la langue des paroles.",
+    "review": {
+      "selection": "metadata-and-broadcast-references",
+      "fullListening": "pending"
+    },
+    "candidateIndex": 164
+  }
+]
