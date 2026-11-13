@@ -5,6 +5,7 @@ import {
   animationOrigins,
   type AnimationOrigin,
   type Popularity,
+  type Generation,
 } from "./catalogue-filters";
 export const difficulties = ["easy", "normal", "hard"] as const;
 export const broadcastEras = [
@@ -36,6 +37,10 @@ export function broadcastEra(year?: number | null): BroadcastEra {
   if (year >= 2020) return "2020";
   return String(Math.floor(year / 10) * 10) as BroadcastEra;
 }
+const generationSchema = z.union([
+  z.number().int().min(1500).max(2195).multipleOf(5),
+  z.literal("unknown"),
+]);
 export const settingsSchema = z.object({
   categories: z.array(z.string().min(1)).min(1).max(100),
   difficulties: z.array(z.enum(difficulties)).min(1).max(3),
@@ -45,16 +50,28 @@ export const settingsSchema = z.object({
   mode: z.enum(["individual", "teams", "open"]),
   vfOnly: z.boolean().optional(),
   broadcastEra: z.enum(broadcastEras).optional(),
-  generation: z
-    .union([
-      z.number().int().min(1500).max(2195).multipleOf(5),
-      z.literal("unknown"),
-    ])
+  generation: generationSchema.optional(),
+  generations: z
+    .array(generationSchema)
+    .max(141)
+    .refine((values) => new Set(values).size === values.length)
     .optional(),
   popularity: z.enum(popularityLevels).optional(),
   animationOrigin: z.enum(["all", ...animationOrigins]).optional(),
 });
 export type Settings = z.infer<typeof settingsSchema>;
+export function selectedGenerations(
+  settings: Settings,
+  available: Generation[],
+): Generation[] {
+  if (settings.generations !== undefined) return settings.generations;
+  if (settings.generation !== undefined) return [settings.generation];
+  if (settings.broadcastEra)
+    return available.filter(
+      (g) => broadcastEra(g === "unknown" ? null : g) === settings.broadcastEra,
+    );
+  return available;
+}
 export function matchesRoomSettings(
   clip: {
     categories: string[];
@@ -75,10 +92,13 @@ export function matchesRoomSettings(
       clip.animationOrigin === undefined ||
       clip.animationOrigin === settings.animationOrigin) &&
     (!settings.vfOnly || clip.french === true) &&
-    (settings.generation === undefined ||
-      generationForYear(clip.generationYear) === settings.generation) &&
+    (settings.generations !== undefined
+      ? settings.generations.includes(generationForYear(clip.generationYear))
+      : settings.generation === undefined ||
+        generationForYear(clip.generationYear) === settings.generation) &&
     (!settings.popularity || clip.popularity === settings.popularity) &&
-    (!settings.broadcastEra ||
+    (settings.generations !== undefined ||
+      !settings.broadcastEra ||
       (clip.firstFrenchBroadcastYear !== undefined &&
         broadcastEra(clip.firstFrenchBroadcastYear) ===
           settings.broadcastEra)) &&
@@ -95,6 +115,8 @@ export function launchBlockers(
   players: { ready: boolean; team: string | null }[],
 ) {
   const reasons: string[] = [];
+  if (settings.generations?.length === 0)
+    reasons.push("Cochez au moins une génération.");
   if (!settings.categories.length)
     reasons.push("Sélectionnez au moins une catégorie.");
   if (!settings.difficulties.length)

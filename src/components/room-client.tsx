@@ -18,6 +18,7 @@ import {
   matchesRoomSettings,
   launchBlockers,
   defaultSettings,
+  selectedGenerations,
   type Settings,
   type BroadcastEra,
 } from "@/domain/settings";
@@ -598,9 +599,19 @@ export function RoomClient({ code }: { code: string }) {
       .map((clip) => generationForYear(clip.generationYear)),
   );
   if (settings.generation !== undefined) generations.add(settings.generation);
+  for (const generation of settings.generations ?? [])
+    generations.add(generation);
   const generationOptions = [...generations].sort((a, b) =>
     a === "unknown" ? 1 : b === "unknown" ? -1 : a - b,
   );
+  const checkedGenerations = selectedGenerations(settings, generationOptions);
+  const updateGenerations = (values: Generation[] | undefined) =>
+    setSettings({
+      ...settings,
+      generation: undefined,
+      broadcastEra: undefined,
+      generations: values,
+    });
   const unsaved = JSON.stringify(settings) !== JSON.stringify(state.settings);
   const blockers = launchBlockers(settings, eligible, unsaved, state.players);
   const attempt = g?.attempts.at(-1);
@@ -791,45 +802,68 @@ export function RoomClient({ code }: { code: string }) {
                       générique. Les autres univers restent inclus.
                     </p>
                   </div>
-                  <div>
-                    <label htmlFor="generation">Génération (5 ans)</label>
-                    <select
-                      id="generation"
-                      aria-describedby="generation-help"
-                      value={settings.generation ?? ""}
-                      onChange={(event) => {
-                        const value = event.target.value;
-                        setSettings({
-                          ...settings,
-                          broadcastEra: undefined,
-                          generation:
-                            value === ""
-                              ? undefined
-                              : value === "unknown"
-                                ? "unknown"
-                                : Number(value),
-                        });
-                      }}
-                    >
-                      <option value="">
-                        Toutes les générations ·{" "}
-                        {countFor({
+                  <div
+                    role="group"
+                    aria-labelledby="generations-label"
+                    aria-describedby="generation-help"
+                  >
+                    <span id="generations-label">Générations (5 ans)</span>
+                    <div className="row generation-actions">
+                      <button
+                        type="button"
+                        className="link"
+                        onClick={() => updateGenerations(undefined)}
+                      >
+                        Tout sélectionner
+                      </button>
+                      <button
+                        type="button"
+                        className="link"
+                        onClick={() => updateGenerations([])}
+                      >
+                        Tout désélectionner
+                      </button>
+                    </div>
+                    <div className="generation-options">
+                      {generationOptions.map((generation) => {
+                        const count = countFor({
+                          generations: [generation],
                           generation: undefined,
                           broadcastEra: undefined,
-                        })}{" "}
-                        titres
-                      </option>
-                      {generationOptions.map((generation) => (
-                        <option key={generation} value={generation}>
-                          {generationLabel(generation)} ·{" "}
-                          {countFor({ generation, broadcastEra: undefined })}{" "}
-                          titres
-                        </option>
-                      ))}
-                    </select>
+                        });
+                        return (
+                          <label key={generation} className="generation-choice">
+                            <input
+                              type="checkbox"
+                              checked={checkedGenerations.includes(generation)}
+                              onChange={(event) =>
+                                updateGenerations(
+                                  event.target.checked
+                                    ? [...checkedGenerations, generation].sort(
+                                        (a, b) =>
+                                          a === "unknown"
+                                            ? 1
+                                            : b === "unknown"
+                                              ? -1
+                                              : a - b,
+                                      )
+                                    : checkedGenerations.filter(
+                                        (value) => value !== generation,
+                                      ),
+                                )
+                              }
+                            />
+                            <span>{generationLabel(generation)}</span>
+                            <small className="muted">
+                              {count} {count === 1 ? "titre" : "titres"}
+                            </small>
+                          </label>
+                        );
+                      })}
+                    </div>
                     <p id="generation-help" className="small muted">
-                      Sortie du jeu ou première diffusion en France du dessin
-                      animé.
+                      Cochez une ou plusieurs générations. Sortie du jeu ou
+                      première diffusion en France du dessin animé.
                     </p>
                   </div>
                   <div>
