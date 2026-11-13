@@ -107,14 +107,18 @@ try {
       }),
     );
     for (const who of [a, b]) {
+      const ready = who.page.getByRole("button", {
+        name: "Je suis prêt",
+        exact: true,
+      });
+      await expect(ready).toBeVisible({ timeout: 30000 });
       const sound = who.page.getByRole("button", {
         name: "Activer le son",
         exact: true,
       });
       if (await sound.isVisible()) await sound.click();
-      await who.page
-        .getByRole("button", { name: "Je suis prêt", exact: true })
-        .click();
+      await expect(ready).toBeEnabled();
+      await ready.click();
     }
     await a.page
       .getByRole("button", { name: "Lancer la partie", exact: true })
