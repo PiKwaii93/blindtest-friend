@@ -9,6 +9,26 @@ function version(id: string) {
     .find((v) => v.editorialId === id)!;
 }
 describe("franchises de dessins animés", () => {
+  it("accepte aussi le nom explicite de la bonne version sans espaces", () => {
+    expect(
+      validateAnswer(
+        "JusticeLeagueAction",
+        ["La Ligue des justiciers : Action", "Justice League Action"],
+        "hard",
+        [],
+        "da-327",
+      ),
+    ).toBe(true);
+    expect(
+      validateAnswer(
+        "JusticeLeagueAction",
+        ["La Ligue des justiciers"],
+        "hard",
+        [],
+        "da-201",
+      ),
+    ).toBe(false);
+  });
   it("ne restaure pas un ancien alias supprimé des réponses acceptées par l’admin", () => {
     expect(
       validateAnswer(

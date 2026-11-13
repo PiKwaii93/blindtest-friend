@@ -124,13 +124,11 @@ export function assessAnswer(
       .filter((v) => v.editorialId !== cartoonId)
       .flatMap((v) => v.names)
       .filter((name) => !generalKeys.has(key(name)));
-    if (own.some((name) => key(name) === answerKey))
-      return assessAnswer(
-        answer,
-        [...accepted, ...franchise.version.explicitNames],
-        difficulty,
-        important,
-      );
+    if (own.some((name) => key(name) === answerKey)) {
+      const currentNames = [...accepted, ...franchise.version.explicitNames];
+      if (currentNames.some((name) => key(name) === answerKey)) return null;
+      return assessAnswer(answer, currentNames, difficulty, important);
+    }
     if (others.some((name) => key(name) === answerKey)) return "version";
     if (generalKeys.has(answerKey)) return null;
     // A misspelled version name must not fall back to a shorter franchise alias.

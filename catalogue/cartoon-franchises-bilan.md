@@ -12,7 +12,7 @@
 
 ## Validation
 
-164 tests réussis, dont couverture des noms de franchise et des alias propres à chacune des 400 fiches aux trois difficultés, refus de versions différentes et conservation des règles des jeux vidéo. Trois manches locales à deux comptes vérifient le mode classique et les réponses libres : Ligue des justiciers Action, Teen Titans et Final Fantasy VII. Le motif du refus est affiché à la révélation pour les vidéos.
+165 tests réussis, dont couverture des noms de franchise et des alias propres à chacune des 400 fiches aux trois difficultés, refus de versions différentes et conservation des règles des jeux vidéo. Trois manches locales à deux comptes vérifient le mode classique et les réponses libres : Ligue des justiciers Action, Teen Titans et Final Fantasy VII. Le motif du refus est affiché à la révélation pour les vidéos.
 
 ## Franchises avec plusieurs séries au catalogue
 
@@ -53,4 +53,3 @@
 | Kangoo | Kangoo ; Kangoo Juniors |
 
 Les autres fiches ont également un nom de franchise défini dans cartoon-franchises.json. Les versions et alias déjà enregistrés sont utilisés pour reconnaître les réponses explicites ; les nouvelles variantes de catalogue pourront être ajoutées à ce fichier sans changer les seuils.
-
