@@ -1,0 +1,5744 @@
+{
+  "method": "Les noms généraux de franchise sont acceptés uniquement pour les dessins animés. Les noms de versions restent propres à leur fiche. Les studios et les univers trop larges (Disney, Marvel, DC) ne constituent pas des noms de franchise acceptés.",
+  "groups": [
+    {
+      "franchiseAliases": ["Scooby-Doo", "Scoobydoo", "Scoubidou"],
+      "versions": [
+        {
+          "editorialId": "da-001",
+          "title": "Scooby-Doo",
+          "explicitNames": ["Scooby-Doo 1969", "Scooby-Doo original"],
+          "names": [
+            "Scooby-Doo",
+            "Scooby Doo",
+            "Scooby-Doo, où es-tu ?",
+            "Scooby-Doo Where Are You",
+            "ScoobyDoo",
+            "ScoobyDoooùestu",
+            "ScoobyDooWhereAreYou",
+            "Scooby-Doo 1969",
+            "Scooby-Doo original"
+          ]
+        },
+        {
+          "editorialId": "da-299",
+          "title": "Scooby-Doo, Mystères associés",
+          "explicitNames": [],
+          "names": [
+            "Scooby-Doo, Mystères associés",
+            "Scooby-Doo Mystery Incorporated",
+            "Mystères Associés",
+            "ScoobyDooMystèresassociés",
+            "ScoobyDooMysteryIncorporated",
+            "MystèresAssociés"
+          ]
+        },
+        {
+          "editorialId": "da-300",
+          "title": "Quoi d’neuf Scooby-Doo ?",
+          "explicitNames": [],
+          "names": [
+            "Quoi d’neuf Scooby-Doo ?",
+            "What's New Scooby-Doo",
+            "Quoi de neuf Scooby Doo",
+            "Quoi de neuf Scoobydoo",
+            "QuoidneufScoobyDoo",
+            "WhatsNewScoobyDoo",
+            "QuoideneufScoobyDoo"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": [
+        "La Bande à Picsou",
+        "Picsou",
+        "DuckTales",
+        "Duck Tales"
+      ],
+      "versions": [
+        {
+          "editorialId": "da-017",
+          "title": "La Bande à Picsou",
+          "explicitNames": ["La Bande à Picsou 1987"],
+          "names": [
+            "La Bande à Picsou",
+            "DuckTales",
+            "Picsou",
+            "DuckTales 1987",
+            "Picsou 1987",
+            "BandeàPicsou",
+            "La Bande à Picsou 1987"
+          ]
+        },
+        {
+          "editorialId": "da-273",
+          "title": "La Bande à Picsou (2017)",
+          "explicitNames": ["La Bande à Picsou 2017"],
+          "names": [
+            "La Bande à Picsou (2017)",
+            "DuckTales 2017",
+            "Picsou 2017",
+            "BandeàPicsou2017",
+            "La Bande à Picsou 2017"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Il était une fois", "Once Upon a Time"],
+      "versions": [
+        {
+          "editorialId": "da-018",
+          "title": "Il était une fois… la Vie",
+          "explicitNames": [],
+          "names": [
+            "Il était une fois… la Vie",
+            "Once Upon a Time Life",
+            "Il etait une fois le corps humain"
+          ]
+        },
+        {
+          "editorialId": "da-132",
+          "title": "Il était une fois… l’Homme",
+          "explicitNames": [],
+          "names": ["Il était une fois… l’Homme", "Once Upon a Time Man"]
+        },
+        {
+          "editorialId": "da-133",
+          "title": "Il était une fois… l’Espace",
+          "explicitNames": [],
+          "names": ["Il était une fois… l’Espace", "Once Upon a Time Space"]
+        },
+        {
+          "editorialId": "da-134",
+          "title": "Il était une fois… les Découvreurs",
+          "explicitNames": [],
+          "names": [
+            "Il était une fois… les Découvreurs",
+            "Once Upon a Time The Discoverers"
+          ]
+        },
+        {
+          "editorialId": "da-135",
+          "title": "Il était une fois… les Explorateurs",
+          "explicitNames": [],
+          "names": [
+            "Il était une fois… les Explorateurs",
+            "Once Upon a Time The Explorers"
+          ]
+        },
+        {
+          "editorialId": "da-136",
+          "title": "Il était une fois… les Amériques",
+          "explicitNames": [],
+          "names": [
+            "Il était une fois… les Amériques",
+            "Once Upon a Time The Americas"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": [
+        "Les Tortues Ninja",
+        "Teenage Mutant Ninja Turtles",
+        "TMNT"
+      ],
+      "versions": [
+        {
+          "editorialId": "da-019",
+          "title": "Les Tortues Ninja",
+          "explicitNames": ["Les Tortues Ninja 1987"],
+          "names": [
+            "Les Tortues Ninja",
+            "TMNT",
+            "Tortues Ninja 1987",
+            "TMNT 1987",
+            "Teenage Mutant Ninja Turtles 1987",
+            "TortuesNinja",
+            "TortuesNinja1987",
+            "Les Tortues Ninja 1987"
+          ]
+        },
+        {
+          "editorialId": "da-296",
+          "title": "Les Tortues Ninja (2003)",
+          "explicitNames": [],
+          "names": [
+            "Les Tortues Ninja (2003)",
+            "TMNT 2003",
+            "Teenage Mutant Ninja Turtles 2003",
+            "TMNT2K3",
+            "TortuesNinja2003"
+          ]
+        },
+        {
+          "editorialId": "da-297",
+          "title": "Les Tortues Ninja (2012)",
+          "explicitNames": [],
+          "names": [
+            "Les Tortues Ninja (2012)",
+            "TMNT 2012",
+            "Teenage Mutant Ninja Turtles 2012",
+            "TortuesNinja2012"
+          ]
+        },
+        {
+          "editorialId": "da-298",
+          "title": "Le Destin des Tortues Ninja",
+          "explicitNames": [],
+          "names": [
+            "Le Destin des Tortues Ninja",
+            "Rise of the Teenage Mutant Ninja Turtles",
+            "Rise of the TMNT",
+            "TMNT 2018",
+            "DestindesTortuesNinja",
+            "RiseoftheTMNT"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Winnie", "Winnie l’ourson", "Winnie the Pooh"],
+      "versions": [
+        {
+          "editorialId": "da-022",
+          "title": "Les Nouvelles Aventures de Winnie l'ourson",
+          "explicitNames": [],
+          "names": [
+            "Les Nouvelles Aventures de Winnie l'ourson",
+            "Winnie",
+            "Winnie l'ourson",
+            "The New Adventures of Winnie the Pooh",
+            "Nouvelles Aventures de Winnie",
+            "Winnielourson"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Razmoket", "Rugrats"],
+      "versions": [
+        {
+          "editorialId": "da-034",
+          "title": "Les Razmoket",
+          "explicitNames": [],
+          "names": ["Les Razmoket", "Rugrats"]
+        },
+        {
+          "editorialId": "da-288",
+          "title": "Les Razbitume !",
+          "explicitNames": [],
+          "names": [
+            "Les Razbitume !",
+            "All Grown Up",
+            "Razmoket Les Razbitume",
+            "AllGrownUp",
+            "RazmoketLesRazbitume"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Le Roi Lion", "Lion King"],
+      "versions": [
+        {
+          "editorialId": "da-040",
+          "title": "Timon et Pumbaa",
+          "explicitNames": [],
+          "names": ["Timon et Pumbaa", "Timon & Pumbaa", "TimonetPumbaa"]
+        },
+        {
+          "editorialId": "da-271",
+          "title": "La Garde du Roi Lion",
+          "explicitNames": [],
+          "names": [
+            "La Garde du Roi Lion",
+            "The Lion Guard",
+            "GardeduRoiLion",
+            "LionGuard"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": [
+        "Bob l’éponge",
+        "Bob Eponge",
+        "SpongeBob",
+        "SpongeBob SquarePants"
+      ],
+      "versions": [
+        {
+          "editorialId": "da-046",
+          "title": "Bob l'éponge",
+          "explicitNames": ["Bob l’éponge original"],
+          "names": [
+            "Bob l'éponge",
+            "SpongeBob SquarePants",
+            "SpongeBob",
+            "Sponge Bob",
+            "Sponge Bob Squarepants",
+            "Bobléponge",
+            "SpongeBobSquarePants",
+            "Bob l’éponge original"
+          ]
+        },
+        {
+          "editorialId": "da-282",
+          "title": "Bob l’éponge : Le Camp de vacances",
+          "explicitNames": [],
+          "names": [
+            "Bob l’éponge : Le Camp de vacances",
+            "Kamp Koral",
+            "Kamp Koral SpongeBob's Under Years",
+            "KampKoral"
+          ]
+        },
+        {
+          "editorialId": "da-283",
+          "title": "Patrick Super Star",
+          "explicitNames": [],
+          "names": [
+            "Patrick Super Star",
+            "The Patrick Star Show",
+            "PatrickSuperStar",
+            "PatrickStarShow"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Avatar"],
+      "versions": [
+        {
+          "editorialId": "da-064",
+          "title": "Avatar, le dernier maître de l'air",
+          "explicitNames": [
+            "Le Dernier Maître de l’Air",
+            "Avatar le dernier maitre de l’air"
+          ],
+          "names": [
+            "Avatar, le dernier maître de l'air",
+            "Avatar",
+            "Avatar The Last Airbender",
+            "ATLA",
+            "AvatarTheLastAirbender",
+            "Le Dernier Maître de l’Air",
+            "Avatar le dernier maitre de l’air"
+          ]
+        },
+        {
+          "editorialId": "da-203",
+          "title": "La Légende de Korra",
+          "explicitNames": [],
+          "names": [
+            "La Légende de Korra",
+            "Korra",
+            "The Legend of Korra",
+            "Avatar La Legende de Korra",
+            "AvatarLaLegendedeKorra"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Teen Titans", "Les Jeunes Titans"],
+      "versions": [
+        {
+          "editorialId": "da-081",
+          "title": "Teen Titans Go!",
+          "explicitNames": [],
+          "names": [
+            "Teen Titans Go!",
+            "TTG",
+            "Teen Titans Go Cartoon Network",
+            "TeenTitansGoCartoonNetwork"
+          ]
+        },
+        {
+          "editorialId": "da-202",
+          "title": "Teen Titans : Les Jeunes Titans",
+          "explicitNames": ["Teen Titans 2003", "Teen Titans original"],
+          "names": [
+            "Teen Titans : Les Jeunes Titans",
+            "Teen Titans 2003",
+            "Les Jeunes Titans",
+            "Teen Titans",
+            "TeenTitansLesJeunesTitans",
+            "TeenTitans2003",
+            "JeunesTitans",
+            "Teen Titans original"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Dragons", "How to Train Your Dragon"],
+      "versions": [
+        {
+          "editorialId": "da-091",
+          "title": "Dragons : Cavaliers de Beurk",
+          "explicitNames": [],
+          "names": [
+            "Dragons : Cavaliers de Beurk",
+            "Cavaliers de Beurk",
+            "Dragons Riders of Berk",
+            "DragonsCavaliersdeBeurk",
+            "CavaliersdeBeurk",
+            "DragonsRidersofBerk"
+          ]
+        },
+        {
+          "editorialId": "da-249",
+          "title": "Dragons : Par-delà les rives",
+          "explicitNames": [],
+          "names": [
+            "Dragons : Par-delà les rives",
+            "Dragons Race to the Edge",
+            "DragonsPardelàlesrives",
+            "DragonsRacetotheEdge"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Sonic", "Sonic the Hedgehog"],
+      "versions": [
+        {
+          "editorialId": "da-097",
+          "title": "Sonic Prime",
+          "explicitNames": [],
+          "names": [
+            "Sonic Prime",
+            "Sonic Prime Netflix",
+            "SonicPrime",
+            "SonicPrimeNetflix"
+          ]
+        },
+        {
+          "editorialId": "da-191",
+          "title": "Les Aventures de Sonic",
+          "explicitNames": ["Sonic 1993", "Les Aventures de Sonic"],
+          "names": [
+            "Les Aventures de Sonic",
+            "Adventures of Sonic the Hedgehog",
+            "AoStH",
+            "AdventuresofSonictheHedgehog",
+            "Sonic 1993"
+          ]
+        },
+        {
+          "editorialId": "da-192",
+          "title": "Sonic X",
+          "explicitNames": [],
+          "names": ["Sonic X", "SonicX", "Sonic X 2003", "SonicX2003"]
+        },
+        {
+          "editorialId": "da-193",
+          "title": "Sonic Boom",
+          "explicitNames": [],
+          "names": [
+            "Sonic Boom",
+            "SonicBoom",
+            "Sonic Boom 2014",
+            "SonicBoom2014"
+          ]
+        },
+        {
+          "editorialId": "da-383",
+          "title": "Sonic le Rebelle",
+          "explicitNames": [],
+          "names": ["Sonic le Rebelle", "Sonic Underground", "SonicUnderground"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Albator", "Captain Harlock"],
+      "versions": [
+        {
+          "editorialId": "da-102",
+          "title": "Albator 78",
+          "explicitNames": [],
+          "names": [
+            "Albator 78",
+            "Albator 1978",
+            "Albator le corsaire de lespace",
+            "Space Pirate Captain Harlock",
+            "Albatorlecorsairedelespace",
+            "SpacePirateCaptainHarlock"
+          ]
+        },
+        {
+          "editorialId": "da-103",
+          "title": "Albator 84",
+          "explicitNames": [],
+          "names": [
+            "Albator 84",
+            "Albator 1984",
+            "Albator le retour",
+            "Arcadia of My Youth Endless Orbit SSX",
+            "Albator SSX",
+            "Albatorleretour"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Babar"],
+      "versions": [
+        {
+          "editorialId": "da-116",
+          "title": "Babar",
+          "explicitNames": [],
+          "names": ["Babar", "Babar 1989", "Les Aventures de Babar"]
+        },
+        {
+          "editorialId": "da-212",
+          "title": "Les Aventures de Babar et Badou",
+          "explicitNames": [],
+          "names": [
+            "Les Aventures de Babar et Badou",
+            "Babar et Badou",
+            "Babar and the Adventures of Badou",
+            "Les Aventures de Babar & Badou",
+            "Babar & Badou",
+            "BabaretBadou"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Lucky Luke"],
+      "versions": [
+        {
+          "editorialId": "da-118",
+          "title": "Lucky Luke",
+          "explicitNames": [],
+          "names": [
+            "Lucky Luke",
+            "LuckyLuke",
+            "Lucky Luke classique",
+            "LuckyLukeclassique"
+          ]
+        },
+        {
+          "editorialId": "da-119",
+          "title": "Les Dalton",
+          "explicitNames": [],
+          "names": ["Les Dalton", "The Daltons"]
+        },
+        {
+          "editorialId": "da-235",
+          "title": "Les Nouvelles Aventures de Lucky Luke",
+          "explicitNames": [],
+          "names": [
+            "Les Nouvelles Aventures de Lucky Luke",
+            "Lucky Luke Les Nouvelles Aventures"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Dragon Ball", "Dragonball"],
+      "versions": [
+        {
+          "editorialId": "da-163",
+          "title": "Dragon Ball",
+          "explicitNames": ["Dragon Ball original", "Dragon Ball 1986"],
+          "names": [
+            "Dragon Ball",
+            "Dragon Ball 1986",
+            "Dragonball",
+            "DragonBall1986",
+            "Dragon Ball original"
+          ]
+        },
+        {
+          "editorialId": "da-164",
+          "title": "Dragon Ball Z",
+          "explicitNames": ["DBZ", "Dragon Ball Z"],
+          "names": ["Dragon Ball Z", "DBZ"]
+        },
+        {
+          "editorialId": "da-165",
+          "title": "Dragon Ball GT",
+          "explicitNames": ["DBGT", "Dragon Ball GT"],
+          "names": ["Dragon Ball GT", "DBGT", "Dragonball GT"]
+        },
+        {
+          "editorialId": "da-166",
+          "title": "Dragon Ball Super",
+          "explicitNames": ["DBS", "Dragon Ball Super"],
+          "names": [
+            "Dragon Ball Super",
+            "DBS",
+            "Dragonball Super",
+            "DragonballSuper"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Yu-Gi-Oh", "Yugioh", "Yu Gi Oh"],
+      "versions": [
+        {
+          "editorialId": "da-170",
+          "title": "Yu-Gi-Oh! GX",
+          "explicitNames": ["GX", "Yu-Gi-Oh GX"],
+          "names": [
+            "Yu-Gi-Oh! GX",
+            "Yugioh GX",
+            "Yu Gi Oh Generation Next",
+            "YuGiOhGenerationNext",
+            "GX",
+            "Yu-Gi-Oh GX"
+          ]
+        },
+        {
+          "editorialId": "da-171",
+          "title": "Yu-Gi-Oh! 5D’s",
+          "explicitNames": ["5DS", "Yu-Gi-Oh 5DS"],
+          "names": [
+            "Yu-Gi-Oh! 5D’s",
+            "Yugioh 5Ds",
+            "Yu-Gi-Oh 5Ds",
+            "Yu Gi Oh 5D",
+            "5DS",
+            "Yu-Gi-Oh 5DS"
+          ]
+        },
+        {
+          "editorialId": "da-392",
+          "title": "Yu-Gi-Oh! Duel Monsters",
+          "explicitNames": [
+            "Duel Monsters",
+            "Yu-Gi-Oh Duel Monsters",
+            "Yu-Gi-Oh 2000"
+          ],
+          "names": [
+            "Yu-Gi-Oh! Duel Monsters",
+            "Yu-Gi-Oh",
+            "Yugioh",
+            "YuGiOh Duel Monsters",
+            "Duel Monsters",
+            "Yu-Gi-Oh Duel Monsters",
+            "Yu-Gi-Oh 2000"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Super Mario", "Mario", "Super Mario Bros"],
+      "versions": [
+        {
+          "editorialId": "da-188",
+          "title": "Les Aventures de Super Mario Bros. 3",
+          "explicitNames": [
+            "Les Aventures de Super Mario Bros 3",
+            "Super Mario Bros 3"
+          ],
+          "names": [
+            "Les Aventures de Super Mario Bros. 3",
+            "Super Mario Bros 3",
+            "The Adventures of Super Mario Bros 3",
+            "Mario Bros 3",
+            "SuperMarioBros3",
+            "MarioBros3",
+            "Les Aventures de Super Mario Bros 3"
+          ]
+        },
+        {
+          "editorialId": "da-189",
+          "title": "Super Mario World",
+          "explicitNames": [],
+          "names": ["Super Mario World", "Mario World"]
+        },
+        {
+          "editorialId": "da-190",
+          "title": "Le Super Show de Super Mario Bros.",
+          "explicitNames": ["Mario Super Show"],
+          "names": [
+            "Le Super Show de Super Mario Bros.",
+            "The Super Mario Bros Super Show",
+            "Super Mario Super Show",
+            "Mario Super Show",
+            "SuperMarioBrosSuperShow"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Pac-Man", "Pacman"],
+      "versions": [
+        {
+          "editorialId": "da-195",
+          "title": "Pac-Man",
+          "explicitNames": [],
+          "names": ["Pac-Man", "Pacman", "Pac-Man 1982", "PacMan1982"]
+        },
+        {
+          "editorialId": "da-196",
+          "title": "Pac-Man et les Aventures de fantômes",
+          "explicitNames": [],
+          "names": [
+            "Pac-Man et les Aventures de fantômes",
+            "Pac-Man and the Ghostly Adventures",
+            "Pac Man Aventures de Fantomes",
+            "Pac-Man & les Aventures de fantômes",
+            "PacManAventuresdeFantomes"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Batman"],
+      "versions": [
+        {
+          "editorialId": "da-197",
+          "title": "Les Nouvelles Aventures de Batman",
+          "explicitNames": ["Batman 1977"],
+          "names": [
+            "Les Nouvelles Aventures de Batman",
+            "The New Adventures of Batman 1977",
+            "Batman 1977",
+            "NewAdventuresofBatman1977"
+          ]
+        },
+        {
+          "editorialId": "da-198",
+          "title": "Batman, la série animée (1992)",
+          "explicitNames": ["Batman 1992", "BTAS"],
+          "names": [
+            "Batman, la série animée (1992)",
+            "Batman TAS",
+            "Batman 1992",
+            "Batman The Animated Series",
+            "Batman",
+            "BTAS",
+            "Batmanlasérieanimée1992",
+            "BatmanTAS"
+          ]
+        },
+        {
+          "editorialId": "da-199",
+          "title": "Batman, la relève",
+          "explicitNames": [],
+          "names": [
+            "Batman, la relève",
+            "Batman Beyond",
+            "Batman 2000",
+            "BatmanBeyond",
+            "Batmanlarelève"
+          ]
+        },
+        {
+          "editorialId": "da-324",
+          "title": "Batman : L'Alliance des héros",
+          "explicitNames": [],
+          "names": [
+            "Batman : L'Alliance des héros",
+            "Batman l'alliance des heros",
+            "Batman The Brave and the Bold",
+            "L’Alliance des héros"
+          ]
+        },
+        {
+          "editorialId": "da-325",
+          "title": "Prenez garde à Batman !",
+          "explicitNames": [],
+          "names": ["Prenez garde à Batman !", "Beware the Batman"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Superman"],
+      "versions": [
+        {
+          "editorialId": "da-200",
+          "title": "Superman, l’Ange de Metropolis",
+          "explicitNames": [],
+          "names": [
+            "Superman, l’Ange de Metropolis",
+            "Superman 1996",
+            "Superman The Animated Series",
+            "Superman",
+            "SupermanlAngedeMetropolis"
+          ]
+        },
+        {
+          "editorialId": "da-326",
+          "title": "Krypto le superchien",
+          "explicitNames": [],
+          "names": ["Krypto le superchien", "Krypto", "Krypto le super chien"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["La Ligue des justiciers", "Justice League"],
+      "versions": [
+        {
+          "editorialId": "da-201",
+          "title": "La Ligue des justiciers",
+          "explicitNames": [
+            "La Ligue des justiciers 2001",
+            "Justice League 2001"
+          ],
+          "names": [
+            "La Ligue des justiciers",
+            "Justice League",
+            "Liguedesjusticiers",
+            "JusticeLeague",
+            "La Ligue des justiciers 2001",
+            "Justice League 2001"
+          ]
+        },
+        {
+          "editorialId": "da-327",
+          "title": "La Ligue des justiciers : Action",
+          "explicitNames": [],
+          "names": [
+            "La Ligue des justiciers : Action",
+            "Justice League Action",
+            "JusticeLeague Action"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["X-Men", "Xmen"],
+      "versions": [
+        {
+          "editorialId": "da-204",
+          "title": "X-Men (1992)",
+          "explicitNames": ["X-Men 1992"],
+          "names": [
+            "X-Men (1992)",
+            "X Men The Animated Series",
+            "X Men TAS",
+            "X-Men",
+            "Xmen",
+            "XMen1992",
+            "XMenTAS",
+            "X-Men 1992"
+          ]
+        },
+        {
+          "editorialId": "da-205",
+          "title": "X-Men : Evolution",
+          "explicitNames": [],
+          "names": ["X-Men : Evolution", "Xmen Evolution", "XmenEvolution"]
+        },
+        {
+          "editorialId": "da-332",
+          "title": "Wolverine et les X-Men",
+          "explicitNames": ["Wolverine"],
+          "names": [
+            "Wolverine et les X-Men",
+            "Wolverine and the X Men",
+            "Wolverine et les Xmen",
+            "Wolverine et Xmen",
+            "Wolverine"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Spider-Man", "Spiderman", "L’Homme araignée"],
+      "versions": [
+        {
+          "editorialId": "da-206",
+          "title": "Spider-Man, l’homme-araignée (1994)",
+          "explicitNames": ["Spider-Man 1994"],
+          "names": [
+            "Spider-Man, l’homme-araignée (1994)",
+            "Spider-Man The Animated Series",
+            "Spider Man 1994",
+            "Spider-Man",
+            "Spiderman",
+            "Spider-Man TAS",
+            "SpiderMan1994",
+            "Spider-Man 1994"
+          ]
+        },
+        {
+          "editorialId": "da-207",
+          "title": "Spectacular Spider-Man",
+          "explicitNames": [],
+          "names": [
+            "Spectacular Spider-Man",
+            "The Spectacular Spider-Man",
+            "Spider Man Spectacular",
+            "Spectacular Spider Man 2008",
+            "SpectacularSpiderMan",
+            "SpiderManSpectacular",
+            "SpectacularSpiderMan2008"
+          ]
+        },
+        {
+          "editorialId": "da-331",
+          "title": "Ultimate Spider-Man",
+          "explicitNames": [],
+          "names": [
+            "Ultimate Spider-Man",
+            "Ultimate Spiderman",
+            "UltimateSpiderman"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Iron Man", "Ironman"],
+      "versions": [
+        {
+          "editorialId": "da-209",
+          "title": "Iron Man (1994)",
+          "explicitNames": ["Iron Man 1994"],
+          "names": [
+            "Iron Man (1994)",
+            "Iron Man The Animated Series",
+            "Iron Man",
+            "IronMan1994",
+            "IronMan",
+            "Iron Man 1994"
+          ]
+        },
+        {
+          "editorialId": "da-328",
+          "title": "Iron Man : Armored Adventures",
+          "explicitNames": [],
+          "names": [
+            "Iron Man : Armored Adventures",
+            "Iron Man Armored Adventures",
+            "Ironman Armored Adventures"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Le Bus magique", "The Magic School Bus"],
+      "versions": [
+        {
+          "editorialId": "da-210",
+          "title": "Le Bus magique",
+          "explicitNames": ["Le Bus magique 1994"],
+          "names": [
+            "Le Bus magique",
+            "The Magic School Bus",
+            "Bus Magique 1994",
+            "MagicSchoolBus",
+            "BusMagique1994",
+            "Le Bus magique 1994"
+          ]
+        },
+        {
+          "editorialId": "da-211",
+          "title": "Le Bus magique reprend la route",
+          "explicitNames": [],
+          "names": [
+            "Le Bus magique reprend la route",
+            "The Magic School Bus Rides Again",
+            "Les Nouvelles Aventures du Bus Magique",
+            "Busmagiquereprendlaroute",
+            "MagicSchoolBusRidesAgain"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Franklin"],
+      "versions": [
+        {
+          "editorialId": "da-213",
+          "title": "Franklin",
+          "explicitNames": ["Franklin 1997"],
+          "names": [
+            "Franklin",
+            "Franklin la tortue",
+            "Franklin 1997",
+            "Franklinlatortue"
+          ]
+        },
+        {
+          "editorialId": "da-214",
+          "title": "Franklin et ses amis",
+          "explicitNames": [],
+          "names": [
+            "Franklin et ses amis",
+            "Franklin and Friends",
+            "Franklin 2011",
+            "Franklin & ses amis",
+            "Franklinetsesamis",
+            "FranklinandFriends"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Madagascar"],
+      "versions": [
+        {
+          "editorialId": "da-241",
+          "title": "Les Pingouins de Madagascar",
+          "explicitNames": [],
+          "names": [
+            "Les Pingouins de Madagascar",
+            "Les Pingouins",
+            "The Penguins of Madagascar",
+            "PingouinsdeMadagascar",
+            "PenguinsofMadagascar"
+          ]
+        },
+        {
+          "editorialId": "da-242",
+          "title": "Le Roi Julien ! L’Élu des lémurs",
+          "explicitNames": [],
+          "names": [
+            "Le Roi Julien ! L’Élu des lémurs",
+            "All Hail King Julien",
+            "Le Roi Julien",
+            "AllHailKingJulien",
+            "RoiJulien"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Kung Fu Panda"],
+      "versions": [
+        {
+          "editorialId": "da-243",
+          "title": "Kung Fu Panda : L’Incroyable Légende",
+          "explicitNames": [],
+          "names": [
+            "Kung Fu Panda : L’Incroyable Légende",
+            "Kung Fu Panda Legends of Awesomeness"
+          ]
+        },
+        {
+          "editorialId": "da-244",
+          "title": "Kung Fu Panda : Les Pattes du destin",
+          "explicitNames": [],
+          "names": [
+            "Kung Fu Panda : Les Pattes du destin",
+            "Kung Fu Panda The Paws of Destiny"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Mickey", "Mickey Mouse"],
+      "versions": [
+        {
+          "editorialId": "da-267",
+          "title": "La Maison de Mickey",
+          "explicitNames": ["La Maison de Mickey"],
+          "names": [
+            "La Maison de Mickey",
+            "Mickey Mouse Clubhouse",
+            "Mickey Clubhouse",
+            "MaisondeMickey",
+            "MickeyMouseClubhouse"
+          ]
+        },
+        {
+          "editorialId": "da-268",
+          "title": "Mickey et ses amis : Top Départ !",
+          "explicitNames": [],
+          "names": [
+            "Mickey et ses amis : Top Départ !",
+            "Mickey and the Roadster Racers",
+            "Mickey Top Depart",
+            "Mickey & ses amis : Top Départ !",
+            "MickeyandtheRoadsterRacers",
+            "MickeyTopDepart"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Avengers", "Les Avengers"],
+      "versions": [
+        {
+          "editorialId": "da-329",
+          "title": "Avengers : L'Équipe des super-héros",
+          "explicitNames": [],
+          "names": [
+            "Avengers : L'Équipe des super-héros",
+            "Avengers les super heros",
+            "Avengers Earth's Mightiest Heroes",
+            "Avengers EMH",
+            "Avengers Earths Mightiest Heroes"
+          ]
+        },
+        {
+          "editorialId": "da-330",
+          "title": "Avengers Rassemblement",
+          "explicitNames": [],
+          "names": [
+            "Avengers Rassemblement",
+            "Avengers Assemble",
+            "AvengersAssemble"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Naruto"],
+      "versions": [
+        {
+          "editorialId": "da-366",
+          "title": "Naruto",
+          "explicitNames": ["Naruto original", "Naruto 2002"],
+          "names": ["Naruto", "Naruto original", "Naruto 2002"]
+        },
+        {
+          "editorialId": "da-367",
+          "title": "Naruto Shippuden",
+          "explicitNames": [],
+          "names": [
+            "Naruto Shippuden",
+            "Naruto Shipuden",
+            "Shippuden",
+            "Naruto Shippuuden"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": [
+        "Fullmetal Alchemist",
+        "Full Metal Alchemist",
+        "FMA"
+      ],
+      "versions": [
+        {
+          "editorialId": "da-371",
+          "title": "Fullmetal Alchemist",
+          "explicitNames": ["Fullmetal Alchemist 2003", "FMA 2003"],
+          "names": [
+            "Fullmetal Alchemist",
+            "Full Metal Alchemist",
+            "FMA",
+            "FullMetalAlchemist",
+            "Fullmetal Alchemist 2003",
+            "FMA 2003"
+          ]
+        },
+        {
+          "editorialId": "da-372",
+          "title": "Fullmetal Alchemist: Brotherhood",
+          "explicitNames": ["Fullmetal Alchemist Brotherhood", "FMAB"],
+          "names": [
+            "Fullmetal Alchemist: Brotherhood",
+            "FMA Brotherhood",
+            "Full Metal Alchemist Brotherhood",
+            "FMAB",
+            "Fullmetal Brotherhood",
+            "FMA B",
+            "FullMetalAlchemist Brotherhood",
+            "Fullmetal Alchemist Brotherhood"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Kangoo"],
+      "versions": [
+        {
+          "editorialId": "da-394",
+          "title": "Kangoo",
+          "explicitNames": [],
+          "names": ["Kangoo", "Les Kangoo"]
+        },
+        {
+          "editorialId": "da-395",
+          "title": "Kangoo Juniors",
+          "explicitNames": [],
+          "names": ["Kangoo Juniors", "Kangoo Junior", "KangooJuniors"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Tom et Jerry"],
+      "versions": [
+        {
+          "editorialId": "da-002",
+          "title": "Tom et Jerry",
+          "explicitNames": [],
+          "names": [
+            "Tom et Jerry",
+            "Tom and Jerry",
+            "Tom & Jerry",
+            "TometJerry",
+            "TomandJerry"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Looney Tunes"],
+      "versions": [
+        {
+          "editorialId": "da-003",
+          "title": "Looney Tunes",
+          "explicitNames": [],
+          "names": [
+            "Looney Tunes",
+            "Looney Toons",
+            "LooneyTunes",
+            "LooneyToons"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Pierrafeu"],
+      "versions": [
+        {
+          "editorialId": "da-004",
+          "title": "Les Pierrafeu",
+          "explicitNames": [],
+          "names": ["Les Pierrafeu", "The Flintstones", "Famille Pierrafeu"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Jetsons"],
+      "versions": [
+        {
+          "editorialId": "da-005",
+          "title": "Les Jetsons",
+          "explicitNames": [],
+          "names": [
+            "Les Jetsons",
+            "Famille Jetson",
+            "Les Jetson",
+            "FamilleJetson"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["La Panthère rose"],
+      "versions": [
+        {
+          "editorialId": "da-006",
+          "title": "La Panthère rose",
+          "explicitNames": [],
+          "names": [
+            "La Panthère rose",
+            "Pink Panther",
+            "Panthèrerose",
+            "PinkPanther"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Le Manège enchanté"],
+      "versions": [
+        {
+          "editorialId": "da-007",
+          "title": "Le Manège enchanté",
+          "explicitNames": [],
+          "names": [
+            "Le Manège enchanté",
+            "The Magic Roundabout",
+            "Manègeenchanté",
+            "MagicRoundabout"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Barbapapa"],
+      "versions": [
+        {
+          "editorialId": "da-008",
+          "title": "Barbapapa",
+          "explicitNames": [],
+          "names": ["Barbapapa", "La Famille Barbapapa", "FamilleBarbapapa"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Schtroumpfs"],
+      "versions": [
+        {
+          "editorialId": "da-009",
+          "title": "Les Schtroumpfs",
+          "explicitNames": [],
+          "names": ["Les Schtroumpfs", "Les Smurfs"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Inspecteur Gadget"],
+      "versions": [
+        {
+          "editorialId": "da-010",
+          "title": "Inspecteur Gadget",
+          "explicitNames": [],
+          "names": ["Inspecteur Gadget", "Gadget", "InspecteurGadget"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Mystérieuses Cités d'or"],
+      "versions": [
+        {
+          "editorialId": "da-011",
+          "title": "Les Mystérieuses Cités d'or",
+          "explicitNames": [],
+          "names": [
+            "Les Mystérieuses Cités d'or",
+            "Les Cités d'or",
+            "Mysterious Cities of Gold",
+            "Les Cites Dor",
+            "Les Mystérieuses Cités Dor",
+            "MystérieusesCitésdor",
+            "CitesDor",
+            "MysteriousCitiesofGold"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Ulysse", "Ulysse 31"],
+      "versions": [
+        {
+          "editorialId": "da-012",
+          "title": "Ulysse 31",
+          "explicitNames": [],
+          "names": ["Ulysse 31", "Ulysse trente et un", "Ulyssetrenteetun"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Minipouss"],
+      "versions": [
+        {
+          "editorialId": "da-013",
+          "title": "Les Minipouss",
+          "explicitNames": [],
+          "names": ["Les Minipouss", "Les Mini Pouss", "The Littles"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Entrechats"],
+      "versions": [
+        {
+          "editorialId": "da-014",
+          "title": "Les Entrechats",
+          "explicitNames": [],
+          "names": [
+            "Les Entrechats",
+            "Heathcliff and the Catillac Cats",
+            "HeathcliffandtheCatillacCats"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Bisounours"],
+      "versions": [
+        {
+          "editorialId": "da-015",
+          "title": "Les Bisounours",
+          "explicitNames": [],
+          "names": ["Les Bisounours", "Care Bears", "Les Bisou Nours"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Gummi"],
+      "versions": [
+        {
+          "editorialId": "da-016",
+          "title": "Les Gummi",
+          "explicitNames": [],
+          "names": [
+            "Les Gummi",
+            "Adventures of the Gummi Bears",
+            "Les Gummis",
+            "AdventuresoftheGummiBears"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Denver, le dernier dinosaure", "Denver"],
+      "versions": [
+        {
+          "editorialId": "da-020",
+          "title": "Denver, le dernier dinosaure",
+          "explicitNames": [],
+          "names": [
+            "Denver, le dernier dinosaure",
+            "Denver",
+            "Denver the Last Dinosaur",
+            "Denverledernierdinosaure",
+            "DenvertheLastDinosaur"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Tic et Tac, les rangers du risque", "Tic et Tac"],
+      "versions": [
+        {
+          "editorialId": "da-021",
+          "title": "Tic et Tac, les rangers du risque",
+          "explicitNames": [],
+          "names": [
+            "Tic et Tac, les rangers du risque",
+            "Tic et Tac",
+            "Chip 'n Dale Rescue Rangers",
+            "Tic & Tac, les rangers du risque",
+            "Tic & Tac",
+            "Les Rangers du risque",
+            "TicetTac",
+            "ChipnDaleRescueRangers"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Super Baloo"],
+      "versions": [
+        {
+          "editorialId": "da-023",
+          "title": "Super Baloo",
+          "explicitNames": [],
+          "names": ["Super Baloo", "TaleSpin", "SuperBaloo"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Myster Mask"],
+      "versions": [
+        {
+          "editorialId": "da-024",
+          "title": "Myster Mask",
+          "explicitNames": [],
+          "names": [
+            "Myster Mask",
+            "Darkwing Duck",
+            "Mystermask",
+            "DarkwingDuck"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["La Bande à Dingo"],
+      "versions": [
+        {
+          "editorialId": "da-025",
+          "title": "La Bande à Dingo",
+          "explicitNames": [],
+          "names": [
+            "La Bande à Dingo",
+            "Goof Troop",
+            "BandeàDingo",
+            "GoofTroop"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["La Petite Sirène"],
+      "versions": [
+        {
+          "editorialId": "da-026",
+          "title": "La Petite Sirène, la série",
+          "explicitNames": [],
+          "names": [
+            "La Petite Sirène, la série",
+            "La Petite Sirène",
+            "The Little Mermaid The Series",
+            "PetiteSirènelasérie",
+            "PetiteSirène",
+            "LittleMermaidTheSeries"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Aladdin"],
+      "versions": [
+        {
+          "editorialId": "da-027",
+          "title": "Aladdin, la série",
+          "explicitNames": [],
+          "names": [
+            "Aladdin, la série",
+            "Aladdin",
+            "Aladdin The Animated Series",
+            "Aladdinlasérie"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Gargoyles, les anges de la nuit", "Gargoyles"],
+      "versions": [
+        {
+          "editorialId": "da-028",
+          "title": "Gargoyles, les anges de la nuit",
+          "explicitNames": [],
+          "names": [
+            "Gargoyles, les anges de la nuit",
+            "Gargoyles",
+            "Les Anges de la Nuit",
+            "AngesdelaNuit"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Le Laboratoire de Dexter"],
+      "versions": [
+        {
+          "editorialId": "da-029",
+          "title": "Le Laboratoire de Dexter",
+          "explicitNames": [],
+          "names": [
+            "Le Laboratoire de Dexter",
+            "Labo de Dexter",
+            "Dexter's Laboratory",
+            "Dexter",
+            "LaboratoiredeDexter",
+            "LabodeDexter",
+            "DextersLaboratory"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Johnny Bravo"],
+      "versions": [
+        {
+          "editorialId": "da-030",
+          "title": "Johnny Bravo",
+          "explicitNames": [],
+          "names": [
+            "Johnny Bravo",
+            "Jonny Bravo",
+            "Johnny Bravo Cartoon Network",
+            "JohnnyBravo",
+            "JonnyBravo",
+            "JohnnyBravoCartoonNetwork"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Supers Nanas"],
+      "versions": [
+        {
+          "editorialId": "da-031",
+          "title": "Les Supers Nanas",
+          "explicitNames": [],
+          "names": [
+            "Les Supers Nanas",
+            "The Powerpuff Girls",
+            "SupersNanas",
+            "PowerpuffGirls"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Courage, le chien froussard", "Courage"],
+      "versions": [
+        {
+          "editorialId": "da-032",
+          "title": "Courage, le chien froussard",
+          "explicitNames": [],
+          "names": [
+            "Courage, le chien froussard",
+            "Courage le chien",
+            "Courage the Cowardly Dog",
+            "Courage",
+            "Couragelechienfroussard",
+            "Couragelechien",
+            "CouragetheCowardlyDog"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Ed, Edd et Eddy", "Ed"],
+      "versions": [
+        {
+          "editorialId": "da-033",
+          "title": "Ed, Edd et Eddy",
+          "explicitNames": [],
+          "names": [
+            "Ed, Edd et Eddy",
+            "Ed Edd n Eddy",
+            "Ed, Edd & Eddy",
+            "Ed Edd Eddy",
+            "EdEddetEddy",
+            "EdEddnEddy"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Hé Arnold !"],
+      "versions": [
+        {
+          "editorialId": "da-035",
+          "title": "Hé Arnold !",
+          "explicitNames": [],
+          "names": ["Hé Arnold !", "Hey Arnold", "HéArnold", "HeyArnold"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Doug"],
+      "versions": [
+        {
+          "editorialId": "da-036",
+          "title": "Doug",
+          "explicitNames": [],
+          "names": ["Doug", "Doug 1991"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Animaniacs"],
+      "versions": [
+        {
+          "editorialId": "da-037",
+          "title": "Les Animaniacs",
+          "explicitNames": [],
+          "names": ["Les Animaniacs", "Animaniacs 1993"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Minus et Cortex"],
+      "versions": [
+        {
+          "editorialId": "da-038",
+          "title": "Minus et Cortex",
+          "explicitNames": [],
+          "names": [
+            "Minus et Cortex",
+            "Pinky and the Brain",
+            "Pinky et le Cerveau",
+            "Minus & Cortex",
+            "Pinky & le Cerveau",
+            "MinusetCortex",
+            "PinkyandtheBrain",
+            "PinkyetleCerveau"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["La Cour de récré"],
+      "versions": [
+        {
+          "editorialId": "da-039",
+          "title": "La Cour de récré",
+          "explicitNames": [],
+          "names": [
+            "La Cour de récré",
+            "Recess",
+            "La Cour de récréation",
+            "Courderécré"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["La Famille Pirate"],
+      "versions": [
+        {
+          "editorialId": "da-041",
+          "title": "La Famille Pirate",
+          "explicitNames": [],
+          "names": ["La Famille Pirate", "Pirate Family", "PirateFamily"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Zinzins de l'espace"],
+      "versions": [
+        {
+          "editorialId": "da-042",
+          "title": "Les Zinzins de l'espace",
+          "explicitNames": [],
+          "names": [
+            "Les Zinzins de l'espace",
+            "Les Zinzins",
+            "Space Goofs",
+            "Zinzinsdelespace",
+            "SpaceGoofs"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Oggy et les Cafards"],
+      "versions": [
+        {
+          "editorialId": "da-043",
+          "title": "Oggy et les Cafards",
+          "explicitNames": [],
+          "names": [
+            "Oggy et les Cafards",
+            "Oggy",
+            "Oggy and the Cockroaches",
+            "Oggy & les Cafards",
+            "OggyetlesCafards",
+            "OggyandtheCockroaches"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Simpson"],
+      "versions": [
+        {
+          "editorialId": "da-044",
+          "title": "Les Simpson",
+          "explicitNames": [],
+          "names": ["Les Simpson", "The Simpsons", "Les Simpsons"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Futurama"],
+      "versions": [
+        {
+          "editorialId": "da-045",
+          "title": "Futurama",
+          "explicitNames": [],
+          "names": ["Futurama", "Futuramma", "Futurama 1999"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Totally Spies !"],
+      "versions": [
+        {
+          "editorialId": "da-047",
+          "title": "Totally Spies !",
+          "explicitNames": [],
+          "names": ["Totally Spies !", "TotallySpies", "Totaly Spies"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Code Lyoko"],
+      "versions": [
+        {
+          "editorialId": "da-048",
+          "title": "Code Lyoko",
+          "explicitNames": [],
+          "names": ["Code Lyoko", "Lyoko", "CodeLyoko"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Titeuf"],
+      "versions": [
+        {
+          "editorialId": "da-049",
+          "title": "Titeuf",
+          "explicitNames": [],
+          "names": [
+            "Titeuf",
+            "Titeuf la série",
+            "Titeuf le dessin animé",
+            "Titeuflasérie",
+            "Titeufledessinanimé"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Martin Mystère"],
+      "versions": [
+        {
+          "editorialId": "da-050",
+          "title": "Martin Mystère",
+          "explicitNames": [],
+          "names": ["Martin Mystère", "Martin Mystery", "MartinMystère"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Ratz"],
+      "versions": [
+        {
+          "editorialId": "da-051",
+          "title": "Ratz",
+          "explicitNames": [],
+          "names": [
+            "Ratz",
+            "Rapido et Razmo",
+            "Rapido & Razmo",
+            "RapidoetRazmo"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Corneil et Bernie"],
+      "versions": [
+        {
+          "editorialId": "da-052",
+          "title": "Corneil et Bernie",
+          "explicitNames": [],
+          "names": [
+            "Corneil et Bernie",
+            "Watch My Chops",
+            "Corneil & Bernie",
+            "CorneiletBernie",
+            "WatchMyChops"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Foot 2 rue", "Foot de rue", "Foot Deux Rue"],
+      "versions": [
+        {
+          "editorialId": "da-053",
+          "title": "Foot 2 rue",
+          "explicitNames": [],
+          "names": [
+            "Foot 2 rue",
+            "Foot de rue",
+            "Foot Deux Rue",
+            "Footderue",
+            "FootDeuxRue"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Galactik Football"],
+      "versions": [
+        {
+          "editorialId": "da-054",
+          "title": "Galactik Football",
+          "explicitNames": [],
+          "names": [
+            "Galactik Football",
+            "Galactik Foot",
+            "GalactikFootball",
+            "GalactikFoot"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Wakfu"],
+      "versions": [
+        {
+          "editorialId": "da-055",
+          "title": "Wakfu",
+          "explicitNames": [],
+          "names": ["Wakfu", "Wakfu la série", "Wakfu Ankama", "WakfuAnkama"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Winx Club"],
+      "versions": [
+        {
+          "editorialId": "da-056",
+          "title": "Winx Club",
+          "explicitNames": [],
+          "names": ["Winx Club", "Winx", "Winxclub"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["W.I.T.C.H."],
+      "versions": [
+        {
+          "editorialId": "da-057",
+          "title": "W.I.T.C.H.",
+          "explicitNames": [],
+          "names": ["W.I.T.C.H.", "Witch"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Kim Possible"],
+      "versions": [
+        {
+          "editorialId": "da-058",
+          "title": "Kim Possible",
+          "explicitNames": [],
+          "names": [
+            "Kim Possible",
+            "KimPossible",
+            "Kim Possible Disney",
+            "KimPossibleDisney"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Phinéas et Ferb"],
+      "versions": [
+        {
+          "editorialId": "da-059",
+          "title": "Phinéas et Ferb",
+          "explicitNames": [],
+          "names": [
+            "Phinéas et Ferb",
+            "Phineas and Ferb",
+            "Phinéas & Ferb",
+            "PhinéasetFerb",
+            "PhineasandFerb"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["La Famille Delajungle"],
+      "versions": [
+        {
+          "editorialId": "da-060",
+          "title": "La Famille Delajungle",
+          "explicitNames": [],
+          "names": [
+            "La Famille Delajungle",
+            "La Famille de la Jungle",
+            "The Wild Thornberrys",
+            "FamilledelaJungle",
+            "WildThornberrys"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Jimmy Neutron"],
+      "versions": [
+        {
+          "editorialId": "da-061",
+          "title": "Jimmy Neutron",
+          "explicitNames": [],
+          "names": [
+            "Jimmy Neutron",
+            "Les Aventures de Jimmy Neutron",
+            "Jimmy Neutron Boy Genius",
+            "JimmyNeutron",
+            "AventuresdeJimmyNeutron",
+            "JimmyNeutronBoyGenius"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Mes parrains sont magiques"],
+      "versions": [
+        {
+          "editorialId": "da-062",
+          "title": "Mes parrains sont magiques",
+          "explicitNames": [],
+          "names": [
+            "Mes parrains sont magiques",
+            "The Fairly OddParents",
+            "Mes Parrains Magiques",
+            "Parrains magiques",
+            "Mesparrainssontmagiques",
+            "FairlyOddParents",
+            "MesParrainsMagiques"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Danny Fantôme"],
+      "versions": [
+        {
+          "editorialId": "da-063",
+          "title": "Danny Fantôme",
+          "explicitNames": [],
+          "names": [
+            "Danny Fantôme",
+            "Danny Phantom",
+            "DannyFantôme",
+            "DannyPhantom"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Ben 10"],
+      "versions": [
+        {
+          "editorialId": "da-065",
+          "title": "Ben 10",
+          "explicitNames": [],
+          "names": ["Ben 10", "Ben Ten", "BenTen"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["American Dragon : Jake Long", "American Dragon"],
+      "versions": [
+        {
+          "editorialId": "da-066",
+          "title": "American Dragon : Jake Long",
+          "explicitNames": [],
+          "names": [
+            "American Dragon : Jake Long",
+            "American Dragon",
+            "Jake Long",
+            "AmericanDragonJakeLong",
+            "JakeLong"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Aventures de Jackie Chan"],
+      "versions": [
+        {
+          "editorialId": "da-067",
+          "title": "Les Aventures de Jackie Chan",
+          "explicitNames": [],
+          "names": [
+            "Les Aventures de Jackie Chan",
+            "Jackie Chan Adventures",
+            "Jackie Chan",
+            "AventuresdeJackieChan",
+            "JackieChanAdventures",
+            "JackieChan"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Dora l'exploratrice"],
+      "versions": [
+        {
+          "editorialId": "da-068",
+          "title": "Dora l'exploratrice",
+          "explicitNames": [],
+          "names": [
+            "Dora l'exploratrice",
+            "Dora",
+            "Dora the Explorer",
+            "Doralexploratrice",
+            "DoratheExplorer"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Clifford, le gros chien rouge", "Clifford"],
+      "versions": [
+        {
+          "editorialId": "da-069",
+          "title": "Clifford, le gros chien rouge",
+          "explicitNames": [],
+          "names": [
+            "Clifford, le gros chien rouge",
+            "Clifford",
+            "Clifford the Big Red Dog",
+            "Cliffordlegroschienrouge",
+            "CliffordtheBigRedDog"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Charlotte aux fraises"],
+      "versions": [
+        {
+          "editorialId": "da-070",
+          "title": "Charlotte aux fraises",
+          "explicitNames": [],
+          "names": [
+            "Charlotte aux fraises",
+            "Strawberry Shortcake",
+            "Charlotteauxfraises",
+            "StrawberryShortcake"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Petit Ours Brun"],
+      "versions": [
+        {
+          "editorialId": "da-071",
+          "title": "Petit Ours Brun",
+          "explicitNames": [],
+          "names": [
+            "Petit Ours Brun",
+            "Little Brown Bear",
+            "PetitOursBrun",
+            "LittleBrownBear"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Lascars"],
+      "versions": [
+        {
+          "editorialId": "da-072",
+          "title": "Les Lascars",
+          "explicitNames": [],
+          "names": [
+            "Les Lascars",
+            "Lascars la série",
+            "Lascars dessin animé",
+            "Lascarsdessinanimé"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Funky Cops"],
+      "versions": [
+        {
+          "editorialId": "da-073",
+          "title": "Funky Cops",
+          "explicitNames": [],
+          "names": ["Funky Cops", "FunkyCops", "Funky Cop"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Minijusticiers"],
+      "versions": [
+        {
+          "editorialId": "da-074",
+          "title": "Les Minijusticiers",
+          "explicitNames": [],
+          "names": ["Les Minijusticiers", "Les Mini Justiciers"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Garfield & Cie"],
+      "versions": [
+        {
+          "editorialId": "da-075",
+          "title": "Garfield & Cie",
+          "explicitNames": [],
+          "names": [
+            "Garfield & Cie",
+            "Garfield",
+            "The Garfield Show",
+            "Garfield et compagnie",
+            "Garfield et Cie",
+            "Garfield & compagnie",
+            "Garfield and Co",
+            "Garfield et Co",
+            "GarfieldetCie",
+            "GarfieldShow",
+            "Garfieldetcompagnie"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Adventure Time"],
+      "versions": [
+        {
+          "editorialId": "da-076",
+          "title": "Adventure Time",
+          "explicitNames": [],
+          "names": [
+            "Adventure Time",
+            "Adventure Time avec Finn et Jake",
+            "Adventure Time avec Finn & Jake",
+            "AdventureTime"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Le Monde incroyable de Gumball"],
+      "versions": [
+        {
+          "editorialId": "da-077",
+          "title": "Le Monde incroyable de Gumball",
+          "explicitNames": [],
+          "names": [
+            "Le Monde incroyable de Gumball",
+            "Gumball",
+            "The Amazing World of Gumball",
+            "MondeincroyabledeGumball",
+            "AmazingWorldofGumball"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Regular Show"],
+      "versions": [
+        {
+          "editorialId": "da-078",
+          "title": "Regular Show",
+          "explicitNames": [],
+          "names": [
+            "Regular Show",
+            "RegularShow",
+            "Un show ordinaire",
+            "Unshowordinaire"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Steven Universe"],
+      "versions": [
+        {
+          "editorialId": "da-079",
+          "title": "Steven Universe",
+          "explicitNames": [],
+          "names": ["Steven Universe", "Steven Univers", "StevenUniverse"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Souvenirs de Gravity Falls"],
+      "versions": [
+        {
+          "editorialId": "da-080",
+          "title": "Souvenirs de Gravity Falls",
+          "explicitNames": [],
+          "names": [
+            "Souvenirs de Gravity Falls",
+            "Gravity Falls",
+            "SouvenirsdeGravityFalls",
+            "GravityFalls"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": [
+        "Miraculous : Les Aventures de Ladybug et Chat Noir",
+        "Miraculous"
+      ],
+      "versions": [
+        {
+          "editorialId": "da-082",
+          "title": "Miraculous : Les Aventures de Ladybug et Chat Noir",
+          "explicitNames": [],
+          "names": [
+            "Miraculous : Les Aventures de Ladybug et Chat Noir",
+            "Miraculous",
+            "Ladybug et Chat Noir",
+            "Miraculous Ladybug",
+            "Ladybug",
+            "Miraculous : Les Aventures de Ladybug & Chat Noir",
+            "Ladybug & Chat Noir",
+            "Lady Bug",
+            "LadybugetChatNoir",
+            "MiraculousLadybug"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Sisters"],
+      "versions": [
+        {
+          "editorialId": "da-083",
+          "title": "Les Sisters",
+          "explicitNames": [],
+          "names": [
+            "Les Sisters",
+            "The Sisters",
+            "Les Sisters Wendy et Marine",
+            "Les Sisters Wendy & Marine",
+            "SistersWendyetMarine"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Grizzy et les Lemmings"],
+      "versions": [
+        {
+          "editorialId": "da-084",
+          "title": "Grizzy et les Lemmings",
+          "explicitNames": [],
+          "names": [
+            "Grizzy et les Lemmings",
+            "Grizzy and the Lemmings",
+            "Grizzy",
+            "Grizzy & les Lemmings",
+            "GrizzyetlesLemmings",
+            "GrizzyandtheLemmings"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Peppa Pig"],
+      "versions": [
+        {
+          "editorialId": "da-085",
+          "title": "Peppa Pig",
+          "explicitNames": [],
+          "names": ["Peppa Pig", "Peppa", "PeppaPig"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["La Pat' Patrouille"],
+      "versions": [
+        {
+          "editorialId": "da-086",
+          "title": "La Pat' Patrouille",
+          "explicitNames": [],
+          "names": [
+            "La Pat' Patrouille",
+            "Paw Patrol",
+            "PatPatrouille",
+            "PawPatrol"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Masha et Michka"],
+      "versions": [
+        {
+          "editorialId": "da-087",
+          "title": "Masha et Michka",
+          "explicitNames": [],
+          "names": [
+            "Masha et Michka",
+            "Masha and the Bear",
+            "Masha & Michka",
+            "MashaetMichka",
+            "MashaandtheBear"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Bienvenue chez les Loud"],
+      "versions": [
+        {
+          "editorialId": "da-088",
+          "title": "Bienvenue chez les Loud",
+          "explicitNames": [],
+          "names": [
+            "Bienvenue chez les Loud",
+            "Les Loud",
+            "The Loud House",
+            "BienvenuechezlesLoud",
+            "LoudHouse"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Ninjago : Les Maîtres du Spinjitzu", "Ninjago"],
+      "versions": [
+        {
+          "editorialId": "da-089",
+          "title": "Ninjago : Les Maîtres du Spinjitzu",
+          "explicitNames": [],
+          "names": [
+            "Ninjago : Les Maîtres du Spinjitzu",
+            "Ninjago",
+            "Ninjago Masters of Spinjitzu",
+            "Lego Ninjago",
+            "NinjagoLesMaîtresduSpinjitzu",
+            "NinjagoMastersofSpinjitzu"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": [
+        "My Little Pony : Les amies, c'est magique",
+        "My Little Pony"
+      ],
+      "versions": [
+        {
+          "editorialId": "da-090",
+          "title": "My Little Pony : Les amies, c'est magique",
+          "explicitNames": [],
+          "names": [
+            "My Little Pony : Les amies, c'est magique",
+            "My Little Pony",
+            "MLP",
+            "My Little Pony Friendship Is Magic",
+            "MLP FIM",
+            "MLPFIM",
+            "Friendship Is Magic",
+            "MyLittlePony"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Sanjay et Craig"],
+      "versions": [
+        {
+          "editorialId": "da-092",
+          "title": "Sanjay et Craig",
+          "explicitNames": [],
+          "names": [
+            "Sanjay et Craig",
+            "Sanjay and Craig",
+            "Sanjay & Craig",
+            "SanjayetCraig",
+            "SanjayandCraig"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["LoliRock"],
+      "versions": [
+        {
+          "editorialId": "da-093",
+          "title": "LoliRock",
+          "explicitNames": [],
+          "names": ["LoliRock", "Loli Rock"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Zig et Sharko"],
+      "versions": [
+        {
+          "editorialId": "da-094",
+          "title": "Zig et Sharko",
+          "explicitNames": [],
+          "names": [
+            "Zig et Sharko",
+            "Zig and Sharko",
+            "Zig & Sharko",
+            "ZigetSharko",
+            "ZigandSharko"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": [
+        "Oscar et Malika, toujours en retard",
+        "Oscar et Malika"
+      ],
+      "versions": [
+        {
+          "editorialId": "da-095",
+          "title": "Oscar et Malika, toujours en retard",
+          "explicitNames": [],
+          "names": [
+            "Oscar et Malika, toujours en retard",
+            "Oscar et Malika",
+            "Nate Is Late",
+            "Oscar & Malika, toujours en retard",
+            "Oscar & Malika",
+            "OscaretMalika",
+            "NateIsLate"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Bluey"],
+      "versions": [
+        {
+          "editorialId": "da-096",
+          "title": "Bluey",
+          "explicitNames": [],
+          "names": [
+            "Bluey",
+            "Bluey et Bingo",
+            "Bluey 2018",
+            "Bluey & Bingo",
+            "BlueyetBingo"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Aventures de Paddington"],
+      "versions": [
+        {
+          "editorialId": "da-098",
+          "title": "Les Aventures de Paddington",
+          "explicitNames": [],
+          "names": [
+            "Les Aventures de Paddington",
+            "Paddington",
+            "The Adventures of Paddington"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Le Cuphead Show !"],
+      "versions": [
+        {
+          "editorialId": "da-099",
+          "title": "Le Cuphead Show !",
+          "explicitNames": [],
+          "names": ["Le Cuphead Show !", "Cuphead", "CupheadShow"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": [
+        "Les Lapins Crétins : Invasion",
+        "Les Lapins Crétins"
+      ],
+      "versions": [
+        {
+          "editorialId": "da-100",
+          "title": "Les Lapins Crétins : Invasion",
+          "explicitNames": [],
+          "names": [
+            "Les Lapins Crétins : Invasion",
+            "Les Lapins Crétins",
+            "Rabbids Invasion",
+            "Rabbids",
+            "LapinsCrétinsInvasion",
+            "LapinsCrétins",
+            "RabbidsInvasion"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Goldorak"],
+      "versions": [
+        {
+          "editorialId": "da-101",
+          "title": "Goldorak",
+          "explicitNames": [],
+          "names": [
+            "Goldorak",
+            "Grendizer",
+            "UFO Robot Grendizer",
+            "UFORobotGrendizer"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Candy"],
+      "versions": [
+        {
+          "editorialId": "da-104",
+          "title": "Candy",
+          "explicitNames": [],
+          "names": ["Candy", "Candy Candy", "CandyCandy"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Rémi sans famille"],
+      "versions": [
+        {
+          "editorialId": "da-105",
+          "title": "Rémi sans famille",
+          "explicitNames": [],
+          "names": [
+            "Rémi sans famille",
+            "Remi",
+            "Nobody's Boy Remi",
+            "Rémisansfamille",
+            "NobodysBoyRemi"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Heidi"],
+      "versions": [
+        {
+          "editorialId": "da-106",
+          "title": "Heidi",
+          "explicitNames": [],
+          "names": [
+            "Heidi",
+            "Heidi fille des Alpes",
+            "Heidi Girl of the Alps",
+            "HeidifilledesAlpes",
+            "HeidiGirloftheAlps"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Princesse Sarah"],
+      "versions": [
+        {
+          "editorialId": "da-107",
+          "title": "Princesse Sarah",
+          "explicitNames": [],
+          "names": [
+            "Princesse Sarah",
+            "A Little Princess Sara",
+            "Sarah",
+            "Sara",
+            "ALittlePrincessSara"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Belle et Sébastien"],
+      "versions": [
+        {
+          "editorialId": "da-108",
+          "title": "Belle et Sébastien",
+          "explicitNames": [],
+          "names": [
+            "Belle et Sébastien",
+            "Belle and Sebastian",
+            "Belle & Sébastien",
+            "BelleetSébastien",
+            "BelleandSebastian"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Aventures de Tom Sawyer"],
+      "versions": [
+        {
+          "editorialId": "da-109",
+          "title": "Les Aventures de Tom Sawyer",
+          "explicitNames": [],
+          "names": [
+            "Les Aventures de Tom Sawyer",
+            "Tom Sawyer",
+            "The Adventures of Tom Sawyer",
+            "AventuresdeTomSawyer",
+            "TomSawyer",
+            "AdventuresofTomSawyer"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Le Tour du monde en 80 jours"],
+      "versions": [
+        {
+          "editorialId": "da-110",
+          "title": "Le Tour du monde en 80 jours",
+          "explicitNames": [],
+          "names": [
+            "Le Tour du monde en 80 jours",
+            "Willy Fog",
+            "Around the World with Willy Fog",
+            "Tour du monde en quatre vingt jours",
+            "WillyFog"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Trois Mousquetaires"],
+      "versions": [
+        {
+          "editorialId": "da-111",
+          "title": "Les Trois Mousquetaires",
+          "explicitNames": [],
+          "names": [
+            "Les Trois Mousquetaires",
+            "The Three Musketeers",
+            "Les 3 Mousquetaires",
+            "TroisMousquetaires",
+            "ThreeMusketeers"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Calimero"],
+      "versions": [
+        {
+          "editorialId": "da-112",
+          "title": "Calimero",
+          "explicitNames": [],
+          "names": [
+            "Calimero",
+            "Calimero et Priscilla",
+            "Calimero le poussin",
+            "Calimero & Priscilla",
+            "CalimeroetPriscilla",
+            "Calimerolepoussin"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Maya l’abeille"],
+      "versions": [
+        {
+          "editorialId": "da-113",
+          "title": "Maya l’abeille",
+          "explicitNames": [],
+          "names": [
+            "Maya l’abeille",
+            "Maya",
+            "Maya the Bee",
+            "Mayalabeille",
+            "MayatheBee"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Vic le Viking"],
+      "versions": [
+        {
+          "editorialId": "da-114",
+          "title": "Vic le Viking",
+          "explicitNames": [],
+          "names": [
+            "Vic le Viking",
+            "Vicky le Viking",
+            "VicleViking",
+            "VickyleViking"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Nils Holgersson"],
+      "versions": [
+        {
+          "editorialId": "da-115",
+          "title": "Nils Holgersson",
+          "explicitNames": [],
+          "names": [
+            "Nils Holgersson",
+            "Nils",
+            "Le merveilleux voyage de Nils Holgersson",
+            "NilsHolgersson"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Aventures de Tintin"],
+      "versions": [
+        {
+          "editorialId": "da-117",
+          "title": "Les Aventures de Tintin",
+          "explicitNames": [],
+          "names": [
+            "Les Aventures de Tintin",
+            "Tintin",
+            "The Adventures of Tintin"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Marsupilami"],
+      "versions": [
+        {
+          "editorialId": "da-120",
+          "title": "Marsupilami",
+          "explicitNames": [],
+          "names": ["Marsupilami", "Mon ami Marsupilami", "MonamiMarsupilami"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Yakari"],
+      "versions": [
+        {
+          "editorialId": "da-121",
+          "title": "Yakari",
+          "explicitNames": [],
+          "names": [
+            "Yakari",
+            "Yakari et Petit Tonnerre",
+            "Yakari la série",
+            "Yakari & Petit Tonnerre",
+            "YakarietPetitTonnerre"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Boule et Bill"],
+      "versions": [
+        {
+          "editorialId": "da-122",
+          "title": "Boule et Bill",
+          "explicitNames": [],
+          "names": [
+            "Boule et Bill",
+            "Boule & Bill",
+            "Billy and Buddy",
+            "BouleetBill",
+            "BillyandBuddy"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Cédric"],
+      "versions": [
+        {
+          "editorialId": "da-123",
+          "title": "Cédric",
+          "explicitNames": [],
+          "names": ["Cédric", "Cedric 2001"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Trotro"],
+      "versions": [
+        {
+          "editorialId": "da-124",
+          "title": "Trotro",
+          "explicitNames": [],
+          "names": ["Trotro", "L'âne Trotro", "âneTrotro"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Babalous"],
+      "versions": [
+        {
+          "editorialId": "da-125",
+          "title": "Les Babalous",
+          "explicitNames": [],
+          "names": ["Les Babalous", "Les Baba Lous"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Contes de la rue Broca"],
+      "versions": [
+        {
+          "editorialId": "da-126",
+          "title": "Les Contes de la rue Broca",
+          "explicitNames": [],
+          "names": [
+            "Les Contes de la rue Broca",
+            "Rue Broca",
+            "ContesdelarueBroca",
+            "RueBroca"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Malheurs de Sophie"],
+      "versions": [
+        {
+          "editorialId": "da-127",
+          "title": "Les Malheurs de Sophie",
+          "explicitNames": [],
+          "names": [
+            "Les Malheurs de Sophie",
+            "Sophie’s Misfortunes",
+            "MalheursdeSophie",
+            "SophiesMisfortunes"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Shadoks"],
+      "versions": [
+        {
+          "editorialId": "da-128",
+          "title": "Les Shadoks",
+          "explicitNames": [],
+          "names": ["Les Shadoks", "Et voila les Shadoks", "EtvoilalesShadoks"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Colargol"],
+      "versions": [
+        {
+          "editorialId": "da-129",
+          "title": "Colargol",
+          "explicitNames": [],
+          "names": [
+            "Colargol",
+            "Les Aventures de Colargol",
+            "AventuresdeColargol"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Chapi Chapo"],
+      "versions": [
+        {
+          "editorialId": "da-130",
+          "title": "Chapi Chapo",
+          "explicitNames": [],
+          "names": [
+            "Chapi Chapo",
+            "Chapi et Chapo",
+            "Chapi & Chapo",
+            "ChapiChapo",
+            "ChapietChapo"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Aglaé et Sidonie"],
+      "versions": [
+        {
+          "editorialId": "da-131",
+          "title": "Aglaé et Sidonie",
+          "explicitNames": [],
+          "names": ["Aglaé et Sidonie", "Aglae & Sidonie", "AglaéetSidonie"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Mondes engloutis"],
+      "versions": [
+        {
+          "editorialId": "da-137",
+          "title": "Les Mondes engloutis",
+          "explicitNames": [],
+          "names": [
+            "Les Mondes engloutis",
+            "Spartakus and the Sun Beneath the Sea",
+            "Mondesengloutis"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Maîtres de l’Univers"],
+      "versions": [
+        {
+          "editorialId": "da-138",
+          "title": "Les Maîtres de l’Univers",
+          "explicitNames": [],
+          "names": [
+            "Les Maîtres de l’Univers",
+            "He-Man",
+            "He-Man and the Masters of the Universe",
+            "Musclor",
+            "HeMan",
+            "MaîtresdelUnivers"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["She-Ra, la princesse du pouvoir", "She-Ra"],
+      "versions": [
+        {
+          "editorialId": "da-139",
+          "title": "She-Ra, la princesse du pouvoir",
+          "explicitNames": [],
+          "names": [
+            "She-Ra, la princesse du pouvoir",
+            "She-Ra",
+            "Shera",
+            "She-Ra Princess of Power",
+            "SheRaPrincessofPower"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Cosmocats"],
+      "versions": [
+        {
+          "editorialId": "da-140",
+          "title": "Les Cosmocats",
+          "explicitNames": [],
+          "names": ["Les Cosmocats", "ThunderCats", "Cosmocats 1985"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["SilverHawks"],
+      "versions": [
+        {
+          "editorialId": "da-141",
+          "title": "SilverHawks",
+          "explicitNames": [],
+          "names": ["SilverHawks", "Silver Hawks"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["MASK"],
+      "versions": [
+        {
+          "editorialId": "da-142",
+          "title": "MASK",
+          "explicitNames": [],
+          "names": ["MASK", "M.A.S.K."]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Transformers"],
+      "versions": [
+        {
+          "editorialId": "da-143",
+          "title": "Transformers (1984)",
+          "explicitNames": [],
+          "names": [
+            "Transformers (1984)",
+            "Transformers G1",
+            "Transformers",
+            "TransformersG1"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["G.I. Joe : Héros sans frontières", "G.I. Joe"],
+      "versions": [
+        {
+          "editorialId": "da-144",
+          "title": "G.I. Joe : Héros sans frontières",
+          "explicitNames": [],
+          "names": [
+            "G.I. Joe : Héros sans frontières",
+            "GI Joe",
+            "G I Joe",
+            "GI Joe A Real American Hero",
+            "GIJoe"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Jem et les Hologrammes"],
+      "versions": [
+        {
+          "editorialId": "da-145",
+          "title": "Jem et les Hologrammes",
+          "explicitNames": [],
+          "names": [
+            "Jem et les Hologrammes",
+            "Jem",
+            "Jem and the Holograms",
+            "Jem & les Hologrammes",
+            "JemetlesHologrammes",
+            "JemandtheHolograms"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Max et Compagnie"],
+      "versions": [
+        {
+          "editorialId": "da-146",
+          "title": "Max et Compagnie",
+          "explicitNames": [],
+          "names": [
+            "Max et Compagnie",
+            "Kimagure Orange Road",
+            "Max & Compagnie",
+            "Max et Co",
+            "MaxetCompagnie",
+            "KimagureOrangeRoad"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Emi magique"],
+      "versions": [
+        {
+          "editorialId": "da-147",
+          "title": "Emi magique",
+          "explicitNames": [],
+          "names": ["Emi magique", "Magical Emi", "Emi"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Creamy, merveilleuse Creamy", "Creamy"],
+      "versions": [
+        {
+          "editorialId": "da-148",
+          "title": "Creamy, merveilleuse Creamy",
+          "explicitNames": [],
+          "names": [
+            "Creamy, merveilleuse Creamy",
+            "Creamy Mami",
+            "Creamy",
+            "CreamymerveilleuseCreamy",
+            "CreamyMami"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Susy aux fleurs magiques"],
+      "versions": [
+        {
+          "editorialId": "da-149",
+          "title": "Susy aux fleurs magiques",
+          "explicitNames": [],
+          "names": [
+            "Susy aux fleurs magiques",
+            "Magical Idol Pastel Yumi",
+            "Susy",
+            "Susyauxfleursmagiques",
+            "MagicalIdolPastelYumi"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Gigi"],
+      "versions": [
+        {
+          "editorialId": "da-150",
+          "title": "Gigi",
+          "explicitNames": [],
+          "names": ["Gigi", "Minky Momo", "MinkyMomo"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Magical Dorémi"],
+      "versions": [
+        {
+          "editorialId": "da-151",
+          "title": "Magical Dorémi",
+          "explicitNames": [],
+          "names": [
+            "Magical Dorémi",
+            "Dorémi",
+            "Ojamajo Doremi",
+            "Dorémi magique",
+            "OjamajoDoremi"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Sailor Moon"],
+      "versions": [
+        {
+          "editorialId": "da-152",
+          "title": "Sailor Moon",
+          "explicitNames": [],
+          "names": [
+            "Sailor Moon",
+            "Pretty Soldier Sailor Moon",
+            "SailorMoon",
+            "PrettySoldierSailorMoon"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Lady Oscar"],
+      "versions": [
+        {
+          "editorialId": "da-153",
+          "title": "Lady Oscar",
+          "explicitNames": [],
+          "names": [
+            "Lady Oscar",
+            "La Rose de Versailles",
+            "The Rose of Versailles",
+            "LadyOscar",
+            "RosedeVersailles",
+            "RoseofVersailles"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Georgie"],
+      "versions": [
+        {
+          "editorialId": "da-154",
+          "title": "Georgie",
+          "explicitNames": [],
+          "names": ["Georgie", "Lady Georgie", "LadyGeorgie"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Lucile, amour et rock'n roll", "Lucile"],
+      "versions": [
+        {
+          "editorialId": "da-155",
+          "title": "Lucile, amour et rock'n roll",
+          "explicitNames": [],
+          "names": [
+            "Lucile, amour et rock'n roll",
+            "Lucile",
+            "Aishite Knight",
+            "Kiss Me Licia",
+            "Lucile, amour & rock'n roll",
+            "AishiteKnight",
+            "KissMeLicia"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Juliette, je t'aime", "Juliette"],
+      "versions": [
+        {
+          "editorialId": "da-156",
+          "title": "Juliette, je t'aime",
+          "explicitNames": [],
+          "names": [
+            "Juliette, je t'aime",
+            "Maison Ikkoku",
+            "Juliette Je Taime",
+            "JulietteJeTaime",
+            "MaisonIkkoku"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Ranma ½"],
+      "versions": [
+        {
+          "editorialId": "da-157",
+          "title": "Ranma ½",
+          "explicitNames": [],
+          "names": ["Ranma ½", "Ranma un demi", "Ranma", "Ranmaundemi"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Lamu"],
+      "versions": [
+        {
+          "editorialId": "da-158",
+          "title": "Lamu",
+          "explicitNames": [],
+          "names": ["Lamu", "Urusei Yatsura", "UruseiYatsura"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Nicky Larson"],
+      "versions": [
+        {
+          "editorialId": "da-159",
+          "title": "Nicky Larson",
+          "explicitNames": [],
+          "names": ["Nicky Larson", "City Hunter", "NickyLarson", "CityHunter"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Cat’s Eye"],
+      "versions": [
+        {
+          "editorialId": "da-160",
+          "title": "Cat’s Eye",
+          "explicitNames": [],
+          "names": ["Cat’s Eye", "Cats Eye", "Catseyes", "CatsEye"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Ken le Survivant"],
+      "versions": [
+        {
+          "editorialId": "da-161",
+          "title": "Ken le Survivant",
+          "explicitNames": [],
+          "names": [
+            "Ken le Survivant",
+            "Hokuto no Ken",
+            "Fist of the North Star",
+            "KenleSurvivant",
+            "HokutonoKen",
+            "FistoftheNorthStar"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Chevaliers du Zodiaque"],
+      "versions": [
+        {
+          "editorialId": "da-162",
+          "title": "Les Chevaliers du Zodiaque",
+          "explicitNames": [],
+          "names": [
+            "Les Chevaliers du Zodiaque",
+            "Saint Seiya",
+            "Les Chevaliers du Zodiaque 1986",
+            "Knights of the Zodiac",
+            "CDZ",
+            "ChevaliersduZodiaque",
+            "SaintSeiya",
+            "ChevaliersduZodiaque1986",
+            "KnightsoftheZodiac"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Pokémon"],
+      "versions": [
+        {
+          "editorialId": "da-167",
+          "title": "Pokémon",
+          "explicitNames": [],
+          "names": [
+            "Pokémon",
+            "Pocket Monsters",
+            "Pokemon 1997",
+            "PocketMonsters"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Digimon Adventure"],
+      "versions": [
+        {
+          "editorialId": "da-168",
+          "title": "Digimon Adventure",
+          "explicitNames": [],
+          "names": [
+            "Digimon Adventure",
+            "Digimon",
+            "Digimon Digital Monsters",
+            "Digimon 1999",
+            "DigimonAdventure",
+            "DigimonDigitalMonsters"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Beyblade"],
+      "versions": [
+        {
+          "editorialId": "da-169",
+          "title": "Beyblade",
+          "explicitNames": [],
+          "names": [
+            "Beyblade",
+            "Beyblade 2001",
+            "Bakuten Shoot Beyblade",
+            "BakutenShootBeyblade"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Shaman King"],
+      "versions": [
+        {
+          "editorialId": "da-172",
+          "title": "Shaman King",
+          "explicitNames": [],
+          "names": [
+            "Shaman King",
+            "Shaman King 2001",
+            "ShamanKing",
+            "ShamanKing2001"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Medabots"],
+      "versions": [
+        {
+          "editorialId": "da-173",
+          "title": "Medabots",
+          "explicitNames": [],
+          "names": ["Medabots", "Medarot"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Monster Rancher"],
+      "versions": [
+        {
+          "editorialId": "da-174",
+          "title": "Monster Rancher",
+          "explicitNames": [],
+          "names": [
+            "Monster Rancher",
+            "Monster Farm",
+            "MonsterRancher",
+            "MonsterFarm"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Sakura, chasseuse de cartes", "Sakura"],
+      "versions": [
+        {
+          "editorialId": "da-175",
+          "title": "Sakura, chasseuse de cartes",
+          "explicitNames": [],
+          "names": [
+            "Sakura, chasseuse de cartes",
+            "Card Captor Sakura",
+            "Cardcaptor Sakura",
+            "Sakura",
+            "Sakurachasseusedecartes",
+            "CardcaptorSakura"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Tsubasa Reservoir Chronicle"],
+      "versions": [
+        {
+          "editorialId": "da-176",
+          "title": "Tsubasa Reservoir Chronicle",
+          "explicitNames": [],
+          "names": [
+            "Tsubasa Reservoir Chronicle",
+            "Tsubasa Chronicle",
+            "Tsubasa Reservoir",
+            "TRC",
+            "TsubasaReservoirChronicle",
+            "TsubasaChronicle",
+            "TsubasaReservoir"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Olive et Tom"],
+      "versions": [
+        {
+          "editorialId": "da-177",
+          "title": "Olive et Tom",
+          "explicitNames": [],
+          "names": [
+            "Olive et Tom",
+            "Captain Tsubasa",
+            "Olive & Tom",
+            "OliveetTom",
+            "CaptainTsubasa"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["L’École des champions"],
+      "versions": [
+        {
+          "editorialId": "da-178",
+          "title": "L’École des champions",
+          "explicitNames": [],
+          "names": [
+            "L’École des champions",
+            "L'Ecole des Champions de football",
+            "Moero Top Striker",
+            "Écoledeschampions",
+            "EcoledesChampionsdefootball",
+            "MoeroTopStriker"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["But pour Rudy"],
+      "versions": [
+        {
+          "editorialId": "da-179",
+          "title": "But pour Rudy",
+          "explicitNames": [],
+          "names": [
+            "But pour Rudy",
+            "Ganbare Kickers",
+            "ButpourRudy",
+            "GanbareKickers"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Jeanne et Serge"],
+      "versions": [
+        {
+          "editorialId": "da-180",
+          "title": "Jeanne et Serge",
+          "explicitNames": [],
+          "names": [
+            "Jeanne et Serge",
+            "Jeanne & Serge",
+            "Attacker You",
+            "JeanneetSerge",
+            "AttackerYou"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Gwendoline"],
+      "versions": [
+        {
+          "editorialId": "da-181",
+          "title": "Gwendoline",
+          "explicitNames": [],
+          "names": ["Gwendoline", "Lady Lady", "LadyLady"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Capitaine Flam"],
+      "versions": [
+        {
+          "editorialId": "da-182",
+          "title": "Capitaine Flam",
+          "explicitNames": [],
+          "names": [
+            "Capitaine Flam",
+            "Captain Future",
+            "Captain Flam",
+            "CapitaineFlam",
+            "CaptainFuture"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Cobra"],
+      "versions": [
+        {
+          "editorialId": "da-183",
+          "title": "Cobra",
+          "explicitNames": [],
+          "names": ["Cobra", "Space Adventure Cobra", "SpaceAdventureCobra"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Astro, le petit robot", "Astro"],
+      "versions": [
+        {
+          "editorialId": "da-184",
+          "title": "Astro, le petit robot",
+          "explicitNames": [],
+          "names": [
+            "Astro, le petit robot",
+            "Astro Boy",
+            "Astro le Petit Robot 1980",
+            "Astro",
+            "AstroBoy",
+            "Astrolepetitrobot",
+            "AstrolePetitRobot1980"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Robotech"],
+      "versions": [
+        {
+          "editorialId": "da-185",
+          "title": "Robotech",
+          "explicitNames": [],
+          "names": ["Robotech", "Robo Tech", "Robotech 1985"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Jayce et les Conquérants de la lumière"],
+      "versions": [
+        {
+          "editorialId": "da-186",
+          "title": "Jayce et les Conquérants de la lumière",
+          "explicitNames": [],
+          "names": [
+            "Jayce et les Conquérants de la lumière",
+            "Jayce",
+            "Jayce and the Wheeled Warriors",
+            "Jayce & les Conquérants de la lumière",
+            "JayceandtheWheeledWarriors"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Samouraïs de l’Éternel"],
+      "versions": [
+        {
+          "editorialId": "da-187",
+          "title": "Les Samouraïs de l’Éternel",
+          "explicitNames": [],
+          "names": [
+            "Les Samouraïs de l’Éternel",
+            "Ronin Warriors",
+            "Yoroiden Samurai Troopers",
+            "SamouraïsdelÉternel",
+            "RoninWarriors",
+            "YoroidenSamuraiTroopers"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Donkey Kong", "Donkey Kong Country"],
+      "versions": [
+        {
+          "editorialId": "da-194",
+          "title": "Donkey Kong Country",
+          "explicitNames": [],
+          "names": ["Donkey Kong Country", "Donkey Kong", "DKC"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Quatre Fantastiques"],
+      "versions": [
+        {
+          "editorialId": "da-208",
+          "title": "Les Quatre Fantastiques (1994)",
+          "explicitNames": [],
+          "names": [
+            "Les Quatre Fantastiques (1994)",
+            "Les 4 Fantastiques",
+            "Fantastic Four 1994",
+            "Les Quatre Fantastiques",
+            "Fantastic Four",
+            "QuatreFantastiques1994",
+            "FantasticFour1994"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Arthur"],
+      "versions": [
+        {
+          "editorialId": "da-215",
+          "title": "Arthur",
+          "explicitNames": [],
+          "names": ["Arthur", "Arthur 1996"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Caillou"],
+      "versions": [
+        {
+          "editorialId": "da-216",
+          "title": "Caillou",
+          "explicitNames": [],
+          "names": ["Caillou", "Caillou 1997"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Pingu"],
+      "versions": [
+        {
+          "editorialId": "da-217",
+          "title": "Pingu",
+          "explicitNames": [],
+          "names": ["Pingu", "Pingu 1986"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Mimi la souris"],
+      "versions": [
+        {
+          "editorialId": "da-218",
+          "title": "Mimi la souris",
+          "explicitNames": [],
+          "names": ["Mimi la souris", "Maisy", "Mimi", "Mimilasouris"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Didou"],
+      "versions": [
+        {
+          "editorialId": "da-219",
+          "title": "Didou",
+          "explicitNames": [],
+          "names": ["Didou", "Louie"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Pocoyo"],
+      "versions": [
+        {
+          "editorialId": "da-220",
+          "title": "Pocoyo",
+          "explicitNames": [],
+          "names": [
+            "Pocoyo",
+            "Poco Yo",
+            "Pocoyo et Pato",
+            "Pocoyo & Pato",
+            "PocoyoetPato"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Dino Train"],
+      "versions": [
+        {
+          "editorialId": "da-221",
+          "title": "Dino Train",
+          "explicitNames": [],
+          "names": [
+            "Dino Train",
+            "Dinosaur Train",
+            "DinoTrain",
+            "DinosaurTrain"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Chuggington"],
+      "versions": [
+        {
+          "editorialId": "da-222",
+          "title": "Chuggington",
+          "explicitNames": [],
+          "names": [
+            "Chuggington",
+            "Chuggington Les Petits Trains",
+            "ChuggingtonLesPetitsTrains"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Thomas et ses amis"],
+      "versions": [
+        {
+          "editorialId": "da-223",
+          "title": "Thomas et ses amis",
+          "explicitNames": [],
+          "names": [
+            "Thomas et ses amis",
+            "Thomas le petit train",
+            "Thomas & Friends",
+            "Thomas et ses Amis 1984",
+            "Thomas & ses amis",
+            "Thomas & ses Amis 1984",
+            "Thomasetsesamis",
+            "Thomaslepetittrain",
+            "ThomasetFriends",
+            "ThomasetsesAmis1984"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Sam le pompier"],
+      "versions": [
+        {
+          "editorialId": "da-224",
+          "title": "Sam le pompier",
+          "explicitNames": [],
+          "names": [
+            "Sam le pompier",
+            "Fireman Sam",
+            "Samlepompier",
+            "FiremanSam"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Bob le bricoleur"],
+      "versions": [
+        {
+          "editorialId": "da-225",
+          "title": "Bob le bricoleur",
+          "explicitNames": [],
+          "names": [
+            "Bob le bricoleur",
+            "Bob the Builder",
+            "Boblebricoleur",
+            "BobtheBuilder"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Postman Pat"],
+      "versions": [
+        {
+          "editorialId": "da-226",
+          "title": "Postman Pat",
+          "explicitNames": [],
+          "names": [
+            "Postman Pat",
+            "Pierre Martin le facteur",
+            "Pierre le facteur",
+            "Pat le facteur",
+            "PostmanPat",
+            "PierreMartinlefacteur",
+            "Pierrelefacteur",
+            "Patlefacteur"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["T’choupi et Doudou"],
+      "versions": [
+        {
+          "editorialId": "da-227",
+          "title": "T’choupi et Doudou",
+          "explicitNames": [],
+          "names": [
+            "T’choupi et Doudou",
+            "Tchoupi et Doudou",
+            "Tchoupi",
+            "T’choupi & Doudou",
+            "Tchoupi & Doudou",
+            "T'choupi",
+            "TchoupietDoudou"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Contes de Tinga Tinga"],
+      "versions": [
+        {
+          "editorialId": "da-228",
+          "title": "Les Contes de Tinga Tinga",
+          "explicitNames": [],
+          "names": [
+            "Les Contes de Tinga Tinga",
+            "Tinga Tinga Tales",
+            "Tinga Tinga",
+            "ContesdeTingaTinga",
+            "TingaTingaTales",
+            "TingaTinga"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Kipper"],
+      "versions": [
+        {
+          "editorialId": "da-229",
+          "title": "Kipper",
+          "explicitNames": [],
+          "names": [
+            "Kipper",
+            "Kipper le chien",
+            "Kipper the Dog",
+            "Kipperlechien",
+            "KippertheDog"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Aventures de Spot"],
+      "versions": [
+        {
+          "editorialId": "da-230",
+          "title": "Les Aventures de Spot",
+          "explicitNames": [],
+          "names": ["Les Aventures de Spot", "The Adventures of Spot", "Spot"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Enquêtes de Prudence Petitpas"],
+      "versions": [
+        {
+          "editorialId": "da-231",
+          "title": "Les Enquêtes de Prudence Petitpas",
+          "explicitNames": [],
+          "names": [
+            "Les Enquêtes de Prudence Petitpas",
+            "Prudence Petitpas",
+            "EnquêtesdePrudencePetitpas",
+            "PrudencePetitpas"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Corentin"],
+      "versions": [
+        {
+          "editorialId": "da-232",
+          "title": "Corentin",
+          "explicitNames": [],
+          "names": ["Corentin", "Les Aventures de Corentin"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Aventures de Papyrus"],
+      "versions": [
+        {
+          "editorialId": "da-233",
+          "title": "Les Aventures de Papyrus",
+          "explicitNames": [],
+          "names": ["Les Aventures de Papyrus", "Papyrus", "Papyrus 1998"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Aventures de Blake et Mortimer"],
+      "versions": [
+        {
+          "editorialId": "da-234",
+          "title": "Les Aventures de Blake et Mortimer",
+          "explicitNames": [],
+          "names": [
+            "Les Aventures de Blake et Mortimer",
+            "Blake et Mortimer",
+            "Blake & Mortimer",
+            "Les Aventures de Blake & Mortimer",
+            "AventuresdeBlakeetMortimer",
+            "BlakeetMortimer"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["La Vie de Rosie"],
+      "versions": [
+        {
+          "editorialId": "da-236",
+          "title": "La Vie de Rosie",
+          "explicitNames": [],
+          "names": [
+            "La Vie de Rosie",
+            "Everything's Rosie",
+            "ViedeRosie",
+            "EverythingsRosie"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Frères Koalas"],
+      "versions": [
+        {
+          "editorialId": "da-237",
+          "title": "Les Frères Koalas",
+          "explicitNames": [],
+          "names": [
+            "Les Frères Koalas",
+            "The Koala Brothers",
+            "FrèresKoalas",
+            "KoalaBrothers"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les P’tits Diables"],
+      "versions": [
+        {
+          "editorialId": "da-238",
+          "title": "Les P’tits Diables",
+          "explicitNames": [],
+          "names": [
+            "Les P’tits Diables",
+            "Les Petits Diables",
+            "PtitsDiables",
+            "PetitsDiables"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les As de la jungle à la rescousse"],
+      "versions": [
+        {
+          "editorialId": "da-239",
+          "title": "Les As de la jungle à la rescousse",
+          "explicitNames": [],
+          "names": [
+            "Les As de la jungle à la rescousse",
+            "The Jungle Bunch to the Rescue",
+            "Les As de la Jungle",
+            "JungleBunchtotheRescue",
+            "AsdelaJungle"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Croods : Origines", "Les Croods"],
+      "versions": [
+        {
+          "editorialId": "da-240",
+          "title": "Les Croods : Origines",
+          "explicitNames": [],
+          "names": [
+            "Les Croods : Origines",
+            "Dawn of the Croods",
+            "Les Croods",
+            "CroodsOrigines",
+            "DawnoftheCroods"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": [
+        "Le Chat potté : Les Aventures du chat potté",
+        "Le Chat potté"
+      ],
+      "versions": [
+        {
+          "editorialId": "da-245",
+          "title": "Le Chat potté : Les Aventures du chat potté",
+          "explicitNames": [],
+          "names": [
+            "Le Chat potté : Les Aventures du chat potté",
+            "The Adventures of Puss in Boots",
+            "Les Aventures du Chat Potté",
+            "Le Chat Potté",
+            "AventuresduChatPotté"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Turbo FAST"],
+      "versions": [
+        {
+          "editorialId": "da-246",
+          "title": "Turbo FAST",
+          "explicitNames": [],
+          "names": [
+            "Turbo FAST",
+            "Turbo Fast Action Stunt Team",
+            "Turbo",
+            "TurboFAST",
+            "TurboFastActionStuntTeam"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Dinotrux"],
+      "versions": [
+        {
+          "editorialId": "da-247",
+          "title": "Dinotrux",
+          "explicitNames": [],
+          "names": ["Dinotrux", "Dino Trux"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Trolls : En avant la musique", "Trolls"],
+      "versions": [
+        {
+          "editorialId": "da-248",
+          "title": "Trolls : En avant la musique",
+          "explicitNames": [],
+          "names": [
+            "Trolls : En avant la musique",
+            "Trolls The Beat Goes On",
+            "Trolls",
+            "TrollsEnavantlamusique",
+            "TrollsTheBeatGoesOn"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Spirit : Au galop en toute liberté", "Spirit"],
+      "versions": [
+        {
+          "editorialId": "da-250",
+          "title": "Spirit : Au galop en toute liberté",
+          "explicitNames": [],
+          "names": [
+            "Spirit : Au galop en toute liberté",
+            "Spirit Riding Free",
+            "Spirit",
+            "SpiritRidingFree"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["M. Peabody et Sherman Show"],
+      "versions": [
+        {
+          "editorialId": "da-251",
+          "title": "M. Peabody et Sherman Show",
+          "explicitNames": [],
+          "names": [
+            "M. Peabody et Sherman Show",
+            "The Mr Peabody and Sherman Show",
+            "Le Show de Monsieur Peabody et Sherman",
+            "M. Peabody & Sherman Show",
+            "Le Show de Monsieur Peabody & Sherman",
+            "M Peabody et Sherman",
+            "Mr Peabody et Sherman",
+            "Monsieur Peabody et Sherman",
+            "MPeabodyetShermanShow",
+            "MrPeabodyandShermanShow"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Pepper Ann"],
+      "versions": [
+        {
+          "editorialId": "da-252",
+          "title": "Pepper Ann",
+          "explicitNames": [],
+          "names": ["Pepper Ann", "Pepper Anne", "PepperAnn"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["La Famille Proud"],
+      "versions": [
+        {
+          "editorialId": "da-253",
+          "title": "La Famille Proud",
+          "explicitNames": [],
+          "names": [
+            "La Famille Proud",
+            "Cool Attitude",
+            "The Proud Family",
+            "CoolAttitude",
+            "ProudFamily"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["SamSam"],
+      "versions": [
+        {
+          "editorialId": "da-254",
+          "title": "SamSam",
+          "explicitNames": [],
+          "names": ["SamSam", "Sam Sam"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Dave le barbare"],
+      "versions": [
+        {
+          "editorialId": "da-255",
+          "title": "Dave le barbare",
+          "explicitNames": [],
+          "names": [
+            "Dave le barbare",
+            "Dave the Barbarian",
+            "Davelebarbare",
+            "DavetheBarbarian"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Brandy et M. Moustache"],
+      "versions": [
+        {
+          "editorialId": "da-256",
+          "title": "Brandy et M. Moustache",
+          "explicitNames": [],
+          "names": [
+            "Brandy et M. Moustache",
+            "Brandy and Mr Whiskers",
+            "Brandy et Monsieur Moustache",
+            "Brandy & M. Moustache",
+            "Brandy & Monsieur Moustache",
+            "Brandy et Mr Moustache",
+            "Brandy et Moustache",
+            "BrandyetMMoustache",
+            "BrandyandMrWhiskers",
+            "BrandyetMonsieurMoustache"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["La Légende de Tarzan"],
+      "versions": [
+        {
+          "editorialId": "da-257",
+          "title": "La Légende de Tarzan",
+          "explicitNames": [],
+          "names": ["La Légende de Tarzan", "The Legend of Tarzan", "Tarzan"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Hercule"],
+      "versions": [
+        {
+          "editorialId": "da-258",
+          "title": "Hercule (série Disney)",
+          "explicitNames": [],
+          "names": [
+            "Hercule (série Disney)",
+            "Hercules The Animated Series",
+            "Hercule la serie",
+            "Hercule",
+            "Hercules",
+            "HerculesérieDisney",
+            "Herculelaserie"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Toy Story", "Buzz l’éclair"],
+      "versions": [
+        {
+          "editorialId": "da-259",
+          "title": "Les Aventures de Buzz l’Éclair",
+          "explicitNames": [],
+          "names": [
+            "Les Aventures de Buzz l’Éclair",
+            "Buzz Lightyear of Star Command",
+            "Buzz lEclair les aventures",
+            "Buzz l'éclair",
+            "Buzz lEclair",
+            "AventuresdeBuzzlÉclair",
+            "BuzzLightyearofStarCommand",
+            "BuzzlEclairlesaventures"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Lilo et Stitch"],
+      "versions": [
+        {
+          "editorialId": "da-260",
+          "title": "Lilo et Stitch, la série",
+          "explicitNames": [],
+          "names": [
+            "Lilo et Stitch, la série",
+            "Lilo et Stitch",
+            "Lilo & Stitch The Series",
+            "Lilo & Stitch, la série",
+            "Lilo & Stitch",
+            "LiloetStitchlasérie",
+            "LiloetStitch",
+            "LiloetStitchTheSeries"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Kuzco, un empereur à l’école", "Kuzco"],
+      "versions": [
+        {
+          "editorialId": "da-261",
+          "title": "Kuzco, un empereur à l’école",
+          "explicitNames": [],
+          "names": [
+            "Kuzco, un empereur à l’école",
+            "The Emperor's New School",
+            "Kuzco a lEcole",
+            "Kuzco",
+            "EmperorsNewSchool",
+            "KuzcoalEcole"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Remplaçants"],
+      "versions": [
+        {
+          "editorialId": "da-262",
+          "title": "Les Remplaçants",
+          "explicitNames": [],
+          "names": ["Les Remplaçants", "The Replacements"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Jake et les Pirates du Pays imaginaire"],
+      "versions": [
+        {
+          "editorialId": "da-263",
+          "title": "Jake et les Pirates du Pays imaginaire",
+          "explicitNames": [],
+          "names": [
+            "Jake et les Pirates du Pays imaginaire",
+            "Jake and the Never Land Pirates",
+            "Jake & les Pirates du Pays imaginaire",
+            "Jake et les pirates"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Princesse Sofia"],
+      "versions": [
+        {
+          "editorialId": "da-264",
+          "title": "Princesse Sofia",
+          "explicitNames": [],
+          "names": [
+            "Princesse Sofia",
+            "Sofia the First",
+            "Sofia Premiere",
+            "Sofia",
+            "SofiatheFirst",
+            "SofiaPremiere"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Elena d’Avalor"],
+      "versions": [
+        {
+          "editorialId": "da-265",
+          "title": "Elena d’Avalor",
+          "explicitNames": [],
+          "names": [
+            "Elena d’Avalor",
+            "Elena of Avalor",
+            "Elena",
+            "Elena Avalor",
+            "ElenadAvalor",
+            "ElenaofAvalor"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Docteur La Peluche"],
+      "versions": [
+        {
+          "editorialId": "da-266",
+          "title": "Docteur La Peluche",
+          "explicitNames": [],
+          "names": [
+            "Docteur La Peluche",
+            "Doc McStuffins",
+            "Doc la Peluche",
+            "DocteurLaPeluche",
+            "DocMcStuffins"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Le Monde de Bingo et Rolly"],
+      "versions": [
+        {
+          "editorialId": "da-269",
+          "title": "Le Monde de Bingo et Rolly",
+          "explicitNames": [],
+          "names": [
+            "Le Monde de Bingo et Rolly",
+            "Puppy Dog Pals",
+            "Bingo et Rolly",
+            "Le Monde de Bingo & Rolly",
+            "Bingo & Rolly",
+            "MondedeBingoetRolly",
+            "PuppyDogPals",
+            "BingoetRolly"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Vampirina"],
+      "versions": [
+        {
+          "editorialId": "da-270",
+          "title": "Vampirina",
+          "explicitNames": [],
+          "names": [
+            "Vampirina",
+            "Vampirina Disney",
+            "Vampirina la série",
+            "Vampirinalasérie"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Raiponce"],
+      "versions": [
+        {
+          "editorialId": "da-272",
+          "title": "Raiponce, la série",
+          "explicitNames": [],
+          "names": [
+            "Raiponce, la série",
+            "Tangled The Series",
+            "Rapunzel's Tangled Adventure",
+            "Raiponce",
+            "Raiponcelasérie",
+            "TangledTheSeries",
+            "RapunzelsTangledAdventure"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Amphibia"],
+      "versions": [
+        {
+          "editorialId": "da-274",
+          "title": "Amphibia",
+          "explicitNames": [],
+          "names": ["Amphibia", "Amphibia Disney"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Luz à Osville"],
+      "versions": [
+        {
+          "editorialId": "da-275",
+          "title": "Luz à Osville",
+          "explicitNames": [],
+          "names": ["Luz à Osville", "The Owl House", "LuzàOsville", "OwlHouse"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Green à Big City"],
+      "versions": [
+        {
+          "editorialId": "da-276",
+          "title": "Les Green à Big City",
+          "explicitNames": [],
+          "names": [
+            "Les Green à Big City",
+            "Big City Greens",
+            "Les Green",
+            "GreenàBigCity",
+            "BigCityGreens"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Nouveaux Héros", "Big Hero 6"],
+      "versions": [
+        {
+          "editorialId": "da-277",
+          "title": "Les Nouveaux Héros : La Série",
+          "explicitNames": [],
+          "names": [
+            "Les Nouveaux Héros : La Série",
+            "Baymax et les Nouveaux Héros",
+            "Big Hero 6 The Series",
+            "Baymax & les Nouveaux Héros",
+            "Les Nouveaux Héros",
+            "Big Hero 6",
+            "BigHero6",
+            "NouveauxHérosLaSérie",
+            "BaymaxetlesNouveauxHéros",
+            "BigHero6TheSeries"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Star Butterfly"],
+      "versions": [
+        {
+          "editorialId": "da-278",
+          "title": "Star Butterfly",
+          "explicitNames": [],
+          "names": [
+            "Star Butterfly",
+            "Star vs the Forces of Evil",
+            "StarButterfly"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Wander"],
+      "versions": [
+        {
+          "editorialId": "da-279",
+          "title": "Wander",
+          "explicitNames": [],
+          "names": ["Wander", "Wander Over Yonder", "WanderOverYonder"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Hamster et Gretel"],
+      "versions": [
+        {
+          "editorialId": "da-280",
+          "title": "Hamster et Gretel",
+          "explicitNames": [],
+          "names": [
+            "Hamster et Gretel",
+            "Hamster and Gretel",
+            "Hamster & Gretel",
+            "HamsteretGretel",
+            "HamsterandGretel"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Milo Murphy"],
+      "versions": [
+        {
+          "editorialId": "da-281",
+          "title": "Milo Murphy",
+          "explicitNames": [],
+          "names": [
+            "Milo Murphy",
+            "La Loi de Milo Murphy",
+            "Milo Murphy's Law",
+            "MiloMurphy",
+            "LoideMiloMurphy",
+            "MiloMurphysLaw"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Rocket Power"],
+      "versions": [
+        {
+          "editorialId": "da-284",
+          "title": "Rocket Power",
+          "explicitNames": [],
+          "names": [
+            "Rocket Power",
+            "Rocket Power 1999",
+            "RocketPower",
+            "RocketPower1999"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Castors allumés"],
+      "versions": [
+        {
+          "editorialId": "da-285",
+          "title": "Les Castors allumés",
+          "explicitNames": [],
+          "names": [
+            "Les Castors allumés",
+            "The Angry Beavers",
+            "Castorsallumés",
+            "AngryBeavers"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Michat-Michien"],
+      "versions": [
+        {
+          "editorialId": "da-286",
+          "title": "Michat-Michien",
+          "explicitNames": [],
+          "names": [
+            "Michat-Michien",
+            "CatDog",
+            "Mi-Chat Mi-Chien",
+            "MiChatMiChien"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Invader Zim"],
+      "versions": [
+        {
+          "editorialId": "da-287",
+          "title": "Invader Zim",
+          "explicitNames": [],
+          "names": [
+            "Invader Zim",
+            "Zim l'Envahisseur",
+            "InvaderZim",
+            "ZimlEnvahisseur"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Aventures de Manny et ses outils"],
+      "versions": [
+        {
+          "editorialId": "da-289",
+          "title": "Les Aventures de Manny et ses outils",
+          "explicitNames": [],
+          "names": [
+            "Les Aventures de Manny et ses outils",
+            "Manny et ses outils",
+            "Les Aventures de Manny & ses outils",
+            "Manny & ses outils",
+            "Manny",
+            "Mannyetsesoutils"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Tak et le Pouvoir de Juju"],
+      "versions": [
+        {
+          "editorialId": "da-290",
+          "title": "Tak et le Pouvoir de Juju",
+          "explicitNames": [],
+          "names": [
+            "Tak et le Pouvoir de Juju",
+            "Tak and the Power of Juju",
+            "Tak & le Pouvoir de Juju",
+            "Tak"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Fanboy et Chum Chum"],
+      "versions": [
+        {
+          "editorialId": "da-291",
+          "title": "Fanboy et Chum Chum",
+          "explicitNames": [],
+          "names": [
+            "Fanboy et Chum Chum",
+            "Fanboy & Chum Chum",
+            "FanboyetChumChum"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["T.U.F.F. Puppy"],
+      "versions": [
+        {
+          "editorialId": "da-292",
+          "title": "T.U.F.F. Puppy",
+          "explicitNames": [],
+          "names": ["T.U.F.F. Puppy", "TUFF Puppy", "TUFFPuppy"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Breadwinners"],
+      "versions": [
+        {
+          "editorialId": "da-293",
+          "title": "Breadwinners",
+          "explicitNames": [],
+          "names": ["Breadwinners", "Bread Winners"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Harvey Beaks"],
+      "versions": [
+        {
+          "editorialId": "da-294",
+          "title": "Harvey Beaks",
+          "explicitNames": [],
+          "names": [
+            "Harvey Beaks",
+            "Les aventures de Harvey Beaks",
+            "HarveyBeaks",
+            "aventuresdeHarveyBeaks"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Bienvenue chez les Casagrandes"],
+      "versions": [
+        {
+          "editorialId": "da-295",
+          "title": "Bienvenue chez les Casagrandes",
+          "explicitNames": [],
+          "names": [
+            "Bienvenue chez les Casagrandes",
+            "The Casagrandes",
+            "BienvenuechezlesCasagrandes"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Foster, la maison des amis imaginaires", "Foster"],
+      "versions": [
+        {
+          "editorialId": "da-301",
+          "title": "Foster, la maison des amis imaginaires",
+          "explicitNames": [],
+          "names": [
+            "Foster, la maison des amis imaginaires",
+            "Foster",
+            "La Maison des amis imaginaires"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Samouraï Jack"],
+      "versions": [
+        {
+          "editorialId": "da-302",
+          "title": "Samouraï Jack",
+          "explicitNames": [],
+          "names": ["Samouraï Jack", "Samurai Jack", "SamouraiJack"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Camp Lazlo"],
+      "versions": [
+        {
+          "editorialId": "da-303",
+          "title": "Camp Lazlo",
+          "explicitNames": [],
+          "names": ["Camp Lazlo", "Camp Lazlo!", "CampLazlo"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Chowder"],
+      "versions": [
+        {
+          "editorialId": "da-304",
+          "title": "Chowder",
+          "explicitNames": [],
+          "names": ["Chowder"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Merveilleuses Mésaventures de Flapjack"],
+      "versions": [
+        {
+          "editorialId": "da-305",
+          "title": "Les Merveilleuses Mésaventures de Flapjack",
+          "explicitNames": [],
+          "names": ["Les Merveilleuses Mésaventures de Flapjack", "Flapjack"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Cléo et Chico"],
+      "versions": [
+        {
+          "editorialId": "da-306",
+          "title": "Cléo et Chico",
+          "explicitNames": [],
+          "names": ["Cléo et Chico", "Cleo et Chico", "Cow and Chicken"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Monsieur Belette"],
+      "versions": [
+        {
+          "editorialId": "da-307",
+          "title": "Monsieur Belette",
+          "explicitNames": [],
+          "names": [
+            "Monsieur Belette",
+            "I Am Weasel",
+            "Mr Belette",
+            "M Belette"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Time Squad, la patrouille du temps", "Time Squad"],
+      "versions": [
+        {
+          "editorialId": "da-308",
+          "title": "Time Squad, la patrouille du temps",
+          "explicitNames": [],
+          "names": [
+            "Time Squad, la patrouille du temps",
+            "Time Squad",
+            "La Patrouille du temps",
+            "TimeSquad"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Robotboy"],
+      "versions": [
+        {
+          "editorialId": "da-309",
+          "title": "Robotboy",
+          "explicitNames": [],
+          "names": ["Robotboy", "Robot Boy"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Clarence"],
+      "versions": [
+        {
+          "editorialId": "da-310",
+          "title": "Clarence",
+          "explicitNames": [],
+          "names": ["Clarence"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Oncle Grandpa"],
+      "versions": [
+        {
+          "editorialId": "da-311",
+          "title": "Oncle Grandpa",
+          "explicitNames": [],
+          "names": ["Oncle Grandpa", "Uncle Grandpa"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["We Bare Bears"],
+      "versions": [
+        {
+          "editorialId": "da-312",
+          "title": "We Bare Bears",
+          "explicitNames": [],
+          "names": [
+            "We Bare Bears",
+            "Ours pour un et un pour t'ours",
+            "We Bare Bears, Ours pour un et un pour t'ours",
+            "Ours pour un",
+            "WeBareBears"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Craig de la crique"],
+      "versions": [
+        {
+          "editorialId": "da-313",
+          "title": "Craig de la crique",
+          "explicitNames": [],
+          "names": ["Craig de la crique", "Craig of the Creek"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Mao Mao : Héros au cœur pur", "Mao Mao"],
+      "versions": [
+        {
+          "editorialId": "da-314",
+          "title": "Mao Mao : Héros au cœur pur",
+          "explicitNames": [],
+          "names": ["Mao Mao : Héros au cœur pur", "Mao Mao", "MaoMao"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["OK K.O.! Let's Be Heroes"],
+      "versions": [
+        {
+          "editorialId": "da-315",
+          "title": "OK K.O.! Let's Be Heroes",
+          "explicitNames": [],
+          "names": [
+            "OK K.O.! Let's Be Heroes",
+            "OK KO",
+            "OK K.O.",
+            "OKKO",
+            "OK KO Soyons des héros"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["South Park"],
+      "versions": [
+        {
+          "editorialId": "da-316",
+          "title": "South Park",
+          "explicitNames": [],
+          "names": ["South Park", "Southpark"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["American Dad!"],
+      "versions": [
+        {
+          "editorialId": "da-317",
+          "title": "American Dad!",
+          "explicitNames": [],
+          "names": ["American Dad!", "American Dad", "AmericanDad"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Griffin"],
+      "versions": [
+        {
+          "editorialId": "da-318",
+          "title": "Les Griffin",
+          "explicitNames": [],
+          "names": ["Les Griffin", "Family Guy"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Archer"],
+      "versions": [
+        {
+          "editorialId": "da-319",
+          "title": "Archer",
+          "explicitNames": [],
+          "names": ["Archer"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Rick et Morty"],
+      "versions": [
+        {
+          "editorialId": "da-320",
+          "title": "Rick et Morty",
+          "explicitNames": [],
+          "names": ["Rick et Morty", "Rick & Morty", "Rick and Morty"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["BoJack Horseman"],
+      "versions": [
+        {
+          "editorialId": "da-321",
+          "title": "BoJack Horseman",
+          "explicitNames": [],
+          "names": ["BoJack Horseman", "Bojack", "Bo Jack Horseman", "Bo Jack"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Désenchantée"],
+      "versions": [
+        {
+          "editorialId": "da-322",
+          "title": "Désenchantée",
+          "explicitNames": [],
+          "names": ["Désenchantée", "Disenchantment"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["F Is for Family"],
+      "versions": [
+        {
+          "editorialId": "da-323",
+          "title": "F Is for Family",
+          "explicitNames": [],
+          "names": ["F Is for Family", "F is for Family", "F for Family"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["The Super Hero Squad Show"],
+      "versions": [
+        {
+          "editorialId": "da-333",
+          "title": "The Super Hero Squad Show",
+          "explicitNames": [],
+          "names": [
+            "The Super Hero Squad Show",
+            "Super Hero Squad",
+            "Superhero Squad",
+            "Superhero Squad Show"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Hulk et les Agents du S.M.A.S.H."],
+      "versions": [
+        {
+          "editorialId": "da-334",
+          "title": "Hulk et les Agents du S.M.A.S.H.",
+          "explicitNames": [],
+          "names": [
+            "Hulk et les Agents du S.M.A.S.H.",
+            "Hulk Agents of Smash",
+            "Hulk et les agents du Smash",
+            "Hulk les agents du Smash"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Silver Surfer"],
+      "versions": [
+        {
+          "editorialId": "da-335",
+          "title": "Silver Surfer",
+          "explicitNames": [],
+          "names": ["Silver Surfer", "Le Surfer d'argent", "SilverSurfer"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Fillmore !"],
+      "versions": [
+        {
+          "editorialId": "da-336",
+          "title": "Fillmore !",
+          "explicitNames": [],
+          "names": ["Fillmore !", "Fillmore"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les 101 Dalmatiens"],
+      "versions": [
+        {
+          "editorialId": "da-337",
+          "title": "Les 101 Dalmatiens, la série",
+          "explicitNames": [],
+          "names": [
+            "Les 101 Dalmatiens, la série",
+            "Les 101 Dalmatiens",
+            "101 Dalmatians The Series",
+            "Les Cent Un Dalmatiens",
+            "Les Cent et Un Dalmatiens"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Couacs en vrac"],
+      "versions": [
+        {
+          "editorialId": "da-338",
+          "title": "Couacs en vrac",
+          "explicitNames": [],
+          "names": ["Couacs en vrac", "Quack Pack", "QuackPack"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Weekenders"],
+      "versions": [
+        {
+          "editorialId": "da-339",
+          "title": "Les Weekenders",
+          "explicitNames": [],
+          "names": ["Les Weekenders", "The Weekenders", "Les Week Enders"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Kick Kasskoo"],
+      "versions": [
+        {
+          "editorialId": "da-340",
+          "title": "Kick Kasskoo",
+          "explicitNames": [],
+          "names": [
+            "Kick Kasskoo",
+            "Kick Buttowski",
+            "Kick Kasskou",
+            "KickButtowski"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Pucca"],
+      "versions": [
+        {
+          "editorialId": "da-341",
+          "title": "Pucca (2006)",
+          "explicitNames": [],
+          "names": ["Pucca (2006)", "Pucca"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Kid vs. Kat"],
+      "versions": [
+        {
+          "editorialId": "da-342",
+          "title": "Kid vs. Kat",
+          "explicitNames": [],
+          "names": [
+            "Kid vs. Kat",
+            "Kid vs Kat",
+            "Kid contre Kat",
+            "Kid versus Kat",
+            "Le Diabolique Monsieur Kat",
+            "Monsieur Kat"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Randy Cunningham, le ninja", "Randy Cunningham"],
+      "versions": [
+        {
+          "editorialId": "da-343",
+          "title": "Randy Cunningham, le ninja",
+          "explicitNames": [],
+          "names": [
+            "Randy Cunningham, le ninja",
+            "Randy Cunningham",
+            "Randy le Ninja",
+            "RandyCunningham"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Angelo la Débrouille"],
+      "versions": [
+        {
+          "editorialId": "da-344",
+          "title": "Angelo la Débrouille",
+          "explicitNames": [],
+          "names": ["Angelo la Débrouille", "Angelo", "Angelo Rules"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Lou !"],
+      "versions": [
+        {
+          "editorialId": "da-345",
+          "title": "Lou !",
+          "explicitNames": [],
+          "names": ["Lou !", "Lou"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Mona le vampire"],
+      "versions": [
+        {
+          "editorialId": "da-346",
+          "title": "Mona le vampire",
+          "explicitNames": [],
+          "names": ["Mona le vampire", "Mona the Vampire"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Bali"],
+      "versions": [
+        {
+          "editorialId": "da-347",
+          "title": "Bali",
+          "explicitNames": [],
+          "names": ["Bali"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["64, rue du Zoo", "64"],
+      "versions": [
+        {
+          "editorialId": "da-348",
+          "title": "64, rue du Zoo",
+          "explicitNames": [],
+          "names": [
+            "64, rue du Zoo",
+            "64 rue du Zoo",
+            "64 Zoo Lane",
+            "Soixante quatre rue du zoo"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Blaise le blasé"],
+      "versions": [
+        {
+          "editorialId": "da-349",
+          "title": "Blaise le blasé",
+          "explicitNames": [],
+          "names": ["Blaise le blasé", "Blaise", "Fred's Head"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Tara Duncan"],
+      "versions": [
+        {
+          "editorialId": "da-350",
+          "title": "Tara Duncan (2010)",
+          "explicitNames": [],
+          "names": ["Tara Duncan (2010)", "Tara Duncan", "TaraDuncan"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Huntik : À la recherche des Titans", "Huntik"],
+      "versions": [
+        {
+          "editorialId": "da-351",
+          "title": "Huntik : À la recherche des Titans",
+          "explicitNames": [],
+          "names": ["Huntik : À la recherche des Titans", "Huntik"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Monster Allergy"],
+      "versions": [
+        {
+          "editorialId": "da-352",
+          "title": "Monster Allergy",
+          "explicitNames": [],
+          "names": ["Monster Allergy", "MonsterAllergy"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Atomic Betty"],
+      "versions": [
+        {
+          "editorialId": "da-353",
+          "title": "Atomic Betty",
+          "explicitNames": [],
+          "names": ["Atomic Betty", "AtomicBetty"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Toupou"],
+      "versions": [
+        {
+          "editorialId": "da-354",
+          "title": "Toupou",
+          "explicitNames": [],
+          "names": ["Toupou"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Chasseurs de dragons"],
+      "versions": [
+        {
+          "editorialId": "da-355",
+          "title": "Chasseurs de dragons",
+          "explicitNames": [],
+          "names": ["Chasseurs de dragons", "Dragon Hunters"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Simsala Grimm"],
+      "versions": [
+        {
+          "editorialId": "da-356",
+          "title": "Simsala Grimm",
+          "explicitNames": [],
+          "names": ["Simsala Grimm", "SimsalaGrimm"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Princesse Sissi"],
+      "versions": [
+        {
+          "editorialId": "da-357",
+          "title": "Princesse Sissi",
+          "explicitNames": [],
+          "names": ["Princesse Sissi", "Sissi", "PrincesseSissi"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Jumanji"],
+      "versions": [
+        {
+          "editorialId": "da-358",
+          "title": "Jumanji",
+          "explicitNames": [],
+          "names": ["Jumanji"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Godzilla"],
+      "versions": [
+        {
+          "editorialId": "da-359",
+          "title": "Godzilla, la série",
+          "explicitNames": [],
+          "names": ["Godzilla, la série", "Godzilla The Series", "Godzilla"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Extrême Ghostbusters"],
+      "versions": [
+        {
+          "editorialId": "da-360",
+          "title": "Extrême Ghostbusters",
+          "explicitNames": [],
+          "names": [
+            "Extrême Ghostbusters",
+            "Extreme Ghostbusters",
+            "Les nouveaux chasseurs de fantomes",
+            "ExtremeGhostbusters"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Ōban, Star-Racers", "Ōban"],
+      "versions": [
+        {
+          "editorialId": "da-361",
+          "title": "Ōban, Star-Racers",
+          "explicitNames": [],
+          "names": [
+            "Ōban, Star-Racers",
+            "Oban Star Racers",
+            "Oban",
+            "Oban StarRacers"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Redakai: Les Conquérants du Kairu", "Redakai"],
+      "versions": [
+        {
+          "editorialId": "da-362",
+          "title": "Redakai: Les Conquérants du Kairu",
+          "explicitNames": [],
+          "names": [
+            "Redakai: Les Conquérants du Kairu",
+            "Redakai",
+            "Les Conquérants du Kairu"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["SOS Croco"],
+      "versions": [
+        {
+          "editorialId": "da-363",
+          "title": "SOS Croco",
+          "explicitNames": [],
+          "names": ["SOS Croco", "Sos Croco", "SOSCroco"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["La Vie moderne de Rocko"],
+      "versions": [
+        {
+          "editorialId": "da-364",
+          "title": "La Vie moderne de Rocko",
+          "explicitNames": [],
+          "names": ["La Vie moderne de Rocko", "Rocko", "Rocko's Modern Life"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Le Petit Prince"],
+      "versions": [
+        {
+          "editorialId": "da-365",
+          "title": "Le Petit Prince",
+          "explicitNames": [],
+          "names": ["Le Petit Prince"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["One Piece"],
+      "versions": [
+        {
+          "editorialId": "da-368",
+          "title": "One Piece",
+          "explicitNames": [],
+          "names": ["One Piece", "OnePiece"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Bleach"],
+      "versions": [
+        {
+          "editorialId": "da-369",
+          "title": "Bleach",
+          "explicitNames": [],
+          "names": ["Bleach"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Fairy Tail"],
+      "versions": [
+        {
+          "editorialId": "da-370",
+          "title": "Fairy Tail",
+          "explicitNames": [],
+          "names": ["Fairy Tail", "FairyTail"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Death Note"],
+      "versions": [
+        {
+          "editorialId": "da-373",
+          "title": "Death Note",
+          "explicitNames": [],
+          "names": ["Death Note", "DeathNote"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["My Hero Academia"],
+      "versions": [
+        {
+          "editorialId": "da-374",
+          "title": "My Hero Academia",
+          "explicitNames": [],
+          "names": [
+            "My Hero Academia",
+            "Boku no Hero Academia",
+            "MHA",
+            "Boku no Hero",
+            "BNHA"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["L'Attaque des Titans"],
+      "versions": [
+        {
+          "editorialId": "da-375",
+          "title": "L'Attaque des Titans",
+          "explicitNames": [],
+          "names": [
+            "L'Attaque des Titans",
+            "Attaque des Titans",
+            "Attack on Titan",
+            "Shingeki no Kyojin",
+            "SNK",
+            "AOT"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Sword Art Online"],
+      "versions": [
+        {
+          "editorialId": "da-376",
+          "title": "Sword Art Online",
+          "explicitNames": [],
+          "names": ["Sword Art Online", "SAO", "SwordArtOnline"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Inu-Yasha"],
+      "versions": [
+        {
+          "editorialId": "da-377",
+          "title": "Inu-Yasha",
+          "explicitNames": [],
+          "names": ["Inu-Yasha", "Inuyasha", "Inu Yasha"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Détective Conan"],
+      "versions": [
+        {
+          "editorialId": "da-378",
+          "title": "Détective Conan",
+          "explicitNames": [],
+          "names": ["Détective Conan", "Detective Conan", "Conan"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Blue Dragon"],
+      "versions": [
+        {
+          "editorialId": "da-379",
+          "title": "Blue Dragon",
+          "explicitNames": [],
+          "names": ["Blue Dragon"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Bakugan : Équipe d’élite", "Bakugan"],
+      "versions": [
+        {
+          "editorialId": "da-380",
+          "title": "Bakugan : Équipe d’élite",
+          "explicitNames": [],
+          "names": [
+            "Bakugan : Équipe d’élite",
+            "Bakugan Battle Brawlers",
+            "Bakugan"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Keroro, mission Titar", "Keroro"],
+      "versions": [
+        {
+          "editorialId": "da-381",
+          "title": "Keroro, mission Titar",
+          "explicitNames": [],
+          "names": [
+            "Keroro, mission Titar",
+            "Keroro",
+            "Sergent Keroro",
+            "Keroro MissionTitar"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Kirby"],
+      "versions": [
+        {
+          "editorialId": "da-382",
+          "title": "Kirby",
+          "explicitNames": [],
+          "names": ["Kirby", "Kirby: Right Back at Ya!"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Mega Man", "Megaman"],
+      "versions": [
+        {
+          "editorialId": "da-384",
+          "title": "MegaMan NT Warrior",
+          "explicitNames": [],
+          "names": [
+            "MegaMan NT Warrior",
+            "Megaman NT Warrior",
+            "Rockman EXE",
+            "Mega Man NT Warrior",
+            "Megaman NT"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Shin-chan"],
+      "versions": [
+        {
+          "editorialId": "da-385",
+          "title": "Shin-chan",
+          "explicitNames": [],
+          "names": ["Shin-chan", "Shin Chan", "Crayon Shin Chan", "Shinchan"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Doraemon"],
+      "versions": [
+        {
+          "editorialId": "da-386",
+          "title": "Doraemon",
+          "explicitNames": [],
+          "names": ["Doraemon", "Dora Emon"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Assassination Classroom"],
+      "versions": [
+        {
+          "editorialId": "da-387",
+          "title": "Assassination Classroom",
+          "explicitNames": [],
+          "names": [
+            "Assassination Classroom",
+            "Ansatsu Kyoshitsu",
+            "Assassination Class Room"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Tokyo Ghoul"],
+      "versions": [
+        {
+          "editorialId": "da-388",
+          "title": "Tokyo Ghoul",
+          "explicitNames": [],
+          "names": ["Tokyo Ghoul", "TokyoGhoul"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Soul Eater"],
+      "versions": [
+        {
+          "editorialId": "da-389",
+          "title": "Soul Eater",
+          "explicitNames": [],
+          "names": ["Soul Eater", "SoulEater"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Martin Matin"],
+      "versions": [
+        {
+          "editorialId": "da-390",
+          "title": "Martin Matin",
+          "explicitNames": [],
+          "names": ["Martin Matin", "MartinMatin"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Mille et Une Prouesses de Pépin Troispommes"],
+      "versions": [
+        {
+          "editorialId": "da-391",
+          "title": "Les Mille et Une Prouesses de Pépin Troispommes",
+          "explicitNames": [],
+          "names": [
+            "Les Mille et Une Prouesses de Pépin Troispommes",
+            "Pepin Troispommes",
+            "Pepin Trois Pommes",
+            "Pepin 3 Pommes"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Nom de code : Kids Next Door", "Nom de code"],
+      "versions": [
+        {
+          "editorialId": "da-393",
+          "title": "Nom de code : Kids Next Door",
+          "explicitNames": [],
+          "names": [
+            "Nom de code : Kids Next Door",
+            "Kids Next Door",
+            "KND",
+            "Nom de code KND",
+            "Codename Kids Next Door"
+          ]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Creepie"],
+      "versions": [
+        {
+          "editorialId": "da-396",
+          "title": "Creepie",
+          "explicitNames": [],
+          "names": ["Creepie", "Growing Up Creepie", "Creepy"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Creepschool"],
+      "versions": [
+        {
+          "editorialId": "da-397",
+          "title": "Creepschool",
+          "explicitNames": [],
+          "names": ["Creepschool", "Creep School"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Pyjamasques"],
+      "versions": [
+        {
+          "editorialId": "da-398",
+          "title": "Les Pyjamasques",
+          "explicitNames": [],
+          "names": ["Les Pyjamasques", "Pyjamasques", "PJ Masks", "PJMasks"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Les Octonauts"],
+      "versions": [
+        {
+          "editorialId": "da-399",
+          "title": "Les Octonauts",
+          "explicitNames": [],
+          "names": ["Les Octonauts", "Octonauts"]
+        }
+      ]
+    },
+    {
+      "franchiseAliases": ["Go Diego !"],
+      "versions": [
+        {
+          "editorialId": "da-400",
+          "title": "Go Diego !",
+          "explicitNames": [],
+          "names": ["Go Diego !", "Go Diego Go", "Diego", "GoDiego"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import type { Settings } from "./settings";
+import { cartoonFranchise } from "./cartoon-franchises";
 export function normalize(value: string): string {
   return value
     .normalize("NFKD")
@@ -83,23 +84,82 @@ export function validateAnswer(
   accepted: string[],
   difficulty: Settings["difficulties"][number],
   important: string[] = [],
+  cartoonId?: string,
 ): boolean {
-  return assessAnswer(answer, accepted, difficulty, important) === null;
+  return (
+    assessAnswer(answer, accepted, difficulty, important, cartoonId) === null
+  );
 }
 
 export type Rejection =
-  "invalid" | "short" | "number" | "important" | "incomplete" | "similarity";
+  | "invalid"
+  | "short"
+  | "number"
+  | "important"
+  | "incomplete"
+  | "similarity"
+  | "version";
 
 export function assessAnswer(
   answer: string,
   accepted: string[],
   difficulty: Settings["difficulties"][number],
   important: string[] = [],
+  cartoonId?: string,
 ): Rejection | null {
   const input = tokens(answer);
   const normalized = input.join(" ");
   if (!normalized || answer.length > 200) return "invalid";
   const threshold = { easy: 0.75, normal: 0.82, hard: 0.9 }[difficulty];
+  const franchise = cartoonFranchise(cartoonId);
+  if (franchise) {
+    const key = (text: string) => tokens(text).join("");
+    const answerKey = key(answer);
+    const general = franchise.group.franchiseAliases;
+    const generalKeys = new Set(general.map(key));
+    const own = franchise.version.names.filter(
+      (name) => !generalKeys.has(key(name)),
+    );
+    const others = franchise.group.versions
+      .filter((v) => v.editorialId !== cartoonId)
+      .flatMap((v) => v.names)
+      .filter((name) => !generalKeys.has(key(name)));
+    if (own.some((name) => key(name) === answerKey))
+      return assessAnswer(
+        answer,
+        [...accepted, ...franchise.version.explicitNames],
+        difficulty,
+        important,
+      );
+    if (others.some((name) => key(name) === answerKey)) return "version";
+    if (generalKeys.has(answerKey)) return null;
+    // A misspelled version name must not fall back to a shorter franchise alias.
+    const proximity = (name: string) => {
+      const candidate = key(name);
+      return (
+        1 -
+        distance(answerKey, candidate) /
+          Math.max(answerKey.length, candidate.length, 1)
+      );
+    };
+    const ownBest = Math.max(
+      0,
+      ...own.map(proximity),
+      ...general.map(proximity),
+    );
+    const otherBest = Math.max(0, ...others.map(proximity));
+    if (otherBest > ownBest && 0.8 * otherBest + 0.2 >= threshold)
+      return "version";
+    // Only tolerate typos in a franchise name, never extra words naming a version.
+    const generalCandidates = general.filter(
+      (name) => tokens(name).length === input.length,
+    );
+    if (
+      generalCandidates.length &&
+      assessAnswer(answer, generalCandidates, difficulty) === null
+    )
+      return null;
+  }
   const priority: Rejection[] = [
     "invalid",
     "short",

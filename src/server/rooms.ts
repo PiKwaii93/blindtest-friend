@@ -119,6 +119,7 @@ export async function catalogue(): Promise<Clip[]> {
       title: c.works.title,
       aliases: c.works.work_aliases.map((a: { alias: string }) => a.alias),
       important: c.works.important_words,
+      cartoonId: cartoon ? editorialId : undefined,
       categories,
       image: c.works.image_path,
       imageAttribution: c.works.image_attribution,

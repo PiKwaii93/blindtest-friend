@@ -80,6 +80,7 @@ type Availability = {
 };
 const labels = { easy: "Facile", normal: "Normal", hard: "Difficile" };
 const refusalLabels = {
+  version: "Cette réponse désigne une autre version de la franchise.",
   invalid: "La réponse ne contient pas de titre utilisable.",
   short:
     "Une réponse courte doit correspondre exactement à un titre ou à un alias.",

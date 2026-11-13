@@ -29,6 +29,7 @@ export type Clip = {
   generationYear?: number | null;
   popularity?: Popularity | null;
   animationOrigin?: AnimationOrigin | null;
+  cartoonId?: string;
 };
 export type Phase =
   | "LOBBY"
@@ -345,6 +346,7 @@ export function transition(state: Game, action: Action, now: number): Game {
         [clip.title, ...clip.aliases],
         clip.difficulty,
         clip.important,
+        clip.cartoonId,
       );
       const score = correct ? points(remainingMs, listenBudget(g)) : 0;
       g.attempts.push({
@@ -381,6 +383,7 @@ export function transition(state: Game, action: Action, now: number): Game {
       [clip.title, ...clip.aliases],
       clip.difficulty,
       clip.important,
+      clip.cartoonId,
     );
     if (a.correct) {
       a.points = points(a.remainingMs, listenBudget(g));
@@ -429,6 +432,7 @@ export function publicGame(g: Game, viewerId?: string) {
               [clip.title, ...clip.aliases],
               clip.difficulty,
               clip.important,
+              clip.cartoonId,
             ),
           },
         }
