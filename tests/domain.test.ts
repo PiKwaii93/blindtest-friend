@@ -17,7 +17,12 @@ import {
   type Player,
 } from "../src/domain/game";
 import { selectClips } from "../src/domain/selection";
-const settings = { ...defaultSettings, rounds: 10 };
+const settings = {
+  ...defaultSettings,
+  rounds: 10,
+  listenSeconds: 10,
+  answerSeconds: 10,
+};
 const clips: Clip[] = Array.from({ length: 60 }, (_, i) => ({
   id: String(i),
   workId: String(i),

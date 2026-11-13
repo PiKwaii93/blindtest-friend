@@ -144,7 +144,7 @@ export const defaultSettings: Settings = {
   categories: categoryNames,
   difficulties: [...difficulties],
   rounds: 20,
-  listenSeconds: 10,
-  answerSeconds: 10,
+  listenSeconds: 15,
+  answerSeconds: 15,
   mode: "individual",
 };

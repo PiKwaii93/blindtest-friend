@@ -42,10 +42,15 @@ const roman: Record<string, string> = {
   x: "10",
 };
 function tokens(s: string) {
-  return normalizeAnswer(s)
-    .split(" ")
-    .filter((t) => !articles.has(t))
-    .map((t) => roman[t] ?? t);
+  return (
+    normalizeAnswer(s)
+      // Keep edition numbers significant even when typed without a separating space.
+      .replace(/(\p{L})(\p{N})/gu, "$1 $2")
+      .replace(/(\p{N})(\p{L})/gu, "$1 $2")
+      .split(" ")
+      .filter((t) => !articles.has(t))
+      .map((t) => roman[t] ?? t)
+  );
 }
 const linkingWords = new Set([
   "et",

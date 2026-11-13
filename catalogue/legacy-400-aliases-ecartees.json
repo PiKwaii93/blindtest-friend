@@ -1,0 +1,545 @@
+[
+  {
+    "editorialId": "da-015",
+    "answer": "CareBears",
+    "conflicts": ["We Bare Bears"]
+  },
+  {
+    "editorialId": "da-066",
+    "answer": "AmericanDragon",
+    "conflicts": ["American Dad!"]
+  },
+  {
+    "editorialId": "da-107",
+    "answer": "PrincesseSarah",
+    "conflicts": ["Princesse Sissi"]
+  },
+  {
+    "editorialId": "da-164",
+    "answer": "DragonBallZ",
+    "conflicts": ["Dragon Ball"]
+  },
+  {
+    "editorialId": "da-165",
+    "answer": "DragonballGT",
+    "conflicts": ["Dragon Ball"]
+  },
+  {
+    "editorialId": "da-170",
+    "answer": "YugiohGX",
+    "conflicts": ["Yu-Gi-Oh! Duel Monsters"]
+  },
+  {
+    "editorialId": "da-189",
+    "answer": "SuperMarioWorld",
+    "conflicts": ["Super Mario World (jeu vidéo)"]
+  },
+  {
+    "editorialId": "da-189",
+    "answer": "MarioWorld",
+    "conflicts": ["Super Mario World (jeu vidéo)"]
+  },
+  {
+    "editorialId": "da-194",
+    "answer": "DonkeyKongCountry",
+    "conflicts": ["Donkey Kong Country (jeu vidéo)"]
+  },
+  {
+    "editorialId": "da-194",
+    "answer": "DonkeyKong",
+    "conflicts": ["Donkey Kong Country (jeu vidéo)"]
+  },
+  {
+    "editorialId": "da-264",
+    "answer": "PrincesseSofia",
+    "conflicts": ["Princesse Sissi"]
+  },
+  {
+    "editorialId": "vg-001",
+    "answer": "SuperMario",
+    "conflicts": ["Superman, l’Ange de Metropolis"]
+  },
+  {
+    "editorialId": "vg-002",
+    "answer": "SuperMarioWorld",
+    "conflicts": ["Super Mario World"]
+  },
+  {
+    "editorialId": "vg-002",
+    "answer": "MarioWorld",
+    "conflicts": ["Super Mario World"]
+  },
+  {
+    "editorialId": "vg-016",
+    "answer": "PokemonOr",
+    "conflicts": ["Pokémon", "Pokémon Rouge et Bleu"]
+  },
+  {
+    "editorialId": "vg-019",
+    "answer": "DonkeyKongCountry",
+    "conflicts": ["Donkey Kong Country"]
+  },
+  {
+    "editorialId": "vg-019",
+    "answer": "DonkeyKong",
+    "conflicts": ["Donkey Kong Country"]
+  },
+  {
+    "editorialId": "vg-047",
+    "answer": "CastlevaniaSOTN",
+    "conflicts": ["Castlevania"]
+  },
+  {
+    "editorialId": "vg-074",
+    "answer": "PortalII",
+    "conflicts": ["Portal"]
+  },
+  {
+    "editorialId": "da-004",
+    "answer": "FamillePierrafeu",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-041",
+    "answer": "FamillePirate",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-018",
+    "answer": "OnceUponaTimeLife",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-132",
+    "answer": "OnceUponaTimeMan",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-133",
+    "answer": "OnceUponaTimeSpace",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-022",
+    "answer": "NouvellesAventuresdeWinnie",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-197",
+    "answer": "NouvellesAventuresdeBatman",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-027",
+    "answer": "AladdinTheAnimatedSeries",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-198",
+    "answer": "BatmanTheAnimatedSeries",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-200",
+    "answer": "SupermanTheAnimatedSeries",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-204",
+    "answer": "XMenTheAnimatedSeries",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-206",
+    "answer": "SpiderManTheAnimatedSeries",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-209",
+    "answer": "IronManTheAnimatedSeries",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-253",
+    "answer": "FamilleProud",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-055",
+    "answer": "Wakfulasérie",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-121",
+    "answer": "Yakarilasérie",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-072",
+    "answer": "Lascarslasérie",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-081",
+    "answer": "TeenTitansGo",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-202",
+    "answer": "TeenTitans",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-098",
+    "answer": "AventuresdePaddington",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-117",
+    "answer": "AventuresdeTintin",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-098",
+    "answer": "AdventuresofPaddington",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-117",
+    "answer": "AdventuresofTintin",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-245",
+    "answer": "AdventuresofPussinBoots",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-116",
+    "answer": "AventuresdeBabar",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-191",
+    "answer": "AventuresdeSonic",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-212",
+    "answer": "AventuresdeBabaretBadou",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-230",
+    "answer": "AventuresdeSpot",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-233",
+    "answer": "AventuresdePapyrus",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-232",
+    "answer": "AventuresdeCorentin",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-230",
+    "answer": "AdventuresofSpot",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-147",
+    "answer": "Emimagique",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-210",
+    "answer": "Busmagique",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-147",
+    "answer": "MagicalEmi",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-151",
+    "answer": "MagicalDorémi",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-203",
+    "answer": "LégendedeKorra",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-257",
+    "answer": "LégendedeTarzan",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-203",
+    "answer": "LegendofKorra",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-257",
+    "answer": "LegendofTarzan",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-009",
+    "answer": "LegendofZelda",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-258",
+    "answer": "HerculesTheAnimatedSeries",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-270",
+    "answer": "VampirinaDisney",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "da-274",
+    "answer": "AmphibiaDisney",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-006",
+    "answer": "MarioKart",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-007",
+    "answer": "MarioKartWii",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-011",
+    "answer": "ZeldaOOT",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-014",
+    "answer": "ZeldaBOTW",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-015",
+    "answer": "PokemonRedBlue",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-018",
+    "answer": "PokemonPerle",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-023",
+    "answer": "SuperSmashBrosMelee",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-024",
+    "answer": "SuperSmashBrosBrawl",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-042",
+    "answer": "StreetFighterII",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-048",
+    "answer": "FinalFantasyVII",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-049",
+    "answer": "FinalFantasyVIII",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-050",
+    "answer": "FinalFantasyX",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-053",
+    "answer": "DragonQuestVIII",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-053",
+    "answer": "DQVIII",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-081",
+    "answer": "GrandTheftAutoV",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-083",
+    "answer": "AssassinsCreedII",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-090",
+    "answer": "AgeofEmpiresII",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-090",
+    "answer": "AOEII",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-091",
+    "answer": "CivilizationIV",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-091",
+    "answer": "CivIV",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  },
+  {
+    "editorialId": "vg-094",
+    "answer": "DiabloII",
+    "conflicts": [
+      "Nouvelle variante proche d’une autre œuvre ou suffixe romain non séparé."
+    ]
+  }
+]

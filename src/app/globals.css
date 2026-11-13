@@ -951,3 +951,43 @@ footer .brand {
   background: #b997ff;
   transform-origin: left;
 }
+
+.round-guesses {
+  width: min(100%, 44rem);
+  margin: 1rem auto;
+  text-align: left;
+}
+.round-guesses h3 {
+  font-size: 1rem;
+  margin: 0 0 0.6rem;
+}
+.round-guesses ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+.round-guesses li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 0.8rem;
+  padding: 0.65rem 0.8rem;
+  border: 1px solid #38294b;
+  border-radius: 0.75rem;
+  background: #1b1726;
+}
+.round-guess-answer {
+  flex: 1 1 12rem;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.round-guess-correct {
+  font-size: 0.8rem;
+  color: #b6e7c8;
+}
+.round-guess-wrong {
+  font-size: 0.8rem;
+  color: #ffc1cf;
+}

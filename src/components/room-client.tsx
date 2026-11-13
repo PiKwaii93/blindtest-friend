@@ -928,10 +928,7 @@ export function RoomClient({ code }: { code: string }) {
                         setSettings({
                           ...settings,
                           mode: e.target.value as Settings["mode"],
-                          listenSeconds:
-                            e.target.value === "open"
-                              ? 30
-                              : defaultSettings.listenSeconds,
+                          listenSeconds: defaultSettings.listenSeconds,
                         })
                       }
                     >
@@ -1212,6 +1209,42 @@ export function RoomClient({ code }: { code: string }) {
                     <small className="muted">{g.reveal.imageAttribution}</small>
                   )}
                   <h2 className="reveal-title">{g.reveal?.title}</h2>
+                  {!openMode && g.attempts.length > 0 && (
+                    <section
+                      className="round-guesses"
+                      aria-label="Les propositions des joueurs"
+                    >
+                      <h3>Vos propositions</h3>
+                      <ul>
+                        {g.attempts.map((guess, index) => (
+                          <li key={`${guess.playerId}:${index}`}>
+                            <strong>
+                              {g.players.find((p) => p.id === guess.playerId)
+                                ?.name ?? "Joueur parti"}
+                            </strong>
+                            <span className="round-guess-answer">
+                              {guess.answer !== undefined && guess.answer.trim()
+                                ? `« ${guess.answer} »`
+                                : "Aucune réponse"}
+                            </span>
+                            <span
+                              className={
+                                guess.correct
+                                  ? "round-guess-correct"
+                                  : "round-guess-wrong"
+                              }
+                            >
+                              {guess.correct
+                                ? "Bonne réponse"
+                                : guess.answer?.trim()
+                                  ? "Mauvaise réponse"
+                                  : "Temps écoulé"}
+                            </span>
+                          </li>
+                        ))}
+                      </ul>
+                    </section>
+                  )}
                   {hasVideo &&
                     gameId &&
                     (reported === `${gameId}:${g.round}` ? (

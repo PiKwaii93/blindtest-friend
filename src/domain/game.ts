@@ -433,9 +433,14 @@ export function publicGame(g: Game, viewerId?: string) {
           },
         }
       : {}),
-    attempts: g.attempts.map(({ answer: _answer, ...a }) => {
-      void _answer;
-      return a;
+    attempts: g.attempts.map(({ answer, ...a }) => {
+      const revealed = g.phase === "REVEAL" || g.phase === "FINISHED";
+      return {
+        ...a,
+        ...(revealed && g.settings.mode !== "open" && answer !== undefined
+          ? { answer }
+          : {}),
+      };
     }),
     reveal:
       g.phase === "REVEAL" || g.phase === "FINISHED"

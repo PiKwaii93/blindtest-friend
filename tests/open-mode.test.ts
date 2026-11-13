@@ -34,7 +34,7 @@ const clip: Clip = {
 };
 function playing() {
   let game = start(
-    { ...defaultSettings, mode: "open", rounds: 1 },
+    { ...defaultSettings, mode: "open", rounds: 1, listenSeconds: 10 },
     players,
     [clip],
     0,

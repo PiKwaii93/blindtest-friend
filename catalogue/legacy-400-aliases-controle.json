@@ -1,0 +1,2266 @@
+[
+  {
+    "editorialId": "da-001",
+    "title": "Scooby-Doo",
+    "accepted": ["ScoobyDoo", "ScoobyDoooùestu", "ScoobyDooWhereAreYou"]
+  },
+  {
+    "editorialId": "da-002",
+    "title": "Tom et Jerry",
+    "accepted": ["TometJerry", "TomandJerry"]
+  },
+  {
+    "editorialId": "da-003",
+    "title": "Looney Tunes",
+    "accepted": ["LooneyTunes", "LooneyToons"]
+  },
+  {
+    "editorialId": "da-004",
+    "title": "Les Pierrafeu",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-005",
+    "title": "Les Jetsons",
+    "accepted": ["Les Jetson", "FamilleJetson"]
+  },
+  {
+    "editorialId": "da-006",
+    "title": "La Panthère rose",
+    "accepted": ["Panthèrerose", "PinkPanther"]
+  },
+  {
+    "editorialId": "da-007",
+    "title": "Le Manège enchanté",
+    "accepted": ["Manègeenchanté", "MagicRoundabout"]
+  },
+  {
+    "editorialId": "da-008",
+    "title": "Barbapapa",
+    "accepted": ["FamilleBarbapapa"]
+  },
+  {
+    "editorialId": "da-009",
+    "title": "Les Schtroumpfs",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-010",
+    "title": "Inspecteur Gadget",
+    "accepted": ["InspecteurGadget"]
+  },
+  {
+    "editorialId": "da-011",
+    "title": "Les Mystérieuses Cités d'or",
+    "accepted": [
+      "Les Mystérieuses Cités Dor",
+      "MystérieusesCitésdor",
+      "CitesDor",
+      "MysteriousCitiesofGold"
+    ]
+  },
+  {
+    "editorialId": "da-012",
+    "title": "Ulysse 31",
+    "accepted": ["Ulyssetrenteetun"]
+  },
+  {
+    "editorialId": "da-013",
+    "title": "Les Minipouss",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-014",
+    "title": "Les Entrechats",
+    "accepted": ["HeathcliffandtheCatillacCats"]
+  },
+  {
+    "editorialId": "da-015",
+    "title": "Les Bisounours",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-016",
+    "title": "Les Gummi",
+    "accepted": ["AdventuresoftheGummiBears"]
+  },
+  {
+    "editorialId": "da-017",
+    "title": "La Bande à Picsou",
+    "accepted": ["BandeàPicsou"]
+  },
+  {
+    "editorialId": "da-018",
+    "title": "Il était une fois… la Vie",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-019",
+    "title": "Les Tortues Ninja",
+    "accepted": ["TortuesNinja", "TortuesNinja1987"]
+  },
+  {
+    "editorialId": "da-020",
+    "title": "Denver, le dernier dinosaure",
+    "accepted": ["Denverledernierdinosaure", "DenvertheLastDinosaur"]
+  },
+  {
+    "editorialId": "da-021",
+    "title": "Tic et Tac, les rangers du risque",
+    "accepted": ["Les Rangers du risque", "TicetTac", "ChipnDaleRescueRangers"]
+  },
+  {
+    "editorialId": "da-022",
+    "title": "Les Nouvelles Aventures de Winnie l'ourson",
+    "accepted": ["Winnielourson"]
+  },
+  {
+    "editorialId": "da-023",
+    "title": "Super Baloo",
+    "accepted": ["SuperBaloo"]
+  },
+  {
+    "editorialId": "da-024",
+    "title": "Myster Mask",
+    "accepted": ["DarkwingDuck"]
+  },
+  {
+    "editorialId": "da-025",
+    "title": "La Bande à Dingo",
+    "accepted": ["BandeàDingo", "GoofTroop"]
+  },
+  {
+    "editorialId": "da-026",
+    "title": "La Petite Sirène, la série",
+    "accepted": [
+      "PetiteSirènelasérie",
+      "PetiteSirène",
+      "LittleMermaidTheSeries"
+    ]
+  },
+  {
+    "editorialId": "da-027",
+    "title": "Aladdin, la série",
+    "accepted": ["Aladdinlasérie"]
+  },
+  {
+    "editorialId": "da-028",
+    "title": "Gargoyles, les anges de la nuit",
+    "accepted": ["AngesdelaNuit"]
+  },
+  {
+    "editorialId": "da-029",
+    "title": "Le Laboratoire de Dexter",
+    "accepted": ["LaboratoiredeDexter", "LabodeDexter", "DextersLaboratory"]
+  },
+  {
+    "editorialId": "da-030",
+    "title": "Johnny Bravo",
+    "accepted": ["JohnnyBravo", "JonnyBravo", "JohnnyBravoCartoonNetwork"]
+  },
+  {
+    "editorialId": "da-031",
+    "title": "Les Supers Nanas",
+    "accepted": ["SupersNanas", "PowerpuffGirls"]
+  },
+  {
+    "editorialId": "da-032",
+    "title": "Courage, le chien froussard",
+    "accepted": [
+      "Couragelechienfroussard",
+      "Couragelechien",
+      "CouragetheCowardlyDog"
+    ]
+  },
+  {
+    "editorialId": "da-033",
+    "title": "Ed, Edd et Eddy",
+    "accepted": ["Ed Edd Eddy", "EdEddetEddy", "EdEddnEddy"]
+  },
+  {
+    "editorialId": "da-034",
+    "title": "Les Razmoket",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-035",
+    "title": "Hé Arnold !",
+    "accepted": ["HéArnold", "HeyArnold"]
+  },
+  {
+    "editorialId": "da-036",
+    "title": "Doug",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-037",
+    "title": "Les Animaniacs",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-038",
+    "title": "Minus et Cortex",
+    "accepted": ["MinusetCortex", "PinkyandtheBrain", "PinkyetleCerveau"]
+  },
+  {
+    "editorialId": "da-039",
+    "title": "La Cour de récré",
+    "accepted": ["La Cour de récréation", "Courderécré"]
+  },
+  {
+    "editorialId": "da-040",
+    "title": "Timon et Pumbaa",
+    "accepted": ["TimonetPumbaa"]
+  },
+  {
+    "editorialId": "da-041",
+    "title": "La Famille Pirate",
+    "accepted": ["PirateFamily"]
+  },
+  {
+    "editorialId": "da-042",
+    "title": "Les Zinzins de l'espace",
+    "accepted": ["Zinzinsdelespace", "SpaceGoofs"]
+  },
+  {
+    "editorialId": "da-043",
+    "title": "Oggy et les Cafards",
+    "accepted": ["OggyetlesCafards", "OggyandtheCockroaches"]
+  },
+  {
+    "editorialId": "da-044",
+    "title": "Les Simpson",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-045",
+    "title": "Futurama",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-046",
+    "title": "Bob l'éponge",
+    "accepted": [
+      "Sponge Bob",
+      "Sponge Bob Squarepants",
+      "Bobléponge",
+      "SpongeBobSquarePants"
+    ]
+  },
+  {
+    "editorialId": "da-047",
+    "title": "Totally Spies !",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-048",
+    "title": "Code Lyoko",
+    "accepted": ["CodeLyoko"]
+  },
+  {
+    "editorialId": "da-049",
+    "title": "Titeuf",
+    "accepted": ["Titeuflasérie", "Titeufledessinanimé"]
+  },
+  {
+    "editorialId": "da-050",
+    "title": "Martin Mystère",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-051",
+    "title": "Ratz",
+    "accepted": ["RapidoetRazmo"]
+  },
+  {
+    "editorialId": "da-052",
+    "title": "Corneil et Bernie",
+    "accepted": ["CorneiletBernie", "WatchMyChops"]
+  },
+  {
+    "editorialId": "da-053",
+    "title": "Foot 2 rue",
+    "accepted": ["Footderue", "FootDeuxRue"]
+  },
+  {
+    "editorialId": "da-054",
+    "title": "Galactik Football",
+    "accepted": ["GalactikFootball", "GalactikFoot"]
+  },
+  {
+    "editorialId": "da-055",
+    "title": "Wakfu",
+    "accepted": ["WakfuAnkama"]
+  },
+  {
+    "editorialId": "da-056",
+    "title": "Winx Club",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-057",
+    "title": "W.I.T.C.H.",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-058",
+    "title": "Kim Possible",
+    "accepted": ["KimPossibleDisney"]
+  },
+  {
+    "editorialId": "da-059",
+    "title": "Phinéas et Ferb",
+    "accepted": ["PhinéasetFerb", "PhineasandFerb"]
+  },
+  {
+    "editorialId": "da-060",
+    "title": "La Famille Delajungle",
+    "accepted": ["FamilledelaJungle", "WildThornberrys"]
+  },
+  {
+    "editorialId": "da-061",
+    "title": "Jimmy Neutron",
+    "accepted": [
+      "JimmyNeutron",
+      "AventuresdeJimmyNeutron",
+      "JimmyNeutronBoyGenius"
+    ]
+  },
+  {
+    "editorialId": "da-062",
+    "title": "Mes parrains sont magiques",
+    "accepted": [
+      "Parrains magiques",
+      "Mesparrainssontmagiques",
+      "FairlyOddParents",
+      "MesParrainsMagiques"
+    ]
+  },
+  {
+    "editorialId": "da-063",
+    "title": "Danny Fantôme",
+    "accepted": ["DannyFantôme", "DannyPhantom"]
+  },
+  {
+    "editorialId": "da-064",
+    "title": "Avatar, le dernier maître de l'air",
+    "accepted": ["AvatarTheLastAirbender"]
+  },
+  {
+    "editorialId": "da-065",
+    "title": "Ben 10",
+    "accepted": ["BenTen"]
+  },
+  {
+    "editorialId": "da-066",
+    "title": "American Dragon : Jake Long",
+    "accepted": ["AmericanDragonJakeLong", "JakeLong"]
+  },
+  {
+    "editorialId": "da-067",
+    "title": "Les Aventures de Jackie Chan",
+    "accepted": ["AventuresdeJackieChan", "JackieChanAdventures", "JackieChan"]
+  },
+  {
+    "editorialId": "da-068",
+    "title": "Dora l'exploratrice",
+    "accepted": ["Doralexploratrice", "DoratheExplorer"]
+  },
+  {
+    "editorialId": "da-069",
+    "title": "Clifford, le gros chien rouge",
+    "accepted": ["Cliffordlegroschienrouge", "CliffordtheBigRedDog"]
+  },
+  {
+    "editorialId": "da-070",
+    "title": "Charlotte aux fraises",
+    "accepted": ["Charlotteauxfraises", "StrawberryShortcake"]
+  },
+  {
+    "editorialId": "da-071",
+    "title": "Petit Ours Brun",
+    "accepted": ["PetitOursBrun", "LittleBrownBear"]
+  },
+  {
+    "editorialId": "da-072",
+    "title": "Les Lascars",
+    "accepted": ["Lascarsdessinanimé"]
+  },
+  {
+    "editorialId": "da-073",
+    "title": "Funky Cops",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-074",
+    "title": "Les Minijusticiers",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-075",
+    "title": "Garfield & Cie",
+    "accepted": [
+      "Garfield and Co",
+      "Garfield et Co",
+      "GarfieldetCie",
+      "GarfieldShow",
+      "Garfieldetcompagnie"
+    ]
+  },
+  {
+    "editorialId": "da-076",
+    "title": "Adventure Time",
+    "accepted": ["AdventureTime"]
+  },
+  {
+    "editorialId": "da-077",
+    "title": "Le Monde incroyable de Gumball",
+    "accepted": ["MondeincroyabledeGumball", "AmazingWorldofGumball"]
+  },
+  {
+    "editorialId": "da-078",
+    "title": "Regular Show",
+    "accepted": ["Unshowordinaire"]
+  },
+  {
+    "editorialId": "da-079",
+    "title": "Steven Universe",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-080",
+    "title": "Souvenirs de Gravity Falls",
+    "accepted": ["SouvenirsdeGravityFalls", "GravityFalls"]
+  },
+  {
+    "editorialId": "da-081",
+    "title": "Teen Titans Go!",
+    "accepted": ["TeenTitansGoCartoonNetwork"]
+  },
+  {
+    "editorialId": "da-082",
+    "title": "Miraculous : Les Aventures de Ladybug et Chat Noir",
+    "accepted": ["Lady Bug", "LadybugetChatNoir", "MiraculousLadybug"]
+  },
+  {
+    "editorialId": "da-083",
+    "title": "Les Sisters",
+    "accepted": ["SistersWendyetMarine"]
+  },
+  {
+    "editorialId": "da-084",
+    "title": "Grizzy et les Lemmings",
+    "accepted": ["GrizzyetlesLemmings", "GrizzyandtheLemmings"]
+  },
+  {
+    "editorialId": "da-085",
+    "title": "Peppa Pig",
+    "accepted": ["PeppaPig"]
+  },
+  {
+    "editorialId": "da-086",
+    "title": "La Pat' Patrouille",
+    "accepted": ["PatPatrouille", "PawPatrol"]
+  },
+  {
+    "editorialId": "da-087",
+    "title": "Masha et Michka",
+    "accepted": ["MashaetMichka", "MashaandtheBear"]
+  },
+  {
+    "editorialId": "da-088",
+    "title": "Bienvenue chez les Loud",
+    "accepted": ["BienvenuechezlesLoud", "LoudHouse"]
+  },
+  {
+    "editorialId": "da-089",
+    "title": "Ninjago : Les Maîtres du Spinjitzu",
+    "accepted": [
+      "Lego Ninjago",
+      "NinjagoLesMaîtresduSpinjitzu",
+      "NinjagoMastersofSpinjitzu"
+    ]
+  },
+  {
+    "editorialId": "da-090",
+    "title": "My Little Pony : Les amies, c'est magique",
+    "accepted": ["MLP FIM", "MLPFIM", "Friendship Is Magic", "MyLittlePony"]
+  },
+  {
+    "editorialId": "da-091",
+    "title": "Dragons : Cavaliers de Beurk",
+    "accepted": [
+      "DragonsCavaliersdeBeurk",
+      "CavaliersdeBeurk",
+      "DragonsRidersofBerk"
+    ]
+  },
+  {
+    "editorialId": "da-092",
+    "title": "Sanjay et Craig",
+    "accepted": ["SanjayetCraig", "SanjayandCraig"]
+  },
+  {
+    "editorialId": "da-093",
+    "title": "LoliRock",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-094",
+    "title": "Zig et Sharko",
+    "accepted": ["ZigetSharko", "ZigandSharko"]
+  },
+  {
+    "editorialId": "da-095",
+    "title": "Oscar et Malika, toujours en retard",
+    "accepted": ["OscaretMalika", "NateIsLate"]
+  },
+  {
+    "editorialId": "da-096",
+    "title": "Bluey",
+    "accepted": ["BlueyetBingo"]
+  },
+  {
+    "editorialId": "da-097",
+    "title": "Sonic Prime",
+    "accepted": ["SonicPrime", "SonicPrimeNetflix"]
+  },
+  {
+    "editorialId": "da-098",
+    "title": "Les Aventures de Paddington",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-099",
+    "title": "Le Cuphead Show !",
+    "accepted": ["CupheadShow"]
+  },
+  {
+    "editorialId": "da-100",
+    "title": "Les Lapins Crétins : Invasion",
+    "accepted": [
+      "Rabbids",
+      "LapinsCrétinsInvasion",
+      "LapinsCrétins",
+      "RabbidsInvasion"
+    ]
+  },
+  {
+    "editorialId": "da-101",
+    "title": "Goldorak",
+    "accepted": ["UFORobotGrendizer"]
+  },
+  {
+    "editorialId": "da-102",
+    "title": "Albator 78",
+    "accepted": ["Albatorlecorsairedelespace", "SpacePirateCaptainHarlock"]
+  },
+  {
+    "editorialId": "da-103",
+    "title": "Albator 84",
+    "accepted": ["Albator SSX", "Albatorleretour"]
+  },
+  {
+    "editorialId": "da-104",
+    "title": "Candy",
+    "accepted": ["CandyCandy"]
+  },
+  {
+    "editorialId": "da-105",
+    "title": "Rémi sans famille",
+    "accepted": ["Rémisansfamille", "NobodysBoyRemi"]
+  },
+  {
+    "editorialId": "da-106",
+    "title": "Heidi",
+    "accepted": ["HeidifilledesAlpes", "HeidiGirloftheAlps"]
+  },
+  {
+    "editorialId": "da-107",
+    "title": "Princesse Sarah",
+    "accepted": ["Sarah", "Sara", "ALittlePrincessSara"]
+  },
+  {
+    "editorialId": "da-108",
+    "title": "Belle et Sébastien",
+    "accepted": ["BelleetSébastien", "BelleandSebastian"]
+  },
+  {
+    "editorialId": "da-109",
+    "title": "Les Aventures de Tom Sawyer",
+    "accepted": ["AventuresdeTomSawyer", "TomSawyer", "AdventuresofTomSawyer"]
+  },
+  {
+    "editorialId": "da-110",
+    "title": "Le Tour du monde en 80 jours",
+    "accepted": ["WillyFog"]
+  },
+  {
+    "editorialId": "da-111",
+    "title": "Les Trois Mousquetaires",
+    "accepted": ["Les 3 Mousquetaires", "TroisMousquetaires", "ThreeMusketeers"]
+  },
+  {
+    "editorialId": "da-112",
+    "title": "Calimero",
+    "accepted": ["CalimeroetPriscilla", "Calimerolepoussin"]
+  },
+  {
+    "editorialId": "da-113",
+    "title": "Maya l’abeille",
+    "accepted": ["Mayalabeille", "MayatheBee"]
+  },
+  {
+    "editorialId": "da-114",
+    "title": "Vic le Viking",
+    "accepted": ["VicleViking", "VickyleViking"]
+  },
+  {
+    "editorialId": "da-115",
+    "title": "Nils Holgersson",
+    "accepted": ["NilsHolgersson"]
+  },
+  {
+    "editorialId": "da-116",
+    "title": "Babar",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-117",
+    "title": "Les Aventures de Tintin",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-118",
+    "title": "Lucky Luke",
+    "accepted": ["LuckyLukeclassique"]
+  },
+  {
+    "editorialId": "da-119",
+    "title": "Les Dalton",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-120",
+    "title": "Marsupilami",
+    "accepted": ["MonamiMarsupilami"]
+  },
+  {
+    "editorialId": "da-121",
+    "title": "Yakari",
+    "accepted": ["YakarietPetitTonnerre"]
+  },
+  {
+    "editorialId": "da-122",
+    "title": "Boule et Bill",
+    "accepted": ["BouleetBill", "BillyandBuddy"]
+  },
+  {
+    "editorialId": "da-123",
+    "title": "Cédric",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-124",
+    "title": "Trotro",
+    "accepted": ["âneTrotro"]
+  },
+  {
+    "editorialId": "da-125",
+    "title": "Les Babalous",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-126",
+    "title": "Les Contes de la rue Broca",
+    "accepted": ["ContesdelarueBroca", "RueBroca"]
+  },
+  {
+    "editorialId": "da-127",
+    "title": "Les Malheurs de Sophie",
+    "accepted": ["MalheursdeSophie", "SophiesMisfortunes"]
+  },
+  {
+    "editorialId": "da-128",
+    "title": "Les Shadoks",
+    "accepted": ["EtvoilalesShadoks"]
+  },
+  {
+    "editorialId": "da-129",
+    "title": "Colargol",
+    "accepted": ["AventuresdeColargol"]
+  },
+  {
+    "editorialId": "da-130",
+    "title": "Chapi Chapo",
+    "accepted": ["ChapiChapo", "ChapietChapo"]
+  },
+  {
+    "editorialId": "da-131",
+    "title": "Aglaé et Sidonie",
+    "accepted": ["AglaéetSidonie"]
+  },
+  {
+    "editorialId": "da-132",
+    "title": "Il était une fois… l’Homme",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-133",
+    "title": "Il était une fois… l’Espace",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-134",
+    "title": "Il était une fois… les Découvreurs",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-135",
+    "title": "Il était une fois… les Explorateurs",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-136",
+    "title": "Il était une fois… les Amériques",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-137",
+    "title": "Les Mondes engloutis",
+    "accepted": ["Mondesengloutis"]
+  },
+  {
+    "editorialId": "da-138",
+    "title": "Les Maîtres de l’Univers",
+    "accepted": ["HeMan", "MaîtresdelUnivers"]
+  },
+  {
+    "editorialId": "da-139",
+    "title": "She-Ra, la princesse du pouvoir",
+    "accepted": ["SheRaPrincessofPower"]
+  },
+  {
+    "editorialId": "da-140",
+    "title": "Les Cosmocats",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-141",
+    "title": "SilverHawks",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-142",
+    "title": "MASK",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-143",
+    "title": "Transformers (1984)",
+    "accepted": ["TransformersG1"]
+  },
+  {
+    "editorialId": "da-144",
+    "title": "G.I. Joe : Héros sans frontières",
+    "accepted": ["GIJoe"]
+  },
+  {
+    "editorialId": "da-145",
+    "title": "Jem et les Hologrammes",
+    "accepted": ["JemetlesHologrammes", "JemandtheHolograms"]
+  },
+  {
+    "editorialId": "da-146",
+    "title": "Max et Compagnie",
+    "accepted": ["Max et Co", "MaxetCompagnie", "KimagureOrangeRoad"]
+  },
+  {
+    "editorialId": "da-147",
+    "title": "Emi magique",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-148",
+    "title": "Creamy, merveilleuse Creamy",
+    "accepted": ["CreamymerveilleuseCreamy", "CreamyMami"]
+  },
+  {
+    "editorialId": "da-149",
+    "title": "Susy aux fleurs magiques",
+    "accepted": ["Susy", "Susyauxfleursmagiques", "MagicalIdolPastelYumi"]
+  },
+  {
+    "editorialId": "da-150",
+    "title": "Gigi",
+    "accepted": ["MinkyMomo"]
+  },
+  {
+    "editorialId": "da-151",
+    "title": "Magical Dorémi",
+    "accepted": ["Dorémi magique", "OjamajoDoremi"]
+  },
+  {
+    "editorialId": "da-152",
+    "title": "Sailor Moon",
+    "accepted": ["SailorMoon", "PrettySoldierSailorMoon"]
+  },
+  {
+    "editorialId": "da-153",
+    "title": "Lady Oscar",
+    "accepted": ["LadyOscar", "RosedeVersailles", "RoseofVersailles"]
+  },
+  {
+    "editorialId": "da-154",
+    "title": "Georgie",
+    "accepted": ["LadyGeorgie"]
+  },
+  {
+    "editorialId": "da-155",
+    "title": "Lucile, amour et rock'n roll",
+    "accepted": ["AishiteKnight", "KissMeLicia"]
+  },
+  {
+    "editorialId": "da-156",
+    "title": "Juliette, je t'aime",
+    "accepted": ["JulietteJeTaime", "MaisonIkkoku"]
+  },
+  {
+    "editorialId": "da-157",
+    "title": "Ranma ½",
+    "accepted": ["Ranmaundemi"]
+  },
+  {
+    "editorialId": "da-158",
+    "title": "Lamu",
+    "accepted": ["UruseiYatsura"]
+  },
+  {
+    "editorialId": "da-159",
+    "title": "Nicky Larson",
+    "accepted": ["NickyLarson", "CityHunter"]
+  },
+  {
+    "editorialId": "da-160",
+    "title": "Cat’s Eye",
+    "accepted": ["Catseyes", "CatsEye"]
+  },
+  {
+    "editorialId": "da-161",
+    "title": "Ken le Survivant",
+    "accepted": ["KenleSurvivant", "HokutonoKen", "FistoftheNorthStar"]
+  },
+  {
+    "editorialId": "da-162",
+    "title": "Les Chevaliers du Zodiaque",
+    "accepted": [
+      "CDZ",
+      "ChevaliersduZodiaque",
+      "SaintSeiya",
+      "ChevaliersduZodiaque1986",
+      "KnightsoftheZodiac"
+    ]
+  },
+  {
+    "editorialId": "da-163",
+    "title": "Dragon Ball",
+    "accepted": ["DragonBall1986"]
+  },
+  {
+    "editorialId": "da-164",
+    "title": "Dragon Ball Z",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-165",
+    "title": "Dragon Ball GT",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-166",
+    "title": "Dragon Ball Super",
+    "accepted": ["DragonballSuper"]
+  },
+  {
+    "editorialId": "da-167",
+    "title": "Pokémon",
+    "accepted": ["PocketMonsters"]
+  },
+  {
+    "editorialId": "da-168",
+    "title": "Digimon Adventure",
+    "accepted": ["DigimonAdventure", "DigimonDigitalMonsters"]
+  },
+  {
+    "editorialId": "da-169",
+    "title": "Beyblade",
+    "accepted": ["BakutenShootBeyblade"]
+  },
+  {
+    "editorialId": "da-170",
+    "title": "Yu-Gi-Oh! GX",
+    "accepted": ["YuGiOhGenerationNext"]
+  },
+  {
+    "editorialId": "da-171",
+    "title": "Yu-Gi-Oh! 5D’s",
+    "accepted": ["Yu Gi Oh 5D"]
+  },
+  {
+    "editorialId": "da-172",
+    "title": "Shaman King",
+    "accepted": ["ShamanKing", "ShamanKing2001"]
+  },
+  {
+    "editorialId": "da-173",
+    "title": "Medabots",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-174",
+    "title": "Monster Rancher",
+    "accepted": ["MonsterRancher", "MonsterFarm"]
+  },
+  {
+    "editorialId": "da-175",
+    "title": "Sakura, chasseuse de cartes",
+    "accepted": ["Sakurachasseusedecartes", "CardcaptorSakura"]
+  },
+  {
+    "editorialId": "da-176",
+    "title": "Tsubasa Reservoir Chronicle",
+    "accepted": [
+      "TRC",
+      "TsubasaReservoirChronicle",
+      "TsubasaChronicle",
+      "TsubasaReservoir"
+    ]
+  },
+  {
+    "editorialId": "da-177",
+    "title": "Olive et Tom",
+    "accepted": ["OliveetTom", "CaptainTsubasa"]
+  },
+  {
+    "editorialId": "da-178",
+    "title": "L’École des champions",
+    "accepted": [
+      "Écoledeschampions",
+      "EcoledesChampionsdefootball",
+      "MoeroTopStriker"
+    ]
+  },
+  {
+    "editorialId": "da-179",
+    "title": "But pour Rudy",
+    "accepted": ["ButpourRudy", "GanbareKickers"]
+  },
+  {
+    "editorialId": "da-180",
+    "title": "Jeanne et Serge",
+    "accepted": ["JeanneetSerge", "AttackerYou"]
+  },
+  {
+    "editorialId": "da-181",
+    "title": "Gwendoline",
+    "accepted": ["LadyLady"]
+  },
+  {
+    "editorialId": "da-182",
+    "title": "Capitaine Flam",
+    "accepted": ["Captain Flam", "CapitaineFlam", "CaptainFuture"]
+  },
+  {
+    "editorialId": "da-183",
+    "title": "Cobra",
+    "accepted": ["SpaceAdventureCobra"]
+  },
+  {
+    "editorialId": "da-184",
+    "title": "Astro, le petit robot",
+    "accepted": [
+      "Astro",
+      "AstroBoy",
+      "Astrolepetitrobot",
+      "AstrolePetitRobot1980"
+    ]
+  },
+  {
+    "editorialId": "da-185",
+    "title": "Robotech",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-186",
+    "title": "Jayce et les Conquérants de la lumière",
+    "accepted": ["JayceandtheWheeledWarriors"]
+  },
+  {
+    "editorialId": "da-187",
+    "title": "Les Samouraïs de l’Éternel",
+    "accepted": [
+      "SamouraïsdelÉternel",
+      "RoninWarriors",
+      "YoroidenSamuraiTroopers"
+    ]
+  },
+  {
+    "editorialId": "da-188",
+    "title": "Les Aventures de Super Mario Bros. 3",
+    "accepted": ["SuperMarioBros3", "MarioBros3"]
+  },
+  {
+    "editorialId": "da-189",
+    "title": "Super Mario World",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-190",
+    "title": "Le Super Show de Super Mario Bros.",
+    "accepted": [
+      "Super Mario Super Show",
+      "Mario Super Show",
+      "SuperMarioBrosSuperShow"
+    ]
+  },
+  {
+    "editorialId": "da-191",
+    "title": "Les Aventures de Sonic",
+    "accepted": ["AdventuresofSonictheHedgehog"]
+  },
+  {
+    "editorialId": "da-192",
+    "title": "Sonic X",
+    "accepted": ["SonicX2003"]
+  },
+  {
+    "editorialId": "da-193",
+    "title": "Sonic Boom",
+    "accepted": ["SonicBoom2014"]
+  },
+  {
+    "editorialId": "da-194",
+    "title": "Donkey Kong Country",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-195",
+    "title": "Pac-Man",
+    "accepted": ["PacMan1982"]
+  },
+  {
+    "editorialId": "da-196",
+    "title": "Pac-Man et les Aventures de fantômes",
+    "accepted": ["PacManAventuresdeFantomes"]
+  },
+  {
+    "editorialId": "da-197",
+    "title": "Les Nouvelles Aventures de Batman",
+    "accepted": ["NewAdventuresofBatman1977"]
+  },
+  {
+    "editorialId": "da-198",
+    "title": "Batman, la série animée (1992)",
+    "accepted": ["Batman", "BTAS", "Batmanlasérieanimée1992", "BatmanTAS"]
+  },
+  {
+    "editorialId": "da-199",
+    "title": "Batman, la relève",
+    "accepted": ["BatmanBeyond", "Batmanlarelève"]
+  },
+  {
+    "editorialId": "da-200",
+    "title": "Superman, l’Ange de Metropolis",
+    "accepted": ["SupermanlAngedeMetropolis"]
+  },
+  {
+    "editorialId": "da-201",
+    "title": "La Ligue des justiciers",
+    "accepted": ["Liguedesjusticiers", "JusticeLeague"]
+  },
+  {
+    "editorialId": "da-202",
+    "title": "Teen Titans : Les Jeunes Titans",
+    "accepted": [
+      "Teen Titans",
+      "TeenTitansLesJeunesTitans",
+      "TeenTitans2003",
+      "JeunesTitans"
+    ]
+  },
+  {
+    "editorialId": "da-203",
+    "title": "La Légende de Korra",
+    "accepted": ["AvatarLaLegendedeKorra"]
+  },
+  {
+    "editorialId": "da-204",
+    "title": "X-Men (1992)",
+    "accepted": ["X-Men", "Xmen", "XMen1992", "XMenTAS"]
+  },
+  {
+    "editorialId": "da-205",
+    "title": "X-Men : Evolution",
+    "accepted": ["XmenEvolution"]
+  },
+  {
+    "editorialId": "da-206",
+    "title": "Spider-Man, l’homme-araignée (1994)",
+    "accepted": ["Spider-Man", "Spiderman", "Spider-Man TAS", "SpiderMan1994"]
+  },
+  {
+    "editorialId": "da-207",
+    "title": "Spectacular Spider-Man",
+    "accepted": [
+      "SpectacularSpiderMan",
+      "SpiderManSpectacular",
+      "SpectacularSpiderMan2008"
+    ]
+  },
+  {
+    "editorialId": "da-208",
+    "title": "Les Quatre Fantastiques (1994)",
+    "accepted": [
+      "Les Quatre Fantastiques",
+      "Fantastic Four",
+      "QuatreFantastiques1994",
+      "FantasticFour1994"
+    ]
+  },
+  {
+    "editorialId": "da-209",
+    "title": "Iron Man (1994)",
+    "accepted": ["IronMan1994", "IronMan"]
+  },
+  {
+    "editorialId": "da-210",
+    "title": "Le Bus magique",
+    "accepted": ["MagicSchoolBus", "BusMagique1994"]
+  },
+  {
+    "editorialId": "da-211",
+    "title": "Le Bus magique reprend la route",
+    "accepted": ["Busmagiquereprendlaroute", "MagicSchoolBusRidesAgain"]
+  },
+  {
+    "editorialId": "da-212",
+    "title": "Les Aventures de Babar et Badou",
+    "accepted": ["BabaretBadou"]
+  },
+  {
+    "editorialId": "da-213",
+    "title": "Franklin",
+    "accepted": ["Franklinlatortue"]
+  },
+  {
+    "editorialId": "da-214",
+    "title": "Franklin et ses amis",
+    "accepted": ["Franklinetsesamis", "FranklinandFriends"]
+  },
+  {
+    "editorialId": "da-215",
+    "title": "Arthur",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-216",
+    "title": "Caillou",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-217",
+    "title": "Pingu",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-218",
+    "title": "Mimi la souris",
+    "accepted": ["Mimilasouris"]
+  },
+  {
+    "editorialId": "da-219",
+    "title": "Didou",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-220",
+    "title": "Pocoyo",
+    "accepted": ["PocoyoetPato"]
+  },
+  {
+    "editorialId": "da-221",
+    "title": "Dino Train",
+    "accepted": ["DinoTrain", "DinosaurTrain"]
+  },
+  {
+    "editorialId": "da-222",
+    "title": "Chuggington",
+    "accepted": ["ChuggingtonLesPetitsTrains"]
+  },
+  {
+    "editorialId": "da-223",
+    "title": "Thomas et ses amis",
+    "accepted": [
+      "Thomasetsesamis",
+      "Thomaslepetittrain",
+      "ThomasetFriends",
+      "ThomasetsesAmis1984"
+    ]
+  },
+  {
+    "editorialId": "da-224",
+    "title": "Sam le pompier",
+    "accepted": ["Samlepompier", "FiremanSam"]
+  },
+  {
+    "editorialId": "da-225",
+    "title": "Bob le bricoleur",
+    "accepted": ["Boblebricoleur", "BobtheBuilder"]
+  },
+  {
+    "editorialId": "da-226",
+    "title": "Postman Pat",
+    "accepted": [
+      "PostmanPat",
+      "PierreMartinlefacteur",
+      "Pierrelefacteur",
+      "Patlefacteur"
+    ]
+  },
+  {
+    "editorialId": "da-227",
+    "title": "T’choupi et Doudou",
+    "accepted": ["T'choupi", "TchoupietDoudou"]
+  },
+  {
+    "editorialId": "da-228",
+    "title": "Les Contes de Tinga Tinga",
+    "accepted": ["ContesdeTingaTinga", "TingaTingaTales", "TingaTinga"]
+  },
+  {
+    "editorialId": "da-229",
+    "title": "Kipper",
+    "accepted": ["Kipperlechien", "KippertheDog"]
+  },
+  {
+    "editorialId": "da-230",
+    "title": "Les Aventures de Spot",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-231",
+    "title": "Les Enquêtes de Prudence Petitpas",
+    "accepted": ["EnquêtesdePrudencePetitpas", "PrudencePetitpas"]
+  },
+  {
+    "editorialId": "da-232",
+    "title": "Corentin",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-233",
+    "title": "Les Aventures de Papyrus",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-234",
+    "title": "Les Aventures de Blake et Mortimer",
+    "accepted": ["AventuresdeBlakeetMortimer", "BlakeetMortimer"]
+  },
+  {
+    "editorialId": "da-235",
+    "title": "Les Nouvelles Aventures de Lucky Luke",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-236",
+    "title": "La Vie de Rosie",
+    "accepted": ["ViedeRosie", "EverythingsRosie"]
+  },
+  {
+    "editorialId": "da-237",
+    "title": "Les Frères Koalas",
+    "accepted": ["FrèresKoalas", "KoalaBrothers"]
+  },
+  {
+    "editorialId": "da-238",
+    "title": "Les P’tits Diables",
+    "accepted": ["PtitsDiables", "PetitsDiables"]
+  },
+  {
+    "editorialId": "da-239",
+    "title": "Les As de la jungle à la rescousse",
+    "accepted": ["JungleBunchtotheRescue", "AsdelaJungle"]
+  },
+  {
+    "editorialId": "da-240",
+    "title": "Les Croods : Origines",
+    "accepted": ["Les Croods", "CroodsOrigines", "DawnoftheCroods"]
+  },
+  {
+    "editorialId": "da-241",
+    "title": "Les Pingouins de Madagascar",
+    "accepted": ["PingouinsdeMadagascar", "PenguinsofMadagascar"]
+  },
+  {
+    "editorialId": "da-242",
+    "title": "Le Roi Julien ! L’Élu des lémurs",
+    "accepted": ["AllHailKingJulien", "RoiJulien"]
+  },
+  {
+    "editorialId": "da-243",
+    "title": "Kung Fu Panda : L’Incroyable Légende",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-244",
+    "title": "Kung Fu Panda : Les Pattes du destin",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-245",
+    "title": "Le Chat potté : Les Aventures du chat potté",
+    "accepted": ["Le Chat Potté", "AventuresduChatPotté"]
+  },
+  {
+    "editorialId": "da-246",
+    "title": "Turbo FAST",
+    "accepted": ["Turbo", "TurboFAST", "TurboFastActionStuntTeam"]
+  },
+  {
+    "editorialId": "da-247",
+    "title": "Dinotrux",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-248",
+    "title": "Trolls : En avant la musique",
+    "accepted": ["Trolls", "TrollsEnavantlamusique", "TrollsTheBeatGoesOn"]
+  },
+  {
+    "editorialId": "da-249",
+    "title": "Dragons : Par-delà les rives",
+    "accepted": ["DragonsPardelàlesrives", "DragonsRacetotheEdge"]
+  },
+  {
+    "editorialId": "da-250",
+    "title": "Spirit : Au galop en toute liberté",
+    "accepted": ["Spirit", "SpiritRidingFree"]
+  },
+  {
+    "editorialId": "da-251",
+    "title": "M. Peabody et Sherman Show",
+    "accepted": [
+      "M Peabody et Sherman",
+      "Mr Peabody et Sherman",
+      "Monsieur Peabody et Sherman",
+      "MPeabodyetShermanShow",
+      "MrPeabodyandShermanShow"
+    ]
+  },
+  {
+    "editorialId": "da-252",
+    "title": "Pepper Ann",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-253",
+    "title": "La Famille Proud",
+    "accepted": ["CoolAttitude", "ProudFamily"]
+  },
+  {
+    "editorialId": "da-254",
+    "title": "SamSam",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-255",
+    "title": "Dave le barbare",
+    "accepted": ["Davelebarbare", "DavetheBarbarian"]
+  },
+  {
+    "editorialId": "da-256",
+    "title": "Brandy et M. Moustache",
+    "accepted": [
+      "Brandy et Mr Moustache",
+      "Brandy et Moustache",
+      "BrandyetMMoustache",
+      "BrandyandMrWhiskers",
+      "BrandyetMonsieurMoustache"
+    ]
+  },
+  {
+    "editorialId": "da-257",
+    "title": "La Légende de Tarzan",
+    "accepted": ["Tarzan"]
+  },
+  {
+    "editorialId": "da-258",
+    "title": "Hercule (série Disney)",
+    "accepted": ["Hercule", "Hercules", "HerculesérieDisney", "Herculelaserie"]
+  },
+  {
+    "editorialId": "da-259",
+    "title": "Les Aventures de Buzz l’Éclair",
+    "accepted": [
+      "Buzz l'éclair",
+      "Buzz lEclair",
+      "AventuresdeBuzzlÉclair",
+      "BuzzLightyearofStarCommand",
+      "BuzzlEclairlesaventures"
+    ]
+  },
+  {
+    "editorialId": "da-260",
+    "title": "Lilo et Stitch, la série",
+    "accepted": ["LiloetStitchlasérie", "LiloetStitch", "LiloetStitchTheSeries"]
+  },
+  {
+    "editorialId": "da-261",
+    "title": "Kuzco, un empereur à l’école",
+    "accepted": ["Kuzco", "EmperorsNewSchool", "KuzcoalEcole"]
+  },
+  {
+    "editorialId": "da-262",
+    "title": "Les Remplaçants",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-263",
+    "title": "Jake et les Pirates du Pays imaginaire",
+    "accepted": ["Jake et les pirates"]
+  },
+  {
+    "editorialId": "da-264",
+    "title": "Princesse Sofia",
+    "accepted": ["Sofia", "SofiatheFirst", "SofiaPremiere"]
+  },
+  {
+    "editorialId": "da-265",
+    "title": "Elena d’Avalor",
+    "accepted": ["Elena Avalor", "ElenadAvalor", "ElenaofAvalor"]
+  },
+  {
+    "editorialId": "da-266",
+    "title": "Docteur La Peluche",
+    "accepted": ["Doc la Peluche", "DocteurLaPeluche", "DocMcStuffins"]
+  },
+  {
+    "editorialId": "da-267",
+    "title": "La Maison de Mickey",
+    "accepted": ["Mickey Clubhouse", "MaisondeMickey", "MickeyMouseClubhouse"]
+  },
+  {
+    "editorialId": "da-268",
+    "title": "Mickey et ses amis : Top Départ !",
+    "accepted": ["MickeyandtheRoadsterRacers", "MickeyTopDepart"]
+  },
+  {
+    "editorialId": "da-269",
+    "title": "Le Monde de Bingo et Rolly",
+    "accepted": ["MondedeBingoetRolly", "PuppyDogPals", "BingoetRolly"]
+  },
+  {
+    "editorialId": "da-270",
+    "title": "Vampirina",
+    "accepted": ["Vampirinalasérie"]
+  },
+  {
+    "editorialId": "da-271",
+    "title": "La Garde du Roi Lion",
+    "accepted": ["GardeduRoiLion", "LionGuard"]
+  },
+  {
+    "editorialId": "da-272",
+    "title": "Raiponce, la série",
+    "accepted": [
+      "Raiponce",
+      "Raiponcelasérie",
+      "TangledTheSeries",
+      "RapunzelsTangledAdventure"
+    ]
+  },
+  {
+    "editorialId": "da-273",
+    "title": "La Bande à Picsou (2017)",
+    "accepted": ["BandeàPicsou2017"]
+  },
+  {
+    "editorialId": "da-274",
+    "title": "Amphibia",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-275",
+    "title": "Luz à Osville",
+    "accepted": ["LuzàOsville", "OwlHouse"]
+  },
+  {
+    "editorialId": "da-276",
+    "title": "Les Green à Big City",
+    "accepted": ["GreenàBigCity", "BigCityGreens"]
+  },
+  {
+    "editorialId": "da-277",
+    "title": "Les Nouveaux Héros : La Série",
+    "accepted": [
+      "Les Nouveaux Héros",
+      "Big Hero 6",
+      "BigHero6",
+      "NouveauxHérosLaSérie",
+      "BaymaxetlesNouveauxHéros",
+      "BigHero6TheSeries"
+    ]
+  },
+  {
+    "editorialId": "da-278",
+    "title": "Star Butterfly",
+    "accepted": ["StarButterfly"]
+  },
+  {
+    "editorialId": "da-279",
+    "title": "Wander",
+    "accepted": ["WanderOverYonder"]
+  },
+  {
+    "editorialId": "da-280",
+    "title": "Hamster et Gretel",
+    "accepted": ["HamsteretGretel", "HamsterandGretel"]
+  },
+  {
+    "editorialId": "da-281",
+    "title": "Milo Murphy",
+    "accepted": ["MiloMurphy", "LoideMiloMurphy", "MiloMurphysLaw"]
+  },
+  {
+    "editorialId": "da-282",
+    "title": "Bob l’éponge : Le Camp de vacances",
+    "accepted": ["KampKoral"]
+  },
+  {
+    "editorialId": "da-283",
+    "title": "Patrick Super Star",
+    "accepted": ["PatrickSuperStar", "PatrickStarShow"]
+  },
+  {
+    "editorialId": "da-284",
+    "title": "Rocket Power",
+    "accepted": ["RocketPower", "RocketPower1999"]
+  },
+  {
+    "editorialId": "da-285",
+    "title": "Les Castors allumés",
+    "accepted": ["Castorsallumés", "AngryBeavers"]
+  },
+  {
+    "editorialId": "da-286",
+    "title": "Michat-Michien",
+    "accepted": ["MiChatMiChien"]
+  },
+  {
+    "editorialId": "da-287",
+    "title": "Invader Zim",
+    "accepted": ["InvaderZim", "ZimlEnvahisseur"]
+  },
+  {
+    "editorialId": "da-288",
+    "title": "Les Razbitume !",
+    "accepted": ["AllGrownUp", "RazmoketLesRazbitume"]
+  },
+  {
+    "editorialId": "da-289",
+    "title": "Les Aventures de Manny et ses outils",
+    "accepted": ["Manny", "Mannyetsesoutils"]
+  },
+  {
+    "editorialId": "da-290",
+    "title": "Tak et le Pouvoir de Juju",
+    "accepted": ["Tak"]
+  },
+  {
+    "editorialId": "da-291",
+    "title": "Fanboy et Chum Chum",
+    "accepted": ["FanboyetChumChum"]
+  },
+  {
+    "editorialId": "da-292",
+    "title": "T.U.F.F. Puppy",
+    "accepted": ["TUFFPuppy"]
+  },
+  {
+    "editorialId": "da-293",
+    "title": "Breadwinners",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-294",
+    "title": "Harvey Beaks",
+    "accepted": ["HarveyBeaks", "aventuresdeHarveyBeaks"]
+  },
+  {
+    "editorialId": "da-295",
+    "title": "Bienvenue chez les Casagrandes",
+    "accepted": ["BienvenuechezlesCasagrandes"]
+  },
+  {
+    "editorialId": "da-296",
+    "title": "Les Tortues Ninja (2003)",
+    "accepted": ["TMNT2K3", "TortuesNinja2003"]
+  },
+  {
+    "editorialId": "da-297",
+    "title": "Les Tortues Ninja (2012)",
+    "accepted": ["TortuesNinja2012"]
+  },
+  {
+    "editorialId": "da-298",
+    "title": "Le Destin des Tortues Ninja",
+    "accepted": ["DestindesTortuesNinja", "RiseoftheTMNT"]
+  },
+  {
+    "editorialId": "da-299",
+    "title": "Scooby-Doo, Mystères associés",
+    "accepted": [
+      "ScoobyDooMystèresassociés",
+      "ScoobyDooMysteryIncorporated",
+      "MystèresAssociés"
+    ]
+  },
+  {
+    "editorialId": "da-300",
+    "title": "Quoi d’neuf Scooby-Doo ?",
+    "accepted": [
+      "Quoi de neuf Scoobydoo",
+      "QuoidneufScoobyDoo",
+      "WhatsNewScoobyDoo",
+      "QuoideneufScoobyDoo"
+    ]
+  },
+  {
+    "editorialId": "vg-001",
+    "title": "Super Mario Bros.",
+    "accepted": [
+      "Super Mario 1",
+      "Mario 1",
+      "Super Mario Bros 1",
+      "SMB",
+      "SMB1",
+      "SuperMarioBros",
+      "MarioBros"
+    ]
+  },
+  {
+    "editorialId": "vg-002",
+    "title": "Super Mario World (jeu vidéo)",
+    "accepted": ["SuperMarioWorldjeuvidéo"]
+  },
+  {
+    "editorialId": "vg-003",
+    "title": "Super Mario 64",
+    "accepted": ["SuperMario64"]
+  },
+  {
+    "editorialId": "vg-004",
+    "title": "Super Mario Galaxy",
+    "accepted": ["SMG", "SuperMarioGalaxy", "MarioGalaxy"]
+  },
+  {
+    "editorialId": "vg-005",
+    "title": "Super Mario Odyssey",
+    "accepted": ["SMO", "SuperMarioOdyssey", "MarioOdyssey"]
+  },
+  {
+    "editorialId": "vg-006",
+    "title": "Mario Kart 64",
+    "accepted": ["MarioKart64"]
+  },
+  {
+    "editorialId": "vg-007",
+    "title": "Mario Kart Wii",
+    "accepted": ["MKW", "MKWii"]
+  },
+  {
+    "editorialId": "vg-008",
+    "title": "Mario Kart 8",
+    "accepted": [
+      "MK8DX",
+      "MK8 Deluxe",
+      "MK8D",
+      "MarioKart8",
+      "MarioKart8Deluxe"
+    ]
+  },
+  {
+    "editorialId": "vg-009",
+    "title": "The Legend of Zelda",
+    "accepted": ["LOZ", "TLOZ", "Zelda I"]
+  },
+  {
+    "editorialId": "vg-010",
+    "title": "The Legend of Zelda: A Link to the Past",
+    "accepted": ["ALTTP", "Zelda 3", "ZeldaALTTP", "ALinktothePast"]
+  },
+  {
+    "editorialId": "vg-011",
+    "title": "The Legend of Zelda: Ocarina of Time",
+    "accepted": [
+      "OOT",
+      "Zelda Ocarina",
+      "Zelda Ocarina of Time",
+      "OcarinaofTime"
+    ]
+  },
+  {
+    "editorialId": "vg-012",
+    "title": "The Legend of Zelda: Majora's Mask",
+    "accepted": [
+      "Zelda MM",
+      "Majora",
+      "Majoras Mask",
+      "Majora Mask",
+      "Zelda Majoras Mask",
+      "MajorasMask",
+      "ZeldaMajora"
+    ]
+  },
+  {
+    "editorialId": "vg-013",
+    "title": "The Legend of Zelda: The Wind Waker",
+    "accepted": ["TWW", "Zelda WW", "WindWaker", "ZeldaWindWaker"]
+  },
+  {
+    "editorialId": "vg-014",
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "accepted": ["Zelda Breath of the Wild", "BreathoftheWild"]
+  },
+  {
+    "editorialId": "vg-015",
+    "title": "Pokémon Rouge et Bleu",
+    "accepted": [
+      "Pokemon Rouge Bleu",
+      "Pokemon Red and Blue",
+      "Pokemon Red",
+      "Pokemon Blue",
+      "Pokemon Version Rouge",
+      "Pokemon Version Bleue",
+      "PokémonRougeetBleu",
+      "PokemonRouge",
+      "PokemonBleu"
+    ]
+  },
+  {
+    "editorialId": "vg-016",
+    "title": "Pokémon Or et Argent",
+    "accepted": [
+      "Pokemon Or Argent",
+      "Pokemon Gold and Silver",
+      "Pokemon Gold",
+      "Pokemon Silver",
+      "Pokemon Version Or",
+      "Pokemon Version Argent",
+      "PokémonOretArgent",
+      "PokemonArgent",
+      "PokemonGoldSilver"
+    ]
+  },
+  {
+    "editorialId": "vg-017",
+    "title": "Pokémon Rubis et Saphir",
+    "accepted": [
+      "Pokemon Rubis Saphir",
+      "Pokemon Ruby and Sapphire",
+      "Pokemon Ruby",
+      "Pokemon Version Rubis",
+      "Pokemon Version Saphir",
+      "Pokemon RS",
+      "PokémonRubisetSaphir",
+      "PokemonRubis",
+      "PokemonSaphir",
+      "PokemonRubySapphire"
+    ]
+  },
+  {
+    "editorialId": "vg-018",
+    "title": "Pokémon Diamant et Perle",
+    "accepted": [
+      "Pokemon Diamant Perle",
+      "Pokemon Diamond and Pearl",
+      "Pokemon Diamond",
+      "Pokemon Pearl",
+      "Pokemon Version Diamant",
+      "Pokemon Version Perle",
+      "Pokemon DP",
+      "PokémonDiamantetPerle",
+      "PokemonDiamant",
+      "PokemonDiamondPearl"
+    ]
+  },
+  {
+    "editorialId": "vg-019",
+    "title": "Donkey Kong Country (jeu vidéo)",
+    "accepted": [
+      "Donkey Kong Country 1",
+      "DKC 1",
+      "DKC1",
+      "DonkeyKongCountryjeuvidéo",
+      "DKCountry"
+    ]
+  },
+  {
+    "editorialId": "vg-020",
+    "title": "Donkey Kong Country 2",
+    "accepted": [
+      "DK Country 2",
+      "Diddys Kong Quest",
+      "DonkeyKongCountry2",
+      "DonkeyKong2",
+      "DiddysKongQuest"
+    ]
+  },
+  {
+    "editorialId": "vg-021",
+    "title": "Donkey Kong 64",
+    "accepted": ["DonkeyKong64"]
+  },
+  {
+    "editorialId": "vg-022",
+    "title": "Kirby's Dream Land",
+    "accepted": ["Kirby Dreamland", "KirbysDreamLand", "KirbyDreamLand"]
+  },
+  {
+    "editorialId": "vg-023",
+    "title": "Super Smash Bros. Melee",
+    "accepted": ["SSB Melee", "Smash Bros Melee", "SmashMelee"]
+  },
+  {
+    "editorialId": "vg-024",
+    "title": "Super Smash Bros. Brawl",
+    "accepted": ["SSB Brawl", "Smash Bros Brawl", "SmashBrawl"]
+  },
+  {
+    "editorialId": "vg-025",
+    "title": "Super Smash Bros. Ultimate",
+    "accepted": [
+      "SSB Ultimate",
+      "SuperSmashBrosUltimate",
+      "SmashUltimate",
+      "SmashBrosUltimate"
+    ]
+  },
+  {
+    "editorialId": "vg-026",
+    "title": "Animal Crossing: New Horizons",
+    "accepted": [
+      "AC New Horizons",
+      "AnimalCrossingNewHorizons",
+      "AnimalCrossing",
+      "NewHorizons"
+    ]
+  },
+  {
+    "editorialId": "vg-027",
+    "title": "Wii Sports",
+    "accepted": ["WiiSports", "WiiSport"]
+  },
+  {
+    "editorialId": "vg-028",
+    "title": "Wii Fit",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-029",
+    "title": "Splatoon",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-030",
+    "title": "Luigi's Mansion",
+    "accepted": [
+      "Luigi Mansion 1",
+      "Luigi's Mansion I",
+      "LuigisMansion",
+      "LuigiMansion",
+      "LuigisMansion1"
+    ]
+  },
+  {
+    "editorialId": "vg-031",
+    "title": "Super Metroid",
+    "accepted": ["Metroid 3", "SuperMetroid", "MetroidSuper"]
+  },
+  {
+    "editorialId": "vg-032",
+    "title": "Metroid Prime",
+    "accepted": ["Metroid Prime 1", "MetroidPrime"]
+  },
+  {
+    "editorialId": "vg-033",
+    "title": "F-Zero",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-034",
+    "title": "Star Fox 64",
+    "accepted": ["LylatWars"]
+  },
+  {
+    "editorialId": "vg-035",
+    "title": "Punch-Out!!",
+    "accepted": ["PunchOut", "MikeTysonsPunchOut"]
+  },
+  {
+    "editorialId": "vg-036",
+    "title": "EarthBound",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-037",
+    "title": "Sonic the Hedgehog",
+    "accepted": ["Sonic the Hedgehog 1", "SonictheHedgehog"]
+  },
+  {
+    "editorialId": "vg-038",
+    "title": "Sonic the Hedgehog 2",
+    "accepted": ["SonictheHedgehog2"]
+  },
+  {
+    "editorialId": "vg-039",
+    "title": "Sonic Adventure 2",
+    "accepted": [
+      "Sonic Adventure 2 Battle",
+      "SonicAdventure2",
+      "SonicAdventureII"
+    ]
+  },
+  {
+    "editorialId": "vg-040",
+    "title": "Streets of Rage 2",
+    "accepted": ["StreetsofRage2", "StreetsofRageII"]
+  },
+  {
+    "editorialId": "vg-041",
+    "title": "Tetris",
+    "accepted": ["TetrisGameBoy"]
+  },
+  {
+    "editorialId": "vg-042",
+    "title": "Street Fighter II",
+    "accepted": ["StreetFighter2", "StreetFighter"]
+  },
+  {
+    "editorialId": "vg-043",
+    "title": "Mortal Kombat",
+    "accepted": ["Mortal Kombat I", "MortalKombat", "MortalKombat1"]
+  },
+  {
+    "editorialId": "vg-044",
+    "title": "Tekken 3",
+    "accepted": ["TK3", "TekkenIII"]
+  },
+  {
+    "editorialId": "vg-045",
+    "title": "Mega Man 2",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-046",
+    "title": "Castlevania",
+    "accepted": ["Castlevania I", "Castlevania NES"]
+  },
+  {
+    "editorialId": "vg-047",
+    "title": "Castlevania: Symphony of the Night",
+    "accepted": ["Castlevania Symphony", "SymphonyoftheNight"]
+  },
+  {
+    "editorialId": "vg-048",
+    "title": "Final Fantasy VII",
+    "accepted": ["FinalFantasy7"]
+  },
+  {
+    "editorialId": "vg-049",
+    "title": "Final Fantasy VIII",
+    "accepted": ["FinalFantasy8"]
+  },
+  {
+    "editorialId": "vg-050",
+    "title": "Final Fantasy X",
+    "accepted": ["FinalFantasy10"]
+  },
+  {
+    "editorialId": "vg-051",
+    "title": "Chrono Trigger",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-052",
+    "title": "Kingdom Hearts",
+    "accepted": ["KH", "Kingdom Hearts I", "KingdomHearts", "KingdomHearts1"]
+  },
+  {
+    "editorialId": "vg-053",
+    "title": "Dragon Quest VIII",
+    "accepted": ["DragonQuest8"]
+  },
+  {
+    "editorialId": "vg-054",
+    "title": "Secret of Mana",
+    "accepted": ["SOM", "SecretofMana", "SecretMana", "SeikenDensetsu2"]
+  },
+  {
+    "editorialId": "vg-055",
+    "title": "NieR: Automata",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-056",
+    "title": "Persona 5",
+    "accepted": ["PersonaV"]
+  },
+  {
+    "editorialId": "vg-057",
+    "title": "Undertale",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-058",
+    "title": "Cuphead",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-059",
+    "title": "Hollow Knight",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-060",
+    "title": "Celeste",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-061",
+    "title": "Stardew Valley",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-062",
+    "title": "Terraria",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-063",
+    "title": "Minecraft",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-064",
+    "title": "Plants vs. Zombies",
+    "accepted": [
+      "PlantsvsZombies",
+      "Plantescontrezombies",
+      "PlantsversusZombies"
+    ]
+  },
+  {
+    "editorialId": "vg-065",
+    "title": "Angry Birds",
+    "accepted": ["AngryBirds", "AngryBird"]
+  },
+  {
+    "editorialId": "vg-066",
+    "title": "Geometry Dash",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-067",
+    "title": "Halo: Combat Evolved",
+    "accepted": ["HaloCombatEvolved", "HaloCE"]
+  },
+  {
+    "editorialId": "vg-068",
+    "title": "The Elder Scrolls V: Skyrim",
+    "accepted": [
+      "TESV",
+      "The Elder Scrolls Skyrim",
+      "ElderScrollsVSkyrim",
+      "ElderScrolls5"
+    ]
+  },
+  {
+    "editorialId": "vg-069",
+    "title": "The Elder Scrolls IV: Oblivion",
+    "accepted": [
+      "TESIV",
+      "The Elder Scrolls Oblivion",
+      "ElderScrollsIVOblivion",
+      "ElderScrolls4"
+    ]
+  },
+  {
+    "editorialId": "vg-070",
+    "title": "The Witcher 3: Wild Hunt",
+    "accepted": ["TW3", "TW 3", "Wild Hunt", "Witcher3WildHunt", "WitcherIII"]
+  },
+  {
+    "editorialId": "vg-071",
+    "title": "DOOM",
+    "accepted": ["Doom Classic"]
+  },
+  {
+    "editorialId": "vg-072",
+    "title": "DOOM (2016)",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-073",
+    "title": "Portal",
+    "accepted": ["Portal I"]
+  },
+  {
+    "editorialId": "vg-074",
+    "title": "Portal 2",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-075",
+    "title": "Team Fortress 2",
+    "accepted": ["TeamFortress2", "TeamFortressII"]
+  },
+  {
+    "editorialId": "vg-076",
+    "title": "Overwatch",
+    "accepted": ["OW", "OW1", "OW 1"]
+  },
+  {
+    "editorialId": "vg-077",
+    "title": "League of Legends",
+    "accepted": ["LeagueofLegends", "LeagueofLegend"]
+  },
+  {
+    "editorialId": "vg-078",
+    "title": "Valorant",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-079",
+    "title": "Fortnite",
+    "accepted": ["Fortnite BR", "FN", "FortniteBR", "FortniteBattleRoyale"]
+  },
+  {
+    "editorialId": "vg-080",
+    "title": "Grand Theft Auto: San Andreas",
+    "accepted": [
+      "GTASA",
+      "GTA SanAndreas",
+      "GrandTheftAutoSanAndreas",
+      "GTASanAndreas",
+      "SanAndreas"
+    ]
+  },
+  {
+    "editorialId": "vg-081",
+    "title": "Grand Theft Auto V",
+    "accepted": ["GTAV"]
+  },
+  {
+    "editorialId": "vg-082",
+    "title": "Red Dead Redemption 2",
+    "accepted": ["RedDeadRedemption2", "RedDead2", "RedDeadRedemptionII"]
+  },
+  {
+    "editorialId": "vg-083",
+    "title": "Assassin's Creed II",
+    "accepted": ["ACII", "AssassinsCreed2"]
+  },
+  {
+    "editorialId": "vg-084",
+    "title": "Crash Bandicoot",
+    "accepted": ["Crash 1", "CrashBandicoot", "CrashBandicoot1"]
+  },
+  {
+    "editorialId": "vg-085",
+    "title": "Spyro the Dragon",
+    "accepted": ["SpyrotheDragon"]
+  },
+  {
+    "editorialId": "vg-086",
+    "title": "Rayman",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-087",
+    "title": "Rayman Legends",
+    "accepted": ["RaymanLegends", "RaymanLegend"]
+  },
+  {
+    "editorialId": "vg-088",
+    "title": "Les Sims",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-089",
+    "title": "Les Sims 2",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-090",
+    "title": "Age of Empires II",
+    "accepted": ["AgeofEmpires2"]
+  },
+  {
+    "editorialId": "vg-091",
+    "title": "Civilization IV",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-092",
+    "title": "World of Warcraft",
+    "accepted": ["WorldofWarcraft"]
+  },
+  {
+    "editorialId": "vg-093",
+    "title": "StarCraft",
+    "accepted": ["Star Craft"]
+  },
+  {
+    "editorialId": "vg-094",
+    "title": "Diablo II",
+    "accepted": []
+  },
+  {
+    "editorialId": "vg-095",
+    "title": "Baldur's Gate 3",
+    "accepted": ["BaldursGate3", "BaldursGateIII"]
+  },
+  {
+    "editorialId": "vg-096",
+    "title": "Resident Evil 2",
+    "accepted": ["ResidentEvil2", "ResidentEvilII"]
+  },
+  {
+    "editorialId": "vg-097",
+    "title": "Silent Hill 2",
+    "accepted": ["SilentHill2", "SilentHillII"]
+  },
+  {
+    "editorialId": "vg-098",
+    "title": "Metal Gear Solid",
+    "accepted": ["MGS1", "MGS 1", "MetalGearSolid", "MetalGearSolid1"]
+  },
+  {
+    "editorialId": "vg-099",
+    "title": "God of War (2018)",
+    "accepted": ["GOW 2018", "GodofWar2018", "GodofWar"]
+  },
+  {
+    "editorialId": "vg-100",
+    "title": "Uncharted: Drake's Fortune",
+    "accepted": [
+      "Drakes Fortune",
+      "Drake's Fortune",
+      "Uncharted Drakes Fortune",
+      "UC1",
+      "UnchartedDrakesFortune"
+    ]
+  }
+]
