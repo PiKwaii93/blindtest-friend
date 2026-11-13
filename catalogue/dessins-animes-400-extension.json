@@ -29,7 +29,7 @@
     "editorialId": "da-302",
     "title": "Samouraï Jack",
     "origin": "western",
-    "aliases": ["Samurai Jack"],
+    "aliases": ["Samurai Jack", "SamouraiJack"],
     "firstFrance": {
       "year": 2001,
       "source": "https://www.planete-jeunesse.com/fiche-1925-samurai-jack.html",
@@ -54,7 +54,7 @@
     "editorialId": "da-303",
     "title": "Camp Lazlo",
     "origin": "western",
-    "aliases": ["Camp Lazlo!"],
+    "aliases": ["Camp Lazlo!", "CampLazlo"],
     "firstFrance": {
       "year": 2006,
       "source": "https://fr.wikipedia.org/wiki/Camp_Lazlo",
@@ -154,7 +154,7 @@
     "editorialId": "da-307",
     "title": "Monsieur Belette",
     "origin": "western",
-    "aliases": ["I Am Weasel"],
+    "aliases": ["I Am Weasel", "Mr Belette", "M Belette"],
     "firstFrance": {
       "year": 1998,
       "source": "https://fr.wikipedia.org/wiki/Monsieur_Belette",
@@ -179,7 +179,7 @@
     "editorialId": "da-308",
     "title": "Time Squad, la patrouille du temps",
     "origin": "western",
-    "aliases": ["Time Squad"],
+    "aliases": ["Time Squad", "La Patrouille du temps", "TimeSquad"],
     "firstFrance": {
       "year": 2002,
       "source": "https://fr.wikipedia.org/wiki/Time_Squad%2C_la_patrouille_du_temps",
@@ -281,7 +281,9 @@
     "origin": "western",
     "aliases": [
       "Ours pour un et un pour t'ours",
-      "We Bare Bears, Ours pour un et un pour t'ours"
+      "We Bare Bears, Ours pour un et un pour t'ours",
+      "Ours pour un",
+      "WeBareBears"
     ],
     "firstFrance": {
       "year": 2015,
@@ -333,7 +335,7 @@
     "editorialId": "da-314",
     "title": "Mao Mao : Héros au cœur pur",
     "origin": "western",
-    "aliases": ["Mao Mao"],
+    "aliases": ["Mao Mao", "MaoMao"],
     "firstFrance": {
       "year": 2020,
       "source": "https://fr.wikipedia.org/wiki/Mao_Mao_%3A_H%C3%A9ros_au_c%C5%93ur_pur",
@@ -358,7 +360,7 @@
     "editorialId": "da-315",
     "title": "OK K.O.! Let's Be Heroes",
     "origin": "western",
-    "aliases": ["OK KO", "OK K.O."],
+    "aliases": ["OK KO", "OK K.O.", "OKKO", "OK KO Soyons des héros"],
     "firstFrance": {
       "year": 2017,
       "source": "https://fr.wikipedia.org/wiki/OK_K.O.!",
@@ -383,7 +385,7 @@
     "editorialId": "da-316",
     "title": "South Park",
     "origin": "western",
-    "aliases": [],
+    "aliases": ["Southpark"],
     "firstFrance": {
       "year": 1998,
       "source": "https://www.planete-jeunesse.com/fiche-344-south-park.html",
@@ -408,7 +410,7 @@
     "editorialId": "da-317",
     "title": "American Dad!",
     "origin": "western",
-    "aliases": ["American Dad"],
+    "aliases": ["American Dad", "AmericanDad"],
     "firstFrance": {
       "year": 2006,
       "source": "https://www.planete-jeunesse.com/fiche-2703-american-dad.html",
@@ -509,7 +511,7 @@
     "editorialId": "da-321",
     "title": "BoJack Horseman",
     "origin": "western",
-    "aliases": ["Bojack"],
+    "aliases": ["Bojack", "Bo Jack Horseman", "Bo Jack"],
     "firstFrance": {
       "year": 2014,
       "source": "https://www.planete-jeunesse.com/fiche-3351-bojack-horseman.html",
@@ -560,7 +562,7 @@
     "editorialId": "da-323",
     "title": "F Is for Family",
     "origin": "western",
-    "aliases": ["F is for Family"],
+    "aliases": ["F is for Family", "F for Family"],
     "firstFrance": {
       "year": 2015,
       "source": "https://www.planete-jeunesse.com/fiche-3330-f-is-for-family.html",
@@ -585,7 +587,11 @@
     "editorialId": "da-324",
     "title": "Batman : L'Alliance des héros",
     "origin": "western",
-    "aliases": ["Batman l'alliance des heros", "Batman The Brave and the Bold"],
+    "aliases": [
+      "Batman l'alliance des heros",
+      "Batman The Brave and the Bold",
+      "L’Alliance des héros"
+    ],
     "firstFrance": {
       "year": 2009,
       "source": "https://www.planete-jeunesse.com/fiche-1660-batman-l-alliance-des-heros.html",
@@ -635,7 +641,7 @@
     "editorialId": "da-326",
     "title": "Krypto le superchien",
     "origin": "western",
-    "aliases": ["Krypto"],
+    "aliases": ["Krypto", "Krypto le super chien"],
     "firstFrance": {
       "year": 2005,
       "source": "https://www.planete-jeunesse.com/fiche-972-krypto-le-superchien.html",
@@ -661,7 +667,7 @@
     "editorialId": "da-327",
     "title": "La Ligue des justiciers : Action",
     "origin": "western",
-    "aliases": ["Justice League Action"],
+    "aliases": ["Justice League Action", "JusticeLeague Action"],
     "firstFrance": {
       "year": 2017,
       "source": "https://www.planete-jeunesse.com/fiche-3202-la-ligue-des-justiciers-action.html",
@@ -686,7 +692,7 @@
     "editorialId": "da-328",
     "title": "Iron Man : Armored Adventures",
     "origin": "western",
-    "aliases": ["Iron Man Armored Adventures"],
+    "aliases": ["Iron Man Armored Adventures", "Ironman Armored Adventures"],
     "firstFrance": {
       "year": 2009,
       "source": "https://fr.wikipedia.org/wiki/Iron_Man_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e_d'animation)",
@@ -713,7 +719,9 @@
     "origin": "western",
     "aliases": [
       "Avengers les super heros",
-      "Avengers Earth's Mightiest Heroes"
+      "Avengers Earth's Mightiest Heroes",
+      "Avengers EMH",
+      "Avengers Earths Mightiest Heroes"
     ],
     "firstFrance": {
       "year": 2011,
@@ -739,7 +747,7 @@
     "editorialId": "da-330",
     "title": "Avengers Rassemblement",
     "origin": "western",
-    "aliases": ["Avengers Assemble"],
+    "aliases": ["Avengers Assemble", "AvengersAssemble"],
     "firstFrance": {
       "year": 2013,
       "source": "https://fr.wikipedia.org/wiki/Avengers_Rassemblement",
@@ -764,7 +772,7 @@
     "editorialId": "da-331",
     "title": "Ultimate Spider-Man",
     "origin": "western",
-    "aliases": ["Ultimate Spiderman"],
+    "aliases": ["Ultimate Spiderman", "UltimateSpiderman"],
     "firstFrance": {
       "year": 2012,
       "source": "https://www.planete-jeunesse.com/fiche-1914-ultimate-spider-man.html",
@@ -789,7 +797,11 @@
     "editorialId": "da-332",
     "title": "Wolverine et les X-Men",
     "origin": "western",
-    "aliases": ["Wolverine and the X Men"],
+    "aliases": [
+      "Wolverine and the X Men",
+      "Wolverine et les Xmen",
+      "Wolverine et Xmen"
+    ],
     "firstFrance": {
       "year": 2009,
       "source": "https://www.planete-jeunesse.com/fiche-1686-wolverine-et-les-x-men.html",
@@ -814,7 +826,7 @@
     "editorialId": "da-333",
     "title": "The Super Hero Squad Show",
     "origin": "western",
-    "aliases": ["Super Hero Squad"],
+    "aliases": ["Super Hero Squad", "Superhero Squad", "Superhero Squad Show"],
     "firstFrance": {
       "year": 2010,
       "source": "https://www.planete-jeunesse.com/fiche-1705-super-hero-squad.html",
@@ -839,7 +851,11 @@
     "editorialId": "da-334",
     "title": "Hulk et les Agents du S.M.A.S.H.",
     "origin": "western",
-    "aliases": ["Hulk Agents of Smash"],
+    "aliases": [
+      "Hulk Agents of Smash",
+      "Hulk et les agents du Smash",
+      "Hulk les agents du Smash"
+    ],
     "firstFrance": {
       "year": 2013,
       "source": "https://fr.wikipedia.org/wiki/Hulk_et_les_Agents_du_S.M.A.S.H.",
@@ -865,7 +881,7 @@
     "editorialId": "da-335",
     "title": "Silver Surfer",
     "origin": "western",
-    "aliases": ["Le Surfer d'argent"],
+    "aliases": ["Le Surfer d'argent", "SilverSurfer"],
     "firstFrance": {
       "year": 1999,
       "source": "https://fr.wikipedia.org/wiki/Silver_Surfer_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e_d'animation)",
@@ -915,7 +931,12 @@
     "editorialId": "da-337",
     "title": "Les 101 Dalmatiens, la série",
     "origin": "western",
-    "aliases": ["Les 101 Dalmatiens", "101 Dalmatians The Series"],
+    "aliases": [
+      "Les 101 Dalmatiens",
+      "101 Dalmatians The Series",
+      "Les Cent Un Dalmatiens",
+      "Les Cent et Un Dalmatiens"
+    ],
     "firstFrance": {
       "year": 1998,
       "source": "https://www.planete-jeunesse.com/fiche-1469-les-101-dalmatiens.html",
@@ -940,7 +961,7 @@
     "editorialId": "da-338",
     "title": "Couacs en vrac",
     "origin": "western",
-    "aliases": ["Quack Pack"],
+    "aliases": ["Quack Pack", "QuackPack"],
     "firstFrance": {
       "year": 1997,
       "source": "https://www.planete-jeunesse.com/fiche-723-couacs-en-vrac.html",
@@ -965,7 +986,7 @@
     "editorialId": "da-339",
     "title": "Les Weekenders",
     "origin": "western",
-    "aliases": ["The Weekenders"],
+    "aliases": ["The Weekenders", "Les Week Enders"],
     "firstFrance": {
       "year": 2001,
       "source": "https://fr.wikipedia.org/wiki/Les_Weekenders",
@@ -990,7 +1011,7 @@
     "editorialId": "da-340",
     "title": "Kick Kasskoo",
     "origin": "western",
-    "aliases": ["Kick Buttowski", "Kick Kasskou"],
+    "aliases": ["Kick Buttowski", "Kick Kasskou", "KickButtowski"],
     "firstFrance": {
       "year": 2010,
       "source": "https://fr.wikipedia.org/wiki/Kick_Kasskoo",
@@ -1040,7 +1061,13 @@
     "editorialId": "da-342",
     "title": "Kid vs. Kat",
     "origin": "western",
-    "aliases": ["Kid vs Kat", "Kid contre Kat"],
+    "aliases": [
+      "Kid vs Kat",
+      "Kid contre Kat",
+      "Kid versus Kat",
+      "Le Diabolique Monsieur Kat",
+      "Monsieur Kat"
+    ],
     "firstFrance": {
       "year": 2009,
       "source": "https://fr.wikipedia.org/wiki/Kid_vs._Kat",
@@ -1065,7 +1092,7 @@
     "editorialId": "da-343",
     "title": "Randy Cunningham, le ninja",
     "origin": "western",
-    "aliases": ["Randy Cunningham", "Randy le Ninja"],
+    "aliases": ["Randy Cunningham", "Randy le Ninja", "RandyCunningham"],
     "firstFrance": {
       "year": 2013,
       "source": "https://fr.wikipedia.org/wiki/Randy_Cunningham%2C_le_ninja",
@@ -1190,7 +1217,7 @@
     "editorialId": "da-348",
     "title": "64, rue du Zoo",
     "origin": "western",
-    "aliases": ["64 rue du Zoo", "64 Zoo Lane"],
+    "aliases": ["64 rue du Zoo", "64 Zoo Lane", "Soixante quatre rue du zoo"],
     "firstFrance": {
       "year": 2000,
       "source": "https://www.planete-jeunesse.com/fiche-1179-64-rue-du-zoo.html",
@@ -1241,7 +1268,7 @@
     "editorialId": "da-350",
     "title": "Tara Duncan (2010)",
     "origin": "western",
-    "aliases": ["Tara Duncan"],
+    "aliases": ["Tara Duncan", "TaraDuncan"],
     "firstFrance": {
       "year": 2010,
       "source": "https://www.planete-jeunesse.com/fiche-2180-tara-duncan.html",
@@ -1291,7 +1318,7 @@
     "editorialId": "da-352",
     "title": "Monster Allergy",
     "origin": "western",
-    "aliases": [],
+    "aliases": ["MonsterAllergy"],
     "firstFrance": {
       "year": 2006,
       "source": "https://www.planete-jeunesse.com/fiche-1133-monster-allergy.html",
@@ -1317,7 +1344,7 @@
     "editorialId": "da-353",
     "title": "Atomic Betty",
     "origin": "western",
-    "aliases": [],
+    "aliases": ["AtomicBetty"],
     "firstFrance": {
       "year": 2004,
       "source": "https://www.planete-jeunesse.com/fiche-1577-atomic-betty.html",
@@ -1417,7 +1444,7 @@
     "editorialId": "da-357",
     "title": "Princesse Sissi",
     "origin": "western",
-    "aliases": ["Sissi"],
+    "aliases": ["Sissi", "PrincesseSissi"],
     "firstFrance": {
       "year": 1997,
       "source": "https://www.planete-jeunesse.com/fiche-567-princesse-sissi.html",
@@ -1467,7 +1494,7 @@
     "editorialId": "da-359",
     "title": "Godzilla, la série",
     "origin": "western",
-    "aliases": ["Godzilla The Series"],
+    "aliases": ["Godzilla The Series", "Godzilla"],
     "firstFrance": {
       "year": 1999,
       "source": "https://fr.wikipedia.org/wiki/Godzilla%2C_la_s%C3%A9rie",
@@ -1492,7 +1519,11 @@
     "editorialId": "da-360",
     "title": "Extrême Ghostbusters",
     "origin": "western",
-    "aliases": ["Extreme Ghostbusters", "Les nouveaux chasseurs de fantomes"],
+    "aliases": [
+      "Extreme Ghostbusters",
+      "Les nouveaux chasseurs de fantomes",
+      "ExtremeGhostbusters"
+    ],
     "firstFrance": {
       "year": 1998,
       "source": "https://www.planete-jeunesse.com/fiche-652-extremes-ghostbusters.html",
@@ -1517,7 +1548,7 @@
     "editorialId": "da-361",
     "title": "Ōban, Star-Racers",
     "origin": "japanese",
-    "aliases": ["Oban Star Racers", "Oban"],
+    "aliases": ["Oban Star Racers", "Oban", "Oban StarRacers"],
     "firstFrance": {
       "year": 2006,
       "source": "https://www.planete-jeunesse.com/fiche-1585-oban-star-racers.html",
@@ -1542,7 +1573,7 @@
     "editorialId": "da-362",
     "title": "Redakai: Les Conquérants du Kairu",
     "origin": "western",
-    "aliases": ["Redakai"],
+    "aliases": ["Redakai", "Les Conquérants du Kairu"],
     "firstFrance": {
       "year": 2011,
       "source": "https://fr.wikipedia.org/wiki/Redakai_%3A_Les_Conqu%C3%A9rants_du_Kairu",
@@ -1567,7 +1598,7 @@
     "editorialId": "da-363",
     "title": "SOS Croco",
     "origin": "western",
-    "aliases": ["Sos Croco"],
+    "aliases": ["Sos Croco", "SOSCroco"],
     "firstFrance": {
       "year": 1998,
       "source": "https://www.planete-jeunesse.com/fiche-1249-sos-croco.html",
@@ -1772,7 +1803,7 @@
     "editorialId": "da-371",
     "title": "Fullmetal Alchemist",
     "origin": "japanese",
-    "aliases": ["Full Metal Alchemist", "FMA"],
+    "aliases": ["Full Metal Alchemist", "FMA", "FullMetalAlchemist"],
     "firstFrance": {
       "year": 2005,
       "source": "https://www.planete-jeunesse.com/fiche-808-fullmetal-alchemist.html",
@@ -1797,7 +1828,14 @@
     "editorialId": "da-372",
     "title": "Fullmetal Alchemist: Brotherhood",
     "origin": "japanese",
-    "aliases": ["FMA Brotherhood", "Full Metal Alchemist Brotherhood", "FMAB"],
+    "aliases": [
+      "FMA Brotherhood",
+      "Full Metal Alchemist Brotherhood",
+      "FMAB",
+      "Fullmetal Brotherhood",
+      "FMA B",
+      "FullMetalAlchemist Brotherhood"
+    ],
     "firstFrance": {
       "year": 2009,
       "source": "https://www.planete-jeunesse.com/fiche-2210-fullmetal-alchemist-brotherhood.html",
@@ -1848,7 +1886,7 @@
     "editorialId": "da-374",
     "title": "My Hero Academia",
     "origin": "japanese",
-    "aliases": ["Boku no Hero Academia", "MHA"],
+    "aliases": ["Boku no Hero Academia", "MHA", "Boku no Hero", "BNHA"],
     "firstFrance": {
       "year": 2016,
       "source": "https://animeguides.com/guides/detaille/myheroacademia.html",
@@ -1877,7 +1915,8 @@
       "Attaque des Titans",
       "Attack on Titan",
       "Shingeki no Kyojin",
-      "SNK"
+      "SNK",
+      "AOT"
     ],
     "firstFrance": {
       "year": 2013,
@@ -1903,7 +1942,7 @@
     "editorialId": "da-376",
     "title": "Sword Art Online",
     "origin": "japanese",
-    "aliases": ["SAO"],
+    "aliases": ["SAO", "SwordArtOnline"],
     "firstFrance": {
       "year": 2012,
       "source": "https://www.planete-jeunesse.com/fiche-2651-sword-art-online.html",
@@ -2029,7 +2068,7 @@
     "editorialId": "da-381",
     "title": "Keroro, mission Titar",
     "origin": "japanese",
-    "aliases": ["Keroro", "Sergent Keroro"],
+    "aliases": ["Keroro", "Sergent Keroro", "Keroro MissionTitar"],
     "firstFrance": {
       "year": 2006,
       "source": "https://www.planete-jeunesse.com/fiche-1323-keroro-mission-titar.html",
@@ -2079,7 +2118,7 @@
     "editorialId": "da-383",
     "title": "Sonic le Rebelle",
     "origin": "western",
-    "aliases": ["Sonic Underground"],
+    "aliases": ["Sonic Underground", "SonicUnderground"],
     "firstFrance": {
       "year": 1999,
       "source": "https://www.planete-jeunesse.com/fiche-363-sonic-le-rebelle.html",
@@ -2106,7 +2145,12 @@
     "editorialId": "da-384",
     "title": "MegaMan NT Warrior",
     "origin": "japanese",
-    "aliases": ["Megaman NT Warrior", "Rockman EXE"],
+    "aliases": [
+      "Megaman NT Warrior",
+      "Rockman EXE",
+      "Mega Man NT Warrior",
+      "Megaman NT"
+    ],
     "firstFrance": {
       "year": 2004,
       "source": "https://www.planete-jeunesse.com/fiche-721-megaman-nt-warrior.html",
@@ -2131,7 +2175,7 @@
     "editorialId": "da-385",
     "title": "Shin-chan",
     "origin": "japanese",
-    "aliases": ["Shin Chan", "Crayon Shin Chan"],
+    "aliases": ["Shin Chan", "Crayon Shin Chan", "Shinchan"],
     "firstFrance": {
       "year": 2002,
       "source": "https://www.planete-jeunesse.com/fiche-1826-shin-chan.html",
@@ -2207,7 +2251,7 @@
     "editorialId": "da-388",
     "title": "Tokyo Ghoul",
     "origin": "japanese",
-    "aliases": [],
+    "aliases": ["TokyoGhoul"],
     "firstFrance": {
       "year": 2014,
       "source": "https://fr.wikipedia.org/wiki/Tokyo_Ghoul",
@@ -2257,7 +2301,7 @@
     "editorialId": "da-390",
     "title": "Martin Matin",
     "origin": "western",
-    "aliases": [],
+    "aliases": ["MartinMatin"],
     "firstFrance": {
       "year": 2003,
       "source": "https://www.planete-jeunesse.com/fiche-2206-martin-matin.html",
@@ -2282,7 +2326,7 @@
     "editorialId": "da-391",
     "title": "Les Mille et Une Prouesses de Pépin Troispommes",
     "origin": "western",
-    "aliases": ["Pepin Troispommes"],
+    "aliases": ["Pepin Troispommes", "Pepin Trois Pommes", "Pepin 3 Pommes"],
     "firstFrance": {
       "year": 1999,
       "source": "https://www.planete-jeunesse.com/fiche-611-les-mille-et-une-prouesses-de-pepin-troispommes.html",
@@ -2307,7 +2351,7 @@
     "editorialId": "da-392",
     "title": "Yu-Gi-Oh! Duel Monsters",
     "origin": "japanese",
-    "aliases": ["Yu-Gi-Oh!", "Yu Gi Oh", "Yugioh", "Yu-Gi-Oh"],
+    "aliases": ["Yu-Gi-Oh", "Yugioh", "YuGiOh Duel Monsters"],
     "firstFrance": {
       "year": 2002,
       "source": "https://www.planete-jeunesse.com/fiche-359-yu-gi-oh.html",
@@ -2332,7 +2376,12 @@
     "editorialId": "da-393",
     "title": "Nom de code : Kids Next Door",
     "origin": "western",
-    "aliases": ["Kids Next Door", "KND"],
+    "aliases": [
+      "Kids Next Door",
+      "KND",
+      "Nom de code KND",
+      "Codename Kids Next Door"
+    ],
     "firstFrance": {
       "year": 2003,
       "source": "https://doublage-france.fandom.com/fr/wiki/Nom_de_code_%3A_Kids_Next_Door",
@@ -2382,7 +2431,7 @@
     "editorialId": "da-395",
     "title": "Kangoo Juniors",
     "origin": "western",
-    "aliases": ["Kangoo Junior"],
+    "aliases": ["Kangoo Junior", "KangooJuniors"],
     "firstFrance": {
       "year": 2002,
       "source": "https://www.planete-jeunesse.com/fiche-1074-kangoo-juniors.html",
@@ -2407,7 +2456,7 @@
     "editorialId": "da-396",
     "title": "Creepie",
     "origin": "western",
-    "aliases": ["Growing Up Creepie"],
+    "aliases": ["Growing Up Creepie", "Creepy"],
     "firstFrance": {
       "year": 2007,
       "source": "https://www.planete-jeunesse.com/fiche-2096-creepie.html",
@@ -2457,7 +2506,7 @@
     "editorialId": "da-398",
     "title": "Les Pyjamasques",
     "origin": "western",
-    "aliases": ["Pyjamasques", "PJ Masks"],
+    "aliases": ["Pyjamasques", "PJ Masks", "PJMasks"],
     "firstFrance": {
       "year": 2015,
       "source": "https://fr.wikipedia.org/wiki/Pyjamasques",
@@ -2508,7 +2557,7 @@
     "editorialId": "da-400",
     "title": "Go Diego !",
     "origin": "western",
-    "aliases": ["Go Diego Go", "Diego"],
+    "aliases": ["Go Diego Go", "Diego", "GoDiego"],
     "firstFrance": {
       "year": 2006,
       "source": "https://www.planete-jeunesse.com/fiche-1035-go-diego.html",

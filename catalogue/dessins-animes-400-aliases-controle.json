@@ -1,0 +1,506 @@
+[
+  {
+    "editorialId": "da-301",
+    "title": "Foster, la maison des amis imaginaires",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-302",
+    "title": "Samouraï Jack",
+    "accepted": ["SamouraiJack"]
+  },
+  {
+    "editorialId": "da-303",
+    "title": "Camp Lazlo",
+    "accepted": ["CampLazlo"]
+  },
+  {
+    "editorialId": "da-304",
+    "title": "Chowder",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-305",
+    "title": "Les Merveilleuses Mésaventures de Flapjack",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-306",
+    "title": "Cléo et Chico",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-307",
+    "title": "Monsieur Belette",
+    "accepted": ["Mr Belette", "M Belette"]
+  },
+  {
+    "editorialId": "da-308",
+    "title": "Time Squad, la patrouille du temps",
+    "accepted": ["La Patrouille du temps", "TimeSquad"]
+  },
+  {
+    "editorialId": "da-309",
+    "title": "Robotboy",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-310",
+    "title": "Clarence",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-311",
+    "title": "Oncle Grandpa",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-312",
+    "title": "We Bare Bears",
+    "accepted": ["Ours pour un", "WeBareBears"]
+  },
+  {
+    "editorialId": "da-313",
+    "title": "Craig de la crique",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-314",
+    "title": "Mao Mao : Héros au cœur pur",
+    "accepted": ["MaoMao"]
+  },
+  {
+    "editorialId": "da-315",
+    "title": "OK K.O.! Let's Be Heroes",
+    "accepted": ["OKKO", "OK KO Soyons des héros"]
+  },
+  {
+    "editorialId": "da-316",
+    "title": "South Park",
+    "accepted": ["Southpark"]
+  },
+  {
+    "editorialId": "da-317",
+    "title": "American Dad!",
+    "accepted": ["AmericanDad"]
+  },
+  {
+    "editorialId": "da-318",
+    "title": "Les Griffin",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-319",
+    "title": "Archer",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-320",
+    "title": "Rick et Morty",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-321",
+    "title": "BoJack Horseman",
+    "accepted": ["Bo Jack Horseman", "Bo Jack"]
+  },
+  {
+    "editorialId": "da-322",
+    "title": "Désenchantée",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-323",
+    "title": "F Is for Family",
+    "accepted": ["F for Family"]
+  },
+  {
+    "editorialId": "da-324",
+    "title": "Batman : L'Alliance des héros",
+    "accepted": ["L’Alliance des héros"]
+  },
+  {
+    "editorialId": "da-325",
+    "title": "Prenez garde à Batman !",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-326",
+    "title": "Krypto le superchien",
+    "accepted": ["Krypto le super chien"]
+  },
+  {
+    "editorialId": "da-327",
+    "title": "La Ligue des justiciers : Action",
+    "accepted": ["JusticeLeague Action"]
+  },
+  {
+    "editorialId": "da-328",
+    "title": "Iron Man : Armored Adventures",
+    "accepted": ["Ironman Armored Adventures"]
+  },
+  {
+    "editorialId": "da-329",
+    "title": "Avengers : L'Équipe des super-héros",
+    "accepted": ["Avengers EMH", "Avengers Earths Mightiest Heroes"]
+  },
+  {
+    "editorialId": "da-330",
+    "title": "Avengers Rassemblement",
+    "accepted": ["AvengersAssemble"]
+  },
+  {
+    "editorialId": "da-331",
+    "title": "Ultimate Spider-Man",
+    "accepted": ["UltimateSpiderman"]
+  },
+  {
+    "editorialId": "da-332",
+    "title": "Wolverine et les X-Men",
+    "accepted": ["Wolverine et les Xmen", "Wolverine et Xmen"]
+  },
+  {
+    "editorialId": "da-333",
+    "title": "The Super Hero Squad Show",
+    "accepted": ["Superhero Squad", "Superhero Squad Show"]
+  },
+  {
+    "editorialId": "da-334",
+    "title": "Hulk et les Agents du S.M.A.S.H.",
+    "accepted": ["Hulk et les agents du Smash", "Hulk les agents du Smash"]
+  },
+  {
+    "editorialId": "da-335",
+    "title": "Silver Surfer",
+    "accepted": ["SilverSurfer"]
+  },
+  {
+    "editorialId": "da-336",
+    "title": "Fillmore !",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-337",
+    "title": "Les 101 Dalmatiens, la série",
+    "accepted": ["Les Cent Un Dalmatiens", "Les Cent et Un Dalmatiens"]
+  },
+  {
+    "editorialId": "da-338",
+    "title": "Couacs en vrac",
+    "accepted": ["QuackPack"]
+  },
+  {
+    "editorialId": "da-339",
+    "title": "Les Weekenders",
+    "accepted": ["Les Week Enders"]
+  },
+  {
+    "editorialId": "da-340",
+    "title": "Kick Kasskoo",
+    "accepted": ["KickButtowski"]
+  },
+  {
+    "editorialId": "da-341",
+    "title": "Pucca (2006)",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-342",
+    "title": "Kid vs. Kat",
+    "accepted": ["Kid versus Kat", "Le Diabolique Monsieur Kat", "Monsieur Kat"]
+  },
+  {
+    "editorialId": "da-343",
+    "title": "Randy Cunningham, le ninja",
+    "accepted": ["RandyCunningham"]
+  },
+  {
+    "editorialId": "da-344",
+    "title": "Angelo la Débrouille",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-345",
+    "title": "Lou !",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-346",
+    "title": "Mona le vampire",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-347",
+    "title": "Bali",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-348",
+    "title": "64, rue du Zoo",
+    "accepted": ["Soixante quatre rue du zoo"]
+  },
+  {
+    "editorialId": "da-349",
+    "title": "Blaise le blasé",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-350",
+    "title": "Tara Duncan (2010)",
+    "accepted": ["TaraDuncan"]
+  },
+  {
+    "editorialId": "da-351",
+    "title": "Huntik : À la recherche des Titans",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-352",
+    "title": "Monster Allergy",
+    "accepted": ["MonsterAllergy"]
+  },
+  {
+    "editorialId": "da-353",
+    "title": "Atomic Betty",
+    "accepted": ["AtomicBetty"]
+  },
+  {
+    "editorialId": "da-354",
+    "title": "Toupou",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-355",
+    "title": "Chasseurs de dragons",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-356",
+    "title": "Simsala Grimm",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-357",
+    "title": "Princesse Sissi",
+    "accepted": ["PrincesseSissi"]
+  },
+  {
+    "editorialId": "da-358",
+    "title": "Jumanji",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-359",
+    "title": "Godzilla, la série",
+    "accepted": ["Godzilla"]
+  },
+  {
+    "editorialId": "da-360",
+    "title": "Extrême Ghostbusters",
+    "accepted": ["ExtremeGhostbusters"]
+  },
+  {
+    "editorialId": "da-361",
+    "title": "Ōban, Star-Racers",
+    "accepted": ["Oban StarRacers"]
+  },
+  {
+    "editorialId": "da-362",
+    "title": "Redakai: Les Conquérants du Kairu",
+    "accepted": ["Les Conquérants du Kairu"]
+  },
+  {
+    "editorialId": "da-363",
+    "title": "SOS Croco",
+    "accepted": ["SOSCroco"]
+  },
+  {
+    "editorialId": "da-364",
+    "title": "La Vie moderne de Rocko",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-365",
+    "title": "Le Petit Prince",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-366",
+    "title": "Naruto",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-367",
+    "title": "Naruto Shippuden",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-368",
+    "title": "One Piece",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-369",
+    "title": "Bleach",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-370",
+    "title": "Fairy Tail",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-371",
+    "title": "Fullmetal Alchemist",
+    "accepted": ["FullMetalAlchemist"]
+  },
+  {
+    "editorialId": "da-372",
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "accepted": [
+      "Fullmetal Brotherhood",
+      "FMA B",
+      "FullMetalAlchemist Brotherhood"
+    ]
+  },
+  {
+    "editorialId": "da-373",
+    "title": "Death Note",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-374",
+    "title": "My Hero Academia",
+    "accepted": ["Boku no Hero", "BNHA"]
+  },
+  {
+    "editorialId": "da-375",
+    "title": "L'Attaque des Titans",
+    "accepted": ["AOT"]
+  },
+  {
+    "editorialId": "da-376",
+    "title": "Sword Art Online",
+    "accepted": ["SwordArtOnline"]
+  },
+  {
+    "editorialId": "da-377",
+    "title": "Inu-Yasha",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-378",
+    "title": "Détective Conan",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-379",
+    "title": "Blue Dragon",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-380",
+    "title": "Bakugan : Équipe d’élite",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-381",
+    "title": "Keroro, mission Titar",
+    "accepted": ["Keroro MissionTitar"]
+  },
+  {
+    "editorialId": "da-382",
+    "title": "Kirby",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-383",
+    "title": "Sonic le Rebelle",
+    "accepted": ["SonicUnderground"]
+  },
+  {
+    "editorialId": "da-384",
+    "title": "MegaMan NT Warrior",
+    "accepted": ["Mega Man NT Warrior", "Megaman NT"]
+  },
+  {
+    "editorialId": "da-385",
+    "title": "Shin-chan",
+    "accepted": ["Shinchan"]
+  },
+  {
+    "editorialId": "da-386",
+    "title": "Doraemon",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-387",
+    "title": "Assassination Classroom",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-388",
+    "title": "Tokyo Ghoul",
+    "accepted": ["TokyoGhoul"]
+  },
+  {
+    "editorialId": "da-389",
+    "title": "Soul Eater",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-390",
+    "title": "Martin Matin",
+    "accepted": ["MartinMatin"]
+  },
+  {
+    "editorialId": "da-391",
+    "title": "Les Mille et Une Prouesses de Pépin Troispommes",
+    "accepted": ["Pepin Trois Pommes", "Pepin 3 Pommes"]
+  },
+  {
+    "editorialId": "da-392",
+    "title": "Yu-Gi-Oh! Duel Monsters",
+    "accepted": ["YuGiOh Duel Monsters"]
+  },
+  {
+    "editorialId": "da-393",
+    "title": "Nom de code : Kids Next Door",
+    "accepted": ["Nom de code KND", "Codename Kids Next Door"]
+  },
+  {
+    "editorialId": "da-394",
+    "title": "Kangoo",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-395",
+    "title": "Kangoo Juniors",
+    "accepted": ["KangooJuniors"]
+  },
+  {
+    "editorialId": "da-396",
+    "title": "Creepie",
+    "accepted": ["Creepy"]
+  },
+  {
+    "editorialId": "da-397",
+    "title": "Creepschool",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-398",
+    "title": "Les Pyjamasques",
+    "accepted": ["PJMasks"]
+  },
+  {
+    "editorialId": "da-399",
+    "title": "Les Octonauts",
+    "accepted": []
+  },
+  {
+    "editorialId": "da-400",
+    "title": "Go Diego !",
+    "accepted": ["GoDiego"]
+  }
+]
